@@ -13,9 +13,10 @@
 - [Temario y observaciones generales del curso](01_-_temario.md)
 - [Recursos](02_-_recursos.md)
 - [Software](03_-_software.md)
+- [Sobre el main.pdf](04_-_main_pdf.md)
 - Tema de los exámenes:
-  * [Exámenes corte 1](Examen_1.md)
-  * [Exámenes corte 2](Examen_2.md)
-  * [Exámenes corte 3](Examen_3.md)
-  * [Exámenes corte 4](Examen_4.md)
-- [Sobre el main.pdf](main_pdf.md)
+  * [Exámenes corte 1](05a_-_Examen_1.md)
+  * [Exámenes corte 2](05b_-_Examen_2.md)
+  * [Exámenes corte 3](05c_-_Examen_3.md)
+  * [Exámenes corte 4](05d_-_Examen_4.md)
+
