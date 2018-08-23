@@ -4,8 +4,8 @@
 - Semanas: 16
 - Créditos: 3
 - Intensidad horaria semanal presencial: 4 horas
-  - Martes 10:00-12:00 C401
-  - Jueves 10:00-12:00 C303
+  - Martes 10:00-12:00, Aula C401
+  - Jueves 10:00-12:00, Aula C303
 - Tiempo de actividad autónoma por semana: 8 horas
 
 
