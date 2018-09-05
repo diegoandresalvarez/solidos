@@ -19,4 +19,6 @@
   * [Exámenes corte 2](05b_-_Examen_2.md)
   * [Exámenes corte 3](05c_-_Examen_3.md)
   * [Exámenes corte 4](05d_-_Examen_4.md)
-
+- WIKI para la corrección de los errores en el `main.pdf`
+  * [Reglas de la WIKI](WIKI_Condiciones.md)
+  * [Ejemplos de contribuciones a la WIKI](WIKI_Ejemplos.md)  
