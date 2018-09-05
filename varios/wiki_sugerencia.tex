@@ -1,0 +1,18 @@
+% !TeX program = txs:///dvi-ps-pdf-chain
+
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{parskip}
+
+\begin{document}
+
+Se sugiere el siguiente ejercicio:
+Desarrolle una metodología para resolver por el método de los elementos finitos la ecuación diferencial parcial
+\[
+\frac{\partial}{\partial x}\left(k_x(x,y)\frac{\partial u(x,y)}{\partial x}\right) + \frac{\partial}{\partial y}\left(k_y(x,y)\frac{\partial u(x,y)}{\partial y}\right) = g(x,y)
+\]
+en $(x,y) \in \Omega$ donde $\Omega$ es una región sujeta a las condiciones de frontera $(x,y) = 0$ en $\partial \Omega$.
+
+Aquí $k_x$, $k_y$ y $g$ son funciones conocidas de $x$ y $y$. Pista: ver la deducción de la fórmula de Green en el Apéndice A-5.
+\end{document}
