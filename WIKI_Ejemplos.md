@@ -1,6 +1,6 @@
 # Ejemplos de contribuciones a la WIKI
 
-A continación se ilustran algunas correcciones en una pagina ficticia del `main.pdf`.
+A continuación se ilustran algunas correcciones en una pagina ficticia del `main.pdf`.
 
 ---
 
