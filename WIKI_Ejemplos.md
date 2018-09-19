@@ -3,6 +3,23 @@
 A continación se ilustran algunas correcciones en una pagina ficticia del `main.pdf`.
 
 ---
+
+### Juan Nicolás Ramírez Giraldo
+
+En el penúltimo párrafo:
+
+> "la dinámica, que trata la relación entre el movimiento de los cuerpos y sus causas (las fuerzas); estudia <span style="color: #ff0000">además</span> algunas propiedades de los cuerpos como la masa o la cantidad de movimiento;"
+
+Es necesario poner el conector "además" entre comas, propongo lo siguiente:
+
+> "la dinámica, que trata la relación entre el movimiento de los cuerpos y sus causas (las fuerzas); estudia<span style="color: #ff0000">, además,</span> algunas propiedades de los cuerpos como la masa o la cantidad de movimiento;"
+
+Esto según el enlace https://goo.gl/Zgzm8n de la R.A.E. apartado 1.2.11
+
+Este error se repite en las páginas 32, 43, 76, 87, 232, 312 y 411.
+
+---
+
 ### Laura Pérez
 
 La palabra **prohíbe** debe llevar tilde.
