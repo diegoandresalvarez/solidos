@@ -10,9 +10,10 @@
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 
 * Exámenes Corte 1: 25% (ago 13 - sep  9) 
-* Exámenes Corte 2: 25% (sep 10 - oct 14)
-* Exámenes Corte 3: 25% (oct 15 - nov 11)
-* Exámenes Corte 4: 25% (nov 12 - dic  7)
+* ~~Exámenes Corte 2: 25% (sep 10 - oct 14)~~
+* Examen Corte 2: 25% enero 31, 2019
+* Exámenes Corte 3: 25% ~~(oct 15 - nov 11)~~ (feb 4 - feb 26)
+* Exámenes Corte 4: 25% ~~(nov 12 - dic  7)~~ (feb 28 - mar 21)
 
 
 
