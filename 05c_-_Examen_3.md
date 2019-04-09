@@ -1,4 +1,4 @@
-# Exámenes Corte 3: 25% ~~(oct 15 - nov 11)~~ (feb 4 - feb 26)
+# Exámenes Corte 3 de Mecánica de Sólidos 1:
 
 ## Temas para los exámenes
 

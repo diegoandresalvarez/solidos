@@ -1,4 +1,4 @@
-# Exámenes Corte 4: 25% ~~(nov 12 - dic  7)~~ (feb 28 - mar 21)
+# Exámenes Corte 4 de Mecánica de Sólidos 1:
 
 ## Temas para los exámenes
 

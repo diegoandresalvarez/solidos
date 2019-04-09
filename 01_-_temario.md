@@ -1,27 +1,33 @@
 # Observaciones generales y temario del curso
 
-
 ## Citas para preguntas
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
-
 
 
 ## Criterio de evaluación
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 
-* Exámenes Corte 1: 25% (ago 13 - sep  9) 
-* ~~Exámenes Corte 2: 25% (sep 10 - oct 14)~~
-* Examen Corte 2: 25% enero 31, 2019
-* Exámenes Corte 3: 25% ~~(oct 15 - nov 11)~~ (feb 4 - feb 26)
-* Exámenes Corte 4: 25% ~~(nov 12 - dic  7)~~ (feb 28 - mar 21)
+* Fecha de Corte 1: 25% Mayo 10
+* Fecha de Corte 2: 25% Junio 7
+* Fecha de Corte 3: 25% Julio 5
+* Fecha de Corte 4: 25% Agosto 2
 
 
-
-## Descripción de la asignatura
+## Descripción de la asignatura Mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
 
-## Contenido
-### 1.Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
+## Descripción de la asignatura Mecánica de sólidos 2
+En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas, métodos energéticos y la teoría de torsión de barras, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
+
+
+## Contenidos programáticos
+Haga click para ver el contenido programático de:
+<details><summary>Mecánica de sólidos 1</summary>
+<p>
+
+## Contenidos programático de mecánica de sólidos 1
+
+### 1. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
 
 #### Repaso de álgebra lineal (teoría y ejercicios de aplicación)
 * Cosenos directores
@@ -38,7 +44,7 @@ El programa comprende temas que van desde conceptos del álgebra lineal como vec
 
 #### Repaso de cálculo vectorial:
 * Gradiente
-* Matriz Jacobiana y jacobiano
+* Matriz jacobiana y jacobiano
 * Divergencia
 * Rotacional
 * Diferenciales (la vista en matemáticas III)
@@ -63,6 +69,60 @@ Problemas de valor en la frontera, fronteras de Dirichlet, fronteras de Neumman,
 
 ### 7. Aplicación práctica a problemas de elasticidad
 Aplicación a problemas de vigas, losas, barras a torsión o métodos energéticos.
+</p>
+</details>
+
+<details><summary>Mecánica de sólidos 2</summary>
+<p>
+
+## Contenidos programático de mecánica de sólidos 2
+
+### 1. Teoría de vigas de Euler-Bernoulli
+* Hipótesis fundamentales
+* Deducción de las ecuaciones fundamentales
+* Condiciones de apoyo y de frontera
+* Solución mediante el método de las funciones de discontinuidad
+* Solución mediante el método de las diferencias finitas
+					
+### 2. Teoría de vigas de Timoshenko
+* Hipótesis fundamentales
+* Deducción de las ecuaciones fundamentales
+* Condiciones de apoyo y de frontera
+* Cálculo del factor de corrección del esfuerzo cortante
+* Solución mediante el método de las funciones de discontinuidad
+					
+### 3. Teoría de losas de Kirchhoff-Love
+* Hipótesis fundamentales
+* Deducción de las ecuaciones fundamentales
+* Condiciones de apoyo y de frontera
+* Solución mediante el método de las diferencias finitas
+* Interpretación de resultados
+					
+### 4. Teoría de losas de Mindlin
+* Hipótesis fundamentales
+* Deducción de las ecuaciones fundamentales
+* Condiciones de apoyo y de frontera
+* Cálculo del factor de corrección del esfuerzo cortante
+* Solución utilizando programas libres/comerciales de elementos finitos
+* Interpretación de resultados
+					
+### 5. Torsión de ejes prismáticos
+* Hipótesis básicas
+* Barras prismáticas de sección transversal circular
+* Barras prismáticas de sección transversal no circular
+* Analogía de la membrana
+* Localización del centro de torsión
+* Solución mediante el método de las diferencias finitas
+* Solución mediante el método de los elementos finitos
+
+### 6. Métodos elasto-energéticos
+* Trabajo
+* Energía potencial elástica
+* Principio del trabajo virtual
+* Teorema de la energía potencial total mínima
+* Ejercicios de aplicación"
+</p>
+</details>
 
 
 ## Bibliografía básica
@@ -85,8 +145,8 @@ Siempre que usted falte a un examen, debe haber algún documento que lo exonere 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
 
-* Nota cero en el trabajo/examen en cuestión
-* Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso 
+* Nota cero en el trabajo/examen en cuestión.
+* Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
 * Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre.
 
 ### "Minuciosamente" en los exámenes

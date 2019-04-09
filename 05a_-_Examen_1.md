@@ -1,4 +1,4 @@
-# Exámenes Corte 1: 25% (ago 13 - sep  9) 
+# Exámenes Corte 1 de Mecánica de Sólidos 1:
 
 ## Temas para los examenes
 NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard y Texas Instrument.
@@ -24,7 +24,7 @@ NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard y Te
 
  ### Semanas 3 y 4:
 * Gradiente
-* Matriz Jacobiana y jacobiano
+* Matriz jacobiana y jacobiano
 * Divergencia
 * Rotacional
 * Diferenciales (la vista en matemáticas III)
@@ -46,8 +46,8 @@ que se encuentran en la biblioteca, son excelentes para repasar álgebra lineal,
 
 
 ## Material de ayuda
-* [Gráficos del cubo con los esfuerzos en 3D](archivos/Examen_1/paralelepipedo_infinitesimal.pdf) (solo abre en Acrobat Reader)
-* [Gráficos del tetraedro con los esfuerzos en 3D](archivos/Examen_1/tetraedro_infinitesimal.pdf) (solo abre en Acrobat Reader)
+* [Gráficos del cubo con los esfuerzos en 3D](archivos/Examen_1_estudio_tensiones/paralelepipedo_infinitesimal.pdf) (solo abre en Acrobat Reader)
+* [Gráficos del tetraedro con los esfuerzos en 3D](archivos/Examen_1_estudio_tensiones/tetraedro_infinitesimal.pdf) (solo abre en Acrobat Reader)
 
 NOTA: estos gráficos fueron elaborados por: Edwin Alejandro Romero Reina
 
