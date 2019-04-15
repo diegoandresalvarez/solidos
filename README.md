@@ -6,12 +6,12 @@
 - Créditos: 3
 - Intensidad horaria semanal presencial: 4 horas
 - Mecánica de sólidos 1:
-  - Martes 10:00-12:00, Aula C401
-  - Jueves 10:00-12:00, Aula C303
+  - Martes 10:00-12:00, Aula I309
+  - Jueves 10:00-12:00, Aula I309
 
 - Mecánica de sólidos 2:
   - Miércoles 7:00-9:00, Aula C401
-  - Viernes 7:00-9:00, Aula C303
+  - Viernes 7:00-9:00, Aula C401
 
 - Tiempo de actividad autónoma por semana: 8 horas
 

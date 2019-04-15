@@ -120,18 +120,18 @@ Aplicación a problemas de vigas, losas, barras a torsión o métodos energétic
 * Energía potencial elástica
 * Principio del trabajo virtual
 * Teorema de la energía potencial total mínima
-* Ejercicios de aplicación"
+* Ejercicios de aplicación
 </p>
 </details>
 
 
 ## Bibliografía básica
-* Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2018
-* Ortiz-Berrocal, L. *Elasticidad*. McGraw Hill, España, 3rd edition. 1998
-* Paredes, Jairo A. and Marín, Juan Pablo. *Mecánica de sólidos. Una visión práctica de la mecánica de medios continuos*. Editorial Universidad Nacional. 2008
-* Saad, M. *Elasticity: theory, applications and numerics*. Elsevier, Amsterdam. 2005
-* Solecki, R. and Conant, R. *Advanced mechanics of materials*. Oxford University Press. 2003
-* Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970
+* Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2019.
+* Ortiz-Berrocal, L. *Elasticidad*. McGraw Hill, España, 3rd edition. 1998.
+* Paredes, Jairo A. and Marín, Juan Pablo. *Mecánica de sólidos. Una visión práctica de la mecánica de medios continuos*. Editorial Universidad Nacional. 2008.
+* Saad, M. *Elasticity: theory, applications and numerics*. Elsevier, Amsterdam. 2005.
+* Solecki, R. and Conant, R. *Advanced mechanics of materials*. Oxford University Press. 2003.
+* Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970.
 * Ventsel, E. and Krauthammer, T. *Thin Plates and Shells: Theory: Analysis, and Applications*. Marcel Dekker, Inc, New York.
 
 
