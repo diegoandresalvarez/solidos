@@ -1,7 +1,7 @@
 /* Se define la carga distribuida */
 q : -q0*x/L$
 
-/* Se escriben las ecuaciones /*@ \eqref{eq:VMtxint} @*/ */
+/* Se escriben las ecuaciones */
 V : integrate(q,x) + C1$
 M : integrate(V,x) + C2$
 t : integrate(M/(E*I),x) + C3$

@@ -9,7 +9,7 @@ qpunt(p,a)   :=  p*pwdelta(x-a)$          /* carga puntual            */
 
 int_mflec(m,a) := -m*pwdelta(x-a)$ /* integral del momento flector    */
 
-/* Se especifica el vector de cargas q(x) dado por /*@ \eqref{eq:caso2q} @*/              */
+/* Se especifica el vector de cargas q(x)                             */
 q_sin_momento : qpunt(-5,1) + qdist(-3*x/2,2,4)$
 int_momentos  : int_mflec(-8,3.5) + int_mflec(3,5)$
 

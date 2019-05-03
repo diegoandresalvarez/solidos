@@ -2,7 +2,7 @@ load("pw")$        /* se carga la libreria pw                   */
 ratprint  : false$ /* no muestra el mensaje "rat: replace"      */
 keepfloat : true$  /* no racionalizar numeros en coma flotante  */
 
-/* Se definen las cargas distribuidas de acuerdo con la Tabla /*@\ref{tab:rep_carga_discont} @*/*/
+/* Se definen las cargas distribuidas de acuerdo con la Tabla   */
 /* Caso 2: carga puntual */
 qpunt(p,a)   :=  p*pwdelta(x-a)$
 
