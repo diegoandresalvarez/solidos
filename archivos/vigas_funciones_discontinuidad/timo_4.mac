@@ -1,0 +1,98 @@
+load("pw")$
+ratprint  : false$ /* no muestra el mensaje "rat: replace"             */
+keepfloat : true$  /* no racionalizar numeros en coma flotante         */
+
+qpunt(p,a)     :=  p*pwdelta(x-a)$         /* carga puntual            */
+rect(a,b)      :=  pw([a,1,b], x, 'open)$  /* funcion rectangular      */
+qdist(w,a,b)   :=  pw([a,w,b], x, 'open)$  /* carga distribuida        */
+
+int_mflec(m,a) := -m*pwdelta(x-a)$ /* integral del momento flector     */
+
+/* Se especifica el vector de cargas q(x)                       
+   Observe que aqui no se incluye el momento de -16kN m en x=8m, 
+   ya que  este se tendra en cuenta cuando se planteen las 
+   ecuaciones que resuelven las constantes de integracion              */
+q_sin_momento : qdist(-x^2/18 + 4*x/9 - 26/9,4,10) + qpunt(-15,6)$
+int_momento1  : int_mflec(27,2)$
+
+b : 0.1$           /* Ancho de la viga, m                              */
+h : 0.3$           /* Altura de la viga, m                             */
+E : 21e6$          /* Modulo de elasticidad de la viga, kPa            */
+I : (b*h^3)/12$    /* Momento de inercia en y, m^4                     */
+alpha : 5/6$       /* Factor de correccion del esfuerzo cortante       */ 
+A : b*h$           /* Area de la viga, m^2                             */ 
+G : E/(2*(1+0.3))$ /* Modulo de cortante, kPa                          */ 
+
+/* Se resuelve la ecuacion diferencial tramo por tramo                 */
+/* Tramo 1: de x=0m a x=4m */
+q1 : pwsimp(q_sin_momento*rect(0,4), x)$
+Vsm1 : pwint(q1,x) + C1_1$
+V1 : Vsm1 +  int_momento1$
+M1 : pwint(V1,x)       + C1_2$
+t1 : pwint(M1/(E*I),x) + C1_3$
+v1 : pwint(t1 - Vsm1/(alpha*G*A),x)       + C1_4$
+
+/* Tramo 2: de x=4m a x=8m */
+q2 : pwsimp(q_sin_momento*rect(4,8), x)$
+V2 : pwint(q2,x)       + C2_1$
+M2 : pwint(V2,x)       + C2_2$
+t2 : pwint(M2/(E*I),x) + C2_3$
+v2 : pwint(t2 - V2/(alpha*G*A),x)       + C2_4$
+
+/* Tramo 3: de x=8m a x=12m */
+q3 : pwsimp(q_sin_momento*rect(8,12), x)$
+V3 : pwint(q3,x)       + C3_1$
+M3 : pwint(V3,x)       + C3_2$
+t3 : pwint(M3/(E*I),x) + C3_3$
+v3 : pwint(t3 - V3/(alpha*G*A),x)       + C3_4$
+
+/* Se encuentran las constantes de integracion que satisfacen las 
+   condiciones de frontera                                             */
+sol : solve([ 
+      ev(v1,x=0) = 0,          /* despl vertical en apoyo en x=0 es 0  */
+      ev(M1,x=0) = 0,          /* momento flector en x=0 es 0          */
+        
+      ev(v1,x=4) = ev(v2,x=4), /* continuidad en despl vertical en x=4 */
+      ev(V1,x=4) = ev(V2,x=4), /* continuidad en cortante en x=4       */
+      ev(M1,x=4) = 0,          /* momento flector en x=4 es 0 (rotula) */             
+      ev(M2,x=4) = 0,          /* momento flector en x=4 es 0 (rotula) */
+        
+      ev(v2,x=8) = 0,          /* despl vertical en apoyo en x=8 es 0  */
+      ev(v3,x=8) = 0,          /* despl vertical en apoyo en x=8 es 0  */
+      ev(t2,x=8) = ev(t3,x=8), /* continuidad en theta en x=8          */
+      ev(M3,x=8) = ev(M2,x=8) + 16,  /* continuidad en momento en x=8  */
+      /* note que en la ecuacion anterior se incluyo la accion del 
+         momento flector ubicado en x=8m                               */
+             
+      ev(v3,x=12) = 0,         /* desplazamiento vertical en x=12 es 0 */
+      ev(M3,x=12) = 0 ],       /* momento flector en x=12 es 0         */
+           [ C1_1, C1_2, C1_3, C1_4,
+             C2_1, C2_2, C2_3, C2_4,
+             C3_1, C3_2, C3_3, C3_4 ])$
+
+/* Se "unen" las respuestas */
+V : V1*rect(0,4) + V2*rect(4,8) + V3*rect(8,12), sol$
+M : M1*rect(0,4) + M2*rect(4,8) + M3*rect(8,12), sol$
+t : t1*rect(0,4) + t2*rect(4,8) + t3*rect(8,12), sol$
+v : v1*rect(0,4) + v2*rect(4,8) + v3*rect(8,12), sol$
+dvdx : diff(v,x)$
+
+/* Se imprimen las respuestas */
+print("V(x) = ")$     pwsimp(expand(V),    x, 'array)$
+print("M(x) = ")$     pwsimp(expand(M),    x, 'array)$
+print("t(x) = ")$     pwsimp(expand(t),    x, 'array)$
+print("v(x) = ")$     pwsimp(expand(v),    x, 'array)$
+print("dv_dx(x) = ")$ pwsimp(expand(dvdx), x, 'array)$
+
+/* Se grafican las respuestas */
+wxplot2d(V,    [x, 0, 12], [xlabel, "x"], [ylabel,"V(x)"])$
+wxplot2d(M,    [x, 0, 12], [xlabel, "x"], [ylabel,"M(x)"])$
+wxplot2d(t,    [x, 0, 12], [xlabel, "x"], [ylabel,"t(x)"])$
+wxplot2d(v,    [x, 0, 12], [xlabel, "x"], [ylabel,"v(x)"])$
+wxplot2d(dvdx, [x, 0, 12], [xlabel, "x"], [ylabel,"dv_dx(x)"])$
+
+/* Se calculan las reacciones verticales en la viga */
+print("Fy(x= 0) = ")$  V1+10,  sol, x= 0, numer; /* reaccion en x =  0 */
+print("Fy(x= 8) = ")$  V3-V2,  sol, x= 8, numer; /* reaccion en x =  8 */
+print("Fy(x=12) = ")$  -V3,    sol, x=12, numer; /* reaccion en x = 12 */
+print("Calculo finalizado")$

@@ -1,0 +1,25 @@
+/* Se define la carga distribuida */
+q : -q0*x/L$
+
+/* Se escriben las ecuaciones /*@ \eqref{eq:VMtxint} @*/ */
+V : integrate(q,x) + C1$
+M : integrate(V,x) + C2$
+t : integrate(M/(E*I),x) + C3$
+v : integrate(t,x) + C4$
+
+/* Se calculan las constantes de integracion C1, C2, C3 y C4 */
+const : solve([ ev(t, x=0) = 0,
+                ev(v, x=0) = 0,
+                ev(V, x=L) = 0,
+                ev(M, x=L) = 0 ], [C1, C2, C3, C4])$
+
+/* Se reemplazan las constantes de integracion (almacenadas en la variable 
+"const") en las variables V, M, t y v */
+print("V(x) = ")$ V : V, const, expand;
+print("M(x) = ")$ M : M, const, expand;
+print("t(x) = ")$ t : t, const, expand;
+print("v(x) = ")$ v : v, const, expand;
+
+/* Se calculan las reacciones en los apoyos */
+print("Fy(x=0) = ")$  V, x=0;
+print("M(x=0) =  ")$ -M, x=0;

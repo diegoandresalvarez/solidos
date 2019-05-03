@@ -1,0 +1,76 @@
+load("pw")$
+ratprint  : false$ /* no muestra el mensaje "rat: replace"      */
+keepfloat : true$  /* no racionalizar numeros en coma flotante  */
+
+rect(a,b)    :=  pw([a,1,b], x, 'open)$  /* funcion rectangular */
+qdist(w,a,b) :=  pw([a,w,b], x, 'open)$  /* carga distribuida   */
+
+/* Se especifica el vector de cargas q(x)                       */
+q : qdist(20*x^2 - 5, 0, 0.5)$
+/* observe que en el vector de cargas no se incluyo la puntual  */
+
+kres : 1200$       /* constante del resorte, kN/m               */
+r : 0.06$          /* Ancho de la viga, m                       */
+E : 21e6$          /* Modulo de elasticidad de la viga, kPa     */
+I : %pi*r^4/4, numer$  /* Momento de inercia en y, m^4          */
+alpha : 9/10$      /* Factor de correccion del esf. cortante    */ 
+A : %pi*r^2, numer$    /* Area de la viga, m^2                  */ 
+G : E/(2*(1+0.3))$ /* Modulo de cortante, kPa                   */ 
+
+/* Se resuelve la ecuacion diferencial tramo por tramo          */
+/* Tramo 1 */
+q1 : pwsimp(q*rect(0,1), x)$
+V1 : pwint(q1,x)       + C1_1$
+M1 : pwint(V1,x)       + C1_2$
+t1 : pwint(M1/(E*I),x) + C1_3$
+v1 : pwint(t1 - V1/(alpha*G*A),x)       + C1_4$
+
+/* Tramo 2 */
+q2 : pwsimp(q*rect(1,1.3), x)$
+V2 : pwint(q2,x)       + C2_1$
+M2 : pwint(V2,x)       + C2_2$
+t2 : pwint(M2/(E*I),x) + C2_3$
+v2 : pwint(t2 - V2/(alpha*G*A),x)       + C2_4$
+
+/* Se encuentran las constantes de integracion que satisfacen las condiciones
+de frontera */
+sol : solve([ 
+     ev(v1,x=0) = 0,          /* despl vert en apoyo en x=0 es 0  */
+     ev(M1,x=0) = 6,          /* momento flector en x=0 es 6      */
+     
+     ev(v1,x=1) = ev(v2,x=1), /* continuidad en despl vert en x=1 */
+     ev(t1,x=1) = ev(t2,x=1), /* continuidad en theta en x=1      */
+     ev(M1,x=1) = ev(M2,x=1), /* continuidad en momento en x=1    */
+     ev(V2,x=1) = ev(V1,x=1) 
+                - kres*ev(v1,x=1) + (-10), /* resorte + puntual   */
+                
+     ev(M2,x=1.3) = -5,       /* momento flector en x=1.5 es -2   */        
+     ev(V2,x=1.3) = -15 ],    /* fuerza cortante en x=1.5 es -15  */
+   [ C1_1, C1_2, C1_3, C1_4,
+     C2_1, C2_2, C2_3, C2_4 ])$
+
+/* Se "unen" las respuestas */
+V : V1*rect(0,1) + V2*rect(1,1.3), sol$
+M : M1*rect(0,1) + M2*rect(1,1.3), sol$
+t : t1*rect(0,1) + t2*rect(1,1.3), sol$
+v : v1*rect(0,1) + v2*rect(1,1.3), sol$
+dvdx : diff(v,x)$
+
+/* Se imprimen las respuestas */
+print("V(x) = ")$     pwsimp(expand(V),    x, 'array)$
+print("M(x) = ")$     pwsimp(expand(M),    x, 'array)$
+print("t(x) = ")$     pwsimp(expand(t),    x, 'array)$
+print("v(x) = ")$     pwsimp(expand(v),    x, 'array)$
+print("dv_dx(x) = ")$ pwsimp(expand(dvdx), x, 'array)$
+
+/* Se grafican las respuestas */
+wxplot2d(V,    [x, 0, 1.3], [xlabel, "x"], [ylabel,"V(x)"])$
+wxplot2d(M,    [x, 0, 1.3], [xlabel, "x"], [ylabel,"M(x)"])$
+wxplot2d(t,    [x, 0, 1.3], [xlabel, "x"], [ylabel,"t(x)"])$
+wxplot2d(v,    [x, 0, 1.3], [xlabel, "x"], [ylabel,"v(x)"])$
+wxplot2d(dvdx, [x, 0, 1.3], [xlabel, "x"], [ylabel,"dv_dx(x)"])$
+
+/* Reacciones */
+print("Fy(x=0) = ")$ V1,       sol, x=0;
+print("Fy(x=1) = ")$ -kres*v1, sol, x=1; /* Resorte/cimentacion */
+print("Calculo finalizado")$

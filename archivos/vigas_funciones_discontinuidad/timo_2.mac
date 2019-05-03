@@ -1,0 +1,65 @@
+kill(all)$
+load("pw")$
+ratprint  : false$ /* no muestra el mensaje "rat: replace"            */
+keepfloat : true$  /* no racionalizar numeros en coma flotante        */
+
+rect(a,b)    :=  pw([a,1,b], x, 'open)$   /* funcion rectangular      */
+qdist(f,a,b) :=  pw([a,f,b], x, 'open)$   /* carga distribuida        */
+qpunt(p,a)   :=  p*pwdelta(x-a)$          /* carga puntual            */
+
+int_mflec(m,a) := -m*pwdelta(x-a)$ /* integral del momento flector    */
+
+/* Se especifica el vector de cargas q(x) dado por /*@ \eqref{eq:caso2q} @*/              */
+q_sin_momento : qpunt(-5,1) + qdist(-3*x/2,2,4)$
+int_momentos  : int_mflec(-8,3.5) + int_mflec(3,5)$
+
+b : 0.1$           /* Ancho de la viga, m                             */
+h : 0.3$           /* Altura de la viga, m                            */
+E : 210e6$         /* Modulo de elasticidad de la viga, kPa           */
+I : (b*h^3)/12$    /* Momento de inercia en y, m^4                    */
+alpha : 5/6$       /* Factor de correccion del esfuerzo cortante      */ 
+A : b*h$           /* Area de la viga, m^2                            */ 
+G : E/(2*(1+0.3))$ /* Modulo de cortante, kPa                         */ 
+
+/* Se resuelve la ecuacion diferencial                                */
+Vsm : pwint(q_sin_momento,x) + C1$  /* V sin momentos                 */
+V : Vsm + int_momentos$             /* V con momentos                 */
+M : pwint(V,x)             + C2$
+t : pwint(M/(E*I),x)       + C3$
+v : pwint(t - Vsm/(alpha*G*A),x) + C4$
+
+/* Se encuentran las constantes de integracion que satisfacen las 
+   condiciones de frontera                                            */
+sol : solve([ev(v,x=0) = 0,      /* despl vert en apoyo en x=0 es 0   */
+             ev(M,x=0) = 0,      /* momento flector en x=0 es 0       */
+             ev(v,x=6) = 0,      /* despl vert en apoyo en x=6 es 0   */
+             ev(M,x=6) = 0 ],    /* momento flector en x=6 es 0       */
+             [ C1, C2, C3, C4 ])$
+
+/* Se reemplaza aqui el valor de las constantes de integracion        */
+V : V, sol$
+M : M, sol$
+t : t, sol$
+v : v, sol$
+dvdx : diff(v,x)$
+
+/* Se imprimen los resultados                                         */
+print("V(x) = ")$     pwsimp(expand(V),    x, 'array)$
+print("M(x) = ")$     pwsimp(expand(M),    x, 'array)$
+print("t(x) = ")$     pwsimp(expand(t),    x, 'array)$
+print("v(x) = ")$     pwsimp(expand(v),    x, 'array)$
+print("dv_dx(x) = ")$ pwsimp(expand(dvdx), x, 'array)$
+
+/* Se grafican los resultados                                         */
+wxplot2d(V,    [x, 0, 6], [xlabel, "x"], [ylabel,"V(x)"])$
+wxplot2d(M,    [x, 0, 6], [xlabel, "x"], [ylabel,"M(x)"])$
+wxplot2d(t,    [x, 0, 6], [xlabel, "x"], [ylabel,"t(x)"])$
+wxplot2d(v,    [x, 0, 6], [xlabel, "x"], [ylabel,"v(x)"])$
+wxplot2d(dvdx, [x, 0, 6], [xlabel, "x"], [ylabel,"dv_dx(x)"])$
+
+/* Se calculan las reacciones en la viga                              */
+print("Fy(x=0) = ")$  V, x=0, numer; /* reaccion vertical en x=0      */
+print("Fy(x=6) = ")$ -V, x=6, numer; /* reaccion vertical en x=6      */
+
+/* Un programa de MAXIMA no puede terminar en un comentario           */
+print("Calculo finalizado")$
