@@ -5,6 +5,8 @@ Se permite para los exámenes que el profesor diga una hoja tamaño oficio en la
 
 ### ~~Capítulos 3 (excepto sección 3.5), 4 y 5~~
 * ~~Videos:~~ 
+  * https://www.youtube.com/watch?v=X77gymd1yzY
+  * https://www.youtube.com/watch?v=KnmsqkmQjR8
   * ~~<http://www.youtube.com/watch?v=x0TjHwRJT7I>~~
   * ~~<http://www.youtube.com/watch?v=GTTaUAPitNc>~~
 * ~~Todos los comandos de MAXIMA que hay en los capítulos 1 al 8.~~
