@@ -38,6 +38,12 @@ hacer_grafico(x, y, Qx, 'Qx', 'Qx(x,y) [N/m]');
 %% Fuerza cortante por unidad de longitud Qy
 hacer_grafico(x, y, Qy, 'Qy', 'Qy(x,y) [N/m]');
 
+%% Fuerza cortante por unidad de longitud Qmax
+Qmax = sqrt(Qx.^2 + Qy.^2);
+ang = atan2(Qy, Qx);
+hacer_grafico(x, y, Qmax, 'Qmax', 'Qmax(x,y) [N/m]', ...
+    ang, [0, pi]);
+
 %% Calculo los momentos principales Mf1 y Mf2, el angulo con respecto al 
 %% eje X en que se producen y el momento torsor maximo
 Mf1 = (Mx+My)/2 + sqrt(((Mx-My)/2).^2 + Mxy.^2);
