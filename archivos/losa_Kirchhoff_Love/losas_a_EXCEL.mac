@@ -1,0 +1,83 @@
+adiferenciasfinitas(expr) :=
+block([p], /* declaro las variables locales */
+ p: ratsubst((w1 - w3)/(2*Delta),                              'diff(w,x),    expr),
+ p: ratsubst((w2 - w4)/(2*Delta),                              'diff(w,y),       p),
+ p: ratsubst((w1 - 2*w0 + w3)/Delta^2,                         'diff(w,x,2),     p),
+ p: ratsubst((w2 - 2*w0 + w4)/Delta^2,                         'diff(w,y,2),     p),
+ p: ratsubst((w5 - 2*w1 + 2*w3 - w9)/(2*Delta^3),              'diff(w,x,3),     p),  
+ p: ratsubst((w7 - 2*w2 + 2*w4 - w11)/(2*Delta^3),             'diff(w,y,3),     p), 
+ p: ratsubst((w9 - 4*w3 + 6*w0 - 4*w1 + w5)/Delta^4,           'diff(w,x,4),     p),
+ p: ratsubst((w7 - 4*w2 + 6*w0 - 4*w4 + w11)/Delta^4,          'diff(w,y,4),     p),
+ p: ratsubst((w6 - w8 + w10 - w12)/(4*Delta^2),                'diff(w,x,1,y,1), p),
+ p: ratsubst((4*w0 - 2*(w1+w2+w3+w4) + w6+w8+w10+w12)/Delta^4, 'diff(w,x,2,y,2), p),
+ p: ratsubst(((w6-2*w2+w8) - (w12-2*w4+w10))/(2*Delta^3),      'diff(w,x,2,y,1), p), 
+ p: ratsubst(((w6-2*w1+w12) - (w8-2*w3+w10))/(2*Delta^3),      'diff(w,x,1,y,2), p),
+ p /* esta es la salida de la funcion */
+)$
+
+aEXCEL(expr) :=
+block([p], /* declaro las variables locales */
+ p:string(expr),   /* Convierto a cadena */
+                                                    /*       7       */
+                          p:ssubst("H57","w8", p),  /*    8--2--6    */
+ p:ssubst("G58","w9", p), p:ssubst("H58","w3", p),  /* 9--3--0--1--5 */
+                          p:ssubst("H59","w10",p),  /*   10--4--12   */
+                                                    /*      11       */
+ p:ssubst("I56","w7", p),
+ p:ssubst("I57","w2", p), p:ssubst("J57","w6", p),
+ p:ssubst("I58","w0", p),                          p:ssubst("K58","w5", p),
+ p:ssubst("I59","w4", p), p:ssubst("J59","w12",p),
+ p:ssubst("I60","w11",p),
+ 
+ p:ssubst("J58","w1", p), /* Debo dejar este de ultimo para que se reemplace bien */
+ p  /* esta es la salida de la funcion */
+)$
+
+depends(w,[x, y])$  /* Defino w(x,y) */
+diff(w,x,4) + 2*diff(w,x,2,y,2) + diff(w,y,4) = q/D$
+adiferenciasfinitas(%)$
+ex_w0 : solve(%, w0)$   /* despejar w0 */
+print("Formula de MS EXCEL para w0 = ")$
+aEXCEL(ex_w0)$
+ssubst("I8","q", %);
+
+print("Formula de MS EXCEL para Mx = ")$
+Mx  = -D*adiferenciasfinitas(diff(w,x,2) + nu*diff(w,y,2))$
+aEXCEL(%)$
+ssubst("I108","Mx", %);
+
+print("Formula de MS EXCEL para My = ")$
+My  = -D*adiferenciasfinitas(diff(w,y,2) + nu*diff(w,x,2))$
+aEXCEL(%)$
+ssubst("I158","My", %);
+
+print("Formula de MS EXCEL para Mxy = ")$
+Mxy = -D*(1-nu)*adiferenciasfinitas(diff(w,x,1,y,1))$
+aEXCEL(%)$
+ssubst("I208","Mxy", %);
+
+print("Formula de MS EXCEL para Laplaciano(w) = ")$
+Laplacianow = adiferenciasfinitas(diff(w,x,2) + diff(w,y,2))$
+aEXCEL(%)$
+ssubst("I259","Laplaciano(w)", %);
+
+/* ****************************************************************** */
+
+print("Formula de MS EXCEL para el borde libre derecho = ")$
+eq1: adiferenciasfinitas(diff(w,x,2) + nu*diff(w,y,2) = 0);
+eq2: adiferenciasfinitas(diff(w,x,3) + (2-nu)*diff(w,x,1,y,2) = 0);
+eq3: adiferenciasfinitas(diff(w,x,1,y,1) = 0);
+ex_w1 : solve(eq1, w1)$   /* despejar w1  */
+ex_w5 : solve(eq2, w5)$   /* despejar w5  */
+print("Formula de MS EXCEL para w1  = ")$ aEXCEL(ex_w1);
+print("Formula de MS EXCEL para w5  = ")$ aEXCEL(ex_w5);
+
+/* ****************************************************************** */
+
+print("Formula de MS EXCEL para el borde viga y=4")$ /* NO FUNCIONA */
+eq1: factor(adiferenciasfinitas(D*(diff(w,y,3) + (2-nu)*diff(w,x,2,y,1)) = Ev*Iv*diff(w,x,4)));
+eq2: factor(adiferenciasfinitas(D*(nu*diff(w,x,2) + diff(w,y,2)) = Gv*Jv*diff(w,x,2,y,1)));
+ex_w2: factor(solve(eq2, w2))$  /* despejar w2 */
+ex_w7: factor(solve(eq1, w7))$  /* despejar w7 */
+print("Formula de MS EXCEL para w2  = ")$ aEXCEL(ex_w2);
+print("Formula de MS EXCEL para w7  = ")$ aEXCEL(ex_w7);
