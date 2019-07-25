@@ -5,3 +5,7 @@
 * [Video tutoriales en español por Carlos Santiuste](https://www.youtube.com/user/karlossantiuste)
 * [Página vieja del curso](http://sites.google.com/site/diegoandresalvarezmarin/s1_2009_solidos)
 * [Video realizado por Santiago Suarez Aristizábal](http://www.vimeo.com/28563461)  que explica como utilizar algunas de las funcionalidades ocultas que traen las calculadoras CASIO
+
+* Video tutoriales para repasar álgebra lineal:
+* [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [La esencia del álgebra lineal (son los mismos videos pero traducidos)](https://www.youtube.com/channel/UCQbsk1JQNaskUlfdoyiWJDg/videos)
