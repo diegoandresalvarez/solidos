@@ -7,10 +7,10 @@
 ## Criterio de evaluación
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 
-* Fecha de Corte 1: 25% Mayo 10
-* Fecha de Corte 2: 25% Junio 7
-* Fecha de Corte 3: 25% Julio 5
-* Fecha de Corte 4: 25% Agosto 2
+* Fecha de Corte 1: 25% Septiembre 17, 2019
+* Fecha de Corte 2: 25% Octubre 15, 2019
+* Fecha de Corte 3: 25% Noviembre 10, 2019
+* Fecha de Corte 4: 25% Diciembre 10, 2019
 
 
 ## Descripción de la asignatura Mecánica de sólidos 1
