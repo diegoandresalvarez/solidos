@@ -7,11 +7,17 @@
 ## Criterio de evaluación
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 
-* Fecha de Corte 1: 25% Martes Septiembre 17, 2019
-* Fecha de Corte 2: 25% Martes Octubre 15, 2019
-* Fecha de Corte 3: 25% Jueves Noviembre 14, 2019
-* Fecha de Corte 4: 25% Jueves Diciembre 12, 2019
+* Grupo 2 (Martes y Jueves):
+    * Fecha de Corte 1: 25% Martes Septiembre 17, 2019
+    * Fecha de Corte 2: 25% Martes Octubre 15, 2019
+    * Fecha de Corte 3: 25% Jueves Noviembre 14, 2019
+    * Fecha de Corte 4: 25% Jueves Diciembre 12, 2019
 
+* Grupo 3 (Lunes y Martes):
+    * Fecha de Corte 1: 25% Martes Octubre 8, 2019
+    * Fecha de Corte 2: 25% Martes Octubre 15, 2019
+    * Fecha de Corte 3: 25% Martes Noviembre 12, 2019
+    * Fecha de Corte 4: 25% Martes Diciembre 10, 2019
 
 ## Descripción de la asignatura Mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
