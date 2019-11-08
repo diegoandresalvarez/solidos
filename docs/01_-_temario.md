@@ -16,7 +16,7 @@ Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas
 * Grupo 3 (Lunes y Martes):
     * Fecha de Corte 1: 25% Martes Octubre 8, 2019
     * Fecha de Corte 2: 25% Martes Octubre 15, 2019
-    * Fecha de Corte 3: 25% Martes Noviembre 12, 2019
+    * Fecha de Corte 3: 25% Martes Noviembre 19, 2019
     * Fecha de Corte 4: 25% Martes Diciembre 10, 2019
 
 ## Descripción de la asignatura Mecánica de sólidos 1
