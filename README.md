@@ -28,6 +28,6 @@
   * [Exámenes corte 2](docs/05b_-_Examen_2.md)
   * [Exámenes corte 3](docs/05c_-_Examen_3.md)
   * [Exámenes corte 4](docs/05d_-_Examen_4.md)
-- WIKI para la corrección de los errores en el `main.pdf`: http://mecanicadesolidos.shoutwiki.com/
+- WIKI para la corrección de los errores en el `main.pdf`: http://solidos2019b.shoutwiki.com/
   * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
   * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
