@@ -26,7 +26,8 @@ Se hará un único examen en Enero 31, 2019, el cual tendrá como tema todo lo e
 ### Y unos artículos sobre su papel como ingenieros en la sociedad:
 * Pronunciamiento del Presidente de la Asociación de Ingenieros del Risaralda, Ing. Gonzalo Ríos Ortiz, sobre el articulo "El silencio de los Profesionales" por Beatriz López, que apareció en el diario caleño El País.
   * <http://smpmanizales.blogspot.com/2011/04/acabaron-con-los-ingenieros-como.html>
-  * <http://www.elpais.com.co/elpais/opinion/columna/beatriz-lopez/silencio-profesionales>
+  * <https://www.elpais.com.co/opinion/columnistas/beatriz-lopez/el-silencio-de-los-profesionales.html>
+  
   
 * Y desde el punto de vista anterior, que haría usted si fuera el ingeniero residente encargado de la obra en:
   * <http://www.eltiempo.com/mundo/latinoamerica/destruyen-templo-maya-por-construir-una-carretera_12800782-4>

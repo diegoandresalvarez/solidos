@@ -46,8 +46,8 @@ que se encuentran en la biblioteca, son excelentes para repasar álgebra lineal,
 
 
 ## Material de ayuda
-* [Gráficos del cubo con los esfuerzos en 3D](archivos/Examen_1_estudio_tensiones/paralelepipedo_infinitesimal.pdf) (solo abre en Acrobat Reader)
-* [Gráficos del tetraedro con los esfuerzos en 3D](archivos/Examen_1_estudio_tensiones/tetraedro_infinitesimal.pdf) (solo abre en Acrobat Reader)
+* [Gráficos del cubo con los esfuerzos en 3D]../archivos/Examen_1_estudio_tensiones/paralelepipedo_infinitesimal.pdf) (solo abre en Acrobat Reader)
+* [Gráficos del tetraedro con los esfuerzos en 3D](../archivos/Examen_1_estudio_tensiones/tetraedro_infinitesimal.pdf) (solo abre en Acrobat Reader)
 
 NOTA: estos gráficos fueron elaborados por: Edwin Alejandro Romero Reina
 
