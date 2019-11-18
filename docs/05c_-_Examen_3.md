@@ -8,7 +8,7 @@
 * [Material referente al flujo de agua subterránea en acuíferos confinados](../archivos/Examen_3_diferencias_finitas/seepage.zip)
 * [Material referente al problema de valor en la frontera mixto](../archivos/Examen_3_diferencias_finitas/Neumann_Dirichlet.zip)
 * [Solución de la ecuación de Airy utilizando diferencias finitas](../archivos/Examen_3_diferencias_finitas/airy.zip)
-* [Ejemplo de la L hecho en clase](../archivos/Examen_3_diferencias_finitas/ejemplos_airy_clase.zip)
+* [Ejemplo de la L (video) y de la C (hecho en clase)](../archivos/Examen_3_diferencias_finitas/ejemplos_airy.zip)
 * [Solución de las ecuaciones de Cauchy-Navier utilizando diferencias finitas](../archivos/Examen_3_diferencias_finitas/cauchy_navier.zip)
 * Todos los comandos de MAXIMA que hay en los capítulos 1 al 8 y el enseñado en los video tutoriales [por Daniel Alejandro Suárez](https://www.youtube.com/playlist?list=PLFk7DOCMKbw_QrywlNmPtCmaNH_wSu28g)
 
