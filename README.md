@@ -20,16 +20,18 @@
 - [Recursos](docs/02_-_recursos.md)
 - [Software](docs/03_-_software.md)
 - [Sobre el main.pdf](docs/04_-_main_pdf.md)
-### Tema de los exámenes de Mecánica de sólidos 1:
+### Exámenes y talleres de Mecánica de sólidos 1:
   * [Exámenes corte 1](docs/05a_-_Examen_1_Sol1.md)
   * [Exámenes corte 2](docs/05b_-_Examen_2_Sol1.md)
   * [Exámenes corte 3](docs/05c_-_Examen_3_Sol1.md)
   * [Exámenes corte 4](docs/05d_-_Examen_4_Sol1.md)
-### Tema de los exámenes de Mecánica de sólidos 2:
-  * [Exámenes corte 1](docs/05e_-_Examen_1_Sol2.md)
-  * [Exámenes corte 2](docs/05f_-_Examen_2_Sol2.md)
-  * [Exámenes corte 3](docs/05g_-_Examen_3_Sol2.md)
-  * [Exámenes corte 4](docs/05h_-_Examen_4_Sol2.md)
+  * Taller de diferencias finitas
+
+### Exámenes y talleres de Mecánica de sólidos 2:
+  * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
+  * Taller 1
+  * Taller 2  
+
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://solidos2020a.shoutwiki.com/
   * [Reglas de la WIKI](docs/WIKI_Condiciones.md)

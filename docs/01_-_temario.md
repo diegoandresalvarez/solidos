@@ -10,16 +10,16 @@ Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas
 --->
 
 * Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
-    * Fecha de Corte 1: 25%, Martes Marzo ***, 2020
-    * Fecha de Corte 2: 25%, Martes Abril ***, 2020
-    * Fecha de Corte 3: 25%, Martes Mayo ***, 2020
-    * Fecha de Corte 4: 25%, Martes Junio ***, 2020
+    * Fecha de Corte 1: 25%, Jueves Marzo 26, 2020
+    * Fecha de Corte 2: 25%, Jueves Abril 30, 2020
+    * Fecha de Corte 3: 25%, Jueves Mayo 28, 2020
+    * Fecha de Corte 4: 25%, Jueves Junio 25, 2020
 
 * Mecánica de Sólidos 2, Grupo 1 (Jueves y Viernes):
-    * Fecha de Corte 1: 17.5%, Martes Marzo ***, 2020
-    * Fecha de Corte 2: 17.5%, Martes Abril ***, 2020
-    * Fecha de Corte 3: 17.5%, Martes Mayo ***, 2020
-    * Fecha de Corte 4: 17.5%, Martes Junio ***, 2020
+    * Fecha de Corte 1: 17.5%, Viernes Marzo 27, 2020
+    * Fecha de Corte 2: 17.5%, Jueves Abril 30, 2020
+    * Fecha de Corte 3: 17.5%, Viernes Mayo 29, 2020
+    * Fecha de Corte 4: 17.5%, Viernes Junio 26, 2020
     * Taller 1 - vigas: 15%
     * Taller 2 - losas: 15%
 
