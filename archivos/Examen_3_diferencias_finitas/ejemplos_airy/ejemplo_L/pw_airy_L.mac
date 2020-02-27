@@ -1,0 +1,90 @@
+kill(all);
+load("pw")$
+ratprint  : false$ /* no muestra el mensaje "rat : replace" */
+
+/* Se define la geometría como una ecuacion parametrica y se grafica */
+xs : pw([0,   s, 1,
+              1, 3,
+            s-2, 5,
+              3, 6,
+           -s+9, 9,
+              0, 12], s)$
+
+ys : pw([0, 0, 1,
+             s-1, 3,
+               2, 5,
+             s-3, 6,
+               3, 9,
+           -s+12, 12], s)$
+
+/* Se grafica la curva paramétrica del borde */
+wxplot2d([parametric, xs, ys, [s, 0, 12]],
+         [xlabel, "x(s)"], [ylabel, "y(s)"], [nticks, 1000],
+         [x,-0.5,3.5], [y,-0.5,3.5])$
+
+/* Se calculan las cargas puntuales equivalentes */
+Cdx : 10*cos(60*%pi/180)*3/2$
+Cdy : 10*sin(60*%pi/180)*3/2$
+
+/* Se calculan las reacciones netas en los apoyos */
+Rx : -Cdx$
+Ry : -Cdy$
+Rm : -(Cdy*1.5 - Cdx*3)$
+
+/* Utilizando el principio de Saint Venant se convierten dichas cargas
+   puntuales en los apoyos a una carga distribuída equivalente          */
+eq1: integrate(m*s+b,s,0,1)           = Ry$
+eq2: integrate((m*s+b)*(s-0.5),s,0,1) = Rm$
+sol: solve([eq1,eq2],[m,b])$
+
+/* La ecuacion de dicha carga distribuida equivalente es: */
+cdapoyo : m*s+b,sol$
+
+/* Se definen las cargas superficiales actuando en la estructura */
+Xb : expand(pw([0, Rx/1, 1,
+                      0, 6,
+              -5*s/3+15, 9,
+                  0, 12], s))$
+
+Yb : expand(pw([0,            cdapoyo, 1,
+                                    0, 6,
+            -5*sqrt(3)*s/3+15*sqrt(3), 9,
+                                    0, 12], s))$
+
+/* Se grafican las cargas superficiales */
+wxplot2d(Xb, [s, 0, 12],[xlabel, "s"], [ylabel, "Xb(s)"])$
+wxplot2d(Yb, [s, 0, 12],[xlabel, "s"], [ylabel, "Yb(s)"])$
+
+/* Se comprueba el equilibrio estatico de las cargas superficiales */
+disp("Sum Fx = ")$ factor(pwint(Xb,s,0,12));
+disp("Sum Fy = ")$ factor(pwint(Yb,s,0,12)); 
+disp("Sum M = ")$  factor(pwint(xs*Yb - ys*Xb,s,0,12));
+
+/* Se calculan las derivadas de phi y phi */
+diff_phi_x : -pwint(Yb,s)$
+diff_phi_y :  pwint(Xb,s)$
+phi: pwint(diff_phi_x*diff(xs,s) + diff_phi_y*diff(ys,s),s)$
+
+/* Se evalua phi y sus derivadas en los puntos del borde */
+ss     : makelist(0.1*k, k, 0, 120)$ /* es en MATLAB 0:0.1:12 */
+x_s    : xs,         s=ss$ x_s    : float(x_s)$
+y_s    : ys,         s=ss$ y_s    : float(y_s)$
+dph_dx : diff_phi_x, s=ss$ dph_dx : float(dph_dx)$
+dph_dy : diff_phi_y, s=ss$ dph_dy : float(dph_dy)$
+ph     : phi,        s=ss$ ph     : float(ph)$
+
+/* Se grafican los resultados: */
+/* (verifique que en s=0 y s=12 los valores coincidan) */
+wxplot2d([discrete, ss, dph_dx], [xlabel, "s"], [ylabel, "diff_phi_x(s)"])$
+wxplot2d([discrete, ss, dph_dy], [xlabel, "s"], [ylabel, "diff_phi_y(s)"])$
+wxplot2d([discrete, ss, ph],     [xlabel, "s"], [ylabel, "phi(s)"])$
+
+/* Se graban los resultados a disco */
+subdir : "C:/Users/User/Desktop/ejemplos_airy/ejemplo_L/"$
+stringout(concat(subdir,"airy_L.txt"),        ss, x_s, y_s, dph_dx, dph_dy, ph);
+stringout(concat(subdir,"airy_L_ss.txt"),     ss);
+stringout(concat(subdir,"airy_L_x_s.txt"),    x_s);
+stringout(concat(subdir,"airy_L_y_s.txt"),    y_s);
+stringout(concat(subdir,"airy_L_dph_dx.txt"), dph_dx);
+stringout(concat(subdir,"airy_L_dph_dy.txt"), dph_dy);
+stringout(concat(subdir,"airy_L_ph.txt"),     ph);

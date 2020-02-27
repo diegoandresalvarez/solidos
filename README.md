@@ -29,8 +29,8 @@
 
 ### Exámenes y talleres de Mecánica de sólidos 2:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
-  * Taller 1
-  * Taller 2  
+  * Taller 1 - Vigas
+  * Taller 2 - Losas
 
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://solidos2020a.shoutwiki.com/

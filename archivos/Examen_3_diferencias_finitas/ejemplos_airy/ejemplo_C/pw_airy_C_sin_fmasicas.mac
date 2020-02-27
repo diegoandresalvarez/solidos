@@ -1,0 +1,114 @@
+/* CORRE BIEN, PERO FALTA PONER ESPESOR Y LOS COMENTARIOS QUE EXISTEN EN LA */ 
+/* VERSION CON FUERZAS MASICAS                                              */ 
+
+kill(all);
+load("pw")$
+ratprint  : false$ /* no muestra el mensaje "rat : replace" */
+
+/* Se define la geometria como una ecuacion parametrica y se grafica */
+xs : pw([0, s+1,  2,
+              3,  3,
+            6-s,  6,
+              0,  9,
+            s-9, 12,
+              3, 13,
+           16-s, 15,
+              1, 16 ], s)$
+
+ys : pw([ 0,    2,  2,
+                s,  3,
+                3,  6,
+              9-s,  9,
+                0, 12,
+             s-12, 13,
+                1, 15,
+             s-14, 16 ], s)$
+
+/* Se evalua x(s) y y(s) en el contorno para s = 0:0.1:16             */
+delta : 0.1$ /* el delta de las diferencias finitas                   */
+ss    : makelist(delta*k, k, 0.0, 16/delta)$ /* es en MATLAB 0:0.1:16 */
+ss[1]   :  0.00000001$
+ss[161] : 15.99999999$
+x_s   : xs, s=ss$ x_s : float(x_s)$
+y_s   : ys, s=ss$ y_s : float(y_s)$
+
+/* Se grafica la curva paramétrica del borde */
+wxplot2d([discrete, x_s, y_s], [xlabel, "x(s)"], [ylabel, "y(s)"],
+         [x,-0.5,3.5], [y,-0.5,3.5])$
+
+load(interpol)$
+p : expand(lagrange([[13,25], [14,30], [15,20]], varname='s))$
+px : p*cos(30*%pi/180)$
+py : p*sin(30*%pi/180)$
+
+/* Se calculan las cargas puntuales equivalentes */
+Cdx : integrate(px, s, 13, 15)$
+Cdy : integrate(py, s, 13, 15)$
+
+/* Se calcula el centro de gravedad de la carga parabolica */
+cgs_Cd : integrate(s*py, s, 13, 15)/Cdy$
+cgx_Cd : xs, s=cgs_Cd$
+cgy_Cd : 1$
+         
+/* Se calculan las reacciones netas en los apoyos                     */
+Rx : -Cdx$                                         /* sum Fx = 0      */
+Ry : -Cdy$                                         /* sum Fy = 0      */
+Rm : -(-Cdx*cgy_Cd + Cdy*cgx_Cd + Ry*3 - Rx*2.5)$  /* sum M_(0,0) = 0 */
+
+
+/* Utilizando el principio de Saint-Venant se convierten dichas cargas
+   puntuales en los apoyos a una carga distribuida equivalente          */
+eq1: integrate(m*s+b,s,2,3)            = Rx$
+eq2: integrate(-(m*s+b)*(s-2.5),s,2,3) = Rm$
+sol: solve([eq1,eq2],[m,b])$
+
+/* La ecuacion de dicha carga distribuida equivalente es: */
+cdx_apoyo : m*s+b,sol$
+
+/* Se definen las cargas superficiales actuando en la estructura */
+Xb : expand(pw([0,    0,  2, 
+              cdx_apoyo,  3,
+                      0, 13,
+                     px, 15,
+                      0, 16], s))$
+
+Yb : expand(pw([0,    0,  2,
+                   Ry/1,  3,
+                      0, 13,
+                     py, 15,
+                      0, 16], s))$
+
+/* Se grafican las cargas superficiales */
+wxplot2d(Xb, [s, 0, 16], [xlabel, "s"], [ylabel, "Xb(s)"])$
+wxplot2d(Yb, [s, 0, 16], [xlabel, "s"], [ylabel, "Yb(s)"])$
+
+/* Se comprueba el equilibrio estatico de las cargas superficiales */
+disp("Sum Fx = ")$ float(pwint(Xb,s,0,16));
+disp("Sum Fy = ")$ float(pwint(Yb,s,0,16)); 
+disp("Sum M  = ")$ float(pwint(xs*Yb - ys*Xb,s,0,16));
+
+/* Se calculan las derivadas de phi y phi */
+diff_phi_x : -pwint(Yb,s)$
+diff_phi_y :  pwint(Xb,s)$
+phi: pwint(diff_phi_x*diff(xs,s) + diff_phi_y*diff(ys,s),s)$
+
+/* Se evalua phi y sus derivadas en los puntos del borde */
+dph_dx : diff_phi_x, s=ss$ dph_dx : float(dph_dx)$
+dph_dy : diff_phi_y, s=ss$ dph_dy : float(dph_dy)$
+ph     : phi,        s=ss$ ph     : float(ph)$
+
+/* Se grafican los resultados: */
+/* (verifique que en s=0 y s=16 los valores coincidan) */
+wxplot2d([discrete, ss, dph_dx], [xlabel, "s"], [ylabel, "diff_phi_x(s)"])$
+wxplot2d([discrete, ss, dph_dy], [xlabel, "s"], [ylabel, "diff_phi_y(s)"])$
+wxplot2d([discrete, ss, ph],     [xlabel, "s"], [ylabel, "phi(s)"])$
+
+/* Se graban los resultados a disco */
+subdir : "C:/Users/User/Desktop/ejemplos_airy/ejemplo_C/"$
+stringout(concat(subdir, "airy_C.txt"),        ss, x_s, y_s, dph_dx, dph_dy, ph);
+stringout(concat(subdir, "airy_C_ss.txt"),     ss);
+stringout(concat(subdir, "airy_C_x_s.txt"),    x_s);
+stringout(concat(subdir, "airy_C_y_s.txt"),    y_s);
+stringout(concat(subdir, "airy_C_dph_dx.txt"), dph_dx);
+stringout(concat(subdir, "airy_C_dph_dy.txt"), dph_dy);
+stringout(concat(subdir, "airy_C_ph.txt"),     ph);

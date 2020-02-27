@@ -1,0 +1,70 @@
+adiferenciasfinitas(expr) :=
+block([p], /* declaro las variables locales */
+ p: ratsubst((phi1 - phi3)/(2*Delta),                                            'diff(phi,x),    expr),
+ p: ratsubst((phi2 - phi4)/(2*Delta),                                            'diff(phi,y),       p),
+ p: ratsubst((phi1 - 2*phi0 + phi3)/Delta^2,                                     'diff(phi,x,2),     p),
+ p: ratsubst((phi2 - 2*phi0 + phi4)/Delta^2,                                     'diff(phi,y,2),     p),
+ p: ratsubst((phi5 - 2*phi1 + 2*phi3 - phi9)/(2*Delta^3),                        'diff(phi,x,3),     p),  
+ p: ratsubst((phi7 - 2*phi2 + 2*phi4 - phi11)/(2*Delta^3),                       'diff(phi,y,3),     p), 
+ p: ratsubst((phi9 - 4*phi3 + 6*phi0 - 4*phi1 + phi5)/Delta^4,                   'diff(phi,x,4),     p),
+ p: ratsubst((phi7 - 4*phi2 + 6*phi0 - 4*phi4 + phi11)/Delta^4,                  'diff(phi,y,4),     p),
+ p: ratsubst((phi6 - phi8 + phi10 - phi12)/(4*Delta^2),                          'diff(phi,x,1,y,1), p),
+ p: ratsubst(((phi6-2*phi2+phi8) - (phi12-2*phi4+phi10))/(2*Delta^3),            'diff(phi,x,2,y,1), p), 
+ p: ratsubst(((phi6-2*phi1+phi12) - (phi8-2*phi3+phi10))/(2*Delta^3),            'diff(phi,x,1,y,2), p),
+ p: ratsubst((4*phi0 - 2*(phi1+phi2+phi3+phi4) + phi6+phi8+phi10+phi12)/Delta^4, 'diff(phi,x,2,y,2), p), 
+ p: ratsubst((V2 - 2*V0 + V4)/Delta^2,                                           'diff(V,y,2),       p), 
+ p: ratsubst((V1 - 2*V0 + V3)/Delta^2,                                           'diff(V,x,2),       p),
+ p /* esta es la salida de la funcion */
+)$
+
+aEXCEL(expr) :=
+block([p], /* declaro las variables locales */
+ p:string(expr),   /* Convierto a cadena */
+ 
+ /* se reemplaza phi */
+                                                        /*       7       */
+                            p:ssubst("H17","phi8", p),  /*    8--2--6    */
+ p:ssubst("G18","phi9", p), p:ssubst("H18","phi3", p),  /* 9--3--0--1--5 */
+                            p:ssubst("H19","phi10",p),  /*   10--4--12   */
+                                                        /*      11       */
+ p:ssubst("I16","phi7", p),
+ p:ssubst("I17","phi2", p), p:ssubst("J17","phi6", p),
+ p:ssubst("I18","phi0", p),                           p:ssubst("K18","phi5", p),
+ p:ssubst("I19","phi4", p), p:ssubst("J19","phi12",p),
+ p:ssubst("I20","phi11",p),
+ 
+ p:ssubst("J18","phi1", p), /* Debo dejar este de ultimo para que se reemplace bien */
+ 
+ /* se reemplaza V */
+
+                           p:ssubst("I137","V2", p),
+ p:ssubst("H138","V3", p), p:ssubst("I138","V0", p), p:ssubst("J138","V1", p),
+                           p:ssubst("I139","V4",p), 
+ 
+ p  /* esta es la salida de la funcion */
+)$
+
+depends([phi, V],[x, y])$  /* Defino phi(x,y), V(x,y) */
+diff(phi,x,4) + 2*diff(phi,x,2,y,2) + diff(phi,y,4) = K_2*(diff(V,x,2) + diff(V,y,2))$
+adiferenciasfinitas(%)$
+
+/* despejar phi0 */
+ex_phi0 : solve(%, phi0);   
+
+print("Formula de MS EXCEL para phi0 = ")$
+aEXCEL(ex_phi0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

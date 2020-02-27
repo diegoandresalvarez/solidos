@@ -1,0 +1,197 @@
+/* Poner comentarios como JAVASCRIPT */
+/* Para correr este programa utilice MAXIMA version 5.30 */
+
+/* Todas las unidades estan dadas en kN y m */
+
+kill(all);
+load("pw")$
+ratprint : false$ /* no muestra el mensaje "rat : replace" */
+
+centroide(vertices) :=
+block([n,x,y,A,Cx,Cy],
+    /*
+    Dados los vertices de un poligono, esta funcion calcula el area
+    y el centroide del mismo y retorna [Centroid_x, Centroid_y, Area]
+
+    Formulas tomadas de https://en.wikipedia.org/wiki/Centroid
+    */
+    n : length(vertices),
+    vertices : funmake('matrix, vertices),
+    vertices : addrow(vertices,vertices[1]),
+    x  : col(vertices,1),
+    y  : col(vertices,2),
+    A  : 0,
+    Cx : 0,
+    Cy : 0,
+    for i: 1 thru n do (
+        tmp : x[i]*y[i+1] - x[i+1]*y[i],
+        A  : A + tmp,
+        Cx : Cx + (x[i]+x[i+1])*tmp,
+        Cy : Cy + (y[i]+y[i+1])*tmp
+    ),
+    A  : A/2,
+    Cx : Cx/(6*A),
+    Cy : Cy/(6*A),
+    flatten([Cx, Cy, A])
+)$
+
+/* Se define una lista con los vertices: */
+vertices : [[1, 2],
+            [3, 2],
+            [3, 3],
+            [0, 3],
+            [0, 0],
+            [3, 0],
+            [3, 1],
+            [1, 1]]$ /* no hay necesidad de repetir la ultima fila */
+
+/* Calculo el area y la posicion del centro de gravedad */
+tmp : centroide(vertices)$
+Cx : tmp[1]$
+Cy : tmp[2]$
+A  : tmp[3]$
+
+/* Se define el espesor */
+t : 1$
+
+/* Se definen las cargas masicas: */
+rho : 1$
+g   : 9.81$
+X   : 0$
+Y   : -rho*g$
+
+/* Se define la geometria como una ecuacion parametrica y se grafica */
+xs : pw([0, s+1,  2,
+              3,  3,
+            6-s,  6,
+              0,  9,
+            s-9, 12,
+              3, 13,
+           16-s, 15,
+              1, 16 ], s)$
+
+ys : pw([ 0,    2,  2,
+                s,  3,
+                3,  6,
+              9-s,  9,
+                0, 12,
+             s-12, 13,
+                1, 15,
+             s-14, 16 ], s)$
+
+/* Se evalua x(s) y y(s) en el contorno para s = 0:0.1:16               */
+delta   : 0.1$ /* el delta de las diferencias finitas                   */
+ss      : makelist(delta*k, k, 0.0, 16/delta)$ /* es en MATLAB 0:0.1:16 */
+ss[1]   :  0.00000001$
+ss[161] : 15.99999999$
+/*
+NOTA: toca colocar esos numeros para sortear un error en la funcion
+de graficacion de MAXIMA wxplot2d que tenemos a 6 lineas abajo:
+*/
+x_s   : xs, s=ss$ x_s : float(x_s)$
+y_s   : ys, s=ss$ y_s : float(y_s)$
+
+/* Se grafican las funciones x(s) y y(s) */
+wxplot2d([discrete, ss, x_s], [xlabel, "s [m]"], [ylabel, "x(s) [m]"],
+         [x,0,16], [y,0,3])$
+		 
+wxplot2d([discrete, ss, y_s], [xlabel, "s [m]"], [ylabel, "y(s) [m]"],
+         [x,0,16], [y,0,3])$
+
+/* Se grafica la curva parametrica del borde */
+wxplot2d([discrete, x_s, y_s], [xlabel, "x(s) [m]"], [ylabel, "y(s) [m]"],
+         [x,-0.5,3.5], [y,-0.5,3.5])$
+
+load(interpol)$ /* se carga esta libreria que ya usaremos lagrange() */
+p : expand(lagrange([[13,25], [14,30], [15,20]], varname='s))$
+px : p*cos(30*%pi/180)$
+py : p*sin(30*%pi/180)$
+
+/* Se calculan las cargas puntuales equivalentes */
+Cdx : integrate(px, s, 13, 15)$
+Cdy : integrate(py, s, 13, 15)$
+
+/* Se calcula el centro de gravedad de la carga parabolica */
+cgs_Cd : integrate(s*py, s, 13, 15)/Cdy$
+cgx_Cd : xs, s=cgs_Cd$
+cgy_Cd : ys, s=cgs_Cd$  /* en este caso vale 1.0 */
+         
+/* Se calculan las reacciones netas en los apoyos */
+/* sum Fx = 0 */
+Rx : -(Cdx + A*t*X)$
+
+/* sum Fy = 0 */ 
+Ry : -(Cdy + A*t*Y)$
+
+/* sum M_(0,0) = 0 */
+Rm : -(-X*A*t*Cy + Y*A*t*Cx - Cdx*cgy_Cd + Cdy*cgx_Cd - Rx*2.5 + Ry*3)$
+
+/* Utilizando el principio de Saint-Venant se convierten dichas cargas
+   puntuales en los apoyos a una carga distribuida equivalente          */
+eq1: integrate(m*s+b,s,2,3)            = Rx$
+eq2: integrate(-(m*s+b)*(s-2.5),s,2,3) = Rm$
+sol: solve([eq1,eq2],[m,b])$
+
+/* La ecuacion de dicha carga distribuida equivalente es:        */
+cdx_apoyo : m*s+b,sol$
+
+/* Se definen las cargas superficiales actuando en la estructura */
+/* tenga en cuenta que Xb y Yb tienen unidades de kN/m^2         */
+/* se divide entre t para que se convierta de kN/m a kN/m^2      */
+Xb : expand(pw([0,    0,  2, 
+              cdx_apoyo,  3,
+                      0, 13,
+                     px, 15,
+                      0, 16], s))/t$
+
+Yb : expand(pw([0,    0,  2,
+                   Ry/1,  3,
+                      0, 13,
+                     py, 15,
+                      0, 16], s))/t$
+
+/* Se grafican las cargas superficiales */
+wxplot2d(Xb, [s, 0, 16], [xlabel, "s [m]"], [ylabel, "Xb(s) [kN/m^2]"])$
+wxplot2d(Yb, [s, 0, 16], [xlabel, "s [m]"], [ylabel, "Yb(s) [kN/m^2]"])$
+
+alpha :  diff(ys,s)$
+beta  : -diff(xs,s)$
+
+/* Se comprueba el equilibrio estatico de las cargas superficiales */
+disp("Sum Fx = ")$ float(X*A + pwint(Xb,s,0,16));
+disp("Sum Fy = ")$ float(Y*A + pwint(Yb,s,0,16)); 
+disp("Sum M  = ")$ float(pwint(xs^2*Y*alpha/2 - ys^2*X*beta/2 + xs*Yb - ys*Xb,s,0,16));
+
+/* Se define V en el contorno*/
+V : rho*g*ys$
+
+/* Se calculan las derivadas de phi */
+/*
+diff_phi_x : -pwint(Yb + V*diff(xs,s),s)$
+diff_phi_y :  pwint(Xb - V*diff(ys,s),s)$
+phi: pwint(diff_phi_x*diff(xs,s) + diff_phi_y*diff(ys,s),s)$
+*/
+diff_phi_x : -pwint(Yb - V*beta,s)$
+diff_phi_y :  pwint(Xb - V*alpha,s)$
+phi: pwint(-diff_phi_x*beta + diff_phi_y*alpha,s)$
+
+/* Se evalua phi y sus derivadas en los puntos del borde */
+dph_dx : diff_phi_x, s=ss$ dph_dx : float(dph_dx)$
+dph_dy : diff_phi_y, s=ss$ dph_dy : float(dph_dy)$
+ph     : phi,        s=ss$ ph     : float(ph)$
+
+/* Se grafican los resultados: */
+/* (verifique que en s=0 y s=16 los valores coincidan) */
+wxplot2d([discrete, ss, dph_dx], [xlabel, "s"], [ylabel, "diff_phi_x(s)"])$
+wxplot2d([discrete, ss, dph_dy], [xlabel, "s"], [ylabel, "diff_phi_y(s)"])$
+wxplot2d([discrete, ss, ph],     [xlabel, "s"], [ylabel, "phi(s)"])$
+
+/* Se graban los resultados a disco */
+subdir : "C:/Users/unalman/Desktop/ejemplo_C/resultados/"$
+stringout(concat(subdir, "airy_C.txt"),        ss, x_s, y_s, dph_dx, dph_dy, ph);
+stringout(concat(subdir, "airy_C_ss.txt"),     ss);
+stringout(concat(subdir, "airy_C_x_s.txt"),    x_s);
+stringout(concat(subdir, "airy_C_y_s.txt"),    y_s);
+stringout(concat(subdir, "airy_C_dph_dx.txt"), dph_dx);
+stringout(concat(subdir, "airy_C_dph_dy.txt"), dph_dy);
+stringout(concat(subdir, "airy_C_ph.txt"),     ph);
