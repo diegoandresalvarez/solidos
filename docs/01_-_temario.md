@@ -4,20 +4,25 @@
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
 
-## Criterio de evaluación
+## Exámenes, talleres y fechas
+<!---
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
+--->
 
-* Grupo 2 (Martes y Jueves):
-    * Fecha de Corte 1: 25% Martes Septiembre 17, 2019
-    * Fecha de Corte 2: 25% Martes Octubre 15, 2019
-    * Fecha de Corte 3: 25% Jueves Noviembre 14, 2019
-    * Fecha de Corte 4: 25% Jueves Diciembre 12, 2019
+* Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
+    * Fecha de Corte 1: 25%, Martes Marzo ***, 2020
+    * Fecha de Corte 2: 25%, Martes Abril ***, 2020
+    * Fecha de Corte 3: 25%, Martes Mayo ***, 2020
+    * Fecha de Corte 4: 25%, Martes Junio ***, 2020
 
-* Grupo 3 (Lunes y Martes):
-    * Fecha de Corte 1: 25% Martes Octubre 8, 2019
-    * Fecha de Corte 2: 25% Martes Octubre 15, 2019
-    * Fecha de Corte 3: 25% Martes Noviembre 19, 2019
-    * Fecha de Corte 4: 25% Martes Diciembre 10, 2019
+* Mecánica de Sólidos 2, Grupo 1 (Jueves y Viernes):
+    * Fecha de Corte 1: 17.5%, Martes Marzo ***, 2020
+    * Fecha de Corte 2: 17.5%, Martes Abril ***, 2020
+    * Fecha de Corte 3: 17.5%, Martes Mayo ***, 2020
+    * Fecha de Corte 4: 17.5%, Martes Junio ***, 2020
+    * Taller 1 - vigas: 15%
+    * Taller 2 - losas: 15%
+
 
 ## Descripción de la asignatura Mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
@@ -53,9 +58,9 @@ Haga click para ver el contenido programático de:
 * Matriz jacobiana y jacobiano
 * Divergencia
 * Rotacional
-* Diferenciales (la vista en matemáticas III)
+* Diferenciales (se estudió en cálculo vectorial)
 * Expansión en series de Taylor (univariada y multivariada)
-* Regla de la cadena (la vista en matemáticas I y III)
+* Regla de la cadena (se estudió en cálculo univariado y en cálculoo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
 
 ### 2. Esfuerzos o tensiones
@@ -132,7 +137,7 @@ Aplicación a problemas de vigas, losas, barras a torsión o métodos energétic
 
 
 ## Bibliografía básica
-* Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2019.
+* Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2020.
 * Ortiz-Berrocal, L. *Elasticidad*. McGraw Hill, España, 3rd edition. 1998.
 * Paredes, Jairo A. and Marín, Juan Pablo. *Mecánica de sólidos. Una visión práctica de la mecánica de medios continuos*. Editorial Universidad Nacional. 2008.
 * Saad, M. *Elasticity: theory, applications and numerics*. Elsevier, Amsterdam. 2005.

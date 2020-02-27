@@ -2,12 +2,16 @@
 
 ## Temas para los exámenes
 
-Se permite para los exámenes que el profesor permita una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
+Se permite para los exámenes que el profesor diga una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
 
+### Capítulo 6: Formulación en coordenadas polares y cilíndricas
+
+<!---
 ### Capítulo 8: Vigas de Euler Bernoulli: 
 * Calculo de los diagramas de fuerza cortante, momento de flexión, deformada de vigas de Euler-Bernoulli
   * [Utilizando diferencias finitas](../archivos/vigas_hoja_calculo/)
   * [Utilizando funciones de discontinuidad](../archivos/vigas_funciones_discontinuidad)
+--->  
 
 ## Lecturas complementarias
 ### Un artículo sobre su papel como ingenieros en la sociedad

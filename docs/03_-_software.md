@@ -20,7 +20,7 @@ Durante el curso haremos uso de los siguientes paquetes:
 
 ## MATLAB
 A continuación se recomiendan algunas páginas donde el estudiante puede aprender por cuenta propia dicho lenguaje:
-* [The Mathworks (2019). MATLAB Primer 2019a. Getting started guide](http://www.mathworks.com/help/pdf_doc/matlab/getstart.pdf)
+* [The Mathworks (2019). MATLAB Primer 2019b. Getting started guide](http://www.mathworks.com/help/pdf_doc/matlab/getstart.pdf)
 * [Video tutoriales de MATLAB en español](http://matlablatino.blogspot.com/)
 * [Video tutoriales de MATLAB realizados por Andrés Felipe Ramírez](https://www.youtube.com/playlist?list=PLj3KYX7UqPG8uZWqtQ7ZBG1DSou1fLDMS)
 

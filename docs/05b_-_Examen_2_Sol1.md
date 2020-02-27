@@ -3,19 +3,15 @@
 ## Temas para los exámenes
 Se permite para los exámenes que el profesor diga una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
 
-### ~~Capítulos 3 (excepto sección 3.5), 4 y 5~~
-* ~~Videos:~~ 
+### Capítulos 3, 4 y 5
+* Videos:
   * https://www.youtube.com/watch?v=X77gymd1yzY
   * https://www.youtube.com/watch?v=KnmsqkmQjR8
-  * ~~<http://www.youtube.com/watch?v=x0TjHwRJT7I>~~
-  * ~~<http://www.youtube.com/watch?v=GTTaUAPitNc>~~
-* ~~Todos los comandos de MAXIMA que hay en los capítulos 1 al 8.~~
-* ~~Teorema de la divergencia~~
-* ~~Rotacional~~
-
-Se hará un único examen en Enero 31, 2019, el cual tendrá como tema todo lo estudiado en los capítulos 1 al 5 y lo visto del capítulo 7 hasta esa fecha.
-
-
+  * <http://www.youtube.com/watch?v=x0TjHwRJT7I>
+  * <http://www.youtube.com/watch?v=GTTaUAPitNc>
+* Todos los comandos de MAXIMA que hay en los capítulos 1 al 5.
+* Teorema de la divergencia
+* Rotacional
 
 ## Lecturas complementarias
 ### Un par de artículos que les pueden servir para su formación académica:

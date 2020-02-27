@@ -3,8 +3,10 @@
 ## Temas para los exámenes
 
 ### Capítulo 7
-* MATLAB (el usado en todos los ejercicios hechos durante el curso: MATLAB usado en los capítulos 1 al 8 y el de los videos:
+* MATLAB (el usado en todos los ejercicios hechos durante el curso: MATLAB usado en los capítulos 1 al 7). Se recomienda mirar los videos:
  * [Video tutoriales de MATLAB realizados por Andrés Felipe Ramírez](https://www.youtube.com/playlist?list=PLj3KYX7UqPG8uZWqtQ7ZBG1DSou1fLDMS)
+
+Otro material que entrará en la evaluación:
 * [Material referente al flujo de agua subterránea en acuíferos confinados](../archivos/Examen_3_diferencias_finitas/seepage.zip)
 * [Material referente al problema de valor en la frontera mixto](../archivos/Examen_3_diferencias_finitas/Neumann_Dirichlet.zip)
 * [Solución de la ecuación de Airy utilizando diferencias finitas](../archivos/Examen_3_diferencias_finitas/airy.zip)

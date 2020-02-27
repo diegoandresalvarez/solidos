@@ -35,13 +35,17 @@ NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard y Te
 
 
 
-**NOTA:** Los siguientes libros:
+**NOTA 1:** Los siguientes libros:
 
 * Sánchez, Rubén (2005). Fundamentos de álgebra lineal. *Identificación biblioteca: 512.5 S211f 21*
 * Sánchez, Rubén (1990). Curso básico de álgebra lineal. *Identificación biblioteca: 512.5 S211c5 21*
 * Sánchez, Rubén (1984). Curso básico de álgebra lineal. *Identificación biblioteca: 512.5 S211c 20*
 
 que se encuentran en la biblioteca, son excelentes para repasar álgebra lineal, ya que van al grano, son concisos y fáciles de entender.
+
+**NOTA 2:** Los siguientes son unos videotutoriales excelentes para repasar álgebra lineal:
+* [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [La esencia del álgebra lineal (son los mismos videos pero traducidos al español)](https://www.youtube.com/channel/UCQbsk1JQNaskUlfdoyiWJDg/videos)
 
 
 
