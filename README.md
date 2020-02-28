@@ -2,6 +2,10 @@
 # C4100611 - G2 - Mecánica de Sólidos 1
 # C4200712 - G1 - Mecánica de Sólidos 2
 
+<p float="left">
+  <img src="varios/Galileo_vs_FEM.png" height="485" />
+</p>
+
 - Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/alvarezCV_internet.pdf) (daalvarez@unal.edu.co)
 - Semanas: 16
 - Créditos: 3
