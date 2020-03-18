@@ -1,4 +1,4 @@
-# Taller de vigas: modelado de una losa maciza utilizando software profesional. Teorías de Kirchhoff-Love y Mindlin.
+# Taller de losas: modelado de losas macizas utilizando software profesional. Teorías de Kirchhoff-Love y Mindlin.
 
 # NOTA ESTO ES UN BORRADOR. FALTA DEFINIR CONDICIONES DE EVALUACION
 
