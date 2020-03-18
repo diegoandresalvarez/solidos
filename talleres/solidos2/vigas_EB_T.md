@@ -10,7 +10,7 @@ Considere la viga mostrada:
 
 <img src="figs/viga_2019a.svg"/>
 
-<font color="red">NOTA: esta no es la viga definitiva del taller. Esta es la viga que se solicitó la última vez que dí la materia. Solo la pongo para propósitos de ilustración.</font>
+**NOTA: esta no es la viga definitiva del taller. Esta es la viga que se solicitó la última vez que dí la materia. Solo la pongo para propósitos de ilustración.**
 
 
 Dicha viga tiene una sección rectangular de 10 cm de ancho y 40 de alto y está hecha de un material con un módulo de Young E = 210 GPa y un coeficiente de Poisson ν = 0.30
