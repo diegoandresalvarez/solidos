@@ -7,7 +7,9 @@ Fecha de entrega: POR DEFINIR  a las 23:59. Por cada día de retraso se tendrán
 
 
 Considere la viga mostrada:
+
 <img src="figs/viga_2019a.svg"/>
+
 NOTA: esta no es la viga definitiva del taller. Esta es la viga que se solicitó la última vez que dí la materia. Solo la pongo para propósitos de ilustración.
 
 Dicha viga tiene una sección rectangular de 10 cm de ancho y 40 de alto y está hecha de un material con un módulo de Young E = 210 GPa y un coeficiente de Poisson ν = 0.30
