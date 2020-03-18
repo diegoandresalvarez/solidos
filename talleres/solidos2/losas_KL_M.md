@@ -6,12 +6,12 @@ Fecha de entrega: POR DEFINIR  a las 23:59. Por cada día de retraso se desconta
 
 La idea de este trabajo es modelar mediante un programa profesional dos losas:
 1. La losa analizada en el archivo https://github.com/diegoandresalvarez/solidos/blob/master/archivos/losa_Kirchhoff_Love/ejemplo_losa_borde_libre.xlsm
-2. La losa maciza que se encuentra en el archivo [fig/proyecto_lucas.dwg] en particular se debe modelar la losa del piso 4.
+2. La losa maciza que se encuentra en el archivo [proyecto_lucas.dwg](fig/proyecto_lucas.dwg) en particular se debe modelar la losa del piso 4.
 <!--- (Nota: la vez pasada que enseñé sólidos 2 se modeló el piso 2).--->
 
-Serán tres grupos de trabajo: cada uno con máximo cuatro integrantes (reportar los grupos en la WIKI). Los miembros de un mismo grupo no pueden utilizar programas de la misma casa. Por ejemplo en un mismo grupo no pueden estar quien maneja el SAP2000 y el ETABS, ya que ambos programas son de la casa Computers & Structures. En cada grupo debe haber al menos una persona que haya visto o que esté actualmente cursando la materia DISEÑO ESTRUCTURAL AVANZADO. Solicitar al profesor que balancee los grupos en caso que queden grupos con muy pocos estudiantes.
+Serán tres grupos de trabajo: cada uno con máximo cuatro integrantes (reportar los grupos en la WIKI). Los miembros de un mismo grupo no pueden utilizar programas de la misma casa. Por ejemplo en un mismo grupo no pueden estar quien maneja el SAP2000 y el ETABS, ya que ambos programas son de la casa Computers & Structures. En cada grupo debe haber al menos una persona que haya visto o que esté actualmente cursando la materia DISEÑO ESTRUCTURAL AVANZADO. Los estudiantes que ya hayan cursado Aplicaciones de Elementos Finitos deben estar en grupos separados. Solicitar al profesor que balancee los grupos en caso que queden grupos con muy pocos estudiantes.
 
-## Trabajo individual (+5 unidades)
+## Trabajo individual
 Se solicita realizar para cada losa:
 * Explicar detalladamente como se modelaron las condiciones de frontera.
 * Hacer el cálculo de los diagramas de momentos de flexión Mx y My y torsores Mxy al interior de la losa. 
@@ -26,13 +26,14 @@ Se solicita realizar para cada losa:
   * VIDEO 2: en este video se deben explicar las presentar las capacidades del software para el análisis de losas. Se requiere un pantallazo de los reglones con las hipótesis, capacidades y limitaciones del programa, extraídas del manual del usuario.
 * Hacer presentación de máximo 25 minutos, intentando convencer a los compañeros porqué su programa es el mejor del mercado (imagínense que ustedes son los representantes para Colombia del producto).
 
-## Trabajo grupal análisis (+5 unidades)
-Se solicita:
+## Trabajo grupal análisis
+Se solicita realizar para cada losa:
 * Presentar un informe escrito que presente la comparación de los resultados del análisis estructural obtenidos por los miembros de cada grupo.
 * Presentar una calificación general realizada a los programas, justificando en una tabla, los pro y los contra de cada software.
 * Cada grupo debe utilizar las mismas suposiciones en el modelado, en caso que las deban hacer y deben justificar el porqué las hicieron.
 
-# Trabajo grupal diseño (+5 unidades)
+## Trabajo grupal diseño
+Se solicita realizar para cada losa:
 * Hacer el diseño de la losa con los métodos aprendidos en la materia DISEÑO ESTRUCTURAL AVANZADO. A partir de los momentos de diseño, calcular el área de acero por metro que se requiere en la losa para el análisis tradicional y el análisis con los métodos vistos en clase.
 * Realizar el despiece del refuerzo de la losa.
 * Hacer la revisión de la resistencia a cortante de la losa.
@@ -43,7 +44,7 @@ Recuerden que la finalidad de los grupos de trabajo es que comparen los programa
 
 Espero que cada uno lea a fondo el manual del usuario del software. No se queden con los videos de YouTube. En el manual del usuario generalmente existe importante información sobre las hipótesis de modelado que hace cada software.
 
-# Nota final
+## Nota final
 ```
 Nota final = 0.75*Trabajo_Individual_Análisis + 0.25*Trabajo_Grupal_Análisis + 0.35*Trabajo_Grupal_Diseño
 ```
