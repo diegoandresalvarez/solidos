@@ -6,7 +6,7 @@ Fecha de entrega: POR DEFINIR  a las 23:59. Por cada día de retraso se desconta
 
 La idea de este trabajo es modelar mediante un programa profesional dos losas:
 1. La losa analizada en el archivo https://github.com/diegoandresalvarez/solidos/blob/master/archivos/losa_Kirchhoff_Love/ejemplo_losa_borde_libre.xlsm
-2. La losa maciza que se encuentra en el archivo [proyecto_lucas.dwg](fig/proyecto_lucas.dwg) en particular se debe modelar la losa del piso 4.
+2. La losa maciza que se encuentra en el archivo [proyecto_lucas.dwg](figs/proyecto_lucas.dwg) en particular se debe modelar la losa del piso 4.
 <!--- (Nota: la vez pasada que enseñé sólidos 2 se modeló el piso 2).--->
 
 Serán tres grupos de trabajo: cada uno con máximo cuatro integrantes (reportar los grupos en la WIKI). Los miembros de un mismo grupo no pueden utilizar programas de la misma casa. Por ejemplo en un mismo grupo no pueden estar quien maneja el SAP2000 y el ETABS, ya que ambos programas son de la casa Computers & Structures. En cada grupo debe haber al menos una persona que haya visto o que esté actualmente cursando la materia DISEÑO ESTRUCTURAL AVANZADO. Los estudiantes que ya hayan cursado Aplicaciones de Elementos Finitos deben estar en grupos separados. Solicitar al profesor que balancee los grupos en caso que queden grupos con muy pocos estudiantes.
