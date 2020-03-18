@@ -1,5 +1,7 @@
 # Taller de vigas: comparación de las teorías de Euler-Bernoulli y Timoshenko
 
+# NOTA ESTO ES UN BORRADOR. FALTA DEFINIR CONDICIONES DE EVALUACION
+
 Trabajo de elaboración individual
 
 Fecha de entrega: POR DEFINIR  a las 23:59. Por cada día de retraso se tendrán -0.3 unidades en la nota final.

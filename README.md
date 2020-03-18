@@ -33,8 +33,8 @@
 
 ### Exámenes y talleres de Mecánica de sólidos 2:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
-  * Taller 1 - Vigas
-  * Taller 2 - Losas
+  * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
+  * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
 
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://solidos2020a.shoutwiki.com/
