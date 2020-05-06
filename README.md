@@ -24,6 +24,8 @@
 - [Recursos](docs/02_-_recursos.md)
 - [Software](docs/03_-_software.md)
 - [Sobre el main.pdf](docs/04_-_main_pdf.md)
+
+<!---
 ### Exámenes y talleres de Mecánica de sólidos 1:
   * [Exámenes corte 1](docs/05a_-_Examen_1_Sol1.md)
   * [Exámenes corte 2](docs/05b_-_Examen_2_Sol1.md)
@@ -33,6 +35,15 @@
 
 ### Exámenes y talleres de Mecánica de sólidos 2:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
+  * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
+  * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
+  --->
+
+### Talleres de Mecánica de sólidos 1:
+  * Taller 1 - Análisis de gráficos
+  * Taller 2 - Diferencias finitas
+
+### Talleres de Mecánica de sólidos 2:
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
 
