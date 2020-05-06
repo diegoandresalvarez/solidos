@@ -9,13 +9,25 @@
 - Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/alvarezCV_internet.pdf) (daalvarez@unal.edu.co)
 - Semanas: 16
 - Créditos: 3
+<!---
 - Intensidad horaria semanal presencial: 4 horas
+
 - Mecánica de sólidos 1:
   - Martes 10:00-12:00, Aula C108
   - Jueves 10:00-12:00, Aula C108
 - Mecánica de sólidos 2:
   - Jueves 7:00-9:00, Aula C401
   - Viernes 16:00-18:00, Aula C401
+--->  
+- Intensidad horaria semanal virtual: 4 horas
+
+- Mecánica de sólidos 1:
+  - Martes 10:00-12:00
+  - Jueves 10:00-12:00
+- Mecánica de sólidos 2:
+  - Jueves 7:00-9:00
+  - Viernes 16:00-18:00
+
 
 - Tiempo de actividad autónoma por semana: 8 horas
 
