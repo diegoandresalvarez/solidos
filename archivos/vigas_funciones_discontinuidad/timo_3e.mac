@@ -18,7 +18,7 @@ q : qdist(-12,10,16) + qpunt(-30,5)$
 b : 0.1$           /* Ancho de la viga, m                       */
 h : 0.3$           /* Altura de la viga, m                      */
 E : 210e6$         /* Modulo de elasticidad de la viga, kPa     */
-I : (b*h^3)/12$    /* Momento de inercia, m^4                   */
+I : (b*h^3)/12$    /* Momento de inercia en z, m^4              */
 alpha : 5/6$       /* Factor de correccion del esf. cortante    */ 
 A : b*h$           /* Area de la viga, m^2                      */ 
 G : E/(2*(1+0.3))$ /* Modulo de cortante, kPa                   */ 

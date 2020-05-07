@@ -18,7 +18,7 @@ int_momento1  : int_mflec(27,2)$
 b : 0.1$           /* Ancho de la viga, m                              */
 h : 0.3$           /* Altura de la viga, m                             */
 E : 21e6$          /* Modulo de elasticidad de la viga, kPa            */
-I : (b*h^3)/12$    /* Momento de inercia en y, m^4                     */
+I : (b*h^3)/12$    /* Momento de inercia en z, m^4                     */
 
 /* Se resuelve la ecuacion diferencial tramo por tramo                 */
 /* Tramo 1: de x=0m a x=4m */

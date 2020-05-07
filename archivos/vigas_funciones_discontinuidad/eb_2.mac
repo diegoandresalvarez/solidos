@@ -16,7 +16,7 @@ int_momentos  : int_mflec(-8,3.5) + int_mflec(3,5)$
 b : 0.1$           /* Ancho de la viga, m                             */
 h : 0.3$           /* Altura de la viga, m                            */
 E : 210e6$         /* Modulo de elasticidad de la viga, kPa           */
-I : (b*h^3)/12$    /* Momento de inercia en y, m^4                    */
+I : (b*h^3)/12$    /* Momento de inercia en z, m^4                    */
 
 /* Se resuelve la ecuacion diferencial                                */
 V : pwint(q_sin_momento,x) + int_momentos + C1$

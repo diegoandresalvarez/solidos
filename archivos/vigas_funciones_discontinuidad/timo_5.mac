@@ -12,7 +12,7 @@ q : qdist(20*x^2 - 5, 0, 0.5)$
 kres : 1200$       /* constante del resorte, kN/m               */
 r : 0.06$          /* Ancho de la viga, m                       */
 E : 21e6$          /* Modulo de elasticidad de la viga, kPa     */
-I : %pi*r^4/4, numer$  /* Momento de inercia en y, m^4          */
+I : %pi*r^4/4, numer$  /* Momento de inercia en z, m^4          */
 alpha : 9/10$      /* Factor de correccion del esf. cortante    */ 
 A : %pi*r^2, numer$    /* Area de la viga, m^2                  */ 
 G : E/(2*(1+0.3))$ /* Modulo de cortante, kPa                   */ 

@@ -18,7 +18,7 @@ q : qdist(-12,10,16) + qpunt(-30,5)$
 b : 0.1$           /* Ancho de la viga, m                       */
 h : 0.3$           /* Altura de la viga, m                      */
 E : 210e6$         /* Modulo de elasticidad de la viga, kPa     */
-I : (b*h^3)/12$    /* Momento de inercia, m^4                   */
+I : (b*h^3)/12$    /* Momento de inercia en z, m^4              */
 
 /* Se resuelve la ecuacion diferencial tramo por tramo          */
 /* Tramo 1 */
