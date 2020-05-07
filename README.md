@@ -9,13 +9,25 @@
 - Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/alvarezCV_internet.pdf) (daalvarez@unal.edu.co)
 - Semanas: 16
 - Créditos: 3
+<!---
 - Intensidad horaria semanal presencial: 4 horas
+
 - Mecánica de sólidos 1:
   - Martes 10:00-12:00, Aula C108
   - Jueves 10:00-12:00, Aula C108
 - Mecánica de sólidos 2:
   - Jueves 7:00-9:00, Aula C401
   - Viernes 16:00-18:00, Aula C401
+--->  
+- Intensidad horaria semanal virtual: 4 horas
+
+- Mecánica de sólidos 1:
+  - Martes 10:00-12:00
+  - Jueves 10:00-12:00
+- Mecánica de sólidos 2:
+  - Jueves 7:00-9:00
+  - Viernes 16:00-18:00
+
 
 - Tiempo de actividad autónoma por semana: 8 horas
 
@@ -24,6 +36,8 @@
 - [Recursos](docs/02_-_recursos.md)
 - [Software](docs/03_-_software.md)
 - [Sobre el main.pdf](docs/04_-_main_pdf.md)
+
+<!---
 ### Exámenes y talleres de Mecánica de sólidos 1:
   * [Exámenes corte 1](docs/05a_-_Examen_1_Sol1.md)
   * [Exámenes corte 2](docs/05b_-_Examen_2_Sol1.md)
@@ -33,6 +47,15 @@
 
 ### Exámenes y talleres de Mecánica de sólidos 2:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
+  * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
+  * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
+  --->
+
+### Talleres de Mecánica de sólidos 1:
+  * Taller 1 - Análisis de gráficos
+  * Taller 2 - Diferencias finitas
+
+### Talleres de Mecánica de sólidos 2:
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
 
