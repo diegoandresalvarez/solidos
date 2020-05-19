@@ -50,5 +50,5 @@ Active en el software de captura de pantalla la opción para ver el ratón.
 
 ## Criterios de evaluación
 * POR DEFINIR
-* Nota máxima x.0
-* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, el del manos libres) para hacer el video.
+* Nota máxima 6.0
+* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, usar el manos libres) para hacer el video.
