@@ -52,5 +52,3 @@ Active en el software de captura de pantalla la opción para ver el ratón.
 * POR DEFINIR
 * Nota máxima x.0
 * Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, el del manos libres) para hacer el video.
-* 
-
