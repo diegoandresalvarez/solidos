@@ -28,7 +28,6 @@
   - Jueves 7:00-9:00
   - Viernes 16:00-18:00
 
-
 - Tiempo de actividad autónoma por semana: 8 horas
 
 ## Tabla de contenido:
