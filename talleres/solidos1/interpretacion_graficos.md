@@ -1,6 +1,6 @@
-# Taller interpretación de gráficos: modelado de estructuras en tensión plana utilizando software profesional.
+# Taller interpretación de gráficos: modelado de estructuras en tensión/deformación plana utilizando software profesional.
 
-Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de esfuerzo, deformación, esfuerzos principales, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto tau_máx) de una estructura que se pueda modelar en tensión plana. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
+Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de esfuerzo, deformación, esfuerzos principales, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto tau_máx) de una estructura que se pueda modelar en tensión/deformación plana. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
 Trabajo de elaboración individual.
 
@@ -8,7 +8,7 @@ Fecha de entrega: junio 7, 2020 a las 23:59. Por cada día de retraso se tendrá
 
 ## El problema propuesto
 
-La idea de este trabajo es analizar mediante un programa profesional una estructura que se pueda modelar por tensión plana.
+La idea de este trabajo es analizar mediante un programa profesional una estructura que se pueda modelar por tensión/deformación plana.
 
 Todas los estudiantes deberán modelar una diferente. En [esta página de la WIKI](http://solidos2020a.shoutwiki.com/wiki/Estructura_a_analizar_para_el_Taller_1_de_S%C3%B3lidos_1) podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe ser real y no una inventada.
 
