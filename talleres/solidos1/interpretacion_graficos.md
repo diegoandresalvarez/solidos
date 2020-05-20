@@ -14,7 +14,7 @@ Todas los estudiantes deberán modelar una diferente. En [esta página de la WIK
 
 ## Se solicita
 * Explicar detalladamente como se modelaron las condiciones de frontera.
-* Hacer el cálculo de los diagramas de esfuerzo, deformación, esfuerzos principales con sus respectivas inclinaciones, esfuerzos de von Mises, esfuerzos de Tresca (si lo hay). Si su programa no puede graficar lo anteriormente pedido, deberá cambiar de programa.
+* Hacer el cálculo de los diagramas de esfuerzo, deformación, esfuerzos principales con sus respectivas inclinaciones, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto tau_máx). Si su programa no puede graficar lo anteriormente pedido, deberá cambiar de programa.
 * Calcular las reacciones en los apoyos.
 * Hacer dos videos:
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado y análisis de la estructura escogida. Se deben mostrar los resultados, sin entrar a analizarlos. Se recomienda que el estudiante explore muy bien todas las funcionalidades del programa para la presentación de resultados (posprocesado).
