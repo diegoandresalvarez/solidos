@@ -10,7 +10,7 @@ Fecha de entrega: junio 7, 2020 a las 23:59. Por cada día de retraso se tendrá
 
 La idea de este trabajo es analizar mediante un programa profesional una estructura que se pueda modelar por tensión plana.
 
-Todas los estudiantes deberán modelar una diferente. En la página de la WIKI *** podrán subir el esquema o la foto de la estructura que piensan analizar. Preferiblemente debe ser una estructura real y no una inventada.
+Todas los estudiantes deberán modelar una diferente. En (esta página de la WIKI)[http://solidos2020a.shoutwiki.com/wiki/Estructura_a_analizar_para_el_Taller_1_de_S%C3%B3lidos_1] podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe ser real y no una inventada.
 
 ## Se solicita
 * Explicar detalladamente como se modelaron las condiciones de frontera.
