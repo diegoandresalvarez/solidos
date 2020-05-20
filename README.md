@@ -51,7 +51,7 @@
   --->
 
 ### Talleres de Mecánica de sólidos 1:
-  * Taller 1 - Análisis de gráficos
+  * [Taller 1 - Análisis de gráficos](talleres/solidos1/interpretacion_graficos.md)
   * Taller 2 - Diferencias finitas
 
 ### Talleres de Mecánica de sólidos 2:
