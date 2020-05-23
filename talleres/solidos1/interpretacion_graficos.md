@@ -24,7 +24,9 @@ Todas los estudiantes deberán modelar una diferente. En [esta página de la WIK
 Espero que cada uno lea a fondo el manual del usuario del software. No se queden con los videos de YouTube. En el manual del usuario generalmente existe información importante sobre las hipótesis de modelado que hace cada software.
 
 ## Criterios de evaluación
-* POR DEFINIR
+* Modelación de la estructura (30%).
+* Análisis de resultados (35%).
+* Revisión de las capacidades/hipótesis/suposiciones/limitaciones del software (35%).
 * Nota máxima: 6.0
 
 ## Consejo
