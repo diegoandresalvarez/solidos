@@ -49,7 +49,7 @@ Active en el software de captura de pantalla la opción para ver el ratón.
 
 
 ## Criterios de evaluación
-* Análisis y comparación de los resultados con diferencias finitas, funciones de singularidad y el software de EFs: 60%
-* Revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al análisis de viga: 40%
+* Análisis y comparación de los resultados con diferencias finitas, funciones de singularidad y el software de EFs: 60%.
+* Revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al análisis de viga: 40%.
 * Nota máxima 6.0
 * Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, usar el manos libres) para hacer el video.
