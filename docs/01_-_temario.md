@@ -25,8 +25,8 @@ Las fechas para los exámenes se definirán dos semanas antes de los mismos. La 
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
 --->    
-  * **Apuntes de clase:** 30%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
-  * **Examen:** 20%, todo el material visto en clase y/o videos.
+  * **Apuntes de clase:** 25%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
+  * **Examen:** 25%, todo el material visto en clase y/o videos.
   * **Trabajo 1:** 25%, análisis de los gráficos que arrojan los programas de elementos finitos.
   * **Trabajo 2:** 25%, diferencias finitas.
 
