@@ -28,6 +28,8 @@ Espero que cada uno lea a fondo el manual del usuario del software. No se queden
 * Análisis de resultados (35%).
 * Revisión de las capacidades/hipótesis/suposiciones/limitaciones del software (35%).
 * Nota máxima: 6.0
+* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, usar el manos libres) para hacer el video.
+
 
 ## Consejo
 Muy probablemente usted utilice un programa basado en el método de los elementos finitos para hacer su análisis. En tal caso, se sugiere mirar [estas](https://github.com/diegoandresalvarez/elementosfinitos/blob/master/diapositivas/05e_generando_una_buena_malla.pdf) diapositivas, la cual contiene consejos de como hacer un buen mallado.
