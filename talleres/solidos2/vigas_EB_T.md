@@ -9,7 +9,7 @@ Fecha de entrega: junio 7, 2020 a las 23:59. Por cada día de retraso se tendrá
 ## El problema propuesto
 Considere la viga mostrada:
 
-<img src="figs/viga_2020a.svg"/>
+<img src="figs/viga_2020a_sin_rotula.svg"/>
 
 Dicha viga tiene una sección rectangular de 5 cm de ancho y 25 de alto y está hecha de un material con un módulo de Young E = 20 GPa y un coeficiente de Poisson ν = 0.30. Asuma k1 = k2 = 1000 kN/m.
 
