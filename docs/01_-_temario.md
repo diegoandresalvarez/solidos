@@ -9,7 +9,14 @@
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 --->
 
-* Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
+Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes, evaluación de los apuntes y talleres.
+
+Los exámenes serán escritos a mano, individuales y de libro abierto. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
+
+Las fechas para los exámenes se definirán dos semanas antes de los mismos. La duración de cada examen será de aproximadamente de 3 horas.
+
+### Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
+<!---
     * Examen 1: 30%, que se distribuye así:    
       * Examen matemáticas 1: 20%, Martes Marzo 17, 2020 
       * Examen matemáticas 2: 20%, Jueves Marzo 26, 2020
@@ -17,15 +24,26 @@ Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas
     * Examen 2: 25%, Jueves Abril 30, 2020
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
+--->    
+  * **Apuntes de clase:** 25%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
+  * **Examen:** 25%, todo el material visto en clase y/o videos.
+  * **Trabajo 1:** 25%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  * **Trabajo 2:** 25%, diferencias finitas.
 
-* Mecánica de Sólidos 2, Grupo 1 (Jueves y Viernes):
+### Mecánica de Sólidos 2, Grupo 1 (Jueves y Viernes):
+<!---
     * Examen 1: 17.5%, Viernes Marzo 27, 2020
     * Examen 2: 17.5%, Jueves Abril 30, 2020
     * Examen 3: 17.5%, Viernes Mayo 29, 2020
     * Examen 4: 17.5%, Viernes Junio 26, 2020
     * Taller 1 - vigas: 15%
     * Taller 2 - losas: 15%
-
+---> 
+  * **Apuntes de clase:** 30%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado.
+  * **Examen 1:** 15%, flexión de vigas de Euler-Bernoulli y Timoshenko.
+  * **Examen 2:** 15%, flexión de placas de Kirchhoff-Love y Mindlin.
+  * **Trabajo 1:** 20%, flexión de vigas de Euler-Bernoulli y Timoshenko.
+  * **Trabajo 2:** 20%, flexión de placas de Kirchhoff-Love y Mindlin.
 
 ## Descripción de la asignatura Mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.

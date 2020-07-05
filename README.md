@@ -28,7 +28,6 @@
   - Jueves 7:00-9:00
   - Viernes 16:00-18:00
 
-
 - Tiempo de actividad autónoma por semana: 8 horas
 
 ## Tabla de contenido:
@@ -52,7 +51,7 @@
   --->
 
 ### Talleres de Mecánica de sólidos 1:
-  * Taller 1 - Análisis de gráficos
+  * [Taller 1 - Análisis de gráficos](talleres/solidos1/interpretacion_graficos.md)
   * Taller 2 - Diferencias finitas
 
 ### Talleres de Mecánica de sólidos 2:
