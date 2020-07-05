@@ -11,7 +11,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 * [Universidad de Copenhagen - Dinamarca](https://itustudent.itu.dk/study-administration/exams/online-oral-exams)
 
 ## Pautas para la realización del examen
-* El examen se presentará utilizando MICROSOFT TEAMS (https://teams.microsoft.com/) de manera individual y sincrónica. En caso de falla del primero, se usará TEAMVIEWER (https://www.teamviewer.com/). Se solicita al estudiante instalar previamente ambos programas en su computador.
+* El examen se presentará utilizando [MICROSOFT TEAMS](https://teams.microsoft.com/) de manera individual y sincrónica. En caso de falla del primero, se usará [TEAMVIEWER](https://www.teamviewer.com/). Se solicita al estudiante instalar previamente ambos programas en su computador.
 
 * El estudiante requerirá de una mesa o escritorio, un computador con una cámara conectada a internet (o en su defecto la cámara del celular -- descargar para ello MICROSOFT TEAMS en su celular), micrófono y parlantes; en caso de que la cámara esté integrada al computador; se requiere, adicionalmente, que tenga disponible un espejo de mano con el cual se podrá reflejar a la cámara la pantalla del computador y su teclado, la pared y el escritorio de modo que se pueda demostrar que no hay apuntes indebidos.
 
@@ -38,12 +38,12 @@ Observe al fondo la puerta:
 
 Observe la toma del escritorio y al fondo la puerta:
 
-- ![](https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png)
+![](https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png)
    
 
 Mostrando la hoja del examen
 
-- ![](https://www.unibo.it/it/immagini/Img3.png/@@images/1f4812ed-c49e-4d64-bd7b-3f29e3c349e1.png)
+![](https://www.unibo.it/it/immagini/Img3.png/@@images/1f4812ed-c49e-4d64-bd7b-3f29e3c349e1.png)
    
 
 * El estudiante cederá el control del computador al profesor. En el computador deberá estar abierto el archivo texto guía del curso. Una vez sorteada la pregunta, el profesor se dispondrá a ubicar la sección del texto que se evaluará. El estudiante no podrá usar el computador, a menos que el profesor lo permita. Esto es con el fin de que el profesor ubique el gráfico o la ecuación sobre la cual se harán las preguntas del examen, y pueda ocultar la información que no quiere que el estudiante vea.
@@ -78,14 +78,13 @@ Mostrando la hoja del examen
 * Se recomienda mirar en YouTube videos de como prepararse para un examen oral. Esto le dará confianza, y probablemente tranquilidad.
 
 # Criterios de calificación
-Dado que la evaluación oral puede ser algo subjetiva, se indica la siguiente escala, la cual puede dar una idea de la evaluación a una pregunta dada.
-
-* 5.0 Se demuestra total dominio y seguridad del tema evaluado.
-* 4.0 Se demuestra dominio del tema evaluado, pero algunos aspectos clave han sido olvidados o ha suministrado respuestas incorrectas.
-* 3.0 Si el estudiante responde algunas cosas, correctamente otras incorrectamente y no menciona otros temas clave.
-* 2.0 Solo se conoce el tema superficialmente.
-* 1.0 Si el estudiante se muestra demasiado dubitativo en la respuesta; no hay fluidez en la respuesta, hay gran incertidumbre, una demora excesiva para responder.
-* 0.0 El estudiante desconoce completamente el tema a evaluar; el estudiante responde sin mirar fíjamente a la cámara, dando a pensar que está leyendo algún texto. 
+* Dado que la evaluación oral puede ser algo subjetiva, se indica la siguiente escala, la cual puede dar una idea de la evaluación a una pregunta dada.
+   - 5.0 Se demuestra total dominio y seguridad del tema evaluado.
+   - 4.0 Se demuestra dominio del tema evaluado, pero algunos aspectos clave han sido olvidados o ha suministrado respuestas incorrectas.
+   - 3.0 Si el estudiante responde algunas cosas, correctamente otras incorrectamente y no menciona otros temas clave.
+   - 2.0 Solo se conoce el tema superficialmente.
+   - 1.0 Si el estudiante se muestra demasiado dubitativo en la respuesta; no hay fluidez en la respuesta, hay gran incertidumbre, una demora excesiva para responder.
+   - 0.0 El estudiante desconoce completamente el tema a evaluar; el estudiante responde sin mirar fíjamente a la cámara, dando a pensar que está leyendo algún texto. 
 
 * Para la calificacíon se tendrá en cuenta:
   - Conocimiento y comprensión del tema que se evalúa
