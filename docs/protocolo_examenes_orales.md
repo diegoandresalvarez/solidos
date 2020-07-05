@@ -58,9 +58,9 @@ Mostrando la hoja del examen
 
 * El examen durará a lo más 20 minutos. En este tiempo se harán mínimo 3 preguntas y máximo 5 preguntas. Todas las preguntas tendrán la misma ponderación. Este tiempo incluirá la calificación y retroalimentación.
 
-* Cualquier anormalidad referida al espacio, ingreso de personas o interrupciones de terceros que no sean justificadas implica la interrupción inmediata del examen.
+* Cualquier anormalidad referida al espacio, ingreso de personas o interrupciones de terceros que no sean justificadas implica la interrupción inmediata del examen. Interrupciones involuntarias como que alguien abre involuntariamente la puerta, no entra a la habitación e inmediatamente la cierra, no son causas válidas para la interrupción del examen.
 
-# Otros consejos
+## Otros consejos
 * Like in an in-person oral exam, be punctual and perhaps even be online 15 minutes before the exam to make sure your internet connection works well
 
 * Familiarise yourself with the format and requirements of the oral exam and know what to prepare for it in advance: which programmes/software/apps do you need? Do you have them? Are they working properly?
@@ -77,7 +77,7 @@ Mostrando la hoja del examen
 
 * Se recomienda mirar en YouTube videos de como prepararse para un examen oral. Esto le dará confianza, y probablemente tranquilidad.
 
-# Criterios de calificación
+## Criterios de calificación
 * Dado que la evaluación oral puede ser algo subjetiva, se indica la siguiente escala, la cual puede dar una idea de la evaluación a una pregunta dada.
    - 5.0 Se demuestra total dominio y seguridad del tema evaluado.
    - 4.0 Se demuestra dominio del tema evaluado, pero algunos aspectos clave han sido olvidados o ha suministrado respuestas incorrectas.
@@ -97,7 +97,7 @@ Mostrando la hoja del examen
 
 * Las preguntas que hará el profesor intentarán determinar habilidades de pensamiento de orden superior como: comprender, aplicar, analizar, evaluar o crear.
 
-# En caso de falla de la comunicación o de problemas técnicos
+## En caso de falla de la comunicación o de problemas técnicos
 * El estudiante tendrá tres intentos para presentar el examen.
 
 * En caso que no pueda presentarse al examen, por favor avíselo previamente, con justificación válida, conforme al reglamento de la universidad (por ejemplo, excusa médica). En este caso, el profesor reagendará el examen.
