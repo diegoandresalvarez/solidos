@@ -40,10 +40,9 @@ Las fechas para los exámenes se definirán dos semanas antes de los mismos. La 
     * Taller 2 - losas: 15%
 ---> 
   * **Apuntes de clase:** 30%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado.
-  * **Examen 1:** 15%, flexión de vigas de Euler-Bernoulli y Timoshenko.
-  * **Examen 2:** 15%, flexión de placas de Kirchhoff-Love y Mindlin.
-  * **Trabajo 1:** 20%, flexión de vigas de Euler-Bernoulli y Timoshenko.
-  * **Trabajo 2:** 20%, flexión de placas de Kirchhoff-Love y Mindlin.
+  * **Examen:** 20%, flexión de vigas de Euler-Bernoulli y Timoshenko, flexión de placas de Kirchhoff-Love y Mindlin.
+  * **Trabajo 1:** 25%, flexión de vigas de Euler-Bernoulli y Timoshenko.
+  * **Trabajo 2:** 25%, flexión de placas de Kirchhoff-Love y Mindlin.
 
 ## Descripción de la asignatura Mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
