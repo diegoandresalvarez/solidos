@@ -2,7 +2,7 @@
 
 Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de momentos flectores y de torsión, de fuerza cortante en una viga, utilizando las teorías de Kirchhoff-Love y de Mindlin. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
-Fecha de entrega: martes julio 22 de 2020 a las 7:00am. Por cada hora de retraso se descontarán 0.3 unidades en la nota final.
+Fecha de entrega: martes julio 21 de 2020 a las 7:00am. Por cada hora de retraso se descontarán 0.3 unidades en la nota final.
 
 Trabajo de realización individual.
 
