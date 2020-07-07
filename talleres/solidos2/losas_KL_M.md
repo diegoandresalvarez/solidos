@@ -12,7 +12,8 @@ La idea de este trabajo es modelar mediante un programa profesional dos losas:
 2. La losa maciza que se encuentra en el archivo [proyecto_lucas.dwg](figs/proyecto_lucas.dwg) en particular se debe modelar la losa del piso 4.
 <!--- (Nota: la vez pasada que enseñé sólidos 2 se modeló el piso 2).--->
 
-Serán tres grupos de trabajo: cada uno con máximo cuatro integrantes (reportar los grupos en la WIKI). Los miembros de un mismo grupo no pueden utilizar programas de la misma casa. Por ejemplo en un mismo grupo no pueden estar quien maneja el SAP2000 y el ETABS, ya que ambos programas son de la casa Computers & Structures. <!--- En cada grupo debe haber al menos una persona que haya visto o que esté actualmente cursando la materia DISEÑO ESTRUCTURAL AVANZADO. ---> Los estudiantes que ya hayan cursado Aplicaciones de Elementos Finitos deben estar en grupos separados. Solicitar al profesor que balancee los grupos en caso que queden grupos con muy pocos estudiantes.
+Serán tres grupos de trabajo: cada uno con máximo cuatro integrantes (reportar los grupos en la WIKI). Los miembros de un mismo grupo no pueden utilizar programas de la misma casa. Por ejemplo en un mismo grupo no pueden estar quien maneja el SAP2000 y el ETABS, ya que ambos programas son de la casa Computers & Structures. Los estudiantes que ya hayan cursado Aplicaciones de Elementos Finitos deben estar en grupos separados. Solicitar al profesor que balancee los grupos en caso que queden grupos con muy pocos estudiantes.
+<!--- En cada grupo debe haber al menos una persona que haya visto o que esté actualmente cursando la materia DISEÑO ESTRUCTURAL AVANZADO. ---> 
 
 ## Trabajo individual
 Se solicita realizar para cada losa:
@@ -27,10 +28,12 @@ Se solicita realizar para cada losa:
 * Para el caso de la Losa 1, hacer un cálculo de los porcentajes de error relativos que se encuentra al comparar los resultados obtenidos con su software y con la solución obtenida utilizando MS EXCEL: https://github.com/diegoandresalvarez/solidos/blob/master/archivos/losa_Kirchhoff_Love/ejemplo_losa_borde_libre.xlsm para 10 puntos representativos de la losa (todos los compañeros del grupo deben escoger exactamente los mismos puntos). ¿Con qué criterio seleccionarán esos puntos? Adicionalmente, se deben hacer unos cortes en x=1.25m y y=1.5m donde se grafiquen todos los gráficos Mx, My, ..., Vx, Vy, M1, M2, etc.
 
 * Para cada losa hacer dos videos de máximo 30 minutos cada uno:
-  * VIDEO 1: en este video se debe explicar en detalle el modelado, análisis y diseño de cada losa utilizando el programa escogido; se mostrar aquí pantallazos con los resultados obtenidos y su comparación con la respuesta teórica.
+  * VIDEO 1: en este video se debe explicar en detalle el modelado, análisis y diseño de cada losa utilizando el programa escogido; se mostrar aquí pantallazos con los resultados obtenidos y su comparación con la respuesta teórica. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video (este PDF deberá contener las tablas con la comparación de los resultados).
   * VIDEO 2: en este video se debe hacer una revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS** y **DISEÑO** de losas. OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido. Con respecto a la parte de diseño es estudiar como el software diseña el refuerzo en las losas (teorías empleadas, fórmulas, hipótesis empleadas, etc.). Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video.
 
-Finalmente, los videos producidos se deben subir a YouTube
+Finalmente, los videos producidos se deben subir a YouTube.
+
+En conclusión: se deben entregar dos videos más los correspondientes PDFs con las presentaciones utilizadas en esos videos.
 
 ## Trabajo grupal análisis
 Se solicita realizar para cada losa:
@@ -51,6 +54,8 @@ Se solicita realizar para cada losa:
 Recuerden que la finalidad de los grupos de trabajo es que comparen los programas que utilizaron en cuanto a facilidad de uso, forma de entrar los datos, hipótesis que utilizan los programas, etc. Obviamente, deben comparar los resultados obtenidos. La idea es que si les dan resultados diferentes (que seguramente les darán), intenten explicar el porqué les dió diferente. No los pienso penalizar por resultados diferentes, siempre y cuando me muestren en el video que todo se modeló utilizando unas hipótesis correctas. Ya hemos tenido la experiencia que ciertos programas dan resultados incorrectos y que toca hacer unos procedimientos para nada intuitivos para que funcionen bien.
 
 Espero que cada uno lea a fondo el manual del usuario del software. No se queden con los videos de YouTube. En el manual del usuario generalmente existe importante información sobre las hipótesis de modelado que hace cada software.
+
+Tengan en cuenta en el trabajo individual lo que se está básicamente solicitando son los videos. No hay que entregar como tal un trabajo escrito. Sin embargo, se sugiere hacer para los videos unas diapositivas que les ayuden en ciertos aspectos y en la presentación de los resultados
 
 ## Nota final
 ```
