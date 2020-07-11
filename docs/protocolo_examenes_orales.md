@@ -11,46 +11,47 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 * [Universidad de Copenhagen - Dinamarca](https://itustudent.itu.dk/study-administration/exams/online-oral-exams)
 
 ## Pautas para la realización del examen
-* El examen se presentará utilizando [MICROSOFT TEAMS](https://teams.microsoft.com/) de manera individual y sincrónica. En caso de falla del primero, se usará [TEAMVIEWER](https://www.teamviewer.com/). Se solicita al estudiante instalar previamente ambos programas en su computador.
+* El examen se presentará de manera individual y sincrónica utilizando [MICROSOFT TEAMS](https://teams.microsoft.com/) en el computador y WhatsApp en el celular.
 
-* El estudiante requerirá de una mesa o escritorio, un computador con una cámara conectada a internet (o en su defecto la cámara del celular -- descargar para ello MICROSOFT TEAMS en su celular), micrófono y parlantes; en caso de que la cámara esté integrada al computador; se requiere, adicionalmente, que tenga disponible un espejo de mano con el cual se podrá reflejar a la cámara la pantalla del computador y su teclado, la pared y el escritorio de modo que se pueda demostrar que no hay apuntes indebidos.
+* El estudiante requerirá de una mesa o escritorio, un computador con una cámara conectada a internet, su celular como segunda cámara, micrófono y parlantes. La cámara del computadore deberá estar filmando la cara del estudiante. La cámara del celular se deberá colocar de modo que muestre las manos del estudiante, la hoja donde raya y su escritorio. Ejemplos:
+
+<img src="https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png" alt="drawing" width="400"/>
+<img src="figs/camara1.jpg" alt="drawing" width="400"/>
+<img src="figs/camara2.jpg" alt="drawing" width="400"/>
+<img src="figs/camara3.jpg" alt="drawing" width="400"/>
+<img src="figs/camara5.jpg" alt="drawing" width="400"/>
+<!---
+<img src="figs/camara4.jpg" alt="drawing" width="400"/>
+--->
+
 
 * El estudiante solicitará a su familia o sus compañeros de casa que no sea interrumpido durante la presentación del examen.
 
-* En caso de que el estudiante tenga el cabello largo, se solicita que lo recoja durante el examen, de modo que se demuestre que no tiene auriculares adicionales puestos. Tampoco utilice cachuchas o gorras.
-
-* El examen se presentará en una habitación cerrada, donde ninguna otra persona estará presente. Al inicio del examen, el estudiante mostrará a la cámara su documento de identidad y el carnet estudiantil, de modo que pueda ser identificado por el profesor. Luego, el estudiante mostrará al profesor la habitación para demostrar que el estudiante se encuentra solo en la habitación. La cámara se colocará mostrando al estudiante, la mesa o escritorio donde escribirá y, al fondo, la puerta de la habitación cerrada. 
+* El examen se presentará en una habitación cerrada, donde ninguna otra persona estará presente. Al inicio del examen, el estudiante mostrará a la cámara su documento de identidad y el carnet estudiantil, de modo que pueda ser identificado por el profesor.
 
 * El estudiante estará sentado en una silla y se ubicará delante de la cámara. Solo podrá pararse si el profesor lo autoriza.
 
 * El estudiante procurará que el lugar esté aislado de ruidos y tenga buena iluminación.
 
-* Durante el examen, el profesor podría solicitar al estudiante que muestre con su cámara, y en 360 grados, la habitación donde se encuentra.
+* Durante el examen y en cualquier momento, el profesor podría solicitar al estudiante que muestre con su cámara, y en 360 grados, la habitación donde se encuentra para demostrar que se encuentra solo.
 
 * Como podrían existir retrazos en los exámenes orales, usted deberá esperar a que el profesor lo contacte. Para tal fin esperará al llamado del profesor con el programa MICROSOFT TEAMS abierto.
 
-* Sobre el escritorio donde se presentará el examen solo debe estar el computador o portátil. No habrán apuntes, libros, notas pegadas en la pared, o adheridos o apoyados en algún lugar. Solo se tendrá portaminas (o lápiz), borrador y una hoja en blanco, en la cual el estudiante podría rayar cosas en caso que lo requiera. Ese papel lo presentará a la cámara para mostrar los gráficos, esquemas o ecuaciones que requiera para hacerse entender. Si tiene un tablero donde pueda rayar, aún mejor. Esa hoja deberá marcarse con el nombre e inmediatamente después de concluir la serie de preguntas, enviará una foto de la hoja al correo del profesor.
-
-Observe al fondo la puerta:
-
-![](https://www.unibo.it/it/immagini/Img1.png/@@images/53218805-320b-43a9-9892-a3c5760b3c3d.png)
-
-
-Observe la toma del escritorio y al fondo la puerta:
-
-![](https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png)
-   
+* Sobre el escritorio donde se presentará el examen solo debe estar el computador o portátil. No habrán apuntes, libros, notas pegadas en la pared, o adheridos o apoyados en algún lugar. Solo se tendrá portaminas (o lápiz), borrador y una hoja en blanco, en la cual el estudiante podría rayar cosas en caso que lo requiera. Ese papel lo presentará a la cámara para mostrar los gráficos, esquemas o ecuaciones que requiera para hacerse entender. En caso que el profesor lo solicite, esa hoja deberá marcarse con el nombre e inmediatamente después de concluir la serie de preguntas, deberá enviar una foto de la hoja al correo del profesor.
 
 Mostrando la hoja del examen
 
-![](https://www.unibo.it/it/immagini/Img3.png/@@images/1f4812ed-c49e-4d64-bd7b-3f29e3c349e1.png)
+<img src="figs/examen1.jpg" alt="drawing" width="400"/>
+<img src="figs/examen2.jpg" alt="drawing" width="400"/>
+<img src="figs/examen3.jpg" alt="drawing" width="400"/>
+<img src="https://www.unibo.it/it/immagini/Img3.png/@@images/1f4812ed-c49e-4d64-bd7b-3f29e3c349e1.png" alt="drawing" width="400"/>
    
 
 * El estudiante cederá el control del computador al profesor. En el computador deberá estar abierto el archivo texto guía del curso. Una vez sorteada la pregunta, el profesor se dispondrá a ubicar la sección del texto que se evaluará. El estudiante no podrá usar el computador, a menos que el profesor lo permita. Esto es con el fin de que el profesor ubique el gráfico o la ecuación sobre la cual se harán las preguntas del examen, y pueda ocultar la información que no quiere que el estudiante vea.
 
 * Durante el examen la cámara y el micrófono estarán permanentemente abiertos. Nunca podrá silenciarse el micrófono y/o apagarse la cámara.
 
-* Mientras responda la pregunta de forma oral, el estudiante deberá mirar fijamente a la cámara.
+* Mientras responda la pregunta de forma oral, el estudiante deberá mirar fijamente a la cámara del computador.
 
 * El examen será grabado por parte del profesor y usando Microsoft Teams y/o el programa OBS. Esta será la evidencia que se utilizará en caso de reclamos. 
 
