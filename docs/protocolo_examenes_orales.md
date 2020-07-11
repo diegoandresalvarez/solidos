@@ -15,9 +15,9 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 
 * El estudiante requerirá de una mesa o escritorio, un computador con una cámara conectada a internet, su celular como segunda cámara, micrófono y parlantes. La cámara del computadore deberá estar filmando la cara del estudiante. La cámara del celular se deberá colocar de modo que muestre las manos del estudiante, la hoja donde raya y su escritorio. Ejemplos:
 
-<img src="https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png" alt="drawing" width="400"/><img src="figs/camara1.jpg" alt="drawing" width="400"/>
-<img src="figs/camara2.jpg" alt="drawing" width="400"/><img src="figs/camara3.jpg" alt="drawing" width="400"/>
-<img src="figs/camara5.jpg" alt="drawing" width="400"/>
+<img src="https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png" alt="drawing" width="400"/><img src="figs/camara1.jpg" alt="drawing" width="500"/>
+<img src="figs/camara2.jpg" alt="drawing" width="500"/><img src="figs/camara3.jpg" alt="drawing" width="500"/>
+<img src="figs/camara5.jpg" alt="drawing" width="500"/>
 <!---
 <img src="figs/camara4.jpg" alt="drawing" width="400"/>
 --->
@@ -39,8 +39,8 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 
 Mostrando la hoja del examen
 
-<img src="figs/examen1.jpg" alt="drawing" width="400"/><img src="figs/examen2.jpg" alt="drawing" width="400"/>
-<img src="figs/examen3.jpg" alt="drawing" width="400"/><img src="https://www.unibo.it/it/immagini/Img3.png/@@images/1f4812ed-c49e-4d64-bd7b-3f29e3c349e1.png" alt="drawing" width="400"/>
+<img src="figs/examen1.jpg" alt="drawing" width="500"/><img src="figs/examen2.jpg" alt="drawing" width="500"/>
+<img src="figs/examen3.jpg" alt="drawing" width="500"/><img src="https://www.unibo.it/it/immagini/Img3.png/@@images/1f4812ed-c49e-4d64-bd7b-3f29e3c349e1.png" alt="drawing" width="500"/>
    
 
 * El estudiante cederá el control del computador al profesor. En el computador deberá estar abierto el archivo texto guía del curso. Una vez sorteada la pregunta, el profesor se dispondrá a ubicar la sección del texto que se evaluará. El estudiante no podrá usar el computador, a menos que el profesor lo permita. Esto es con el fin de que el profesor ubique el gráfico o la ecuación sobre la cual se harán las preguntas del examen, y pueda ocultar la información que no quiere que el estudiante vea.
