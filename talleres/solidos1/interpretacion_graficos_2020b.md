@@ -43,7 +43,6 @@ Se espera que cada uno lea a fondo el manual del usuario del software. No se que
   * 0.8 Expone adecuadamente las capacidades del software en cuanto a la presentación de resultados (postprocesado). Se requiere para este punto que usted explore las opciones que le de el software para la presentación de resultados y gráficos: por ejemplo cortes, curvas de nivel, escalas de colores, diferentes diagramas, etc.
   NOTA: si usted usa un software que no calcula las cantidades anteriormente solicitadas, podría perder puntos. En tal caso, se sugiere cambiar de programa.
 
-
 * INFORME ESCRITO: Análisis de resultados (35% = 2.1): interpreta gráficos, analiza como varían las cantidades en el espacio? Ubica máximos y mínimos? Relaciona gráficos entre si?
   * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ex, ey, gxy
   * 0.4 Diagramas de esfuerzos sx, sy, txy
@@ -69,8 +68,5 @@ Se espera que cada uno lea a fondo el manual del usuario del software. No se que
 
 * Si se modela una estructura diferente a la registrada, se tendrá menos 3.0 unidades.
 
-
 ## Consejo
 Muy probablemente usted utilice un programa basado en el método de los elementos finitos para hacer su análisis. En tal caso, se sugiere mirar [estas](https://github.com/diegoandresalvarez/elementosfinitos/blob/master/diapositivas/05e_generando_una_buena_malla.pdf) diapositivas, la cual contiene consejos de como hacer un buen mallado.
-
-Para la presentación del análisis de los esfuerzos se sugiere presentar cada gráfico en una hora aparte. A la derecha del gráfico se escribirá el texto correspondiente a la explicación. Dicho texto estará atado al gráfico por medio de flechas que indiquen la zona a la cual se están refiriendo.
