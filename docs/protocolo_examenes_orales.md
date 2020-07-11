@@ -17,10 +17,8 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 
 <img src="figs/camara1.jpg" alt="drawing" width="500"/><img src="https://www.unibo.it/it/immagini/Img2.png/@@images/12b7d566-74a1-4072-b683-4cf2243f6400.png" alt="drawing" width="500"/>
 <img src="figs/camara2.jpg" alt="drawing" width="500"/><img src="figs/camara3.jpg" alt="drawing" width="500"/>
-<img src="figs/camara5.jpg" alt="drawing" width="500"/>
-<!---
-<img src="figs/camara4.jpg" alt="drawing" width="400"/>
---->
+<img src="figs/camara4.jpg" alt="drawing" width="500"/><img src="figs/camara5.jpg" alt="drawing" width="500"/>
+
 * EL micrófono del celular se deberá silenciar. Solo se dejará el micrófono del computador.
 
 * El estudiante solicitará a su familia o sus compañeros de casa que no sea interrumpido durante la presentación del examen.
