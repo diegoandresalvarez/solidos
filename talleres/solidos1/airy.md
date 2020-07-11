@@ -2,10 +2,7 @@
 
 * Taller de elaboración individual.
 
-* El número del ejercicio a resolver se sorteará de acuerdo con la lotería de Medellín (juega el viernes en la noche), siguiendo el criterio que se explicará en clase y utilizando el siguiente programa de MATLAB:
-```matlab
-x = 0;
-```
+* El número del ejercicio a resolver se sorteará de acuerdo con la lotería de Medellín (juega el viernes en la noche), siguiendo el criterio que se explicará en clase y utilizando el programa de MATLAB [sorteo_ejercicios.m](sorteo_ejercicios.m).
 
 ## La misión a realizar
 Utilizando el método de la diferencias finitas para resolver las ecuaciones diferenciales de Airy y con respecto a la estructura propuesta, se pide describir, calcular y graficar usando MAXIMA, MS EXCEL y MATLAB lo siguiente:
