@@ -42,17 +42,16 @@ NOTA MAXIMA = 6.0 (tenga en cuenta que usted podría sacar más nota, pero la no
 
 * Parte A: Airy con MAXIMA, MS EXCEL y MATLAB (si la sumatoria de fuerzas y momentos no es igual a cero, la calificación en la parte A es 0.0) (se calificará sobre 3.0)
    * 1.0 si la sumatoria de fuerzas es y momentos da cero 
-   * 0.5 si la hoja de EXCEL es correcta (se sabe a simple vista mirando las gráficas generadas
-   * 0.5 si el cálculo de los esfuerzos en las esquinas es correcto
+   * 1.0 si la hoja de EXCEL es correcta (se sabe a simple vista mirando las gráficas de los esfuerzos generadas)
    * 1.0 si realizó el cálculo de los esfuerzos y las deformaciones incluyendo la fuerza másica
 * Parte B: Análisis de resultados y comparación con el método de los elementos finitos (se calificará sobre 4.0)
    * Modelación de la estructura (nota máxima 1.0)
-     * 0.2 Calculó las reacciones en los apoyos y graficó dichas reacciones
-     * 0.1 Calculó el diagrama de los desplazamientos y de la estructura deformada
-     * 0.1 Calculó los diagramas de las deformaciones ex, ey, gxy *y* los esfuerzos sx, sy, txy.
-     * 0.1 Calculó el diagrama de las rotaciones.
-     * 0.2 Calculó el diagrama de esfuerzos s1, s2 *y* sus inclinaciones (los diagramas de s1 y s2 sin sus respectivas inclinaciones no otorgarán puntos)
-     * 0.1 Calculó el diagrama de esfuerzos de von Mises y/o Tresca y/o tau_max 
+     * 0.2 Calculó y graficó las reacciones en los apoyos y graficó dichas reacciones
+     * 0.1 Calculó y graficó el diagrama de los desplazamientos y de la estructura deformada
+     * 0.1 Calculó y graficó los diagramas de las deformaciones ex, ey, gxy *y* los esfuerzos sx, sy, txy.
+     * 0.1 Calculó y graficó el diagrama de las rotaciones.
+     * 0.2 Calculó y graficó el diagrama de esfuerzos s1, s2 *y* sus inclinaciones (los diagramas de s1 y s2 sin sus respectivas inclinaciones no otorgarán puntos)
+     * 0.1 Calculó y graficó el diagrama de esfuerzos de von Mises y/o Tresca y/o tau_max 
      * 0.2 Usa el consejo de como hacer buenas mallas  
    * Análisis de resultados (nota máxima es 3.0). Tenga en cuenta que podría utilizar para esta parte los gráficos obtenidos con el programa de EFs en caso que no haya sido capaz de realizar el cálculo utilizando la función de tensión de Airy. Y en caso que haya sido capaz de hacer el cálculo utilizando la función de tensión de Airy, debe comparar los resultados. En este caso, debe interpretar gráficos, analizar como varían las cantidades en el espacio, ubicar máximos y mínimos, relaciona gráficos entre si de:
      * 0.5 Diagramas de los desplazamientos del sólido y las deformaciones ex, ey, gxy
