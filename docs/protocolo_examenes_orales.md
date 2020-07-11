@@ -21,7 +21,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 <!---
 <img src="figs/camara4.jpg" alt="drawing" width="400"/>
 --->
-
+* EL micrófono del celular se deberá silenciar. Solo se dejará el micrófono del computador.
 
 * El estudiante solicitará a su familia o sus compañeros de casa que no sea interrumpido durante la presentación del examen.
 
