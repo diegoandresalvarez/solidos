@@ -4,7 +4,7 @@ Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso 
 
 Fecha de entrega: martes julio 21 de 2020 a las 7:00am. Por cada hora de retraso se descontarán 0.3 unidades en la nota final.
 
-Hay una parte del trabajo qe se debe realizar individualmente y otra que debe hacerse grupalmente.
+Hay una parte del trabajo que se debe realizar individualmente y otra que debe hacerse grupalmente.
 
 ## El problema propuesto
 La idea de este trabajo es modelar mediante un programa profesional dos losas:
@@ -78,7 +78,7 @@ NOTA: me encantaría si en la WIKI se especifican las suposiciones hechas y se h
   - 0.3 Grafica e interpreta adecuadamente los gráficos resultantes? Ubicó los momentos máximos y mínimos con sus respectivas inclinaciones? Las fuerzas cortantes máximas? Los puntos críticos de la estructura? Explica el por qué de los resultados obtenidos?
   - 0.2 Compara los resultados entre las teorías de Kirchhoff-Love y Mindlin
   - 0.3 Explora todas las capacidades de visualización de resultados que ofrece el software
-  - VIDEO 1: 0.4 Compara los resultados con la respuesta teórica. Hice los cortes solicitados en *x*=1.25m y *y*=1.5m. Los grafica? Explica el por qué de los resultados obtenidos?
+  - VIDEO 1: 0.4 Compara los resultados con la respuesta teórica (si está disponible) y la de MS EXCEL. Hace los cortes solicitados en *x*=1.25m y *y*=1.5m. Los grafica? Explica el por qué de los resultados obtenidos?
   - VIDEO 2: 0.4 Muestra las funcionalidades para el cálculo de los momentos de diseño (ej. Wood y Armer -- tenga en cuenta que su programa podría utilizar otros métodos)
 
 * 3.0 unidades por el video de la revisión crítica de cada programa.
