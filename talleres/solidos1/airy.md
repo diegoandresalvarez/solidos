@@ -61,8 +61,6 @@ NOTA MAXIMA = 6.0 (tenga en cuenta que usted podría sacar más nota, pero la no
      * 0.5 Diagramas de esfuerzos de von Mises, de Tresca y/o tau_max
      * 0.5 Reacciones en los apoyos   
 
-* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, usar el manos libres) para hacer el video.
-
 * Se descontará 1 décima por cada 5 minutos de retraso en la entrega de este trabajo.
 
 * Si modela la estructura como 3D a pesar que es una de tensión/deformación plana se tendrá menos 1.0 unidad. Se debe usar necesariamente la funcionalidad de tensión/deformación plana del programa de elementos finitos (excepto si puede demostrar que este software no tiene esa opción).
