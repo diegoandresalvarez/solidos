@@ -75,10 +75,10 @@ NOTA: me encantaría si en la WIKI se especifican las suposiciones hechas y se h
 * 1.5 unidades por cada video de modelación de la losa:
   - 0.1 Modela adecuadamente los apoyos? la estructura? el material?
   - 0.2 Refina adecuadamente la malla de elementos finitos? No de forma arbitraria sino utilizando los criterios escritos en: https://github.com/diegoandresalvarez/elementosfinitos/blob/master/diapositivas/05e_generando_una_buena_malla.pdf
-  - 0.3 Interpreta adecuadamente los gráficos resultantes? Ubicó los momentos máximos y mínimos con sus respectivas inclinaciones? Las fuerzas cortantes máximas? Los puntos críticos de la estructura?
+  - 0.3 Grafica e interpreta adecuadamente los gráficos resultantes? Ubicó los momentos máximos y mínimos con sus respectivas inclinaciones? Las fuerzas cortantes máximas? Los puntos críticos de la estructura? Explica el por qué de los resultados obtenidos?
   - 0.2 Compara los resultados entre las teorías de Kirchhoff-Love y Mindlin
   - 0.3 Explora todas las capacidades de visualización de resultados que ofrece el software
-  - VIDEO 1: 0.4 Compara los resultados con la respuesta teórica. Hice los cortes solicitados en *x*=1.25m y *y*=1.5m 
+  - VIDEO 1: 0.4 Compara los resultados con la respuesta teórica. Hice los cortes solicitados en *x*=1.25m y *y*=1.5m. Los grafica? Explica el por qué de los resultados obtenidos?
   - VIDEO 2: 0.4 Muestra las funcionalidades para el cálculo de los momentos de diseño (ej. Wood y Armer -- tenga en cuenta que su programa podría utilizar otros métodos)
 
 * 3.0 unidades por el video de la revisión crítica de cada programa.
