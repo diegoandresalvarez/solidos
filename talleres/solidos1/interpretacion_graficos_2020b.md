@@ -21,12 +21,16 @@ Todas los estudiantes deberán modelar una diferente. En [esta página de la WIK
 
 * Hacer dos videos:
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado y análisis de la estructura escogida. Se deben mostrar los resultados, sin entrar a analizarlos. Se recomienda que el estudiante explore muy bien todas las funcionalidades del programa para la presentación de resultados (posprocesado).
-  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
+  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE ESTRUCTURAS EN TENSION/DEFORMACION PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
 * Presentar un informe escrito que contenga el análisis de los resultados. Recuerde explicar detalladamente como varían las cantidades en el espacio, donde están las cantidades máximas y mínimas, como se relacionan unas gráficas con otras, etc. No es solo ubicar donde están los colores, o los máximos y los mínimos, sino decir, **por qué razón se produce esa coloración**, entendiendo como la estructura está cargada, está apoyada, se deforma, etc. Se sugiere [**este (descargue archivo .PDF)**](ejemplo_analisis_graficos.pdf) formato para presentar los resultados . 
 
 * Se solicita subir todos los archivos asociados al trabajo (.XLSX, .DOCX, .MP4, .MKV, etc) directamente a GOOGLE CLASSROOM. Por favor no los empaquete en un archivo .ZIP o .RAR.
 
+* Active en el software de captura de pantalla la opción para ver el ratón.
+
 Se espera que cada uno lea a fondo el manual del usuario del software. No se queden con los videos de YouTube. En el manual del usuario generalmente existe información importante sobre las hipótesis de modelado que hace cada software.
+
+Se sugiere aprender a manejar un programa de edición de videos. Esto les facilitará grandemente la realización del mismo.
 
 ## Criterios de evaluación
 * NOTA MAXIMA 6.0
@@ -55,8 +59,9 @@ Se espera que cada uno lea a fondo el manual del usuario del software. No se que
   * 0.7 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia del mismo.
   * 0.7 Intenta entender las fórmulas del manual de referencia al verificar su equivalencia con las que se vieron en clase (en ocasiones toca convertir esas ecuaciones a nuestra nomenclatura para poder entenderlas, ya que los programas son usualmente mucho más generales y soportan más casos que los vistos en clase).
   * 0.7 Explica las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis estructural?
+  NOTA: este es un ejemplo hecho para sobre el programa MIDAS GEN que explica  las capacidades del software para modelar vigas: https://www.youtube.com/watch?v=p06pnzg2ZPg
 
-* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono (por ejemplo, usar el manos libres) para hacer el video.
+* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono auxiliar (por ejemplo, un manos libres) y evite usar el micrófono del portátil para hacer el video.
 
 * Si se sube un video de mala calidad (por ejemplo 360p de calidad o inferior) se rebajará 1.0 unidad. Mínimo 720p y preferiblemente 1080p. Recuerde que no tenemos limitación en el almacenamiento en GOOGLE CLASSROOM.
 
