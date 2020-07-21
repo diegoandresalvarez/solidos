@@ -2,7 +2,7 @@
 
 Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de momentos flectores y de torsión, de fuerza cortante en una losa maciza, utilizando las teorías de Kirchhoff-Love y de Mindlin. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
-Fecha de entrega: martes julio 21 de 2020 a las 7:00am. Por cada hora de retraso se descontarán 0.3 unidades en la nota final.
+Fecha de entrega: se especificará en GOOGLE CLASSROOM. Por cada hora de retraso se descontarán 0.3 unidades en la nota final.
 
 Hay una parte del trabajo que se debe realizar individualmente y otra que debe hacerse grupalmente.
 
@@ -29,7 +29,7 @@ Se solicita realizar para cada losa:
 * Para el caso de la Losa 1, hacer un cálculo de los porcentajes de error relativos que se encuentra al comparar los resultados obtenidos con su software y con la solución obtenida utilizando MS EXCEL: https://github.com/diegoandresalvarez/solidos/blob/master/archivos/losa_Kirchhoff_Love/ejemplo_losa_borde_libre.xlsm para 10 puntos representativos de la losa (todos los compañeros del grupo deben escoger exactamente los mismos puntos). ¿Con qué criterio seleccionarán esos puntos? Adicionalmente, se deben hacer unos cortes en x=1.25m y y=1.5m donde se grafiquen todos los gráficos Mx, My, ..., Vx, Vy, M1, M2, etc.
 
 * Para hacer tres videos:
-  * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado, análisis y diseño de la losa 1 utilizando el programa escogido; se mostrar aquí pantallazos con los resultados obtenidos y su comparación con la respuesta teórica. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video (este PDF deberá contener las tablas con la comparación de los resultados).
+  * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado, análisis y diseño de la losa 1 utilizando el programa escogido; se mostrar aquí pantallazos con los resultados obtenidos y su comparación con la respuesta teórica (si esta no está disponible, use la calculada con MS EXCEL). Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video (este PDF deberá contener las tablas con la comparación de los resultados).
   * VIDEO 2 (máximo 20 minutos): en este video se debe explicar en detalle el modelado, análisis y diseño de la losa 2 utilizando el programa escogido. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video (este PDF deberá contener las tablas con resultados). 
   * VIDEO 3 (máximo 30 minutos): en este video se debe hacer una revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS Y DISEÑO DE LOSAS**. OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular losas. Con respecto a la parte de diseño se debe explicar como el software diseña el refuerzo en las losas (teorías empleadas, fórmulas, hipótesis empleadas, etc.). Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia. 
 
@@ -88,9 +88,7 @@ NOTA: me encantaría si en la WIKI se especifican las suposiciones hechas y se h
   - 0.5 Hace una revisión general del software y dió su opinión acerca del mismo? Intuitividad, facilidad de uso, claridad de los manuales, ayudas disponibles en internet y en YouTube.
   - 1.0 Explica el modelo matemático que hace el software para la diseño del refuerzo
 
-* Si el video tiene mala calidad en el sonido se tendrá se rebajará 1.0 unidad en dicho video. Por lo tanto, se sugiere utilizar un micrófono diferente al del portátil para grabar el video (por ejemplo usar un manos libres).
-
-* Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono auxiliar (por ejemplo, un manos libres) y evite usar el micrófono del portátil para hacer el video.
+* Si el video tiene mala calidad en el sonido se tendrá se rebajará 0.5 unidades en dicho video. Por lo tanto, se sugiere utilizar un micrófono diferente al del portátil para grabar el video (por ejemplo usar un manos libres).
 
 * Si se sube un video de mala calidad (por ejemplo 360p de calidad o inferior) se rebajará 1.0 unidad. Mínimo 720p y preferiblemente 1080p. Recuerde que no tenemos limitación en el almacenamiento en GOOGLE CLASSROOM.
 
