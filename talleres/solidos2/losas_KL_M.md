@@ -94,6 +94,6 @@ NOTA: me encantaría si en la WIKI se especifican las suposiciones hechas y se h
 
 * Si se usa un software diferente al registrado, se tendrá menos 2.0 unidades.
 
-* Por cada día de retrazo se descontarán 3 décimas de la nota final.
+* Por cada minuto de retrazo se descontarán 1 décima de la nota final.
 
 NOTA: no los voy a penalizar en caso que ustedes obtengan desplazamientos diferentes a los que deberían dar. La experiencia nos ha demostrado que hay programas que simplemente no funcionan adecuadamente (aunque son pocos). Sin embargo, el estudiante debe demostrar en el video que modeló correctamente la estructura.
