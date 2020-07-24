@@ -2,7 +2,7 @@
 
 Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de momentos flectores y de torsión, de fuerza cortante en una losa maciza, utilizando las teorías de Kirchhoff-Love y de Mindlin. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
-Fecha de entrega: se especificará en GOOGLE CLASSROOM. Por cada hora de retraso se descontarán 0.3 unidades en la nota final.
+Fecha de entrega: se especificará en GOOGLE CLASSROOM. Por cada minuto de retraso se descontará 1 decima de la nota final.
 
 Hay una parte del trabajo que se debe realizar individualmente y otra que debe hacerse grupalmente.
 
