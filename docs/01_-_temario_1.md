@@ -39,9 +39,9 @@ La fecha del examen se definirá dos semanas antes de su realización.
    * 0.0 No hizo apuntes
 
  * Los apuntes subrayando las copias se calificarán así:
-  * 5.0 Hace notas en el extremo de la página que complementan o ayudan a enterder el texto del libro. Deduce fórmulas en la margen del texto.
-  * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
-  * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
+   * 5.0 Hace notas en el extremo de la página que complementan o ayudan a enterder el texto del libro. Deduce fórmulas en la margen del texto.
+   * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
+   * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
 
 ## Descripción de la asignatura mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.

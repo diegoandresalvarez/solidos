@@ -38,9 +38,9 @@ La fecha del examen se definirá dos semanas antes de su realización.
    * 0.0 No hizo apuntes
 
  * Los apuntes subrayando las copias se calificarán así:
-  * 5.0 Hace notas en el extremo de la página que complementan o ayudan a enterder el texto del libro. Deduce fórmulas en la margen del texto.
-  * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
-  * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
+   * 5.0 Hace notas en el extremo de la página que complementan o ayudan a enterder el texto del libro. Deduce fórmulas en la margen del texto.
+   * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
+   * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
 
 ## Descripción de la asignatura mecánica de sólidos 2
 En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas, métodos energéticos y la teoría de torsión de barras, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
