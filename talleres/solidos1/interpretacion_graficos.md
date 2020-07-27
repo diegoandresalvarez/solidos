@@ -56,7 +56,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.1 Modeló adecuadamente las condiciones de frontera
   * 0.1 Calculó las reacciones en los apoyos  
   * 0.1 Calculó el diagrama de los desplazamientos y de la estructura deformada
-  * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, τxy (si falta alguno de estos gráficos no se otorgarán puntos).
+  * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
   * 0.1 Calculó el diagrama de las rotaciones.
   * 0.1 Calculó el diagrama de las dilataciones cúbicas.
   * 0.2 Calculó el diagrama de esfuerzos σ1, σ2 *y* sus respectivas inclinaciones (los diagramas de σ1 y σ2 sin sus respectivas inclinaciones no otorgarán puntos)
@@ -66,9 +66,9 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   NOTA: si usted usa un software que no calcula las cantidades anteriormente solicitadas, podría perder puntos. En tal caso, se sugiere cambiar de programa.
 
 * INFORME ESCRITO: Análisis de resultados (35% = 2.1): interpreta gráficos, analiza como varían las cantidades en el espacio? Ubica máximos y mínimos? Relaciona gráficos entre si?
-  * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación.
-  * 0.4 Diagramas de esfuerzos σx, σy, σz, τxy
-  * 0.2 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto)
+  * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación. 
+  * 0.4 Diagramas de esfuerzos σx, σy, σz, τxy. 
+  * 0.2 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto). 
   * 0.2 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₁, se tendrá un 0.0 en este punto).
   * 0.2 Sugiere la forma como la estructura se agrieta, asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₂, se tendrá un 0.0 en este punto).
   * 0.3 Diagramas de esfuerzos de von Mises, de Tresca y/o τₘₐₓ

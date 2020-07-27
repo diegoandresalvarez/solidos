@@ -37,7 +37,7 @@ Eventualmente, el profesor llamará al estudiante a realizar la sustentación or
 
   NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γxy: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γxy? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
 
-  NOTA 2: extensión máxima del informe 15 páginas. No hay necesidad de documentar como se calculó la parte con Airy.
+  NOTA 2: extensión máxima del informe 15 páginas. No hay necesidad de documentar como se calculó la parte con Airy/diferencias finitas.
 
   NOTA 3: en ocasiones, cuando se tienen puntos de singularidad, esos valores son tan altos, que terminan opacando los colores en la estructura, mostrándolos como uno solo. En este caso, se sugiere usar una opción del software que limita los colores a mostrar a un rango. 
 
@@ -54,15 +54,16 @@ NOTA MAXIMA = 6.0 (tenga en cuenta que usted podría sacar más nota, pero la no
    * Modelación de la estructura (nota máxima 1.0)
      * 0.2 Calculó y graficó las reacciones en los apoyos y graficó dichas reacciones
      * 0.1 Calculó y graficó el diagrama de los desplazamientos y de la estructura deformada
-     * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos no se otorgarán puntos).
+     * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
      * 0.1 Calculó y graficó el diagrama de las rotaciones.
-     * 0.2 Calculó y graficó el diagrama de esfuerzos s1, s2 *y* sus inclinaciones (los diagramas de s1 y s2 sin sus respectivas inclinaciones no otorgarán puntos)
+     * 0.1 Calculó y graficó el diagrama de esfuerzos s1, s2 *y* sus inclinaciones (los diagramas de s1 y s2 sin sus respectivas inclinaciones no otorgarán puntos)
+     * 0.1 Compara numéricamente la diferencia entre los valores de los esfuerzos y las deformaciones en varios puntos de la estructura (diferentes a los puntos de singularidad).
      * 0.1 Calculó y graficó el diagrama de esfuerzos de von Mises y/o Tresca y/o  τₘₐₓ
      * 0.2 Usa el consejo de como hacer buenas mallas  
    * Análisis de resultados (nota máxima es 3.0). Tenga en cuenta que podría utilizar para esta parte los gráficos obtenidos con el programa de EFs en caso que no haya sido capaz de realizar el cálculo utilizando la función de tensión de Airy. Y en caso que haya sido capaz de hacer el cálculo utilizando la función de tensión de Airy, debe comparar los resultados, **colocando las gráficas lado a lado y con el mismo mapa de colores**. En este caso, debe interpretar gráficos, analizar como varían las cantidades en el espacio, ubicar máximos y mínimos, relaciona gráficos entre si de:
-     * 0.5 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación.
-     * 0.5 Diagramas de esfuerzos σx, σy, σz, τxy
-     * 0.3 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto)
+     * 0.5 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación. Coloca gráfico calculado con Airy al lado del gráfico calculado con el software de EFs, ambos graficados con el mismo mapa de colores.
+     * 0.5 Diagramas de esfuerzos σx, σy, σz, τxy. Coloca gráfico calculado con Airy al lado del gráfico calculado con el software de EFs, ambos graficados con el mismo mapa de colores.
+     * 0.3 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto). Coloca gráfico calculado con Airy al lado del gráfico calculado con el software de EFs, ambos graficados con el mismo mapa de colores.
      * 0.3 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₁, se tendrá un 0.0 en este punto).
      * 0.4 Sugiere la forma como la estructura se agrieta, asumiendo que esta es de concreto reforzado?  (si no calculó las inclinaciones θ₂, se tendrá un 0.0 en este punto).
      * 0.5 Diagramas de esfuerzos de von Mises, de Tresca y/o τₘₐₓ 
