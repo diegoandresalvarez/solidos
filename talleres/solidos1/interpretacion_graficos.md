@@ -21,7 +21,7 @@ Todas los estudiantes deberán modelar una diferente. En [esta página de la WIK
 
 * Hacer dos videos:
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado y análisis de la estructura escogida. Se deben mostrar los resultados sin interpretarlos. Se recomienda que el estudiante explore muy bien todas las funcionalidades del programa para la presentación de resultados (posprocesado).
-  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE ESTRUCTURAS EN TENSION/DEFORMACION PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
+  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE ESTRUCTURAS EN TENSION/DEFORMACION PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
   
     Algunos ejemplos de buenos análisis son:
     * MIDAS GEN en cuanto al análisis de vigas: https://www.youtube.com/watch?v=p06pnzg2ZPg
@@ -74,7 +74,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.3 Diagramas de esfuerzos de von Mises, de Tresca y/o τₘₐₓ
   * 0.4 Reacciones en los apoyos, fuerzas puntuales y momentos flectores equivalentes.
 
-* VIDEO 2 + PDF PRESENTACION: Revisión de las capacidades/hipótesis/suposiciones/limitaciones del software (35% = 2.1)
+* VIDEO 2 + PDF PRESENTACION: Reseña de las capacidades/hipótesis/suposiciones/limitaciones del software (35% = 2.1)
   * 0.7 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia del mismo.
   * 0.7 Intenta entender las fórmulas del manual de referencia al verificar su equivalencia con las que se vieron en clase (en ocasiones toca convertir esas ecuaciones a nuestra nomenclatura para poder entenderlas, ya que los programas son usualmente mucho más generales y soportan más casos que los vistos en clase) y/o usan una nomenclatura diferente.
   * 0.7 Explica las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis estructural?

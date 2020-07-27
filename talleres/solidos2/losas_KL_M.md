@@ -22,7 +22,7 @@ Se solicita realizar para cada losa:
 * Hacer el cálculo de las fuerzas cortantes al interior de la losa.
 * Hacer el cálculo de los momentos de flexión y torsión máximos y mínimos al interior de la losa con sus respectivas direcciones.
 * Hacer el cálculo de las fuerzas cortantes máximas al interior de la losa con sus respectivas direcciones.
-* Hacer el cálculo de los momentos de diseño Mx^* y My^*. En su defecto aprender a manejar la funcionalidad de su programa para el diseño del refuerzo del cascarón.
+* Hacer el cálculo de los momentos de diseño Mx^* y My^*. En su defecto aprender a manejar la funcionalidad de su programa para el diseño del refuerzo de la losa.
 * Hacer el cálculo de los esfuerzos de von Mises y de los esfuerzos máximos/mínimos en la superficie superior/inferior de la losa.
 * Calcular las reacciones en los apoyos.
 * Calcular con la teoría de losas gruesas y con la teoría de losas delgadas. 
@@ -31,7 +31,7 @@ Se solicita realizar para cada losa:
 * Para hacer tres videos:
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado, análisis y diseño de la losa 1 utilizando el programa escogido; se mostrar aquí pantallazos con los resultados obtenidos y su comparación con la respuesta teórica (si esta no está disponible, use la calculada con MS EXCEL). Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video (este PDF deberá contener las tablas con la comparación de los resultados).
   * VIDEO 2 (máximo 20 minutos): en este video se debe explicar en detalle el modelado, análisis y diseño de la losa 2 utilizando el programa escogido. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video (este PDF deberá contener las tablas con resultados). 
-  * VIDEO 3 (máximo 30 minutos): en este video se debe hacer una revisión crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS Y DISEÑO DE LOSAS**. OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular losas. Con respecto a la parte de diseño se debe explicar como el software diseña el refuerzo en las losas (teorías empleadas, fórmulas, hipótesis empleadas, etc.). Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia. 
+  * VIDEO 3 (máximo 30 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS Y DISEÑO DE LOSAS**. OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular losas. Con respecto a la parte de diseño se debe explicar como el software diseña el refuerzo en las losas (teorías empleadas, fórmulas, hipótesis empleadas, etc.). Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia. 
 
 * Se solicita subir todos los archivos asociados al trabajo (.XLSX, .DOCX, .MP4, .MKV, archivo de MAXIMA, etc) directamente a GOOGLE CLASSROOM. Por favor no los empaquete en un archivo .ZIP o .RAR.
 
@@ -81,7 +81,7 @@ NOTA: me encantaría si en la WIKI se especifican las suposiciones hechas y se h
   - VIDEO 1: 0.4 Compara los resultados con la respuesta teórica (si está disponible) y la de MS EXCEL. Hace los cortes solicitados en *x*=1.25m y *y*=1.5m. Los grafica? Explica el por qué de los resultados obtenidos?
   - VIDEO 2: 0.4 Muestra las funcionalidades para el cálculo de los momentos de diseño (ej. Wood y Armer -- tenga en cuenta que su programa podría utilizar otros métodos)
 
-* 3.0 unidades por el video de la revisión crítica de cada programa.
+* 3.0 unidades por el video de la reseña crítica de cada programa.
   - 0.5 Lista las hipótesis/suposiciones que hace el software
   - 0.5 Lista las capacidades y limitaciones que tiene el software
   - 0.5 Lista las advertencias o consejos que hace el software en cuento a la modelación?
