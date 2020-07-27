@@ -1,4 +1,4 @@
-# Taller 2 de mecánica de sólidos
+# Taller de Airy e interpretación de gráficos
 
 * Taller de elaboración individual.
 
@@ -23,7 +23,7 @@ Utilizando el método de la diferencias finitas para resolver las ecuaciones dif
 * *Δ*  = 5 cm (para las diferencias finitas), en caso que no lo indique en la figura misma.
 
 ## La estructura
-Las estructuras a analizar se encuentran en las fotografías adjuntas. El número de la fotografía es el número del problema a resolver. Puede que la foto que le haya tocado esté rotada. Por favor **no rote la fotografía**. Observe el origen de coordenadas: asegúrese que el origen de coordenadas debe ser tal que el eje *x* apunte hacia la derecha y el eje *y* apunte hacia arriba. 
+Las estructuras a analizar se encuentran en las fotografías adjuntas. El número de la fotografía es el número del problema a resolver. Puede que la foto que le haya tocado esté rotada. **Por favor no rote la fotografía (si lo hace la nota en el taller será 0.0)**. Observe el origen de coordenadas: asegúrese que el origen de coordenadas debe ser tal que el eje *x* apunte hacia la derecha y el eje *y* apunte hacia arriba. 
 
 ## Fecha y hora límite de entrega
 Se tienen 48 horas a partir de la hora de enviado el correo con las figuras de los ejercicios, para entregar el informe. Se descontará 1 décima por cada 5 minutos de retraso en la entrega de este trabajo.
@@ -33,7 +33,13 @@ Eventualmente, el profesor llamará al estudiante a realizar la sustentación or
 ## Lo que se debe subir a Google Classroom
 * Archivos de MAXIMA, MATLAB y MS EXCEL con los códigos y procedimientos usados para calcular la estructura. 
 
-* Presentar un informe escrito en formato PDF que contenga el análisis de los resultados, comentarios varios sobre la elaboración del trabajo y respuesta a las preguntas postuladas (no hay que describir el procedimiento usado para el cálculo). Recuerde explicar detalladamente como varían las cantidades en el espacio, donde están las cantidades máximas y mínimas, como se relacionan unas gráficas con otras, etc. No es solo ubicar donde están los colores, o los máximos y los mínimos, sino decir, **por qué razón se produce esa coloración**, entendiendo como la estructura está cargada, está apoyada, se deforma, etc. Se sugiere [**este (descargue archivo .PDF)**](ejemplo_analisis_graficos.pdf) formato para presentar los resultados . 
+* Presentar un informe escrito en formato PDF que contenga el análisis de los resultados, comentarios varios sobre la elaboración del trabajo y respuesta a las preguntas postuladas (no hay que describir el procedimiento usado para el cálculo). Recuerde explicar detalladamente como varían las cantidades en el espacio, donde están las cantidades máximas y mínimas, como se relacionan unas gráficas con otras, etc. No es solo ubicar donde están los colores, o los máximos y los mínimos, sino decir, **por qué razón se produce esa coloración**, entendiendo como la estructura está cargada, está apoyada, se deforma, etc. Se sugiere [**este (descargue archivo .PDF)**](ejemplo_analisis_graficos.pdf) formato para presentar los resultados.
+
+  NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γxy: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γxy? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
+
+  NOTA 2: extensión máxima del informe 15 páginas. No hay necesidad de documentar como se calculó la parte con Airy.
+
+  NOTA 3: en ocasiones, cuando se tienen puntos de singularidad, esos valores son tan altos, que terminan opacando los colores en la estructura, mostrándolos como uno solo. En este caso, se sugiere usar una opción del software que limita los colores a mostrar a un rango. 
 
 * Se solicita subir todos los archivos asociados al trabajo (.XLSX, .DOCX, etc) directamente a GOOGLE CLASSROOM. Por favor no los empaquete en un archivo .ZIP o .RAR.
 
@@ -48,18 +54,19 @@ NOTA MAXIMA = 6.0 (tenga en cuenta que usted podría sacar más nota, pero la no
    * Modelación de la estructura (nota máxima 1.0)
      * 0.2 Calculó y graficó las reacciones en los apoyos y graficó dichas reacciones
      * 0.1 Calculó y graficó el diagrama de los desplazamientos y de la estructura deformada
-     * 0.1 Calculó y graficó los diagramas de las deformaciones ex, ey, gxy *y* los esfuerzos sx, sy, txy.
+     * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos no se otorgarán puntos).
      * 0.1 Calculó y graficó el diagrama de las rotaciones.
      * 0.2 Calculó y graficó el diagrama de esfuerzos s1, s2 *y* sus inclinaciones (los diagramas de s1 y s2 sin sus respectivas inclinaciones no otorgarán puntos)
-     * 0.1 Calculó y graficó el diagrama de esfuerzos de von Mises y/o Tresca y/o tau_max 
+     * 0.1 Calculó y graficó el diagrama de esfuerzos de von Mises y/o Tresca y/o  τₘₐₓ
      * 0.2 Usa el consejo de como hacer buenas mallas  
-   * Análisis de resultados (nota máxima es 3.0). Tenga en cuenta que podría utilizar para esta parte los gráficos obtenidos con el programa de EFs en caso que no haya sido capaz de realizar el cálculo utilizando la función de tensión de Airy. Y en caso que haya sido capaz de hacer el cálculo utilizando la función de tensión de Airy, debe comparar los resultados. En este caso, debe interpretar gráficos, analizar como varían las cantidades en el espacio, ubicar máximos y mínimos, relaciona gráficos entre si de:
-     * 0.5 Diagramas de los desplazamientos del sólido y las deformaciones ex, ey, gxy
-     * 0.5 Diagramas de esfuerzos sx, sy, txy
-     * 0.5 Diagramas de esfuerzos s1, s2 con sus inclinaciones (si no tiene las inclinaciones, se tendrá un 0.0 en este punto)
-     * 0.5 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado?
-     * 0.5 Diagramas de esfuerzos de von Mises, de Tresca y/o tau_max
-     * 0.5 Reacciones en los apoyos   
+   * Análisis de resultados (nota máxima es 3.0). Tenga en cuenta que podría utilizar para esta parte los gráficos obtenidos con el programa de EFs en caso que no haya sido capaz de realizar el cálculo utilizando la función de tensión de Airy. Y en caso que haya sido capaz de hacer el cálculo utilizando la función de tensión de Airy, debe comparar los resultados, **colocando las gráficas lado a lado y con el mismo mapa de colores**. En este caso, debe interpretar gráficos, analizar como varían las cantidades en el espacio, ubicar máximos y mínimos, relaciona gráficos entre si de:
+     * 0.5 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación.
+     * 0.5 Diagramas de esfuerzos σx, σy, σz, τxy
+     * 0.3 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto)
+     * 0.3 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₁, se tendrá un 0.0 en este punto).
+     * 0.4 Sugiere la forma como la estructura se agrieta, asumiendo que esta es de concreto reforzado?  (si no calculó las inclinaciones θ₂, se tendrá un 0.0 en este punto).
+     * 0.5 Diagramas de esfuerzos de von Mises, de Tresca y/o τₘₐₓ 
+     * 0.5 Diagrama de reacciones en los apoyos, fuerzas y momentos flectores equivalentes (calculados con el software de EFs).
 
 * Se descontará 1 décima por cada 5 minutos de retraso en la entrega de este trabajo.
 
@@ -69,14 +76,16 @@ NOTA MAXIMA = 6.0 (tenga en cuenta que usted podría sacar más nota, pero la no
 
 * Si se modela una estructura diferente a la registrada, se tendrá menos 3.0 unidades.
 
-* Si rota la fotografía, la nota es automáticamente cero; utilice la rotación de la fotografía asignada.
+```diff
+- * Si rota la fotografía, la nota es automáticamente cero; utilice la rotación de la fotografía asignada.
+```
 
 * Si su programa no puede graficar lo anteriormente pedido, debería cambiar de programa, ya que podría perder la oportunidad de contabilizar algunos puntos.
 
 ## Notas adicionales
 * En ocasiones para que el algoritmo funcione hay que presionar F9 muchas veces, hasta lograr la convergencia.
 * Si les aparece un *#NUM* o un error parecido, lo más probable es que cometieron un error con alguna de las fórmulas; en este caso toca borrar las fórmulas y entrarlas de nuevo.
-* Para determinar la ecuación de la parábola pueden utilizar los llamados polinomios de Lagrange http://en.wikipedia.org/wiki/Lagrange_polynomial o utilizar matrices de Vandermonde tal y como se explica en http://en.wikipedia.org/wiki/Polynomial_interpolation. En la práctica uno utilizaría los comandos `polyfit` de MATLAB o `lagrange` de MAXIMA. Sin embargo, necesito que también lo hagan "a mano" con los métodos referidos.
+* Para determinar la ecuación de la parábola pueden utilizar los llamados polinomios de Lagrange http://en.wikipedia.org/wiki/Lagrange_polynomial o utilizar matrices de Vandermonde tal y como se explica en http://en.wikipedia.org/wiki/Polynomial_interpolation. En la práctica uno utilizaría los comandos `polyfit()` de MATLAB o `lagrange()` de MAXIMA. Sin embargo, necesito que también lo hagan "a mano" con los métodos referidos.
 * Cuando se realiza el análisis de cargas que se aplican a la estructura, si la suma de fuerzas y momentos no da cero (es decir un número del orden de *O*(10⁻³) o mayor), la nota en la parte A de la calificación es automáticamente cero.
 * En las esquinas entrantes es donde generalmente los estudiantes cometen los errores. Mucho cuidado haciendo los cálculos en dichas esquinas.
 * Los desarrollos matemáticos pueden incluirse como una foto de sus apuntes, la cual se incluirá en el informe final.
