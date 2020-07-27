@@ -19,7 +19,7 @@ Se solicita calcular y graficar los diagramas de:
 * Momento de flexión *M(x)*
 * Ángulo de giro de la viga *θ(x)*
 * Desplazamiento vertical *v(x)*
-* Variación del esfuerzo *σₓ(y)* en diferentes secciones transversales de la viga.  
+* Variación de los esfuerzos *σₓ(y)* y *τxy(y)* en diferentes secciones transversales de la viga.  
 
 Utilizando los siguientes métodos:
 * Diferencias finitas por el método de Euler-Bernoulli
@@ -45,7 +45,7 @@ Utilizando los siguientes métodos:
   * Explique qué es lo que observa en los gráficos.
   * Realice un estudio similar al mostrado en la Sección 9.2 del `main.pdf`, en los que se compare:
     * *v(x,0)* calculado con el método de los EFs 2D con el desplazamiento vertical *v(x)* estimado con las teorías de EB y TE.
-    * *v(x,y)* y *σₓ(x,y)* para diferentes puntos de la viga calculado con el método de los EFs 2D con el  estimado con las teorías de EB y TE.
+    * *v(x,y)*, *σₓ(x,y)* y *τxy(x,y)* para diferentes puntos de la viga calculado con el método de los EFs 2D con el  estimado con las teorías de EB y TE.
     * Se calcule la fuerza cortante *V(x)*, el momento flector *M(x)* y la fuerza axial *P(x)* para diferentes puntos de la viga con el método de los EFs 2D y con el  estimado con las teorías de EB y TE. Para tal fin se deben emplear las ecuaciones:   
 <!---
 Compile en: https://tex.s2cms.com
