@@ -31,7 +31,8 @@
 - Tiempo de actividad autónoma por semana: 8 horas
 
 ## Tabla de contenido:
-- [Temario y observaciones generales del curso](docs/01_-_temario.md)
+- [Temario y observaciones generales del curso 1](docs/01_-_temario_1.md)
+- [Temario y observaciones generales del curso 2](docs/01_-_temario_2.md)
 - [Recursos](docs/02_-_recursos.md)
 - [Software](docs/03_-_software.md)
 - [Sobre el main.pdf](docs/04_-_main_pdf.md)
