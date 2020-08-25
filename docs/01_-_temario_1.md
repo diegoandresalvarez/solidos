@@ -45,6 +45,12 @@ La fecha del examen se definirá dos semanas antes de su realización.
    * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
    * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
 
+* Por cada día de retrazo en la entrega de los apuntes se tendrá una décima menos.
+* Si los apuntes se entregan un día antes de la fecha prevista, se tendrán dos décimas adicionales.
+* Si los apuntes se entregan dos días antes de la fecha prevista, se tendrán cuatro décimas adicionales.
+
+Durante el semestre se tendrán 30 clases aproximadamente. Al final del semestre, el conjunto de todos los apuntes se dividirá en tres grupos y de cada uno de esos grupos se seleccionará al azar uno de los apuntes. Solamente se calificarán los 3 apuntes seleccionados.
+
 ## Descripción de la asignatura mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
 
