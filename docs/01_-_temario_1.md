@@ -47,7 +47,7 @@ La fecha del examen se definirá dos semanas antes de su realización.
 
 * Por cada día de retrazo en la entrega de los apuntes se tendrá una décima menos.
 * Si los apuntes se entregan un día antes de la fecha prevista, se tendrán dos décimas adicionales.
-* Si los apuntes se entregan dos días antes de la fecha prevista, se tendrán cuatro décimas adicionales.
+* Si los apuntes se entregan dos días o más días antes de la fecha prevista, se tendrán cuatro décimas adicionales.
 
 Durante el semestre se tendrán 30 clases aproximadamente. Al final del semestre, el conjunto de todos los apuntes se dividirá en tres grupos y de cada uno de esos grupos se seleccionará al azar uno de los apuntes. Solamente se calificarán los 3 apuntes seleccionados.
 
