@@ -11,10 +11,6 @@ Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas
 
 Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes, evaluación de los apuntes y talleres.
 
-Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
-
-La fecha del examen se definirá dos semanas antes de su realización.
-
 ### Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
 <!---
     * Examen 1: 30%, que se distribuye así:    
@@ -25,10 +21,16 @@ La fecha del examen se definirá dos semanas antes de su realización.
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
 --->    
-  * **Apuntes de clase:** 25%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
-  * **Examen oral:** 25%, todo el material visto en clase y/o videos.
-  * **Trabajo 1:** 25%, análisis de los gráficos que arrojan los programas de elementos finitos.
-  * **Trabajo 2:** 25%, diferencias finitas.
+  * **Apuntes de clase:** 20%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
+  * **Examen oral 1:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
+  * **Examen oral 2:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
+  * **Trabajo 1:** 20%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  * **Trabajo 2:** 20%, diferencias finitas.
+
+## Examenes
+Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
+
+La fecha del examen se definirá dos semanas antes de su realización.
 
 ## Criterios de calificación de los apuntes
  * Los apuntes en un cuaderno se calificarán así:
@@ -39,7 +41,7 @@ La fecha del examen se definirá dos semanas antes de su realización.
    * 0.0 No hizo apuntes
 
  * Los apuntes subrayando las copias se calificarán así:
-   * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto.
+   * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto. Marca los errores que encontró en el libro.
    * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
    * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
 
@@ -100,11 +102,13 @@ Aplicación a problemas de vigas, losas, barras a torsión o métodos energétic
 * Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970.
 
 ## Otras observaciones que se quieren dejar por escrito:
+<!---
 ### Asistencia al curso
 La puerta se cerrará 10 minutos después de haber iniciado la clase (de acuerdo con el reloj del computador del salón).
 
 ### Falta a los exámenes
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
+--->
 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
@@ -113,5 +117,7 @@ Estos se penalizarán así:
 * Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
 * Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre.
 
+<!---
 ### "Minuciosamente" en los exámenes
 En todos los exámenes se debe relacionar con palabras las fórmulas y motivar físicamente el por qué de un procedimiento o fórmula (es decir, se debe escribir la explicación suponiendo que usted está escribiendo un libro). Si no se hace esto, se le rebajará en ese punto en particular el 50% de la nota.
+--->

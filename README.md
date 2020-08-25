@@ -31,8 +31,8 @@
 - Tiempo de actividad autónoma por semana: 8 horas
 
 ## Tabla de contenido:
-- [Temario y observaciones generales del curso 1](docs/01_-_temario_1.md)
-- [Temario y observaciones generales del curso 2](docs/01_-_temario_2.md)
+- [Temario y observaciones generales de mecánica de sólidos 1](docs/01_-_temario_1.md)
+- [Temario y observaciones generales de mecánica de sólidos 2](docs/01_-_temario_2.md)
 - [Recursos](docs/02_-_recursos.md)
 - [Software](docs/03_-_software.md)
 - [Sobre el main.pdf](docs/04_-_main_pdf.md)
@@ -59,7 +59,9 @@
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
 
+<!---
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://solidos2020a.shoutwiki.com/
   * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
   * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
+--->

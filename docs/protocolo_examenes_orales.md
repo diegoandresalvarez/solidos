@@ -11,7 +11,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 * [Universidad de Copenhagen - Dinamarca](https://itustudent.itu.dk/study-administration/exams/online-oral-exams)
 
 ## Pautas para la realización del examen
-* El examen se presentará de manera individual y sincrónica utilizando [MICROSOFT TEAMS](https://teams.microsoft.com/) en el computador y WhatsApp en el celular.
+* El examen se presentará de manera individual y sincrónica utilizando [Microsoft Teams](https://teams.microsoft.com/) en el computador y WhatsApp en el celular.
 
 * El estudiante requerirá de una mesa o escritorio, un computador con una cámara conectada a internet, su celular como segunda cámara, micrófono y parlantes. La cámara del computador deberá estar filmando la cara del estudiante. La cámara del celular se deberá colocar de modo que muestre las manos del estudiante, la hoja donde raya y su escritorio. Ejemplos:
 

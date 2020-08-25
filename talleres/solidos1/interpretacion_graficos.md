@@ -24,8 +24,10 @@ Todas los estudiantes deberán modelar una diferente. En [esta página de la WIK
   * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE ESTRUCTURAS EN TENSION/DEFORMACION PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
   
     Algunos ejemplos de buenos análisis son:
-     * MIDAS GEN (análisis de vigas): https://www.youtube.com/watch?v=p06pnzg2ZPg
      * STRUSOFT FEM-DESIGN (análisis de losas): https://www.youtube.com/watch?v=xxPzgIl-mEg    
+     * MIDAS GEN (análisis de vigas): https://www.youtube.com/watch?v=p06pnzg2ZPg
+  * En cada uno de los videos incluir una ventana pequeña en una de las esquinas donde se vea usted hablando sobre el software.
+  * El video se debe subir a GOOGLE CLASSROOM, no a YouTube.
 
 * Presentar un informe escrito que contenga el análisis de los resultados. Recuerde explicar detalladamente como varían las cantidades en el espacio, donde están las cantidades máximas y mínimas, como se relacionan unas gráficas con otras, etc. No es solo ubicar donde están los colores, o los máximos y los mínimos, sino decir, **por qué razón se produce esa coloración**, entendiendo como la estructura está cargada, está apoyada, se deforma, etc. Se sugiere [**este (descargue archivo .PDF)**](ejemplo_analisis_graficos.pdf) formato para presentar los resultados. 
 
@@ -56,7 +58,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.1 Modeló adecuadamente las condiciones de frontera
   * 0.1 Calculó las reacciones en los apoyos  
   * 0.1 Calculó el diagrama de los desplazamientos y de la estructura deformada
-  * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
+  * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o sin escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
   * 0.1 Calculó el diagrama de las rotaciones.
   * 0.1 Calculó el diagrama de las dilataciones cúbicas.
   * 0.2 Calculó el diagrama de esfuerzos σ1, σ2 *y* sus respectivas inclinaciones (los diagramas de σ1 y σ2 sin sus respectivas inclinaciones no otorgarán puntos)
@@ -90,3 +92,5 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
 * Si se usa un software diferente al registrado, se tendrá menos 2.0 unidades.
 
 * Si se modela una estructura diferente a la registrada, se tendrá menos 3.0 unidades.
+
+* Si no se incluye en el video un recuadro donde se donde se vea usted hablando sobre el software se tendrá menos 3.0 unidades.
