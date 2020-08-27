@@ -9,7 +9,7 @@
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 --->
 
-Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes, evaluación de los apuntes y talleres.
+Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes orales, evaluación de los apuntes y talleres.
 
 ### Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
 <!---
@@ -33,15 +33,17 @@ Los exámenes serán orales e individuales. Se realizarán siguiendo [este](prot
 La fecha del examen se definirá dos semanas antes de su realización.
 
 ## Criterios de calificación de los apuntes
+Se pueden presentar los apuntes en un cuaderno y/o rayando directamente sobre impresiones del libro:
+
  * Los apuntes en un cuaderno se calificarán así:
-   * 5.0 Apuntes completos y de buena claridad
+   * 5.0 Apuntes completos y de buena claridad. Contienen tanto lo dicho en los videos como lo que se explica en el libro.
    * 4.0 Apuntes de buena calidad pero parcialmente completos; hay detalles que hacen falta
    * 2.5 Apuntes mediocres e incompletos: es difícil estudiar de ellos
    * 1.0 Apuntes supermalos
    * 0.0 No hizo apuntes
 
  * Los apuntes subrayando las copias se calificarán así:
-   * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto. Marca los errores que encontró en el libro.
+   * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto. Marca los errores que encontró en el libro. Contienen las explicaciones extra que se hacen en los videos pero que no se explican en el libro.
    * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
    * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
 
