@@ -9,11 +9,7 @@
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 --->
 
-Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes, evaluación de los apuntes y talleres.
-
-Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
-
-La fecha del examen se definirá dos semanas antes de su realización.
+Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes orales, evaluación de los apuntes y talleres.
 
 ### Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
 <!---
@@ -25,25 +21,38 @@ La fecha del examen se definirá dos semanas antes de su realización.
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
 --->    
-  * **Apuntes de clase:** 25%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
-  * **Examen oral:** 25%, todo el material visto en clase y/o videos.
-  * **Trabajo 1:** 25%, análisis de los gráficos que arrojan los programas de elementos finitos.
-  * **Trabajo 2:** 25%, diferencias finitas.
+  * **Apuntes de clase:** 20%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
+  * **Examen oral 1:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
+  * **Examen oral 2:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
+  * **Trabajo 1:** 20%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  * **Trabajo 2:** 20%, diferencias finitas.
+
+## Examenes
+Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
+
+La fecha del examen se definirá dos semanas antes de su realización.
 
 ## Criterios de calificación de los apuntes
+Se pueden presentar los apuntes en un cuaderno y/o rayando directamente sobre impresiones del libro:
+
  * Los apuntes en un cuaderno se calificarán así:
-   * 5.0 Apuntes completos y de buena claridad
+   * 5.0 Apuntes completos y de buena claridad. Contienen tanto lo dicho en los videos como lo que se explica en el libro.
    * 4.0 Apuntes de buena calidad pero parcialmente completos; hay detalles que hacen falta
    * 2.5 Apuntes mediocres e incompletos: es difícil estudiar de ellos
    * 1.0 Apuntes supermalos
    * 0.0 No hizo apuntes
 
  * Los apuntes subrayando impresiones en papel del libro se calificarán así:
-   * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto.
+   * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto. Marca los errores que encontró en el libro. Contienen las explicaciones extra que se hacen en los videos pero que no se explican en el libro.
    * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
    * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
 
 La razón del porqué se deben hacer las notas en papel y no electrócamente es que hay estudios que demuestran que estudiar sobre papel es más efectivo que aprender sobre una pantalla. Ver por ejemplo los artículos [1](https://www.eldiario.es/consumoclaro/consumo_digital/mejor-leer-libros-impresos-electronicos_1_3220278.html) y [2](https://www.xataka.com/otros/los-estudiantes-aprenden-mucho-mas-efectivamente-de-los-libros-impresos-que-de-pantallas-aunque-ellos-creen-lo-contrario).
+
+* Por cada día de retrazo en la entrega de los apuntes se tendrá una décima menos.
+* Si los apuntes se entregan un día antes de la fecha prevista, se tendrán dos décimas adicionales.
+* Si los apuntes se entregan dos días o más días antes de la fecha prevista, se tendrán cuatro décimas adicionales.
+* Durante el semestre se tendrán 30 clases aproximadamente. Al final del semestre, el conjunto de todos los apuntes se dividirá en tres grupos y de cada uno de esos grupos se seleccionará al azar uno de los apuntes. Solamente se calificarán los 3 apuntes seleccionados.
 
 ## Descripción de la asignatura mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
@@ -102,11 +111,13 @@ Aplicación a problemas de vigas, losas, barras a torsión o métodos energétic
 * Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970.
 
 ## Otras observaciones que se quieren dejar por escrito:
+<!---
 ### Asistencia al curso
 La puerta se cerrará 10 minutos después de haber iniciado la clase (de acuerdo con el reloj del computador del salón).
 
 ### Falta a los exámenes
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
+--->
 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
@@ -115,5 +126,7 @@ Estos se penalizarán así:
 * Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
 * Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre.
 
+<!---
 ### "Minuciosamente" en los exámenes
 En todos los exámenes se debe relacionar con palabras las fórmulas y motivar físicamente el por qué de un procedimiento o fórmula (es decir, se debe escribir la explicación suponiendo que usted está escribiendo un libro). Si no se hace esto, se le rebajará en ese punto en particular el 50% de la nota.
+--->
