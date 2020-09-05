@@ -30,17 +30,19 @@ La fecha del examen se definirá dos semanas antes de su realización.
   * **Trabajo 2:** 25%, flexión de placas de Kirchhoff-Love y Mindlin.
 
 ## Criterios de calificación de los apuntes
- * Los apuntes en un cuaderno se calificarán así:
+  * Los apuntes en un cuaderno se calificarán así:
    * 5.0 Apuntes completos y de buena claridad
    * 4.0 Apuntes de buena calidad pero parcialmente completos; hay detalles que hacen falta
    * 2.5 Apuntes mediocres e incompletos: es difícil estudiar de ellos
    * 1.0 Apuntes supermalos
    * 0.0 No hizo apuntes
 
- * Los apuntes subrayando las copias se calificarán así:
+ * Los apuntes subrayando impresiones en papel del libro se calificarán así:
    * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto.
    * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
    * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
+
+La razón del porqué se deben hacer las notas en papel y no electrócamente es que hay estudios que demuestran que estudiar sobre papel es más efectivo que aprender sobre una pantalla. Ver por ejemplo los artículos [1](https://www.eldiario.es/consumoclaro/consumo_digital/mejor-leer-libros-impresos-electronicos_1_3220278.html) y [2](https://www.xataka.com/otros/los-estudiantes-aprenden-mucho-mas-efectivamente-de-los-libros-impresos-que-de-pantallas-aunque-ellos-creen-lo-contrario).
 
 ## Descripción de la asignatura mecánica de sólidos 2
 En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas, métodos energéticos y la teoría de torsión de barras, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.

@@ -38,10 +38,12 @@ La fecha del examen se definirá dos semanas antes de su realización.
    * 1.0 Apuntes supermalos
    * 0.0 No hizo apuntes
 
- * Los apuntes subrayando las copias se calificarán así:
+ * Los apuntes subrayando impresiones en papel del libro se calificarán así:
    * 5.0 Hace muchas notas en el extremo de la página que complementan o ayudan a entender el texto del libro. Deduce fórmulas en la margen del texto.
    * 1.0 Se limitó a subrayar o a marcar con resaltador. Eventualmente hay notas a mano, pero son pocas. No se evidencia que estudió con juicio las hojas.
    * 0.0 No hizo apuntes o simplemente presentó un PDF resaltado.
+
+La razón del porqué se deben hacer las notas en papel y no electrócamente es que hay estudios que demuestran que estudiar sobre papel es más efectivo que aprender sobre una pantalla. Ver por ejemplo los artículos [1](https://www.eldiario.es/consumoclaro/consumo_digital/mejor-leer-libros-impresos-electronicos_1_3220278.html) y [2](https://www.xataka.com/otros/los-estudiantes-aprenden-mucho-mas-efectivamente-de-los-libros-impresos-que-de-pantallas-aunque-ellos-creen-lo-contrario).
 
 ## Descripción de la asignatura mecánica de sólidos 1
 El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
