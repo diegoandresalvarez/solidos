@@ -29,7 +29,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 
 * El estudiante procurará que el lugar esté aislado de ruidos y tenga buena iluminación.
 
-* Durante el examen y en cualquier momento, el profesor podría solicitar al estudiante que muestre con su cámara, y en 360 grados, la habitación donde se encuentra para demostrar que se encuentra solo.
+* Durante el examen y en cualquier momento, el profesor podría solicitar al estudiante que muestre con su cámara, y en 360 grados, la habitación donde se encuentra para demostrar que se encuentra solo o para verificar que no tenga notas o papeles pegados de la pantalla del computador o en la pared.
 
 * Como podrían existir retrazos en los exámenes orales, usted deberá esperar a que el profesor lo contacte. Para tal fin esperará al llamado del profesor con el programa MICROSOFT TEAMS abierto.
 
