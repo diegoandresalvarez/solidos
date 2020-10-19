@@ -10,7 +10,7 @@ Fecha de entrega: se especificará en GOOGLE CLASSROOM. Por cada día de retraso
 
 La idea de este trabajo es analizar mediante un programa profesional una sólido que se pueda modelar por tensión o deformación plana.
 
-Todas los grupos deberán modelar un sólido diferente. En [esta página de la WIKI](http://solidos2020a.shoutwiki.com/wiki/Estructura_a_analizar_para_el_Taller_1_de_S%C3%B3lidos_1) podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe ser real y no una inventada.
+Todas los grupos deberán modelar un sólido diferente. En [esta página de GOOGLE SLIDES](https://docs.google.com/presentation/d/1xXS8myqNbUxzT8DYY-TlLzfhbnKC5VlIr_L1tKkNEso/edit?usp=sharing) podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe ser real y no una inventada.
 
 ## Se solicita
 * Explicar detalladamente como se modelaron las condiciones de frontera.
