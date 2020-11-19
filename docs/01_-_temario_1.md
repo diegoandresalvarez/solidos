@@ -24,8 +24,10 @@ Por motivo de la contingencia con el COVID-19, es necesario cambiar las condicio
   * **Apuntes de clase:** 20%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
   * **Examen oral 1:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
   * **Examen oral 2:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
-  * **Trabajo 1:** 20%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  * **Trabajo:** 40%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  <!---
   * **Trabajo 2:** 20%, diferencias finitas.
+  --->
 
 ## Examenes
 Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
