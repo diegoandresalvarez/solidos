@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 '''
 Programa para graficar las líneas de flujo y las equipotenciales
 Tenga en cuenta que los bordes de Neumann son líneas de flujo
@@ -9,7 +10,6 @@ Elaborado por:
 * Diego Andrés Alvarez Marín  daalvarez@unal.edu.co
 '''
 
-# %%
 import numpy as np
 import matplotlib.pyplot as plt
 from openpyxl import load_workbook
