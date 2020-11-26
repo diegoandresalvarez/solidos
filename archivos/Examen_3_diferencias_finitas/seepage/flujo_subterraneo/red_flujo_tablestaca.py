@@ -21,11 +21,11 @@ wb = load_workbook(filename='tablestaca.xlsx', data_only=True, read_only=True)
 hoja, coord = list(wb.defined_names['cabezas'].destinations)[0]
 rango = wb[hoja][coord]
 H = np.array([[celda.value for celda in fila] for fila in rango]).astype(float)
-H = np.flipud(H) #  % invertir filas de la matriz de arriba a abajo
+H = np.flipud(H)     # invertir filas de la matriz de arriba a abajo
 
 # %% se definen algunas constantes
 K     = 2.5e-08      # [m/s] permeabilidad
-delta = 0.5          # espaciado en diferencias finitas
+delta = 0.5          # [m] espaciado en diferencias finitas
 
 # se definen los ejes
 x = np.arange(0, 31 + delta, delta) 
