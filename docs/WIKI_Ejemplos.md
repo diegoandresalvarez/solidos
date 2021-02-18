@@ -44,11 +44,11 @@ Ver:  http://www.rae.es/consultas/la-conjuncion-o-siempre-sin-tilde-incluso-entr
 
 Al párrafo:
 
-"...con el fin de encontrar los otro componente..."
+> "...con el fin de encontrar los otro componente..."
 
 les hace falta varias <span style="color: #ff0000">s</span> al final:
 
-"...con el fin de encontrar los otro<span style="color: #ff0000">s</span> componente<span style="color: #ff0000">s</span> ..."
+> "...con el fin de encontrar los otro<span style="color: #ff0000">s</span> componente<span style="color: #ff0000">s</span> ..."
 
 ---
 
@@ -56,11 +56,11 @@ les hace falta varias <span style="color: #ff0000">s</span> al final:
 
 No se entiende la redacción de la frase 
 
-"De otro lado, ''es común práctica'' en la mecánica del medio continuo y en la teoría de la elasticidad...".
+> "De otro lado, ''es común práctica'' en la mecánica del medio continuo y en la teoría de la elasticidad...".
 
 Debería decir:
 
-"De otro lado, ''es práctica común'' en la mecánica del medio continuo y en la teoría de la elasticidad...".
+> "De otro lado, ''es práctica común'' en la mecánica del medio continuo y en la teoría de la elasticidad...".
 
 ---
 
@@ -68,7 +68,7 @@ Debería decir:
 
 Error ortográfico en la parte que dice:
 
-"sobre que planos...". 
+> "sobre que planos...". 
 
 La palabra "que" debe ser tildada, pues se usa en una pregunta y no en una afirmación.
 
@@ -104,7 +104,7 @@ Sugiero la siguiente figura que ilustra el concepto del riego de las plantas:
 
 ### María Alejandra Meza
 
-"Aquí ''tr(t)'' denota la traza...".
+> "Aquí ''tr(t)'' denota la traza...".
 
 Observo que al empezar a escribir la palabra "Aquí" se deja un espacio al principio, como si se tratara de una sangría pero en todo el pdf no se esta utilizando esta forma de escritura.
 
@@ -114,9 +114,10 @@ Observo que al empezar a escribir la palabra "Aquí" se deja un espacio al princ
 
 En el segundo párrafo, el nombre está mal escrito: 
 
-"Al matemático francés ''Seméon'' Denis Poisson (1781–1840)".
+> "Al matemático francés ''Seméon'' Denis Poisson (1781–1840)".
 
-La forma correcta es ''Siméon'' Denis Poisson.
+La forma correcta es 
+> ''Siméon'' Denis Poisson.
 
 ---
 
