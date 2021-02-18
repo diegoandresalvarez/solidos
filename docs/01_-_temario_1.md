@@ -9,9 +9,9 @@
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 --->
 
-Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes orales, evaluación de los apuntes y talleres.
+El curso se evaluará mediante exámenes orales, evaluación de los apuntes y talleres.
 
-### Mecánica de Sólidos 1, Grupo 2 (Martes y Jueves):
+### Mecánica de Sólidos 1, Grupo 2 (Lunes y Miércoles):
 <!---
     * Examen 1: 30%, que se distribuye así:    
       * Examen matemáticas 1: 20%, Martes Marzo 17, 2020 
@@ -21,10 +21,9 @@ Por motivo de la contingencia con el COVID-19, es necesario cambiar las condicio
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
 --->    
-  * **Apuntes de clase:** 20%, se seleccionarán al azar 3 apuntes de clase y se evaluarán. Se calificarán qué tan completos están y si incluyen todo el contenido solicitado, tanto de los videos como del libro.
-  * **Examen oral 1:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
-  * **Examen oral 2:** 20%, todo el material visto en clase, lectura y videos. Tema por definir.
-  * **Trabajo:** 40%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  * **Examen oral 1:** 33.3%, todo el material visto en clase, lectura y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Examen oral 2:** 33.3%, todo el material visto en clase, lectura y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Trabajo:** 33.3%, análisis de los gráficos que arrojan los programas de elementos finitos.
   <!---
   * **Trabajo 2:** 20%, diferencias finitas.
   --->
@@ -32,8 +31,9 @@ Por motivo de la contingencia con el COVID-19, es necesario cambiar las condicio
 ## Examenes
 Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
 
-La fecha del examen se definirá dos semanas antes de su realización.
+La fecha del examen se definirá, en GOOGLE CLASSROOM, dos semanas antes de su realización.
 
+ <!---
 ## Criterios de calificación de los apuntes
 Se pueden presentar los apuntes en un cuaderno y/o rayando directamente sobre impresiones del libro:
 
@@ -51,18 +51,28 @@ Se pueden presentar los apuntes en un cuaderno y/o rayando directamente sobre im
 
 La razón del porqué se deben hacer las notas en papel y no electrócamente es que hay estudios que demuestran que estudiar sobre papel es más efectivo que aprender sobre una pantalla. Ver por ejemplo los artículos [1](https://www.eldiario.es/consumoclaro/consumo_digital/mejor-leer-libros-impresos-electronicos_1_3220278.html) y [2](https://www.xataka.com/otros/los-estudiantes-aprenden-mucho-mas-efectivamente-de-los-libros-impresos-que-de-pantallas-aunque-ellos-creen-lo-contrario).
 
-* Por cada día de retrazo en la entrega de los apuntes se tendrá una décima menos.
+* Por cada día de retraso en la entrega de los apuntes se tendrá una décima menos.
 * Si los apuntes se entregan un día antes de la fecha prevista, se tendrán dos décimas adicionales.
 * Si los apuntes se entregan dos días o más días antes de la fecha prevista, se tendrán cuatro décimas adicionales.
 * Durante el semestre se tendrán 30 clases aproximadamente. Al final del semestre, el conjunto de todos los apuntes se dividirá en tres grupos y de cada uno de esos grupos se seleccionará al azar uno de los apuntes. Solamente se calificarán los 3 apuntes seleccionados.
+--->
 
 ## Descripción de la asignatura mecánica de sólidos 1
-El programa comprende temas que van desde conceptos del álgebra lineal como vectores, matrices, valores y vectores propios entre otros y conceptos del calculo vectorial como gradiente, divergencia, rotacional, operadores de Laplace. Se tratan como temas centrales la descripción del movimiento en medios continuos, deformaciones, pequeñas deformaciones, tensiones, ecuaciones de compatibilidad, teoría de la elasticidad, y finalmente se hace una introducción a los métodos de elementos finitos.
+En este curso se profundizará en la teoría de la elasticidad. Esta es una teoría básica, imprescindible para poder entender entender, con suficiencia, el método de los elementos finitos, y con el tener bases apropiadas para poder manejar con conciencia los diferentes programas de análisis estructural que existen en el mercado, que son empleados no solo en ingeniería estructural, sino en ingeniería geotécnica y de pavimentos.
+
+Partiendo de los conocimientos previos sobre tensiones y deformaciones, adquiridos en el curso de mecánica tensorial, el curso se desarrolla estudiando en profundidad las relaciones entre esfuerzos y deformaciones para materiales elásticos lineales, las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles y finaliza con la formulación elástica en coordenadas cilíndricas, lo cual es de especial importancia no solo en la mecánica estructural sino en la de suelos.
+
+Se espera que al final del curso, el estudiante esté en capacidad de:
+* Analizar y explicar como varían las tensiones y las deformaciones al interior de un sólido elásticos.
+* Entender las diferentes suposiciones y limitaciones presentes en la teoría de la elasticidad.
+* Interpretar los diferentes criterios de falla presentes en los sólidos elásticos.
+* Entender la deducción y rango de aplicación de ciertas formulaciones que se aplicarán más tarde en las líneas de mecánica de suelos y pavimentos.
+
+La materia se desarrollará mediante clases magistrales y prácticas mediante el uso de programas de elementos finitos.
 
 ## Contenidos programático de mecánica de sólidos 1
 
 ### 1. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
-
 #### Repaso de álgebra lineal (teoría y ejercicios de aplicación)
 * Cosenos directores
 * Proyección de vectores
@@ -86,23 +96,79 @@ El programa comprende temas que van desde conceptos del álgebra lineal como vec
 * Regla de la cadena (se estudió en cálculo univariado y en cálculoo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
 
-### 2. Esfuerzos o tensiones
-Fuerzas másicas y fuerzas superficiales, esfuerzos cortantes, esfuerzos normales, tensor de tensiones, cambio de base, círculo de Mohr en 2D y 3D.
+### 2. Repaso breve de esfuerzos y deformaciones infinitesimales
 
-### 3. Desplazamientos y pequeñas deformaciones
-Desplazamientos, deformaciones longitudinales y angulares, galgas extensiométricas, especificación de la deformación en otras direcciones, rotación, deformaciones principales.
+#### Esfuerzos o tensiones
+* Fuerzas másicas y fuerzas superficiales
+* Esfuerzos cortantes y normales
+* Tensor de tensiones
+* Cambio de base
+
+#### Desplazamientos y pequeñas deformaciones
+* Desplazamientos
+* Deformaciones longitudinales y angulares
+* Galgas extensiométricas
+* Especificación de la deformación en otras direcciones
+* Rotación
+* Deformaciones principales
+
+### 3. Círculo de Mohr en 2D y 3D para los tensores de esfuerzos y deformaciones
 
 ### 4. Relación entre esfuerzos y deformaciones
-Materiales elásticos, materiales plásticos, módulo de Young, coeficiente de Poisson, ley de Hooke, cambios de volumen, dilatación cúbica, módulo de compresibilidad, ley de Hooke teniendo en cuenta los efectos térmicos, tensión plana, deformación plana, interpretación de gráficos de colores de esfuerzos y deformaciones.
+* Materiales frágiles y materiales dúctiles: comportamiento elastoplástico, curva esfuerzo deformación.
+* La ley de Hooke para materiales isótropos, anisótropos y ortótropos:
+  * Los módulos de Young y Poisson.
+  * Deformación de un sólido sometido a esfuerzos normales en las direcciones x, y y z.
+  * Deformación de un sólido sometido a esfuerzos tangenciales.
+* Relación entre las direcciones principales asociadas a los esfuerzos y a las deformaciones para materiales isótropos
+* Cambios de volumen y dilatación cúbica
+* Módulo de expansión volumétrica o módulo de compresibilidad.
+* Particularizaciones de tres a dos dimensiones: 
+  * Tensión plana
+  * Deformación plana
+  * Relación entre los esfuerzos principales obtenidos en el análisis bidimensional y tridimensional
+* Interpretación de los gráficos de colores de esfuerzos y deformaciones
+* Modificación de la ley de Hooke para tener en cuenta los efectos térmicos en el caso de materiales isótropos y ortótropos
 
 ### 5. Ecuaciones diferenciales fundamentales de la teoría de la elasticidad
-Ecuaciones diferenciales de equilibrio, ecuaciones de compatibilidad, condiciones de equilibrio en la frontera, función de tensión de Airy, ecuaciones de Cauchy-Navier, principio de Saint-Venant, unicidad de la solución.
+* Ecuaciones diferenciales de equilibrio
+* Ecuaciones de compatibilidad en 2D y 3D en términos de deformaciones y esfuerzos (las ecuaciones de Saint-Venant y de  Mitchell-Beltrami)
+* Condiciones de frontera
+* Condiciones de equilibrio en la frontera en 2D y 3D
+* Cálculo de los desplazamientos a partir de las deformaciones
+* Función de tensión de Airy
+* Ecuaciones diferenciales de Navier
+* Unicidad de la solución
+* Principio de superposición
+* Principio de Saint-Venant
 
-### 6. Introducción al método de las diferencias finitas
-Problemas de valor en la frontera, fronteras de Dirichlet, fronteras de Neumman, diferencias finitas, solución a la ecuación de Laplace, solución a la ecuación de Poisson, aplicación a la solución de problemas de elasticidad, comparación con el método de los elementos finitos.
+### 5. Criterios de falla para materiales dúctiles y frágiles
+* Esfuerzos medios, desviadores y octaédricos
+* El espacio de esfuerzos principales, la superficie de fluencia y la región elástica
+* El sistema de coordenadas cilíndricas de Haigh-Westergaard
+  * Simetría del espacio de esfuerzos principales
+  * Comportamiento de los materiales isótropos en el rango plástico cuando se les somete a una condición de esfuerzos tridimensional
+* Energía de dilatación y energía de distorsión
+* Criterios de fluencia y superficies de plastificación en materiales dúctiles: von Mises, Tresca
+* Criterios de rotura y superficies de falla en materiales frágiles: Rankine, Mohr-Coulomb, Drucker-Prager, Matsuoka-Nakai
 
-### 7. Aplicación práctica a problemas de elasticidad
-Aplicación a problemas de vigas, losas, barras a torsión o métodos energéticos.
+### 6. Formulación en coordenadas polares y cilíndricas
+* Los sistemas de coordenadas polares y cilíndricas
+* El gradiente, el laplaciano, la divergencia y el rotacional en coordenadas cilíndricas
+* Esfuerzos
+* Deformaciones
+* Ecuaciones diferenciales de equilibrio
+* Desplazamiento y deformación en el caso de simetría axial
+* Ley de Hooke
+* Ecuaciones diferenciales de compatibilidad en coordenadas polares y cilíndricas
+* Funciones de tensión de Airy y de Love
+* Ecuaciones diferenciales de Navier
+* Aplicaciones
+  * Cálculo de los discos y cilindros de sección constante sujetos a un estado de tensiones axisimétrico
+  * Concentración de esfuerzos alrededor de huecos circulares (el problema de Kirsch)
+  * Concentración de esfuerzos alrededor de grietas
+  * Concentración de esfuerzos en el ensayo brasileño
+  * Aplicación en ingeniería de cimentaciones: problemas de Boussinesq, Flamant, Kelvin, Cerruti y Mindlin
 
 ## Bibliografía básica
 * Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2020.

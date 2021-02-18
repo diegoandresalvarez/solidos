@@ -25,9 +25,7 @@ Este error se repite en las páginas 32, 43, 76, 87, 232, 312 y 411.
 La palabra **prohíbe** debe llevar tilde.
 
 Ver: 
-
 * http://dle.rae.es/?id=UK8SJRJ
-
 * http://lema.rae.es/dpd/?key=tilde2&lema=tilde2 (sección 2.2.2.)
 
 ---

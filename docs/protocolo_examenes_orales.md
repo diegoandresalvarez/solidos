@@ -11,7 +11,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 * [Universidad de Copenhagen - Dinamarca](https://itustudent.itu.dk/study-administration/exams/online-oral-exams)
 
 ## Pautas para la realización del examen
-* El examen se presentará de manera individual y sincrónica utilizando [Microsoft Teams](https://teams.microsoft.com/) en el computador y WhatsApp en el celular.
+* El examen se presentará de manera individual y sincrónica utilizando [ZOOM](https://zoom.us/) en el computador y WhatsApp en el celular.
 
 * El estudiante requerirá de una mesa o escritorio, un computador con una cámara conectada a internet, su celular como segunda cámara, micrófono y parlantes. La cámara del computador deberá estar filmando la cara del estudiante. La cámara del celular se deberá colocar de modo que muestre las manos del estudiante, la hoja donde raya y su escritorio. Ejemplos:
 
@@ -19,7 +19,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 <img src="figs/camara2.jpg" alt="drawing" width="500"/><img src="figs/camara3.jpg" alt="drawing" width="500"/>
 <img src="figs/camara4.jpg" alt="drawing" width="500"/><img src="figs/camara5.jpg" alt="drawing" width="500"/>
 
-* EL micrófono del celular se deberá silenciar. Solo se dejará el micrófono del computador.
+* El micrófono del celular se deberá silenciar. Solo se dejará el micrófono del computador.
 
 * El estudiante solicitará a su familia o sus compañeros de casa que no sea interrumpido durante la presentación del examen.
 
@@ -31,7 +31,7 @@ Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para l
 
 * Durante el examen y en cualquier momento, el profesor podría solicitar al estudiante que muestre con su cámara, y en 360 grados, la habitación donde se encuentra para demostrar que se encuentra solo o para verificar que no tenga notas o papeles pegados de la pantalla del computador o en la pared.
 
-* Como podrían existir retrazos en los exámenes orales, usted deberá esperar a que el profesor lo contacte. Para tal fin esperará al llamado del profesor con el programa MICROSOFT TEAMS abierto.
+* Como podrían existir retrasos en los exámenes orales, usted deberá esperar a que el profesor lo contacte. Para tal fin esperará al llamado del profesor con el programa ZOOM abierto.
 
 * Sobre el escritorio donde se presentará el examen solo debe estar el computador o portátil. No habrán apuntes, libros, notas pegadas en la pared, o adheridos o apoyados en algún lugar. Solo se tendrá portaminas (o lápiz), borrador y una hoja en blanco, en la cual el estudiante podría rayar cosas en caso que lo requiera. Ese papel lo presentará a la cámara para mostrar los gráficos, esquemas o ecuaciones que requiera para hacerse entender. En caso que el profesor lo solicite, esa hoja deberá marcarse con el nombre e inmediatamente después de concluir la serie de preguntas, deberá enviar una foto de la hoja al correo del profesor.
 
@@ -47,7 +47,7 @@ Mostrando la hoja del examen
 
 * Mientras responda la pregunta de forma oral, el estudiante deberá mirar fijamente a la cámara del computador.
 
-* El examen será grabado por parte del profesor y usando Microsoft Teams y/o el programa OBS. Esta será la evidencia que se utilizará en caso de reclamos. 
+* El examen será grabado por parte del profesor y usando ZOOM y/o el programa OBS. Esta será la evidencia que se utilizará en caso de reclamos. 
 
 * Dado que el curso tiene un texto guía, el examen consistirá en seleccionar una sección al azar del texto y preguntar sobre la misma. Para ello, el profesor distribuirá entre los estudiantes un cuestionario, el cual estará basado en el libro guía de la materia. De dicho cuestionario se seleccionará al azar una pregunta, la cual se sorteará utilizando cualquier página WEB que genere números aleatorios (en GOOGLE aparece uno cuando se escribe "*random number generator*"). Las preguntas que aparecen en el cuestionario solo serán unas que faciliten la evaluación. El profesor podría hacer preguntas diferentes a las que están en el cuestionario, pero deberán estar relacionadas con la sección del libro que se está evaluando. En caso que vuelva a seleccionarse la misma sección del libro, se repetirá el sorteo.
 
@@ -95,13 +95,13 @@ Mostrando la hoja del examen
 ## En caso de falla de la comunicación o de problemas técnicos
 * El estudiante tendrá tres intentos para presentar el examen.
 
-* En caso que no pueda presentarse al examen, por favor avíselo previamente, con justificación válida, conforme al reglamento de la universidad (por ejemplo, excusa médica). En este caso, el profesor reagendará el examen.
+* En caso que no pueda presentarse al examen, por favor avise previamente, con justificación válida, conforme al reglamento de la universidad (por ejemplo, excusa médica). En este caso, el profesor agendará de nuevo el examen.
 
 * De no poder concretarse la comunicación, se considerará que el estudiante estuvo ausente y habrá consumido uno de los tres posibles intentos para presentar el examen. 
 
-* If the exam is interrupted due to technical issues and the connection is not quickly restored, you must call the examiner from your phone. You must always be the one to make the call, even if the problems are not at your end - and you must do it without unnecessary delay. The examiner will decide whether the exam is be continued, discontinued or postponed – and you will be told before you hang up the phone, what is going to happen next.
+* Si el examen se interrumpe debido a problemas técnicos y la conexión no se restablece rápidamente, debe llamar al profesor. Usted debe ser siempre el que haga la llamada, incluso si los problemas de conexión no son suyos sino del profesor, y debe hacerlo sin demoras innecesarias. El profesor decidirá si el examen se continúa, se suspende o se pospone, y antes de colgar el teléfono se le informará que hacer.
 
-* If the duration of the interruption caused by technical problems corresponds to less than 1/5 of duration of the exam, the examiner will add the time spent re-establishing communications to the exam. 
+* Si la duración de la interrupción causada por problemas técnicos corresponde a menos de 1/5 de la duración del examen, el profesor agregará el tiempo necesario para compensar las interrupciones.
 
 ## If the exam cannot be completed
 * If you cannot complete the exam due to technical issues with your equipment or the internet connection is failing at your end, you will have used one exam attempt, just as you would if you were delayed going to an oral exam because the bus was delayed or your bike had a flat tyre.

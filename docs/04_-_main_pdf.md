@@ -7,8 +7,6 @@ Para mayor información sobre LaTeX ver:
 * Para usar LaTeX en MS WINDOWS descargue:
   * [MiKTeX](http://miktex.org/)
   * [TeXStudio](https://www.texstudio.org/)
-  * [Ghostscript](http://www.ghostscript.com/)
-  * [GSView](http://pages.cs.wisc.edu/%7Eghost/)
   * [Adobe Acrobat Reader](http://get.adobe.com/es/reader/)
   
   MS WORD no es una opción para escribir documentos bonitos de una forma rápida, amena y manejable!

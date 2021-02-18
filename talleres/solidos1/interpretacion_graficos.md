@@ -1,19 +1,19 @@
-# Taller interpretación de gráficos: modelado de estructuras en tensión/deformación plana utilizando software profesional.
+# Taller sobre interpretación de gráficos: modelado de estructuras en tensión/deformación plana utilizando software profesional.
 
 Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de esfuerzo, deformación, esfuerzos principales, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto el esfuerzo cortante máximo τₘₐₓ) de una estructura que se pueda modelar en tensión/deformación plana. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
 Trabajo en grupos de máximo dos personas.
 
-Fecha de entrega: se especificará en GOOGLE CLASSROOM. Por cada día de retraso se descontarán 3 décimas de la nota final.
+Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada día de retraso se descontarán 3 décimas de la nota final.
 
 ## El problema propuesto
 
-La idea de este trabajo es analizar mediante un programa profesional una sólido que se pueda modelar por tensión o deformación plana.
+La idea de este trabajo es analizar mediante un programa profesional un sólido que se pueda modelar por tensión o deformación plana.
 
 Todas los grupos deberán modelar un sólido diferente. En [esta página de GOOGLE SLIDES](https://docs.google.com/presentation/d/1xXS8myqNbUxzT8DYY-TlLzfhbnKC5VlIr_L1tKkNEso/edit?usp=sharing) podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe ser real y no una inventada.
 
 ## Se solicita
-* Explicar detalladamente como se modelaron las condiciones de frontera.
+* Explicar detalladamente como se modelaron las condiciones de frontera (condiciones de apoyo, cargas).
 
 * Calcular las reacciones en los apoyos.
 
@@ -21,7 +21,7 @@ Todas los grupos deberán modelar un sólido diferente. En [esta página de GOOG
 
 * Hacer dos videos (cada integrante del grupo debe hacer los dos videos):
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado y análisis de la estructura escogida. Se deben mostrar los resultados sin interpretarlos. Se recomienda que el estudiante explore muy bien todas las funcionalidades del programa para la presentación de resultados (posprocesado). 
-  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE ESTRUCTURAS EN TENSION/DEFORMACION PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
+  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS DE ESTRUCTURAS EN TENSIÓN/DEFORMACIÓN PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
   
     Algunos ejemplos de buenos análisis son:
      * STRUSOFT FEM-DESIGN (análisis de losas): https://www.youtube.com/watch?v=xxPzgIl-mEg    

@@ -51,17 +51,18 @@
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
   --->
 
-### Talleres de Mecánica de sólidos 1:
-  * [Taller 1 - Análisis de gráficos](talleres/solidos1/interpretacion_graficos.md)
+### Taller de Mecánica de sólidos 1:
+  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos.md)
+  <!---
   * [Taller 2 - Diferencias finitas](talleres/solidos1/airy.md)
+  --->
 
 ### Talleres de Mecánica de sólidos 2:
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
 
-<!---
+
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://solidos2020a.shoutwiki.com/
   * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
   * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
---->
