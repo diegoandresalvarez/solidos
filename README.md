@@ -63,6 +63,6 @@
 
 
 ### WIKI para la corrección de los errores en el `main.pdf`: 
-  * http://solidos2020a.shoutwiki.com/
+  * http://mecanicadesolidos.shoutwiki.com/
   * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
   * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
