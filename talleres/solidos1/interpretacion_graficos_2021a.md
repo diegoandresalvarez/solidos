@@ -10,7 +10,7 @@ Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 8 horas 
 
 La idea de este trabajo es analizar mediante un programa profesional un sólido que se pueda modelar por tensión o deformación plana.
 
-Todas los grupos deberán modelar un sólido y material diferente. En [esta página de GOOGLE SLIDES](https://docs.google.com/presentation/d/1xXS8myqNbUxzT8DYY-TlLzfhbnKC5VlIr_L1tKkNEso/edit?usp=sharing) podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe estar hecha de un material ortótropo; las propiedades de dicho material se obtendrán de alguna página de internet. 
+Todas los grupos deberán modelar un sólido y material diferente. En en archivo de GOOGLE SLIDES, especificado en GOOGLE CLASSROOM, podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe estar hecha de un material ortótropo; las propiedades de dicho material se obtendrán de alguna página de internet. 
 
 ## Se solicita
 * Explicar detalladamente como se modelaron las condiciones de frontera (condiciones de apoyo, cargas).
