@@ -33,7 +33,7 @@ Todas los grupos deberán modelar un sólido y material diferente. En [esta pág
 
   NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γxy: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γxy? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
 
-  NOTA 2: extensión máxima del informe 20 páginas. 
+  NOTA 2: extensión máxima del informe 25 páginas. Incluya en el informe las gráficas obtenidas por todos los integrantes del grupo.
 
   NOTA 3: en ocasiones, cuando se tienen puntos de singularidad, esos valores son tan altos, que terminan opacando los colores en la estructura, mostrándolos como uno solo. En este caso, se sugiere usar una opción del software que limita los colores a mostrar a un rango. 
 
@@ -81,7 +81,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.2 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₁, se tendrá un 0.0 en este punto).
   * 0.2 Sugiere la forma como la estructura se agrieta, asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₂, se tendrá un 0.0 en este punto).
   * 0.3 Diagramas de esfuerzos de von Mises, de Tresca y/o τₘₐₓ
-  * 0.4 Reacciones en los apoyos, fuerzas puntuales y momentos flectores equivalentes.
+  * 0.4 Reacciones en los apoyos, fuerzas puntuales y momentos flectores equivalentes. Nota. Las fuerzas puntuales y los momentos flectores equivalentes en las reacciones se encuentran usando en el software una opción llamada "Integrate over surface".
 
 * Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono auxiliar (por ejemplo, un manos libres) y evite usar el micrófono del portátil para hacer el video.
 
