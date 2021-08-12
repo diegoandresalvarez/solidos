@@ -4,7 +4,7 @@ Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso 
 
 Trabajo en grupos de máximo TRES personas.
 
-Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 8 horas de retraso se descontará 1 décima de la nota final.
+Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 2 horas de retraso se descontará 1 décima de la nota final.
 
 ## El problema propuesto
 
