@@ -52,7 +52,7 @@
   --->
 
 ### Taller de Mecánica de sólidos 1:
-  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos.md)
+  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2021a.md)
   <!---
   * [Taller 2 - Diferencias finitas](talleres/solidos1/airy.md)
   --->
