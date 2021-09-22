@@ -21,9 +21,10 @@ El curso se evaluará mediante exámenes orales y talleres.
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
 --->    
-  * **Examen oral 1:** 33.3%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
-  * **Examen oral 2:** 33.3%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
-  * **Trabajo:** 33.3%, análisis de los gráficos que arrojan los programas de elementos finitos.
+  * **Examen oral 1:** 30%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Examen oral 2:** 25%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Examen oral 3:** 20%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Trabajo:** 25%, análisis de los gráficos que arrojan los programas de elementos finitos.
   <!---
   * **Trabajo 2:** 20%, diferencias finitas.
   --->
