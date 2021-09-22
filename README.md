@@ -22,8 +22,8 @@
 - Intensidad horaria semanal virtual: 4 horas
 
 - Mecánica de sólidos 1:
-  - Lunes 16:00-18:00
-  - Miércoles 16:00-18:00
+  - Lunes 16:00-18:00 por ZOOM
+  - Miércoles 16:00-18:00 por ZOOM
 <!---
 - Mecánica de sólidos 2:
   - Jueves 7:00-9:00
