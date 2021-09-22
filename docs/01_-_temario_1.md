@@ -9,7 +9,7 @@
 Se harán exámenes sorpresa que comprenderán el tema enseñado en las últimas 4 clases y/o el material que el profesor haya puesto a leer antes de clase. Cada 8 clases se seleccionarán al azar 2 de los exámenes realizados en dicho periodo y la nota obtenida será la nota de ese corte.
 --->
 
-El curso se evaluará mediante exámenes orales, evaluación de los apuntes y talleres.
+El curso se evaluará mediante exámenes orales y talleres.
 
 ### Mecánica de Sólidos 1, Grupo 2 (Lunes y Miércoles):
 <!---
@@ -21,8 +21,8 @@ El curso se evaluará mediante exámenes orales, evaluación de los apuntes y ta
     * Examen 3: 25%, Jueves Mayo 28, 2020
     * Examen 4: 20%, Jueves Junio 25, 2020
 --->    
-  * **Examen oral 1:** 33.3%, todo el material visto en clase, lectura y videos. El tema asociado se encuentra en la página de CLASSROOM.
-  * **Examen oral 2:** 33.3%, todo el material visto en clase, lectura y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Examen oral 1:** 33.3%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
+  * **Examen oral 2:** 33.3%, todo el material visto en clase, lecturas y videos. El tema asociado se encuentra en la página de CLASSROOM.
   * **Trabajo:** 33.3%, análisis de los gráficos que arrojan los programas de elementos finitos.
   <!---
   * **Trabajo 2:** 20%, diferencias finitas.
@@ -96,7 +96,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Regla de la cadena (se estudió en cálculo univariado y en cálculoo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
 
-### 2. Repaso breve de esfuerzos y deformaciones infinitesimales
+### 2. Repaso breve de esfuerzos y deformaciones infinitesimales (estos temas se aprendieron en el curso *Mecánica Tensorial*)
 
 #### Esfuerzos o tensiones
 * Fuerzas másicas y fuerzas superficiales
@@ -142,7 +142,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Principio de superposición
 * Principio de Saint-Venant
 
-### 5. Criterios de falla para materiales dúctiles y frágiles
+### 6. Criterios de falla para materiales dúctiles y frágiles
 * Esfuerzos medios, desviadores y octaédricos
 * El espacio de esfuerzos principales, la superficie de fluencia y la región elástica
 * El sistema de coordenadas cilíndricas de Haigh-Westergaard
@@ -152,7 +152,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Criterios de fluencia y superficies de plastificación en materiales dúctiles: von Mises, Tresca
 * Criterios de rotura y superficies de falla en materiales frágiles: Rankine, Mohr-Coulomb, Drucker-Prager, Matsuoka-Nakai
 
-### 6. Formulación en coordenadas polares y cilíndricas
+### 7. Formulación en coordenadas polares y cilíndricas
 * Los sistemas de coordenadas polares y cilíndricas
 * El gradiente, el laplaciano, la divergencia y el rotacional en coordenadas cilíndricas
 * Esfuerzos
@@ -173,7 +173,6 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 ## Bibliografía básica
 * Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2020.
 * Ortiz-Berrocal, L. *Elasticidad*. McGraw Hill, España, 3rd edition. 1998.
-* Paredes, Jairo A. and Marín, Juan Pablo. *Mecánica de sólidos. Una visión práctica de la mecánica de medios continuos*. Editorial Universidad Nacional. 2008.
 * Saad, M. *Elasticity: theory, applications and numerics*. Elsevier, Amsterdam. 2005.
 * Solecki, R. and Conant, R. *Advanced mechanics of materials*. Oxford University Press. 2003.
 * Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970.
@@ -192,7 +191,7 @@ Estos se penalizarán así:
 
 * Nota cero en el trabajo/examen en cuestión.
 * Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
-* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre.
+* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre y los puntos de la WIKI.
 
 <!---
 ### "Minuciosamente" en los exámenes

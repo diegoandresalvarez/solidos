@@ -24,9 +24,11 @@
 - Mecánica de sólidos 1:
   - Lunes 16:00-18:00
   - Miércoles 16:00-18:00
+<!---
 - Mecánica de sólidos 2:
   - Jueves 7:00-9:00
   - Viernes 16:00-18:00
+--->  
 
 - Tiempo de actividad autónoma por semana: 8 horas
 
@@ -52,7 +54,7 @@
   --->
 
 ### Taller de Mecánica de sólidos 1:
-  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2021a.md)
+  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2021b.md)
   <!---
   * [Taller 2 - Diferencias finitas](talleres/solidos1/airy.md)
   --->
