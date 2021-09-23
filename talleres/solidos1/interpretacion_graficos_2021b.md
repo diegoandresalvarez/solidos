@@ -5,6 +5,9 @@ Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso 
 Trabajo en grupos de máximo TRES personas.
 
 Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 2 horas de retraso se descontará 1 décima de la nota final.
+<!---
+* Por cada día de retrazo se descontarán 3 décimas de la nota final.
+--->
 
 ## El problema propuesto
 
@@ -21,7 +24,7 @@ Todas los grupos deberán modelar un sólido y material diferente. En en archivo
 
 * **TRABAJO INDIVIDUAL**: cada integrante del grupo debe hacer los dos videos:
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado y análisis de la estructura escogida. Se deben mostrar los resultados sin interpretarlos. Se recomienda que el estudiante explore muy bien todas las funcionalidades del programa para la presentación de resultados (posprocesado). 
-  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS DE ESTRUCTURAS EN TENSIÓN/DEFORMACIÓN PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
+  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS DE ESTRUCTURAS EN TENSIÓN/DEFORMACIÓN PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
   
     Algunos ejemplos de buenos análisis son:
      * STRUSOFT FEM-DESIGN (análisis de losas): https://www.youtube.com/watch?v=xxPzgIl-mEg    
@@ -46,7 +49,7 @@ Todas los grupos deberán modelar un sólido y material diferente. En en archivo
 
 Se espera que cada uno lea a fondo el manual del usuario del software. No se queden con los videos de YouTube. En el manual del usuario generalmente existe información importante sobre las hipótesis de modelado que hace cada software.
 
-Se sugiere aprender a manejar un programa de edición de videos. Esto les facilitará mucho la realización del mismo.
+Se sugiere aprender a manejar un programa de edición de videos. Esto les facilitará mucho su realización.
 
 ## Consejos
 * Muy probablemente usted utilice un programa basado en el método de los elementos finitos para hacer su análisis. En tal caso, se sugiere mirar [estas](https://github.com/diegoandresalvarez/elementosfinitos/blob/master/diapositivas/05e_generando_una_buena_malla.pdf) diapositivas, la cual contiene consejos de como hacer un buen mallado.
@@ -70,7 +73,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   NOTA: si usted usa un software que no calcula las cantidades anteriormente solicitadas, podría perder puntos. En tal caso, se sugiere cambiar de programa.
 
 * **VIDEO 2 + PDF PRESENTACION**: Reseña de las capacidades/hipótesis/suposiciones/limitaciones del software (35% = 2.1)
-  * 0.7 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia del mismo.
+  * 0.7 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia.
   * 0.7 Intenta entender las fórmulas del manual de referencia al verificar su equivalencia con las que se vieron en clase (en ocasiones toca convertir esas ecuaciones a nuestra nomenclatura para poder entenderlas, ya que los programas son usualmente mucho más generales y soportan más casos que los vistos en clase) y/o usan una nomenclatura diferente.
   * 0.7 Explica las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis estructural?
 
@@ -86,8 +89,6 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
 * Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono auxiliar (por ejemplo, un manos libres) y evite usar el micrófono del portátil para hacer el video.
 
 * Si se sube un video de mala calidad (por ejemplo 720p de calidad o inferior) se rebajará 1.0 unidad. Mínimo 1080p. Recuerde que no tenemos limitación en el almacenamiento en GOOGLE CLASSROOM. En caso que su equipo no sea capaz de hacer videos con resolución 1080p, infórmelo previamente.
-
-* Por cada día de retrazo se descontarán 3 décimas de la nota final.
 
 * Si modela la estructura como 3D a pesar que es una de tensión/deformación plana se tendrá menos 1.0 unidad. Se debe usar necesariamente la funcionalidad de tensión/deformación plana del programa de elementos finitos (excepto si puede demostrar que este software no tiene esa opción).
 
