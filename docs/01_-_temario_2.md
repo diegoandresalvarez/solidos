@@ -101,13 +101,15 @@ En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas grues
 
 
 ## Bibliografía básica
-* Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2020.
-* Ortiz-Berrocal, L. *Elasticidad*. McGraw Hill, España, 3rd edition. 1998.
-* Paredes, Jairo A. and Marín, Juan Pablo. *Mecánica de sólidos. Una visión práctica de la mecánica de medios continuos*. Editorial Universidad Nacional. 2008.
-* Saad, M. *Elasticity: theory, applications and numerics*. Elsevier, Amsterdam. 2005.
-* Solecki, R. and Conant, R. *Advanced mechanics of materials*. Oxford University Press. 2003.
-* Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970.
-* Ventsel, E. and Krauthammer, T. *Thin Plates and Shells: Theory: Analysis, and Applications*. Marcel Dekker, Inc, New York.
+* Alvarez Diego A. (2021) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.
+* Saad, M. (2005) - *Elasticity: theory, applications and numerics*. Elsevier.
+* Solecki, R. and Conant, R. (2003) - *Advanced mechanics of materials*. Oxford University Press.
+* Timoshenko, S. P. and Goodier, J. (1970) - *Theory of Elasticity*. McGraw Hill, 3rd edition.
+* Ugural, A. C. (1981) - *Stresses in plates and shells*. Mc. Graw-Hill.
+* Ventsel, E. and Krauthammer, T. (2001) - *Thin Plates and Shells: Theory: Analysis, and Applications*. CRC Press.
+* Wang, C.-T. (1953) - *Applied Elasticity*. McGraw Hill.
+
 
 
 ## Otras observaciones que se quieren dejar por escrito:

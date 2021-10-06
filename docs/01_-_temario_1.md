@@ -172,11 +172,13 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
   * Aplicación en ingeniería de cimentaciones: problemas de Boussinesq, Flamant, Kelvin, Cerruti y Mindlin
 
 ## Bibliografía básica
-* Alvarez Diego A. *Notas de clase del curso mecánica de sólidos*. En preparación. 2020.
-* Ortiz-Berrocal, L. *Elasticidad*. McGraw Hill, España, 3rd edition. 1998.
-* Saad, M. *Elasticity: theory, applications and numerics*. Elsevier, Amsterdam. 2005.
-* Solecki, R. and Conant, R. *Advanced mechanics of materials*. Oxford University Press. 2003.
-* Timoshenko, S. P. and Goodier, J. *Theory of Elasticity*. McGraw Hill, Singapore, 3rd edition. 1970.
+* Alvarez Diego A. (2021) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Ameen, M. (2005) - *Computational elasticity*. Alpha Science.
+* Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.
+* Saad, M. (2005) - *Elasticity: theory, applications and numerics*. Elsevier.
+* Solecki, R. and Conant, R. (2003) - *Advanced mechanics of materials*. Oxford University Press.
+* Timoshenko, S. P. and Goodier, J. (1970) - *Theory of Elasticity*. McGraw Hill, 3rd edition.
+* Wang, C.-T. (1953) - *Applied Elasticity*. McGraw Hill.
 
 ## Otras observaciones que se quieren dejar por escrito:
 <!---
