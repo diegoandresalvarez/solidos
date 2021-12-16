@@ -2,7 +2,7 @@
 
 Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de esfuerzo, deformación, esfuerzos principales, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto el esfuerzo cortante máximo τₘₐₓ) de una estructura que se pueda modelar en tensión/deformación plana. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
-Trabajo en grupos de máximo TRES personas.
+Trabajo en grupos de máximo DOS personas.
 
 Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 2 horas de retraso se descontará 1 décima de la nota final.
 <!---
@@ -13,7 +13,10 @@ Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 2 horas 
 
 La idea de este trabajo es analizar mediante un programa profesional un sólido que se pueda modelar por tensión o deformación plana.
 
-Todas los grupos deberán modelar un sólido y material diferente. En en archivo de GOOGLE SLIDES, especificado en GOOGLE CLASSROOM, podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe estar hecha de un material ortótropo; las propiedades de dicho material se obtendrán de alguna página de internet. 
+Todas los grupos deberán modelar un sólido y material diferente. En en archivo de GOOGLE SLIDES, especificado en GOOGLE CLASSROOM, podrán subir el esquema o la foto de la estructura que piensan analizar.
+<!---
+ La estructura debe estar hecha de un material ortótropo; las propiedades de dicho material se obtendrán de alguna página de internet. 
+--->
 
 ## Se solicita
 * Explicar detalladamente como se modelaron las condiciones de frontera (condiciones de apoyo, cargas).
