@@ -44,7 +44,7 @@ TENSIÓN/DEFORMACIÓN PLANA
 
 * **TRABAJO GRUPAL**: presentar un informe escrito que contenga el análisis de los resultados. Recuerde explicar detalladamente como varían las cantidades en el espacio, donde están las cantidades máximas y mínimas, como se relacionan unas gráficas con otras, etc. No es solo ubicar donde están los colores, o los máximos y los mínimos, sino decir, **por qué razón se produce esa coloración**, entendiendo como la estructura está cargada, está apoyada, se deforma, etc. Se sugiere [**este (descargue archivo .PDF)**](ejemplo_analisis_graficos.pdf) formato para presentar los resultados. En este informe se debe realizar la comparación de los resultados de los programas utilizados en su grupo, en caso que haya decidido hacer este trabajo grupalmente.
 
-  NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γxy: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γxy? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
+  NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γrθ: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γrθ? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
 
   NOTA 2: extensión máxima del informe 25 páginas. Incluya en el informe las gráficas obtenidas por todos los integrantes del grupo.
 
@@ -73,7 +73,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.1 Modeló adecuadamente las condiciones de frontera
   * 0.1 Calculó las reacciones en los apoyos  
   * 0.1 Calculó el diagrama de los desplazamientos y de la estructura deformada
-  * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o sin escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
+  * 0.1 Calculó los diagramas de las deformaciones ɛr, ɛθ, ɛz, γrθ *y* los esfuerzos σr, σθ, σz, τrθ (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o sin escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
   * 0.1 Calculó el diagrama de las rotaciones.
   * 0.1 Calculó el diagrama de las dilataciones cúbicas.
   * 0.2 Calculó el diagrama de esfuerzos σ1, σ2 *y* sus respectivas inclinaciones (los diagramas de σ1 y σ2 sin sus respectivas inclinaciones no otorgarán puntos)
@@ -88,8 +88,8 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.7 Explica las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis estructural?
 
 * **INFORME ESCRITO**: Análisis de resultados (35% = 2.1): interpreta gráficos, analiza como varían las cantidades en el espacio? Ubica máximos y mínimos? Relaciona gráficos entre si?
-  * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación. 
-  * 0.4 Diagramas de esfuerzos σx, σy, σz, τxy. 
+  * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ɛr, ɛθ, ɛz, γrθ, dilatación cúbica, rotación. 
+  * 0.4 Diagramas de esfuerzos σr, σθ, σz, τrθ. 
   * 0.2 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto). 
   * 0.2 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₁, se tendrá un 0.0 en este punto).
   * 0.2 Sugiere la forma como la estructura se agrieta, asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₂, se tendrá un 0.0 en este punto).
