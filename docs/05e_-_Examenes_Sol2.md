@@ -24,4 +24,4 @@ Se permite para los exámenes que el profesor diga una hoja tamaño oficio en la
 
 ## Examen 4
 * Capítulo 8: Torsión de ejes prismáticos
-* Capítulo 14: Teorías de falla
+* Capítulo 11: Métodos energéticos

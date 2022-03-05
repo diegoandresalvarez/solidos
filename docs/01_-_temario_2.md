@@ -4,19 +4,12 @@
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
 
-## Exámenes, talleres y fechas
-Por motivo de la contingencia con el COVID-19, es necesario cambiar las condiciones de evaluación del curso. El curso, por lo tanto, se evaluará mediante exámenes, evaluación de los apuntes y talleres.
-
-Los exámenes serán orales e individuales. Se realizarán siguiendo [este](protocolo_examenes_orales.md) protocolo. En ellos, más que evaluar conceptos de memoria o verificar si el estudiante entiende la matemática detrás de las ecuaciones, se evaluará la *capacidad crítica* que se tiene al momento de emplear los conceptos aprendidos.
-
-La fecha del examen se definirá dos semanas antes de su realización.
-
-### Mecánica de Sólidos 2, Grupo 1 (Jueves y Viernes):
-    * Examen 1: 20%
-    * Examen 2: 20%
-    * Examen 3: 20%
-    * Taller 1 - vigas: 20%
-    * Taller 2 - losas: 20%
+## Exámenes y talleres
+* Examen 1: 20%
+* Examen 2: 20%
+* Examen 3: 20%
+* Taller 1 - vigas: 20%
+* Taller 2 - losas: 20%
 
 ## Descripción de la asignatura mecánica de sólidos 2
 En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas, métodos energéticos y la teoría de torsión de barras, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
