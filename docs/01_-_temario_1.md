@@ -7,11 +7,17 @@
 ## Exámenes, talleres y fechas
 El curso se evaluará mediante exámenes y un taller final opcional.
 
+### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
+* **Examen  1:** 34%
+* **Examen  2:** 33%
+* **Examen  3:** 33%
+* **Trabajo:** es opcional y reemplaza la nota más mala de las tres notas anteriores
+
 ### Mecánica de Sólidos 1, Grupo 2 (Lunes y Miércoles):
-  * **Examen  1:** 34%
-  * **Examen  2:** 33%
-  * **Examen  3:** 33%
-  * **Trabajo:** es opcional y reemplaza la nota más mala de las tres notas anteriores
+* **Examen  1:** 34%
+* **Examen  2:** 33%
+* **Examen  3:** 33%
+* **Trabajo:** es opcional y reemplaza la nota más mala de las tres notas anteriores
 
 ## Descripción de la asignatura mecánica de sólidos 1
 En este curso se profundizará en la teoría de la elasticidad. Esta es una teoría básica, imprescindible para poder entender entender, con suficiencia, el método de los elementos finitos, y con el tener bases apropiadas para poder manejar con conciencia los diferentes programas de análisis estructural que existen en el mercado, que son empleados no solo en ingeniería estructural, sino en ingeniería geotécnica y de pavimentos.
