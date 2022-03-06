@@ -63,7 +63,7 @@ En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas grues
 
 
 ## Bibliografía básica
-* Alvarez Diego A. (2021) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Alvarez Diego A. (2022) - *Notas de clase del curso mecánica de sólidos*. En preparación.
 * Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.
 * Saad, M. (2005) - *Elasticity: theory, applications and numerics*. Elsevier.
 * Solecki, R. and Conant, R. (2003) - *Advanced mechanics of materials*. Oxford University Press.
