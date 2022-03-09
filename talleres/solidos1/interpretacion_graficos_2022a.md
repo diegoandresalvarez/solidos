@@ -1,8 +1,8 @@
-# Taller sobre interpretación de gráficos: modelado de estructuras en el caso axisimétrico utilizando software profesional.
+# Taller sobre interpretación de gráficos: modelado de estructuras en tensión/deformación plana utilizando software profesional.
 
-Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de esfuerzo, deformación, esfuerzos principales, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto el esfuerzo cortante máximo τₘₐₓ) de una estructura que se pueda modelar utilizando el caso axisimétrico. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
+Con el objeto de contrastar la teoría aprendida y la práctica mediante el uso de un software profesional de análisis estructural, se requiere hacer el análisis de los desplazamientos, diagramas de esfuerzo, deformación, esfuerzos principales, esfuerzos de von Mises, esfuerzos de Tresca (o en su defecto el esfuerzo cortante máximo τₘₐₓ) de una estructura que se pueda modelar en tensión/deformación plana. Se espera que el estudiante explore, comente, discuta los conceptos aprendidos en clase, los conceptos nuevos vistos en el software y que propongan soluciones a los problemas propuestos.
 
-Trabajo en grupos de máximo DOS personas.
+Trabajo en grupos de máximo TRES personas.
 
 Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 2 horas de retraso se descontará 1 décima de la nota final.
 <!---
@@ -11,12 +11,9 @@ Fecha y hora de entrega: se especificará en GOOGLE CLASSROOM. Por cada 2 horas 
 
 ## El problema propuesto
 
-La idea de este trabajo es analizar mediante un programa profesional un sólido que se pueda modelar utilizando el caso axisimétrico.
+La idea de este trabajo es analizar mediante un programa profesional un sólido que se pueda modelar por tensión o deformación plana.
 
-Todas los grupos deberán modelar un sólido y material diferente. En en archivo de GOOGLE SLIDES, especificado en GOOGLE CLASSROOM, podrán subir el esquema o la foto de la estructura que piensan analizar.
-<!---
- La estructura debe estar hecha de un material ortótropo; las propiedades de dicho material se obtendrán de alguna página de internet. 
---->
+Todas los grupos deberán modelar un sólido y material diferente. En en archivo de GOOGLE SLIDES, especificado en GOOGLE CLASSROOM, podrán subir el esquema o la foto de la estructura que piensan analizar. La estructura debe estar hecha de un material ortótropo; las propiedades de dicho material se obtendrán de alguna página de internet. 
 
 ## Se solicita
 * Explicar detalladamente como se modelaron las condiciones de frontera (condiciones de apoyo, cargas).
@@ -27,7 +24,7 @@ Todas los grupos deberán modelar un sólido y material diferente. En en archivo
 
 * **TRABAJO INDIVIDUAL**: cada integrante del grupo debe hacer los dos videos:
   * VIDEO 1 (máximo 15 minutos): en este video se debe explicar en detalle el modelado de la estructura escogida. Se deben mostrar los resultados sin interpretarlos. Se recomienda que el estudiante explore muy bien todas las funcionalidades del programa para la presentación de resultados (posprocesado). 
-  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS DE ESTRUCTURAS EN PARA EL CASO AXISIMÉTRICO** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
+  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANÁLISIS DE ESTRUCTURAS EN TENSIÓN/DEFORMACIÓN PLANA** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, esfuerzos y deformaciones). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la estructura. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia.
   
     Algunos ejemplos de buenos análisis son:
      * STRUSOFT FEM-DESIGN (análisis de losas): https://www.youtube.com/watch?v=xxPzgIl-mEg
@@ -37,7 +34,7 @@ Todas los grupos deberán modelar un sólido y material diferente. En en archivo
 
 * **TRABAJO GRUPAL**: presentar un informe escrito que contenga el análisis de los resultados. Recuerde explicar detalladamente como varían las cantidades en el espacio, donde están las cantidades máximas y mínimas, como se relacionan unas gráficas con otras, etc. No es solo ubicar donde están los colores, o los máximos y los mínimos, sino decir, **por qué razón se produce esa coloración**, entendiendo como la estructura está cargada, está apoyada, se deforma, etc. Se sugiere [**este (descargue archivo .PDF)**](ejemplo_analisis_graficos.pdf) formato para presentar los resultados. En este informe se debe realizar la comparación de los resultados de los programas utilizados en su grupo, en caso que haya decidido hacer este trabajo grupalmente.
 
-  NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γrθ: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γrθ? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
+  NOTA 1: recuerde que se está evaluando el análisis de resultados. Por ejemplo con γxy: ¿qué quiere decir esta deformación? ¿cómo se está comportando en este punto la estructura dado ese valor de γxy? ¿por qué razón se produce? No es solo ubicar los máximos y los mínimos de dicha cantidad.
 
   NOTA 2: extensión máxima del informe 25 páginas. Incluya en el informe las gráficas obtenidas por todos los integrantes del grupo.
 
@@ -66,7 +63,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.1 Modeló adecuadamente las condiciones de frontera
   * 0.1 Calculó las reacciones en los apoyos
   * 0.1 Calculó el diagrama de los desplazamientos y de la estructura deformada
-  * 0.1 Calculó los diagramas de las deformaciones ɛr, ɛθ, ɛz, γrθ *y* los esfuerzos σr, σθ, σz, τrθ (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o sin escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
+  * 0.1 Calculó los diagramas de las deformaciones ɛx, ɛy, ɛz, γxy *y* los esfuerzos σx, σy, σz, τxy (si falta alguno de estos gráficos, si se grafican sin curvas de nivel o sin escalas de colores discretas, y si no se ubican los máximos y los mínimos **no** se otorgarán puntos).
   * 0.1 Calculó el diagrama de las rotaciones.
   * 0.1 Calculó el diagrama de las dilataciones cúbicas.
   * 0.2 Calculó el diagrama de esfuerzos σ1, σ2 *y* sus respectivas inclinaciones (los diagramas de σ1 y σ2 sin sus respectivas inclinaciones no otorgarán puntos)
@@ -81,8 +78,8 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.7 Explica las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis estructural?
 
 * **INFORME ESCRITO**: Análisis de resultados (35% = 2.1): interpreta gráficos, analiza como varían las cantidades en el espacio? Ubica máximos y mínimos? Relaciona gráficos entre si?
-  * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ɛr, ɛθ, ɛz, γrθ, dilatación cúbica, rotación. 
-  * 0.4 Diagramas de esfuerzos σr, σθ, σz, τrθ. 
+  * 0.4 Diagramas de los desplazamientos del sólido y las deformaciones ɛx, ɛy, ɛz, γxy, dilatación cúbica, rotación. 
+  * 0.4 Diagramas de esfuerzos σx, σy, σz, τxy. 
   * 0.2 Diagramas de esfuerzos σ1, σ2 con sus inclinaciones (si no tiene las inclinaciones θ₁ y θ₂, se tendrá un 0.0 en este punto). 
   * 0.2 Sugiere como se podría poner el refuerzo óptimo al interior de la estructura asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₁, se tendrá un 0.0 en este punto).
   * 0.2 Sugiere la forma como la estructura se agrieta, asumiendo que esta es de concreto reforzado? (si no calculó las inclinaciones θ₂, se tendrá un 0.0 en este punto).
@@ -93,7 +90,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
 
 * Si se sube un video de mala calidad (por ejemplo 720p de calidad o inferior) se rebajará 1.0 unidad. Mínimo 1080p. Recuerde que no tenemos limitación en el almacenamiento en GOOGLE CLASSROOM. En caso que su equipo no sea capaz de hacer videos con resolución 1080p, infórmelo previamente.
 
-* Si modela la estructura como 3D y no usando el caso axisimétrico se tendrá menos 3.0 unidades. Se debe usar necesariamente la funcionalidad de caso axisimétrico del programa de elementos finitos.
+* Si modela la estructura como 3D a pesar que es una de tensión/deformación plana se tendrá menos 1.0 unidad. Se debe usar necesariamente la funcionalidad de tensión/deformación plana del programa de elementos finitos.
 
 * Si se sube el video a YouTube, se tendrá menos 2.0 unidades. Los videos los debe subir directamente a GOOGLE CLASSROOM.
 
