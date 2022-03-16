@@ -1,0 +1,28 @@
+/* Se define la matriz de tensiones en coordenadas rectangulares sigma */
+sigma : matrix(
+[ sx,  txy, txz ],
+[ txy, sy,  tyz ],
+[ txz, tyz, sz  ]
+)$
+
+/* Se define la matriz de transformación T */
+T : matrix(
+[ %alpha[1], %alpha[2], %alpha[3] ],
+[ %beta[1],  %beta[2],  %beta[3]  ],
+[ %gamma[1], %gamma[2], %gamma[3] ]
+)$
+
+/* Se calcula la matriz de tensiones sigmaP en el sistema de coordenadas */
+/* especificado por los vectores definidos en la matriz T */
+sigmaP: transpose(T).sigma.T$
+
+/* Se extraen los términos de la matriz de tensiones sigmaP */
+sxp   : expand(sigmaP[1][1]); /* elemento 1,1 de la matriz sigmaP */
+syp   : expand(sigmaP[2][2]);
+szp   : expand(sigmaP[3][3]);
+typzp : expand(sigmaP[2][3]); /* elemento 2,3 de la matriz sigmaP */
+txpzp : expand(sigmaP[1][3]);
+txpyp : expand(sigmaP[1][2]);
+
+/* Se organizan las ecuaciones anteriores en una matriz */
+coefmatrix([sxp, syp, szp, typzp, txpzp, txpyp],[sx, sy, sz, tyz, txz, txy]);
