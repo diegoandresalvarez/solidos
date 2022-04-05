@@ -20,8 +20,8 @@
   - Lunes 16:00-18:00, Aula C306
   - Miércoles 16:00-18:00, Aula C306
 - Mecánica de sólidos 2:
-  - Jueves 16:00-18:00, Aula xxx
-  - Viernes 14:00-16:00, Aula xxx
+  - Jueves 16:00-18:00, Aula C206
+  - Viernes 14:00-16:00, Aula C201
 
 - Tiempo de actividad autónoma por semana: 8 horas
 

@@ -1,0 +1,32 @@
+/*  Se especifican las fórmulas de conversión de coordenadas rectangulares a
+    polares, las cuales serán reemplazadas en (sx), (sy) y (txy) */
+x : r*cos(t);
+y : r*sin(t);
+
+/*  Se especifican las ecuaciones correspondientes al sigma x (sx), sigma y
+    (sy) y  tau xy (txy) dados por el problema, con la aplicación de
+    simplificaciones trigonométricas mediante el comando TRIGSIMP */
+sx  : trigsimp(-(2*P*x^2*y)/(%pi*(x^2+y^2)^2));
+sy  : trigsimp(-(2*P*y^3)  /(%pi*(x^2+y^2)^2));
+txy : trigsimp(-(2*P*x*y^2)/(%pi*(x^2+y^2)^2));
+
+/*  Se definen las matrices sigma y T mediante el comando MATRIX */
+sigma : matrix(
+[ sx,  txy ],
+[ txy, sy  ]
+)$
+
+T : matrix(
+[ cos(t), -sin(t) ],
+[ sin(t),  cos(t) ]
+)$
+
+/* Se calcula sigmaP */
+sigmaP: trigsimp(transpose(T).sigma.T)$
+
+/* Se determinan los esfuerzos en el sistema transformado */ 
+sxp   : sigmaP[1][1];
+syp   : sigmaP[2][2];
+txpyp : sigmaP[1][2];
+
+

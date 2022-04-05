@@ -1,0 +1,22 @@
+/* Se define la matriz de transformación T */
+T : matrix(
+ [ cos(t), -sin(t),   0],
+ [ sin(t),  cos(t),   0],
+ [      0,       0,   1]
+)$
+
+/* Se define la matriz de tensiones en coordenadas rectangulares sigma */
+sigma : matrix(
+[ sx,  txy, 0 ],
+[ txy, sy,  0 ],
+[ 0,   0,   0 ]
+)$
+
+/* Se calcula la matriz de tensiones sigmaP en el sistema de coordenadas */
+/* especificado por los vectores definidos en la matriz T */
+sigmaP: trigreduce(transpose(T).sigma.T); /* ecuación ((*\ref{eq:esfprimaTTesfT}*)) */
+
+/* Se extraen los términos de la matriz de tensiones sigmaP */
+sxp   : sigmaP[1][1];
+syp   : sigmaP[2][2];
+txpyp : sigmaP[1][2];

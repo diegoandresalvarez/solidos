@@ -3,7 +3,7 @@
 ## Temas para los examenes
 NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard y Texas Instrument.
 
- * Capítulos 1 y 2 del main.pdf
+ * Desde el inicio hasta la sección 3.4 (incluída) del ```main.pdf```
  * Ecuaciones paramétricas (definición y ejemplos sencillos)
  * Repaso de álgebra lineal (teoría y ejercicios de aplicación)
  * Cosenos directores
