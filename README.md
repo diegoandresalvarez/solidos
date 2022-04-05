@@ -34,7 +34,7 @@
 
 ### Exámenes y taller de Mecánica de sólidos 1:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol1.md)
-  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2021b.md)
+  * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2022a.md)
 
 ### Exámenes y talleres de Mecánica de sólidos 2:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
