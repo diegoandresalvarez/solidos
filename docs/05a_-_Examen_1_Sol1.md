@@ -1,5 +1,7 @@
 # Exámenes Corte 1 de Mecánica de Sólidos 1:
 
+Se permite para este examen traer una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
+
 ## Temas para los examenes
 NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard y Texas Instrument.
 
