@@ -64,7 +64,7 @@ P(x) &= + \iint_{A(x)}   \sigma_{x}(x,y,z) \operatorname{d} y \operatorname{d} z
 * **Cada integrante del taller debe hacer** dos videos:
   * VIDEO 1 (máximo 20 minutos): hacer un video que ilustre como resolvió la viga utilizando el programa seleccionado con EFs de pórtico y de tensión plana. En el mismo video mostrar, en máximo 3 minutos, la comparación de los resultados obtenidos con MAXIMA y con el programa escogido (usando las teorías de EB, TE y el método de los EFs para tensión plana).
 
-  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE VIGAS Y PÓRTICOS** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, diagramas de momento flector, fuerza cortante, etc). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia del mismo y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la viga. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia. Algunos ejemplos de buenos análisis son:
+  * VIDEO 2 (máximo 20 minutos): en este video se debe hacer una reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al **ANALISIS DE VIGAS Y PÓRTICOS** (es decir, en cuanto a la matemática interna para el cálculo de desplazamientos, diagramas de momento flector, fuerza cortante, etc). OJO: no es mostrar como se utiliza el software, sino más mirar los manuales de referencia y mostrar que teorías, hipótesis, suposiciones, capacidades y limitaciones que tiene el programa escogido y que se utilizaron para calcular la viga. Entregar, adicionalmente, el archivo PDF utilizado en la presentación de este video. Se sugiere para la presentación tomar capturas de pantalla de los manuales de referencia del programa en cuestión. OJO: no confunda esto con la información comercial. Lo que se está solicitando está dentro de los manuales de referencia. Algunos ejemplos de buenos análisis son:
      * MIDAS GEN (análisis de vigas): https://www.youtube.com/watch?v=p06pnzg2ZPg
      * STRUSOFT FEM-DESIGN (análisis de losas): https://www.youtube.com/watch?v=xxPzgIl-mEg
 
@@ -74,7 +74,7 @@ P(x) &= + \iint_{A(x)}   \sigma_{x}(x,y,z) \operatorname{d} y \operatorname{d} z
 
 Se espera que cada uno lea a fondo el manual del usuario del software. No se queden con los videos de YouTube. En el manual del usuario generalmente existe información importante sobre las hipótesis de modelado que hace cada software.
 
-Se sugiere aprender a manejar un programa de edición de videos. Esto les facilitará grandemente la realización del mismo.
+Se sugiere aprender a manejar un programa de edición de videos. Esto les facilitará grandemente la realización del video.
 
 
 ## Criterios de evaluación
@@ -94,7 +94,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
   * 0.6 Compara, analiza, hace tablas y/o gráficas comparativas de los resultados entre el método de los EFs para tensión plana y por el método de las funciones de singularidad? ¿Explica el por qué de las diferencias?
 
 * VIDEO 2: reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al análisis de vigas (40% = 2.4)
-  * 0.8 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia del mismo. Explica capacidades de cálculo y teorías que utiliza el software. 
+  * 0.8 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia. Explica capacidades de cálculo y teorías que utiliza el software. 
   * 0.8 Explica hipótesis fundamentales y consejos en el modelado según se detalla en el manual del programa; hace una reseña crítica de las capacidades teóricas, las limitaciones y las hipótesis fundamentales que hace el programa en cuanto al análisis de viga
   * 0.8 Hace una reseña crítica de las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis de vigas y pórticos
 
