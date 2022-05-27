@@ -1,0 +1,25 @@
+/* NOTA: es muy importante tener en cuenta que el diferencial du no está
+ implementado en MAXIMA, por lo que debe ponerse mucho cuidado en la 
+ interpretación de los resultados que arroja el siguiente programa: */
+
+/* Se especifica que sx, txy, u y X son funciones dependientes de x y y */ 
+depends([sx, txy, u, X],[x,y])$
+
+/* Se define la linealización con una serie de Taylor */
+linealizar(f,deltax,deltay) := f + diff(f,x)*deltax + diff(f,y)*deltay$
+
+/* Se escribe la ecuación (*\eqref{eq:dWelastx}*) */
+eq1 : -linealizar(sx,  0   , dy/2)*dy*dz    * linealizar(u, 0   , dy/2)
+      +linealizar(sx,  dx  , dy/2)*dy*dz    * linealizar(u, dx  , dy/2)
+      -linealizar(txy, dx/2, 0)   *dx*dz    * linealizar(u, dx/2, 0   )
+      +linealizar(txy, dx/2, dy)  *dx*dz    * linealizar(u, dx/2, dy  )
+      +linealizar(X,   dx/2, dy/2)*dx*dy*dz * linealizar(u, dx/2, dy/2)$
+
+/* Se "factoriza" dx*dy*dz */
+eq2 : expand(eq1/(dx*dy*dz))$
+
+/* Se toman límites cuando dx, dy y dz tienden a cero */
+eq3 : eq2, dx=0, dy=0, dz=0$
+
+/* Se factoriza el término u */
+eq4 : collectterms(eq3, u);
