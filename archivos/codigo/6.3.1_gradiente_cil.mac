@@ -1,0 +1,21 @@
+/* Se especifica que r y t son funciones de x y de y y que phi es función */
+/* de r, de t y de z */
+depends([r, t], [x, y])$ depends(phi, [r, t, z])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$    /* ecuaciones (*\eqref{eq:derrthetaxya}*) */
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$  /* ecuaciones (*\eqref{eq:derrthetaxyb}*) */
+
+/* Se define la matriz de transformación T, ecuación (*\eqref{eq:matTcilindricas}*) */
+T : matrix(
+[ cos(t), -sin(t), 0 ],
+[ sin(t),  cos(t), 0 ],
+[      0,       0, 1 ]
+)$
+
+/* Se escribe la fórmula del gradiente en coordenadas rectangulares  */
+/* y se convierte a la base especificada por los vectores rp, tp, zp */ 
+trigreduce(transpose(T).matrix([diff(phi,x)],
+                               [diff(phi,y)],    /* ecuación (*\eqref{eq:xpTtx}*) */
+                               [diff(phi,z)]));
+                               

@@ -1,0 +1,15 @@
+/* Se especifica que fr, ft y fz son funciones de r, t y z */
+/* y que r y t son funciones de x y de y */
+depends([fr, ft, fz], [r, t, z])$
+depends([r, t], [x, y])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$    /* ecuaciones (*\eqref{eq:derrthetaxya}*) */
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$  /* ecuaciones (*\eqref{eq:derrthetaxyb}*) */
+
+/* Se definen las funciones fx y fy, ecuaciones (*\eqref{eqs:FxFycil}*) */
+fx : fr*cos(t) - ft*sin(t)$
+fy : fr*sin(t) + ft*cos(t)$
+
+/* Se especifica la divergencia en coordenadas rectangulares, ec. (*\eqref{eq:divergencia3D}*) */
+trigreduce(diff(fx,x) + diff(fy,y) + diff(fz,z));
