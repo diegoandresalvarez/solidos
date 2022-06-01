@@ -64,7 +64,7 @@ Se permite para este examen traer una hoja tamaño oficio en la cual ustedes pue
 * Expansión en series de Taylor (univariada y multivariada)
 * Campo vectorial (definición y ejemplos sencillos)
 * Teorema de la divergencia
-* Multiplicadores de Lagrande y optimización multivariada con restricciones de igualdad
+* Multiplicadores de Lagrange y optimización multivariada con restricciones de igualdad
 * Todos los comandos de MAXIMA que hay en los capítulos 1 al 5.
 
 
