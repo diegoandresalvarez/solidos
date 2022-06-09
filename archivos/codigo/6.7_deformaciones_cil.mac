@@ -1,0 +1,39 @@
+/* Se especifica que ur, vt y w son funciones de r, t y z */
+/* y que r y t son funciones de x y de y */
+depends([ur, vt, w], [r, t, z])$
+depends([r, t], [x, y])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,cos(t))$    gradef(r,y,sin(t))$
+gradef(t,x,-sin(t)/r)$ gradef(t,y,cos(t)/r)$
+
+/* Vector de desplazamientos con respecto a la base {rP,tP,zP} */
+des_cil : matrix([ ur ], [ vt ], [ w ])$
+
+/* Se define la matriz de transformación T, ecuación (*\eqref{eq:matTcilindricas}*) */
+T : matrix(
+[ cos(t), -sin(t), 0 ],
+[ sin(t),  cos(t), 0 ],
+[      0,       0, 1 ]
+)$
+
+/* Se expresa el vector de desplazamientos con respecto a la base {i,j,k} */
+des: T.des_cil$
+
+/* Se hace la asignación respectiva de los desplazamientos */
+u : des[1][1]$
+v : des[2][1]$
+
+/* Las deformaciones en coordenadas rectangulares, ecuaciones (*\eqref{eq:deformaciones}*) y (*\eqref{eq:deformangul}*) */
+eq1 : ex  = diff(u, x)$
+eq2 : ey  = diff(v, y)$
+eq3 : ez  = diff(w, z)$
+eq4 : gxy = diff(u, y) + diff(v, x)$
+eq5 : gyz = diff(v, z) + diff(w, y)$
+eq6 : gxz = diff(u, z) + diff(w, x)$
+
+/* Se toma el límite cuando "t tiende a cero", teniendo en cuenta que */
+/*  en el límite se deben hacer los cambios de variables ex=er, ey=et,  */
+/* ..., gyz=gtz*/
+limit([eq1, eq2, eq3, eq4, eq5, eq6], t, 0), 
+                                  ex=er, ey=et, gxy=grt, gxz=grz, gyz=gtz;
