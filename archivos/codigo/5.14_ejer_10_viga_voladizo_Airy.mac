@@ -1,0 +1,80 @@
+t : 1$ /* espesor = 1 m */
+V : 0$ /* V=0, ya que no se considerarán las fuerzas másicas */
+
+/* Se propone la función de tensión de Airy */
+phi : C1*(L-x)^2 + C2*(L-x)^2*y + C3*y^3 + C4*y^5 - 5*C4*(L-x)^2*y^3$
+
+/* se define el laplaciano y el biarmónico de "f" */
+lapl(f) := expand(diff(f,x,2) + diff(f,y,2))$  /* laplaciano */
+biar(f) := expand(lapl(lapl(f)))$              /* biarmónico ((*\ref{eq:biarmonicolaplaciano}*)) */ 
+
+/* se verifica que se satisfaga la ecuación ((*\ref{eq:airystressfunction}*)) */
+if biar(phi) = K2*lapl(V) then 
+    print("LA ECUACION BIARMONICA SE SATISFACE")
+else    
+    print("LA ECUACION BIARMONICA NO SE SATISFACE")$
+
+/* se definen los esfuerzos utilizando la función de tensión de Airy */
+sx  :  diff(phi, y,2) + V$   /* ecuación ((*\ref{eq:airysigmasa}*)) */
+sy  :  diff(phi, x,2) + V$   /* ecuación ((*\ref{eq:airysigmasb}*)) */
+txy : -diff(phi, x,1, y,1)$  /* ecuación ((*\ref{eq:airysigmasc}*)) */
+
+/* se definen la fuerza cortante ((*\ref{eq:cortanteviga1}*)), el momento flector ((*\ref{eq:momentoviga1}*)) */
+/* y la fuerza axial ((*\ref{eq:cfxvigab}*)) */
+V(xx)  := -integrate(integrate(ev(txy, x=xx),   z, 0, t), y, -c, c)$
+M(xx)  := -integrate(integrate(ev(sx,  x=xx)*y, z, 0, t), y, -c, c)$
+faxial :   integrate(integrate(   sx,           z, 0, t), y, -c, c)$
+
+/* se establecen las condiciones de frontera ((*\ref{eq:cfyviga}*)) */
+e1 : ev(txy, y=+c) = 0$
+e2 : ev(txy, y=-c) = 0$
+e3 : ev(sy,  y=+c) = qdist/t$
+e4 : ev(sy,  y=-c) = 0$
+
+/* se establecen las condiciones de frontera ((*\ref{eq:cfxviga}*)) */
+e5 : V(0)   = -qdist*L$
+e6 : V(L)  = 0$
+e7 : M(0)   = qdist*L^2/2$
+e8 : M(L)  = 0$
+e9 : faxial = 0$         /* para todo x en [-L, L] */
+
+/* usando las ecuaciones "e1" a "e9" se encuentran las constantes */
+const : solve([e1, e2, e3, e4, e5, e6, e7, e8, e9], [C1, C2, C3, C4]);
+
+/* se reemplazan las constantes en los esfuerzos sx, sy y txy */
+[sx, sy, txy] : [sx, sy, txy], const$
+
+/* se define el módulo de rigidez*/
+G : E/(2*(1+nu))$
+
+/* ley de Hooke para tensión plana, ecuaciones ((*\ref{eq:epsilontensionplana}*)) */
+ex  : (1/E)*(sx - nu*sy)$
+ey  : (1/E)*(sy - nu*sx)$
+gxy : (1/G)*txy$
+
+/* se calcula la ecuación ((*\ref{eq:dfdy_dgdx}*)) */
+df_dy_dg_dx: gxy - diff(integrate(ex,x), y) - diff(integrate(ey,y), x);
+
+/* y se separan sus términos df_dy y dg_dx teniendo en cuenta el */
+/* término constante w0 */
+df_dy : expand(df_dy_dg_dx) + w0, x=0;
+dg_dx : expand(df_dy_dg_dx) - w0, y=0;
+
+/* se integran las funciones df_dy y dg_dx teniendo en cuenta las */
+/* constantes de integración u0 y v0 */
+f : integrate(df_dy, y) + u0;    /* f es una función solo de y */
+g : integrate(dg_dx, x) + v0;    /* g es una función solo de x */
+
+/* se calculan los desplazamientos utilizando las ecuaciones ((*\ref{eq:calc_despla_exf_eyg}*)) */
+u : integrate(ex, x) + f$
+v : integrate(ey, y) + g$
+
+/* solo resta encontrar el valor de u0, v0 y w0 a partir de las */
+/* condiciones de frontera y el conocimiento que en el centro de la */
+/*  viga el desplazamiento es nulo: */
+rot : (diff(v,x) - diff(u,y))/2; /* rotación en un punto, ec. ((*\ref{eq:omegaxyz}*)) */
+u0v0w0 : solve([ ev(u,   x=0)=0, 
+                 ev(v,   x=0)=0, 
+                 ev(rot, x=0)=0 ], [u0, v0, w0]);
+
+[u, v] : [u, v], u0v0w0, expand;
