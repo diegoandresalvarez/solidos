@@ -28,13 +28,13 @@ faxial :   integrate(integrate(   sx,           z, 0, t), y, -c, c)$
 /* se establecen las condiciones de frontera ((*\ref{eq:cfyviga}*)) */
 e1 : ev(txy, y=+c) = 0$
 e2 : ev(txy, y=-c) = 0$
-e3 : ev(sy,  y=+c) = qdist/t$
+e3 : ev(sy,  y=+c) = q/t$
 e4 : ev(sy,  y=-c) = 0$
 
 /* se establecen las condiciones de frontera ((*\ref{eq:cfxviga}*)) */
-e5 : V(0)   = -qdist*L$
+e5 : V(0)   = -q*L$
 e6 : V(L)  = 0$
-e7 : M(0)   = qdist*L^2/2$
+e7 : M(0)   = q*L^2/2$
 e8 : M(L)  = 0$
 e9 : faxial = 0$         /* para todo x en [-L, L] */
 
