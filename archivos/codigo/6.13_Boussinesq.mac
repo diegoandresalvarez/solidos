@@ -1,0 +1,60 @@
+/* se especifica que r>0 y que a<0 */
+assume(r>0, a<0)$
+
+/* la función de tensión de Love depende únicamente de r y z*/
+R : sqrt(r^2 + z^2);
+phi : B*R + A*z*log(R+z); /* log(R+z) es el logaritmo natural de R+z */
+
+/* se define el laplaciano en el caso axisimétrico, ecuación (*\eqref{eq:laplaciano_axisimetrico}*) */
+lapl(f) := (1/r)*diff(r*diff(f,r),r) + diff(f,z,2)$
+
+/* se calcula el biarmónico de la función de tensión de Love */
+bphi : factor(lapl(lapl(phi))); /* bphi valdrá cero */
+
+/* y se verifica que el biarmónico se satisfaga */
+if bphi = 0 then 
+    print("El biarmónico se satisface")  /* esto es lo que se imprimirá*/
+else    
+    print("El biarmónico NO se satisface")$
+
+/* se definen los esfuerzos utilizando la función de tensión de Love,
+ecuaciones (*\eqref{eq:esf_funcion_de_tension_de_Love}*) */
+sr  : diff(nu*lapl(phi) - diff(phi,r,2),     z)$
+st  : diff(nu*lapl(phi) - (1/r)*diff(phi,r), z)$
+sz  : diff((2-nu)*lapl(phi) - diff(phi,z,2), z)$
+trz : diff((1-nu)*lapl(phi) - diff(phi,z,2), r)$
+
+/* se definen los desplazamientos utilizando la función de tensión de Love,
+ecuaciones (*\eqref{eq:ur_w_Love}*) */
+ur  : -((1+nu)/E)*diff(phi,r,1,z,1)$
+w   : ((1+nu)/E)*(2*(1-nu)*lapl(phi) - diff(phi,z,2))$
+
+/* se establecen las condiciones de frontera */
+/* sz y trz en el plano z = 0 valen cero para r>0 */
+ev(sz, z=0) = 0;         /* Da 0=0, se cumple */
+
+eq1 : ev(trz, z=0) = 0; /* ecuación (*\eqref{eq:bous_cond_front1}*) */
+
+/* sobre cualquier plano z=a, la integral de los sz vale +P */
+eq2 : integrate(ev(sz, z=a) * 2*%pi*r, r, 0, inf) - P = 0; /* ec. (*\eqref{eq:Bouss_int_0_inf_sz}*) */
+
+/* se calculan las constantes */
+constantes : solve([eq1, eq2], [A, B]), factor;
+
+/* se reemplazan las constantes A y B en los esfuerzos y desplazamientos: */
+sol1 : [sr, st, sz, trz, ur, w], constantes$
+
+/* estos son los esfuerzos y desplazamientos como usualmente aparecen */
+/* en la literatura */
+srL  : (P/(2*%pi*R^2))*(-3*r^2*z/R^3 + (1-2*nu)*R/(R+z))$
+stL  : ((1-2*nu)*P/(2*%pi*R^2))*(z/R - R/(R+z))$
+szL  : -3*P*z^3/(2*%pi*R^5)$
+trzL : -3*P*r*z^2/(2*%pi*R^5)$
+urL  : ((1+nu)*P/(2*%pi*E*R))*(r*z/R^2 - (1-2*nu)*r/(R+z))$
+wL   : ((1+nu)*P/(2*%pi*E*R))*(2*(1-nu) + z^2/R^2)$
+
+sol2 : [srL, stL, szL, trzL, urL, wL]$
+
+/* esta última línea imprime [0, 0, 0, 0, 0, 0], lo cual indica que */ 
+/* obtuvimos los mismos resultados reportados en la literatura */
+factor(sol1 - sol2);
