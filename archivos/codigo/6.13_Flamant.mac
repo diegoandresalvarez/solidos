@@ -1,0 +1,90 @@
+/* se define la función de tensión de Airy (*\eqref{eq:airyFlamant}*) */    
+phi : (A*r*log(r) + B*r*t)*cos(t) + (C*r*log(r) + D*r*t)*sin(t)$
+
+/* se estiman los esfuerzos con la función de tensión de Airy, ecs. (*\eqref{eq:sr_st_trt_Airy}*) */
+sr  : factor((1/r)*diff(phi,r) + (1/r^2)*diff(phi,t,2));
+st  : factor(diff(phi,r,2));
+trt : factor((1/r^2)*diff(phi,t) - (1/r)*diff(phi, r,1, t,1));
+/* se plantean cuatro ecuaciones para encontrar cuatro incógnitas */
+sol_AC : solve([ ev(st,  t=0)  = 0,
+ev(st,  t=pi) = 0,
+ev(trt, t=0)  = 0,
+ev(trt, t=pi) = 0 ], [A, B, C, D]);    
+/* se escriben las ecuaciones para sr, st y trt con A=C=0 (ecs. (*\eqref{eq:srsttrtFlamantBD}*)) */    
+sr  : (2*D*cos(t) - 2*B*sin(t))/r$
+st  : 0$
+trt : 0$
+
+/* se emplean las ecuaciones (*\eqref{eq:FlamantPxPy}*) para encontrar las constantes B y D */
+sol_BD : solve([ Px + integrate(sr*cos(t)*r, t, 0, %pi) = 0,
+Py + integrate(sr*sin(t)*r, t, 0, %pi) = 0 ], [B, D]);
+/* esfuerzos para una carga vertical Py (ecuaciones (*\eqref{Flamantsrsttrt_soloPy}*)) */
+sr  : -(2*Py*sin(t))/(%pi*r)$
+st  : 0$
+trt : 0$
+
+/* los esfuerzos se convierten de coordenadas polares a rectangulares */
+sx  : sr*cos(t)^2 + st*sin(t)^2 - trt*sin(2*t);
+sy  : sr*sin(t)^2 + st*cos(t)^2 + trt*sin(2*t);  /* ecuaciones (*\eqref{eq:sigmacarfromsigmapol}*) */
+txy : (sr - st)*sin(2*t)/2 + trt*cos(2*t);
+/* el radio r solo puede tomar valores positivos */
+assume(r > 0);
+
+/* se calculan los esfuerzos principales y el esfuerzo cortante máximo */
+tmax : sqrt(factor(trigreduce(((sx-sy)/2)^2 + txy^2)));  /* ec. (*\eqref{eq:esfcortmaximo}*)  */
+s1   : trigreduce((sx+sy)/2 + tmax);                     /* ec. (*\eqref{eq:esfprinc2da}*) */
+s2   : trigreduce((sx+sy)/2 - tmax);                     /* ec. (*\eqref{eq:esfprinc2db}*) */
+/* se calcula el ángulo de inclinación para los esfuerzos principales */
+tan_2t1 : trigreduce(trigsimp(2*txy/(sx-sy)));
+
+/* se calculan las deformaciones utilizando la ley de Hooke para tensión */
+/* plana, ecuaciones (*\eqref{eq:leyHookeTPcil1}*) */
+er   :   (1/E)*(sr - nu*st);
+et   :   (1/E)*(st - nu*sr);
+ez   : -(nu/E)*(sr + st);
+grt1 :  trt/G;
+
+/* se definen las funciones f(t) y g(r) */ 
+depends(f, t)$      depends(g, r)$ 
+
+/* se especifica f y g son funciones reales: f:R -> R y g:R -> R */
+declare(f, real)$   declare(g, real)$
+
+/* se integran las expresiones (*\eqref{eq:Flamant_dur_dr_dvt_dt}*) para encontrar los desplazamientos */
+ur : expand(integrate(er, r)) + f(t);
+vt : expand(integrate(r*et - ur, t)) + g(r);
+
+grt2 : expand((1/r)*diff(ur,t) + diff(vt,r) - vt/r); /* ecuación (*\eqref{eq:deforminpolaresc}*) */
+
+/* se igualan las dos respuestas posibles de grt */
+r*grt1 = r*grt2, expand;
+
+/* se plantean las ecuaciones (*\eqref{eq:FlamantODEf}*) y (*\eqref{eq:FlamantODEg}*), respectivamente: */
+eq1: diff(f(t),t,2) + f(t) + (2*Py*(1 - nu)*sin(t))/(%pi*E) = 0$
+eq2: r*diff(g(r),r) - g(r) + c0 = 0$
+
+/* se resuelven y se renombran las constantes de integración: */
+solf: ode2(eq1, f(t), t);      solf: solf, %k1=c1, %k2=c2; 
+solg: ode2(eq2, g(r), r);      solg: solg, %c=c3;
+
+/* se reemplazan los valores de f y g en las ecuaciones de ur y vt       */    
+ur: ev(ur, solf);                 /* se reemplaza en la ecuación (*\eqref{eq:Flamantur_fg}*)) */
+vt: ev(vt, solf, solg, nouns);    /* se reemplaza en la ecuación (*\eqref{eq:Flamantvt_fg}*)) */
+
+/* NOTA: el "nouns" en la línea anterior se requiere para que se haga el */
+/* reemplazo en la integral de f dt que está en vt (ecuación (*\eqref{eq:Flamantvt_fg}*))     */
+
+ev(vt, t=%pi/2) = 0;
+
+ev(ur, r=r0, t=%pi/2);
+
+ev(ur, Py=0, c1=0, c2=c0, c3=0) = 0;
+ev(vt, Py=0, c1=0, c2=c0, c3=0) = 0;
+
+/* se reemplazan las constantes de integración c0 y c1 */
+ur : ur, c0=0, c1=2*Py*log(r0)/(%pi*E), c2=(nu-1)*Py/(2*E), c3=0;
+vt : vt, c0=0, c1=2*Py*log(r0)/(%pi*E), c2=(nu-1)*Py/(2*E), c3=0;
+
+factor(ev(ur, t=0));       factor(ev(ur, t=%pi));   
+factor(ev(vt, t=0));       factor(ev(vt, t=%pi));   
+factor(ev(ur, t=%pi/2));   factor(ev(vt, t=%pi/2));
