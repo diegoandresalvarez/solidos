@@ -1,15 +1,29 @@
 /* se define la función de tensión de Airy (*\eqref{eq:airyFlamant}*) */    
 phi : (A*r*log(r) + B*r*t)*cos(t) + (C*r*log(r) + D*r*t)*sin(t)$
 
+/* se define el laplaciano en coordenadas polares, ecuación (*\eqref{eq:laplacenpolares}*) */
+lapl(g) := diff(g,r,2) + (1/r)*diff(g,r) + (1/r^2)*diff(g,theta,2)$
+
+/* se calcula el biarmónico de la función de tensión de Airy */
+bphi : factor(lapl(lapl(phi))); /* bphi valdrá cero */
+
+/* y se verifica que el biarmónico se satisfaga */
+if bphi = 0 then 
+   print("El biarmónico se satisface")  /* esto es lo que se imprimirá */
+else    
+   print("El biarmónico NO se satisface")$
+
 /* se estiman los esfuerzos con la función de tensión de Airy, ecs. (*\eqref{eq:sr_st_trt_Airy}*) */
 sr  : factor((1/r)*diff(phi,r) + (1/r^2)*diff(phi,t,2));
 st  : factor(diff(phi,r,2));
 trt : factor((1/r^2)*diff(phi,t) - (1/r)*diff(phi, r,1, t,1));
-/* se plantean cuatro ecuaciones para encontrar cuatro incógnitas */
+
+/* se plantean cuatro ecuaciones para encontrar las cuatro incógnitas */
 sol_AC : solve([ ev(st,  t=0)  = 0,
-ev(st,  t=pi) = 0,
-ev(trt, t=0)  = 0,
-ev(trt, t=pi) = 0 ], [A, B, C, D]);    
+                 ev(st,  t=pi) = 0,
+                 ev(trt, t=0)  = 0,
+                 ev(trt, t=pi) = 0 ], [A, B, C, D]);
+
 /* se escriben las ecuaciones para sr, st y trt con A=C=0 (ecs. (*\eqref{eq:srsttrtFlamantBD}*)) */    
 sr  : (2*D*cos(t) - 2*B*sin(t))/r$
 st  : 0$
@@ -17,7 +31,8 @@ trt : 0$
 
 /* se emplean las ecuaciones (*\eqref{eq:FlamantPxPy}*) para encontrar las constantes B y D */
 sol_BD : solve([ Px + integrate(sr*cos(t)*r, t, 0, %pi) = 0,
-Py + integrate(sr*sin(t)*r, t, 0, %pi) = 0 ], [B, D]);
+                 Py + integrate(sr*sin(t)*r, t, 0, %pi) = 0 ], [B, D]);
+
 /* esfuerzos para una carga vertical Py (ecuaciones (*\eqref{Flamantsrsttrt_soloPy}*)) */
 sr  : -(2*Py*sin(t))/(%pi*r)$
 st  : 0$
@@ -27,6 +42,7 @@ trt : 0$
 sx  : sr*cos(t)^2 + st*sin(t)^2 - trt*sin(2*t);
 sy  : sr*sin(t)^2 + st*cos(t)^2 + trt*sin(2*t);  /* ecuaciones (*\eqref{eq:sigmacarfromsigmapol}*) */
 txy : (sr - st)*sin(2*t)/2 + trt*cos(2*t);
+
 /* el radio r solo puede tomar valores positivos */
 assume(r > 0);
 
@@ -34,6 +50,7 @@ assume(r > 0);
 tmax : sqrt(factor(trigreduce(((sx-sy)/2)^2 + txy^2)));  /* ec. (*\eqref{eq:esfcortmaximo}*)  */
 s1   : trigreduce((sx+sy)/2 + tmax);                     /* ec. (*\eqref{eq:esfprinc2da}*) */
 s2   : trigreduce((sx+sy)/2 - tmax);                     /* ec. (*\eqref{eq:esfprinc2db}*) */
+
 /* se calcula el ángulo de inclinación para los esfuerzos principales */
 tan_2t1 : trigreduce(trigsimp(2*txy/(sx-sy)));
 
