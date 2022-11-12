@@ -3,7 +3,6 @@
 ## Citas para preguntas
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
-
 ## Exámenes, talleres y fechas
 El curso se evaluará mediante exámenes y un taller final opcional.
 
@@ -22,13 +21,14 @@ El curso se evaluará mediante exámenes y un taller final opcional.
 ## Descripción de la asignatura mecánica de sólidos 1
 En este curso se profundizará en la teoría de la elasticidad. Esta es una teoría básica, imprescindible para poder entender entender, con suficiencia, el método de los elementos finitos, y con el tener bases apropiadas para poder manejar con conciencia los diferentes programas de análisis estructural que existen en el mercado, que son empleados no solo en ingeniería estructural, sino en ingeniería geotécnica y de pavimentos.
 
-Partiendo de los conocimientos previos sobre tensiones y deformaciones, adquiridos en el curso de mecánica tensorial, el curso se desarrolla estudiando en profundidad las relaciones entre esfuerzos y deformaciones para materiales elásticos lineales, las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles y finaliza con la formulación elástica en coordenadas cilíndricas, lo cual es de especial importancia no solo en la mecánica estructural sino en la de suelos.
+Partiendo de los conocimientos previos sobre tensiones y deformaciones, adquiridos en el curso de mecánica tensorial, el curso se desarrolla estudiando en profundidad las relaciones entre esfuerzos y deformaciones para materiales elásticos lineales, las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles, la formulación elástica en coordenadas cilíndricas y finaliza con la torsión de barras de sección transversal no circular, lo cual es de especial importancia no solo en la mecánica estructural sino en la de suelos.
 
 Se espera que al final del curso, el estudiante esté en capacidad de:
 * Analizar y explicar como varían las tensiones y las deformaciones al interior de un sólido elásticos.
 * Entender las diferentes suposiciones y limitaciones presentes en la teoría de la elasticidad.
 * Interpretar los diferentes criterios de falla presentes en los sólidos elásticos.
 * Entender la deducción y rango de aplicación de ciertas formulaciones que se aplicarán más tarde en las líneas de mecánica de suelos y pavimentos.
+* Entender la torsión de barras de sección no circular.
 
 La materia se desarrollará mediante clases magistrales y prácticas mediante el uso de programas de elementos finitos.
 
@@ -69,14 +69,13 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 #### Desplazamientos y pequeñas deformaciones
 * Desplazamientos
 * Deformaciones longitudinales y angulares
-* Galgas extensiométricas
 * Especificación de la deformación en otras direcciones
 * Rotación
 * Deformaciones principales
 
-### 3. Círculo de Mohr en 2D y 3D para los tensores de esfuerzos y deformaciones
+#### Círculo de Mohr en 2D y 3D para los tensores de esfuerzos y deformaciones
 
-### 4. Relación entre esfuerzos y deformaciones
+#### Relación entre esfuerzos y deformaciones
 * Materiales frágiles y materiales dúctiles: comportamiento elastoplástico, curva esfuerzo deformación.
 * La ley de Hooke para materiales isótropos, anisótropos y ortótropos:
   * Los módulos de Young y Poisson.
@@ -85,6 +84,8 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Relación entre las direcciones principales asociadas a los esfuerzos y a las deformaciones para materiales isótropos
 * Cambios de volumen y dilatación cúbica
 * Módulo de expansión volumétrica o módulo de compresibilidad.
+
+### 3. Relación entre esfuerzos y deformaciones
 * Particularizaciones de tres a dos dimensiones: 
   * Tensión plana
   * Deformación plana
@@ -92,7 +93,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Interpretación de los gráficos de colores de esfuerzos y deformaciones
 * Modificación de la ley de Hooke para tener en cuenta los efectos térmicos en el caso de materiales isótropos y ortótropos
 
-### 5. Ecuaciones diferenciales fundamentales de la teoría de la elasticidad
+### 4. Ecuaciones diferenciales fundamentales de la teoría de la elasticidad
 * Ecuaciones diferenciales de equilibrio
 * Ecuaciones de compatibilidad en 2D y 3D en términos de deformaciones y esfuerzos (las ecuaciones de Saint-Venant y de  Mitchell-Beltrami)
 * Condiciones de frontera
@@ -104,7 +105,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Principio de superposición
 * Principio de Saint-Venant
 
-### 6. Criterios de falla para materiales dúctiles y frágiles
+### 5. Criterios de falla para materiales dúctiles y frágiles
 * Esfuerzos medios, desviadores y octaédricos
 * El espacio de esfuerzos principales, la superficie de fluencia y la región elástica
 * El sistema de coordenadas cilíndricas de Haigh-Westergaard
@@ -114,7 +115,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Criterios de fluencia y superficies de plastificación en materiales dúctiles: von Mises, Tresca
 * Criterios de rotura y superficies de falla en materiales frágiles: Rankine, Mohr-Coulomb, Drucker-Prager, Matsuoka-Nakai
 
-### 7. Formulación en coordenadas polares y cilíndricas
+### 6. Formulación en coordenadas polares y cilíndricas
 * Los sistemas de coordenadas polares y cilíndricas
 * El gradiente, el laplaciano, la divergencia y el rotacional en coordenadas cilíndricas
 * Esfuerzos
@@ -132,8 +133,19 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
   * Concentración de esfuerzos en el ensayo brasileño
   * Aplicación en ingeniería de cimentaciones: problemas de Boussinesq, Flamant, Kelvin, Cerruti y Mindlin
 
+### 7. Torsión
+  * Hipótesis fundamentales de la teoría de Saint-Venant y Prandtl
+  * Desplazamientos, deformaciones y esfuerzos en barras de sección circular y no circular
+  * Función de tensión de Prandtl, analogía de la membrana
+  * Alabeo
+  * Cálculo de la rigidez a la torsión
+  * Localización del centro de torsión
+  * Uso de chaflanes en barras sometidas a torsión
+  * Torsión de secciones de pared delgada
+
 ## Bibliografía básica
 * Alvarez Diego A. (2022) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Alvarez, Diego A. Video tutoriales en YouTube sobre teoría de la elasticidad https://www.youtube.com/channel/UCV0FtSuauv5WbcY-lLRMZ4g
 * Ameen, M. (2005) - *Computational elasticity*. Alpha Science.
 * Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.
 * Saad, M. (2005) - *Elasticity: theory, applications and numerics*. Elsevier.
