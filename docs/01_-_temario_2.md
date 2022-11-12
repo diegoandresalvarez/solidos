@@ -14,7 +14,7 @@
 ## Descripción de la asignatura mecánica de sólidos 2
 En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas, métodos energéticos y la teoría de torsión de barras, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
 
-## Contenidos programático de mecánica de sólidos 2
+## Contenido programático de mecánica de sólidos 2
 
 ### 1. Teoría de vigas de Euler-Bernoulli
 * Hipótesis fundamentales
@@ -45,16 +45,7 @@ En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas grues
 * Solución utilizando programas libres/comerciales de elementos finitos
 * Interpretación de resultados
 					
-### 5. Torsión de ejes prismáticos
-* Hipótesis básicas
-* Barras prismáticas de sección transversal circular
-* Barras prismáticas de sección transversal no circular
-* Analogía de la membrana
-* Localización del centro de torsión
-* Solución mediante el método de las diferencias finitas
-* Solución mediante el método de los elementos finitos
-
-### 6. Métodos elasto-energéticos
+### 5. Métodos elasto-energéticos
 * Trabajo
 * Energía potencial elástica
 * Principio del trabajo virtual
