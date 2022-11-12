@@ -32,9 +32,9 @@ Se espera que al final del curso, el estudiante esté en capacidad de:
 
 La materia se desarrollará mediante clases magistrales y prácticas mediante el uso de programas de elementos finitos.
 
-## Contenidos programático de mecánica de sólidos 1
+## Contenido programático de mecánica de sólidos 1
 
-### 1. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
+### 0a. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
 #### Repaso de álgebra lineal (teoría y ejercicios de aplicación)
 * Cosenos directores
 * Proyección de vectores
@@ -58,7 +58,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Regla de la cadena (se estudió en cálculo univariado y en cálculoo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
 
-### 2. Repaso breve de esfuerzos y deformaciones infinitesimales (estos temas se aprendieron en el curso *Mecánica Tensorial*)
+### 0b. Repaso breve de esfuerzos y deformaciones infinitesimales (estos temas se aprendieron en el curso *Mecánica Tensorial*)
 
 #### Esfuerzos o tensiones
 * Fuerzas másicas y fuerzas superficiales
@@ -85,7 +85,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Cambios de volumen y dilatación cúbica
 * Módulo de expansión volumétrica o módulo de compresibilidad.
 
-### 3. Relación entre esfuerzos y deformaciones
+### 1. Relación entre esfuerzos y deformaciones
 * Particularizaciones de tres a dos dimensiones: 
   * Tensión plana
   * Deformación plana
@@ -93,7 +93,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Interpretación de los gráficos de colores de esfuerzos y deformaciones
 * Modificación de la ley de Hooke para tener en cuenta los efectos térmicos en el caso de materiales isótropos y ortótropos
 
-### 4. Ecuaciones diferenciales fundamentales de la teoría de la elasticidad
+### 2. Ecuaciones diferenciales fundamentales de la teoría de la elasticidad
 * Ecuaciones diferenciales de equilibrio
 * Ecuaciones de compatibilidad en 2D y 3D en términos de deformaciones y esfuerzos (las ecuaciones de Saint-Venant y de  Mitchell-Beltrami)
 * Condiciones de frontera
@@ -105,7 +105,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Principio de superposición
 * Principio de Saint-Venant
 
-### 5. Criterios de falla para materiales dúctiles y frágiles
+### 3. Criterios de falla para materiales dúctiles y frágiles
 * Esfuerzos medios, desviadores y octaédricos
 * El espacio de esfuerzos principales, la superficie de fluencia y la región elástica
 * El sistema de coordenadas cilíndricas de Haigh-Westergaard
@@ -115,7 +115,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Criterios de fluencia y superficies de plastificación en materiales dúctiles: von Mises, Tresca
 * Criterios de rotura y superficies de falla en materiales frágiles: Rankine, Mohr-Coulomb, Drucker-Prager, Matsuoka-Nakai
 
-### 6. Formulación en coordenadas polares y cilíndricas
+### 4. Formulación en coordenadas polares y cilíndricas
 * Los sistemas de coordenadas polares y cilíndricas
 * El gradiente, el laplaciano, la divergencia y el rotacional en coordenadas cilíndricas
 * Esfuerzos
@@ -133,7 +133,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
   * Concentración de esfuerzos en el ensayo brasileño
   * Aplicación en ingeniería de cimentaciones: problemas de Boussinesq, Flamant, Kelvin, Cerruti y Mindlin
 
-### 7. Torsión
+### 5. Torsión
   * Hipótesis fundamentales de la teoría de Saint-Venant y Prandtl
   * Desplazamientos, deformaciones y esfuerzos en barras de sección circular y no circular
   * Función de tensión de Prandtl, analogía de la membrana
