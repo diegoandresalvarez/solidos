@@ -1,0 +1,86 @@
+/* se define la función de tensión de Airy */    
+f : A*r^2 + B*r^4 + C/r^2 + D$
+phi : f*cos(2*t)$
+
+/* se define el laplaciano en coordenadas polares, ecuación (*\eqref{eq:laplacenpolares}*) */
+lapl(g) := diff(g,r,2) + (1/r)*diff(g,r) + (1/r^2)*diff(g,t,2)$
+
+/* se calcula el biarmónico de la función de tensión de Airy */
+bphi : factor(lapl(lapl(phi))); /* bphi valdrá cero */
+
+/* y se verifica que el biarmónico se satisfaga */
+if bphi = 0 then 
+    print("El biarmónico se satisface")  /* esto es lo que se imprimirá */
+else    
+    print("El biarmónico NO se satisface")$
+
+/* se estiman los esfuerzos con la función de tensión de Airy, ecs. (*\eqref{eq:sr_st_trt_Airy}*) */
+sr  : factor((1/r)*diff(phi,r) + (1/r^2)*diff(phi,t,2));
+st  : factor(diff(phi,r,2));
+trt : factor((1/r^2)*diff(phi,t) - (1/r)*diff(phi, r,1, t,1));
+
+/* condición de esfuerzos dada por las ecuaciones (*\eqref{eq:est_ast2_kirsch}*) */
+sr_ast2  :  Sx*cos(2*t)/2$
+st_ast2  : -Sx*cos(2*t)/2$
+trt_ast2 : -Sx*sin(2*t)/2$
+    
+/* se plantea y resuelve el sistema de 4 ecuaciones con 4 incógnitas */
+solve([
+    ev(sr,  r=a)  = 0,
+    ev(sr,  r=re) = sr_ast2,
+    ev(trt, r=a)  = 0,
+    ev(trt, r=re) = trt_ast2
+], [A, B, C, D])$
+
+/* se toma el límite cuando el radio exterior tiende a infinito */    
+sol : limit(%, re, inf);
+
+/* se reemplazan las constantes "sol" en (*\eqref{eq:srsttrt_ABCD}*) */
+sr_ast2  : sr,  sol, ratsimp;
+st_ast2  : st,  sol, ratsimp;
+trt_ast2 : trt, sol, ratsimp;
+
+/* Ecuaciones (*\eqref{eq:srsttrt_ast1}*) */
+sr_ast1  : (Sx/2)*(1 - a ^2/r^2)$
+st_ast1  : (Sx/2)*(1 + a ^2/r^2)$
+trt_ast1 : 0$    
+    
+/* se suman las soluciones aplicando el principio de superposición */
+sr  : sr_ast1  + sr_ast2,  factor;
+st  : st_ast1  + st_ast2,  factor;
+trt : trt_ast1 + trt_ast2, factor;
+
+
+
+
+
+
+/* Caso a: estado de esfuerzos sigma_x = Sx */
+sr_Sx   : sr;
+st_Sx   : st;
+trt_Sx  : trt;
+
+/* Caso b: estado de esfuerzos sigma_y = Sy, giro 90 grados sentido horario */
+sr_Sy  : sr,  Sx=Sy, t=t-%pi/2$
+st_Sy  : st,  Sx=Sy, t=t-%pi/2$
+trt_Sy : trt, Sx=Sy, t=t-%pi/2$
+
+/* Caso c: estado de esfuerzos tau_y = Txy, el estado es la suma de los */
+/* esfuerzos a 45 y a 135 grados */
+sr_45   : sr,  Sx=Txy,  t=t-%pi/4$
+st_45   : st,  Sx=Txy,  t=t-%pi/4$
+trt_45  : trt, Sx=Txy,  t=t-%pi/4$
+
+sr_135  : sr,  Sx=-Txy, t=t-3*%pi/4$
+st_135  : st,  Sx=-Txy, t=t-3*%pi/4$
+trt_135 : trt, Sx=-Txy, t=t-3*%pi/4$
+
+sr_Txy  : expand(sr_45  + sr_135);
+st_Txy  : expand(st_45  + st_135);
+trt_Txy : expand(trt_45 + trt_135);
+
+/* Se suman los esfuerzos para los casos a, b y c */
+sr_comp  : expand(sr_Sx  + sr_Sy  + sr_Txy);
+st_comp  : expand(st_Sx  + st_Sy  + st_Txy);
+trt_comp : expand(trt_Sx + trt_Sy + trt_Txy);
+
