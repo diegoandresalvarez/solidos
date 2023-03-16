@@ -4,11 +4,8 @@ depends([ur, vt, w], [r, t, z])$
 depends([r, t], [x, y])$
 
 /* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
-gradef(r,x,cos(t))$    gradef(r,y,sin(t))$
-gradef(t,x,-sin(t)/r)$ gradef(t,y,cos(t)/r)$
-
-/* Vector de desplazamientos con respecto a la base {rP,tP,zP} */
-des_cil : matrix([ ur ], [ vt ], [ w ])$
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$  
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$
 
 /* Se define la matriz de transformación T, ecuación (*\eqref{eq:matTcilindricas}*) */
 T : matrix(
@@ -17,6 +14,27 @@ T : matrix(
 [      0,       0, 1 ]
 )$
 
+/* Deformaciones matemáticas en términos de deformaciones ingenieriles */
+ert : grt/2$          erz : grz/2$          etz : gtz/2$
+
+/* Se define la matriz de deformaciones en coord. cilíndricas */
+def_cil : matrix(
+[ er,  ert, erz ],
+[ ert, et,  etz ],
+[ erz, etz, ez  ]
+)$
+
+/* Se convierte dicha matriz de deformaciones a coordenadas rectangulares */
+def: T.def_cil.transpose(T)$
+
+/* Se extraen los términos de la matriz de deformaciones en coordenadas */ 
+/* rectangulares */
+ex  : def[1][1]$      ey  : def[2][2]$      ez  : def[3][3]$
+gxy : 2*def[1][2]$    gxz : 2*def[1][3]$    gyz : 2*def[2][3]$
+
+/* Vector de desplazamientos con respecto a la base {rP,tP,zP} */
+des_cil : matrix([ ur ], [ vt ], [ w ])$
+
 /* Se expresa el vector de desplazamientos con respecto a la base {i,j,k} */
 des: T.des_cil$
 
@@ -24,7 +42,7 @@ des: T.des_cil$
 u : des[1][1]$
 v : des[2][1]$
 
-/* Las deformaciones en coordenadas rectangulares, ecuaciones (*\eqref{eq:deformaciones}*) y (*\eqref{eq:deformangul}*) */
+/* Las deformaciones en coordenadas rectangulares */
 eq1 : ex  = diff(u, x)$
 eq2 : ey  = diff(v, y)$
 eq3 : ez  = diff(w, z)$
