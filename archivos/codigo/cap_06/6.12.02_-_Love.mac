@@ -1,0 +1,53 @@
+/* Se especifica que la función de tensión de Love phi es función de r y */
+/* z únicamente */
+depends(phi, [r, z])$
+
+/* Se define el laplaciano en el caso axisimétrico, ecuación (*\eqref{eq:laplaciano_axisimetrico}*) */
+lapl(f) := (1/r)*diff(r*diff(f,r),r) + diff(f,z,2)$
+
+/* Se calcula el biarmónico de la función de tensión de Love */
+bphi : expand(lapl(lapl(phi)))$
+
+/* Se definen los esfuerzos utilizando la función de tensión de Love */
+sr  : diff(nu*lapl(phi) - diff(phi,r,2),     z)$
+st  : diff(nu*lapl(phi) - (1/r)*diff(phi,r), z)$     /* ecuaciones (*\eqref{eq:esf_funcion_de_tension_de_Love}*) */
+sz  : diff((2-nu)*lapl(phi) - diff(phi,z,2), z)$
+trz : diff((1-nu)*lapl(phi) - diff(phi,z,2), r)$
+
+/* Se definen los desplazamientos utilizando la función de tensión de Love */
+ur : -((1+nu)/E)*diff(phi, r,1, z,1)$                /* ecuaciones (*\eqref{eq:ur_w_Love}*) */
+w  :  ((1+nu)/E)*(2*(1-nu)*lapl(phi) - diff(phi,z,2))$
+
+/* Se reemplazan los esfuerzos en las ecuaciones de equilibrio, */
+/* ecuaciones (*\eqref{eq:eqdifequilaxisimetrico}*) para fuerza másica constante (br=bt=0) */
+eq1: diff(sr,r) + diff(trz,z) + (sr - st)/r$
+eq2: diff(trz,r) + diff(sz,z) + trz/r$
+factor(eq1 - 0);                      /* Imprime 0 */
+factor(eq2 - (1-nu)*bphi);            /* Imprime 0 */
+
+/* Se reemplazan los esfuerzos en las ecuaciones de compatibilidad (*\eqref{eq:compatibilidad_esfuerzos_axisimetrico}*) */
+Theta : sr + st + sz$
+co1 : lapl(sr) - (2/r^2)*(sr - st) + (1/(1+nu))*diff(Theta,r,2)$
+co2 : lapl(st) + (2/r^2)*(sr - st) + (1/(1+nu))*(1/r)*diff(Theta,r)$
+co3 : lapl(sz) + (1/(1+nu))*diff(Theta,z,2)$
+co4 : lapl(trz) - (1/r^2)*trz + (1/(1+nu))*diff(Theta,r,1,z,1)$
+
+/* Se verifica la equivalencia de las anteriores expresiones: */
+factor(co1 - nu*diff(bphi,z));        /* Imprime 0 */
+factor(co2 - nu*diff(bphi,z));        /* Imprime 0 */
+factor(co3 - (2-nu)*diff(bphi,z));    /* Imprime 0 */
+factor(co4 - (1-nu)*diff(bphi,r));    /* Imprime 0 */
+
+/* Las constantes de Lamé: */
+lambda : E*nu/((1 + nu)*(1 - 2*nu))$
+G      : E/(2*(1 + nu))$
+
+/* Dilatación cúbica para el caso axisimétrico, ecuación (*\eqref{eq:e_coord_cil}*) */
+e : diff(ur,r) + ur/r + diff(w,z)$
+
+/* Se reemplazan los desplazamientos en las ecuaciones de Cauchy- */
+/* Navier (*\eqref{eq:CN_axisimetrico}*) asumiendo que las fuerzas másicas son nulas: br = bz = 0 */
+cn1 : (lambda + G)*diff(e,r) + G*(lapl(ur) - ur/r^2)$
+cn2 : (lambda + G)*diff(e,z) + G*lapl(w)$
+factor(cn1 - 0);                      /* Imprime 0 */
+factor(cn2 - (1-nu)*bphi);            /* Imprime 0 */

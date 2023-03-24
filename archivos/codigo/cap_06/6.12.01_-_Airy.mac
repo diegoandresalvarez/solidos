@@ -1,0 +1,56 @@
+/* Se especifica que r y t son funciones de x y de y; adicionalmente, que */
+/* phi es función de r y de t */
+depends([r, t], [x, y])$ depends(phi, [r, t])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$    /* ecuaciones (*\eqref{eq:derrthetaxya}*) */
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$  /* ecuaciones (*\eqref{eq:derrthetaxyb}*) */
+
+/* Se especifican los esfuerzos sx, sy y txy en función de sr, st y trt a 
+partir de la ecuación (*\eqref{eq:sigmacarfromsigmapol}*) */
+sx  : sr*cos(t)^2 + st*sin(t)^2 - trt*sin(2*t)$
+sy  : sr*sin(t)^2 + st*cos(t)^2 + trt*sin(2*t)$
+txy : (sr - st)*sin(2*t)/2  + trt*cos(2*t)$
+
+/* Relaciones de Airy para los esfuerzos, ecuación (*\eqref{eq:airysigmas}*) cuando no se tienen
+fuerzas másicas, esto es haciendo V=0 */
+eq1: sx  =  diff(phi,y,2)$
+eq2: sy  =  diff(phi,x,2)$
+eq3: txy = -diff(phi,x,1,y,1)$
+
+/* Se calculan sr, st y trt en términos de la función de tensión de Airy */
+trigreduce(solve([eq1, eq2, eq3], [sr, st, trt]));
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Se especifica que r y t son funciones de x y de y; adicionalmente, que */
+/* phi es función de r y de t */
+depends([r, t], [x, y])$ depends(phi, [r, t])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$        /* ecuaciones (*\eqref{eq:derrthetaxya}*) */
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$      /* ecuaciones (*\eqref{eq:derrthetaxyb}*) */
+
+/* El laplaciano en coordenadas polares, ecuación (*\eqref{eq:laplacenpolares}*) */
+lapl(f) := diff(f,r,2) + (1/r)*diff(f,r) + (1/r^2)*diff(f,t,2)$
+
+/* sr, st y trt en función de la función de tensión de Airy, ec. (*\eqref{eq:sr_st_trt_Airy}*) */
+sr  : (1/r)*diff(phi,r) + (1/r^2)*diff(phi,t,2)$
+st  : diff(phi,r,2)$
+trt : (1/r^2)*diff(phi,t) - (1/r)*diff(phi, r,1, t,1)$
+
+/* Se reemplaza en las ecuaciones diferenciales de equilibrio (*\eqref{eq:eqdifequilpol}*) */
+/* asumiendo que las fuerzas másicas son nulas, esto es br = bt = 0 */
+eq1 : expand(diff(sr,r) + (1/r)*diff(trt,t) + (sr - st)/r = 0); /* da 0=0 */
+eq2 : expand(diff(trt,r) + (1/r)*diff(st,t) + 2*trt/r = 0);     /* da 0=0 */
+
+/* Se reemplaza en la ecuación diferencial bidimensional de compatibilidad */
+/* en términos de esfuerzos (*\eqref{eq:compa2dcilin}*), asumiendo que las fuerzas másicas son */
+/* nulas, esto es br = bt = 0  */
+eq3a : expand(trigsimp(lapl(sr + st) = 0)); /* imprime la ecuación (*\eqref{eq:biarmonicopol4}*) */
+
+/* Se calcula el biarmónico de la función de tensión de Airy en */
+/* coordenadas polares */
+eq3b : expand(lapl(lapl(phi))) = 0;         /* imprime la ecuación (*\eqref{eq:biarmonicopol4}*) */
+
+
