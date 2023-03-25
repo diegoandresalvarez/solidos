@@ -54,9 +54,18 @@ Y : b[2][1];
 Z : b[3][1];
 
 /* Las ecuaciones diferenciales de equilibrio "rectangulares", ec. (*\eqref{eq:eqdifequil3d}*) */
-eq1 : diff(sx,  x) + diff(txy, y) + diff(txz, z) + X = 0$
-eq2 : diff(txy, x) + diff(sy,  y) + diff(tyz, z) + Y = 0$
-eq3 : diff(txz, x) + diff(tyz, y) + diff(sz,  z) + Z = 0$
+eq1 : trigsimp(diff(sx,  x) + diff(txy, y) + diff(txz, z) + X) = 0$
+eq2 : trigsimp(diff(txy, x) + diff(sy,  y) + diff(tyz, z) + Y) = 0$
+eq3 : trigsimp(diff(txz, x) + diff(tyz, y) + diff(sz,  z) + Z) = 0$
 
-/* Se toma el límite de las ecuaciones anteriores cuando "t tiende a cero" */
-limit([eq1, eq2, eq3], t, 0);
+/*
+facsum(eq1, sin(t), cos(t));
+facsum(eq2, sin(t), cos(t));
+*/
+
+/* Se hace sin(t)=0 y cos(t)=1 e imprimimos las dos primeras ecuaciones */
+/* diferenciales de equilibrio */
+ev([eq1, eq2], sin(t)=0, cos(t)=1);
+
+/* Imprimimos la tercera ecuación de equilibrio */
+eq3;
