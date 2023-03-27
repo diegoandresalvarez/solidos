@@ -41,5 +41,25 @@ e4: 2*diff(ex, y,1, z,1) - diff(- diff(gyz,x) + diff(gxz,y) + diff(gxy,z),x)$
 e5: 2*diff(ey, x,1, z,1) - diff(+ diff(gyz,x) - diff(gxz,y) + diff(gxy,z),y)$
 e6: 2*diff(ez, x,1, y,1) - diff(+ diff(gyz,x) + diff(gxz,y) - diff(gxy,z),z)$
 
-/* Se toma el límite cuando "t tiende a cero" */
+/* Se hace sin(t)=0 y cos(t)=1 en las anteriores ecuaciones */
 eqs : expand(ev(trigsimp([r*e1, e2, e3, e4, e5, e6]), sin(t)=0, cos(t)=1));
+
+/* Se verifica que las ecs. calculadas son iguales a las ecs. (*\eqref{eq:compat_deformaciones_3d_cil}*) */
+ee1: (1/r)*diff(er,t,2) + diff(r*diff(et,r) - (er-et),r) - diff(diff(grt,r) 
+                                                                  + grt/r,t)$
+ee2: (1/r^2)*diff(ez,t,2) + diff(et,z,2) + (1/r)*diff(ez,r) 
+                                           - (1/r)*diff(diff(gtz,t) + grz,z)$
+ee3: diff(ez,r,2) + diff(er,z,2) - diff(grz,r,1,z,1)$
+ee4: (2/r)*diff(er,t,1,z,1) - (1/r)*diff(r*diff(grt,z) - gtz,r) 
+     - diff((1/r)*diff(grz,t) - diff(gtz,r),r) - (1/r)*diff(grt,z) - gtz/r^2$
+ee5: 2*diff(diff(et,r) - (er-et)/r,z) - (1/r)*diff(diff(gtz,r) 
+                  - (1/r)*diff(grz,t) + diff(grt,z),t) - (1/r^2)*diff(gtz,t)$
+ee6: (2/r)*diff(diff(ez,r) - ez/r,t) - diff(diff(gtz,r) + (1/r)*diff(grz,t) 
+                                                    - diff(grt,z) - gtz/r,z)$
+
+expand(eqs[1] - ee1); /* Imprime 0 */
+expand(eqs[2] - ee2); /* Imprime 0 */
+expand(eqs[3] - ee3); /* Imprime 0 */
+expand(eqs[4] - ee4); /* Imprime 0 */
+expand(eqs[5] - ee5); /* Imprime 0 */
+expand(eqs[6] - ee6); /* Imprime 0 */
