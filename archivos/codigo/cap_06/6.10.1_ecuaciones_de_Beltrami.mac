@@ -1,3 +1,8 @@
+/*
+Código elaborado por: Manuela Alzate Patiño (Marzo 29, 2023)
+*/
+
+
 /* Se define la dependencia funcional */
 depends([sr, st, sz, trt, trz, ttz], [r, t, z])$
 depends([r, t], [x, y])$
