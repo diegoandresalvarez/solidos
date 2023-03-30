@@ -1,0 +1,59 @@
+/* Se define la dependencia funcional */
+depends([sr, st, sz, trt, trz, ttz], [r, t, z])$
+depends([r, t], [x, y])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$    /* ecuaciones (6.2a) */
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$  /* ecuaciones (6.2b) */
+
+/* Se define la matriz de transformación T, ecuación (6.6) */
+T : matrix(
+[ cos(t), -sin(t),  0 ],
+[ sin(t),  cos(t),  0 ],
+[      0,       0,  1 ]
+)$
+
+/* Se define la matriz de esfuerzos en coordenadas cilíndricas, ecuación (6.21) */
+esf_cil : matrix([sr ,  trt,  trz ],
+                 [trt,  st ,  ttz ],
+                 [trz,  ttz,  sz  ])$
+
+/* Se convierte dicha matriz a coordenadas rectangulares */
+esf : T.esf_cil.transpose(T)$         /* ecuación (6.25) */
+
+/* Se extraen los términos de la matriz de esfuerzos en coordenadas rectangulares */
+sx  : esf[1][1]$         sy  : esf[2][2]$         sz  : esf[3][3]$
+txy : esf[1][2]$         txz : esf[1][3]$         tyz : esf[2][3]$
+
+/* Definimos el invariante de esfuerzo I1 en coordenadas cilíndricas (2.47a) */
+Theta : sr + st + sz$
+
+/* Definimos el operador laplaciano en coordenadas cilíndricas, ecuación (6.9) */
+lapl(f) :=  (1/r)*diff(r*diff(f,r),r) + (1/r^2)*diff(f,t,2) + diff(f, z, 2)$
+
+/* Ecuaciones de compatibilidad en coordenadas rectangulares (5.19) */
+e1 : (1+nu)*lapl(sx)  + diff(Theta,x,2)     = 0$
+e2 : (1+nu)*lapl(sy)  + diff(Theta,y,2)     = 0$
+e3 : (1+nu)*lapl(sz)  + diff(Theta,z,2)     = 0$
+e4 : (1+nu)*lapl(tyz) + diff(Theta,y,1,z,1) = 0$
+e5 : (1+nu)*lapl(txz) + diff(Theta,x,1,z,1) = 0$
+e6 : (1+nu)*lapl(txy) + diff(Theta,x,1,y,1) = 0$
+
+/* Se toma el límite cuando "t tiende a cero" */
+eqs: expand(ev(trigsimp([e1, e2, e3, e4, e5, e6]), sin(t)=0, cos(t)=1));
+
+/* Ecuaciones de Beltrami en coordenadas cilíndricas (6.46) */
+ee1 : (1+nu)*(lapl(sr) - (4/r^2)*diff(trt,t) - (2/r^2)*(sr-st)) + diff(Theta,r,2) = 0$
+ee2 : (1+nu)*(lapl(st)+(4/r^2)*diff(trt,t)+(2/r^2)*(sr-st))+ (1/r)*diff(Theta,r) + (1/r^2)*diff(Theta,t,2) = 0$
+ee3 : (1+nu)*lapl(sz)+ diff(Theta,z,2) = 0$
+ee4 : (1+nu)*(lapl(ttz)+(2/r^2)*diff(trz,t)-(1/r^2)*ttz)+ (1/r)*diff(Theta,t,1,z,1) = 0$
+ee5 : (1+nu)*(lapl(trz)-(2/r^2)*diff(ttz,t)-(1/r^2)*trz) + diff(Theta,r,1,z,1) = 0$
+ee6 : (1+nu)*(lapl(trt) + (2/r^2)*diff(sr-st,t) - (4/r^2)*trt) + diff((1/r)*diff(Theta,t),r) = 0$
+
+/* Se verifica que las ecs. calculadas son iguales a las ecs. (6.46) */
+expand(eqs[1] - ee1);        /* Imprime 0 */
+expand(eqs[3] - ee3);        /* Imprime 0 */
+expand(eqs[6] - ee6);        /* Imprime 0 */
+expand(eqs[2] - ee2);        /* Imprime 0 */
+expand(eqs[4] - ee4);        /* Imprime 0 */
+expand(eqs[5] - ee5);        /* Imprime 0 */
