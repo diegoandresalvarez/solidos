@@ -42,11 +42,11 @@ e5: 2*diff(ey, x,1, z,1) - diff(+ diff(gyz,x) - diff(gxz,y) + diff(gxy,z),y)$
 e6: 2*diff(ez, x,1, y,1) - diff(+ diff(gyz,x) + diff(gxz,y) - diff(gxy,z),z)$
 
 /* Se hace sin(t)=0 y cos(t)=1 en las anteriores ecuaciones */
-eqs : expand(ev(trigsimp([r*e1, e2, e3, e4, e5, e6]), sin(t)=0, cos(t)=1));
+eqs : expand(ev(trigsimp([e1, e2, e3, e4, e5, e6]), sin(t)=0, cos(t)=1))$
 
 /* Se verifica que las ecs. calculadas son iguales a las ecs. (*\eqref{eq:compat_deformaciones_3d_cil}*) */
-ee1: (1/r)*diff(er,t,2) + diff(r*diff(et,r) - (er-et),r) - diff(diff(grt,r) 
-                                                                  + grt/r,t)$
+ee1: (1/r^2)*diff(er,t,2) + (1/r)*diff(r*diff(et,r) - (er-et),r)
+                                         - (1/r)*diff(diff(grt,r) + grt/r,t)$
 ee2: (1/r^2)*diff(ez,t,2) + diff(et,z,2) + (1/r)*diff(ez,r) 
                                            - (1/r)*diff(diff(gtz,t) + grz,z)$
 ee3: diff(ez,r,2) + diff(er,z,2) - diff(grz,r,1,z,1)$
