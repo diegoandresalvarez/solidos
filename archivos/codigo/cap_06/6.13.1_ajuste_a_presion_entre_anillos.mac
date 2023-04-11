@@ -1,0 +1,82 @@
+/* presiones aplicadas a ambos anillos */
+pe1 : 8e6$  /* [Pa] */
+pi1 : p$    /* p = presión de contacto */
+pe2 : p$    /* p = presión de contacto */  
+pi2 : 20e6$ /* [Pa] */
+    
+/* geometría y propiedades del material de los anillos 1 y 2: */
+/*       [m]               [m]            [Pa]          [ - ] */
+ri1 : 0.100$     re1 : 0.150$      E1 :  70e9$     nu1 : 0.33$
+ri2 : 0.050$     re2 : 0.1002$     E2 : 190e9$     nu2 : 0.30$
+
+/* Delta es la interferencia, es decir, la diferencia entre radios */      
+Delta : re2 - ri1$
+    
+/* desplazamiento radial ur de un anillo, ecuación (*\eqref{eq:ur_anillo}*) */    
+ur : 1/((re^2 - ri^2)*E)*((1-nu)*(pi*ri^2 - pe*re^2)*r 
+                                         + (1/r)*(1+nu)*(pi - pe)*ri^2*re^2)$
+                                         
+/* se particulariza el desplazamiento radial ur para cada anillo */    
+ur1 : ur, r=ri1, ri=ri1, re=re1, pi=pi1, pe=pe1, E=E1, nu=nu1$
+ur2 : ur, r=re2, ri=ri2, re=re2, pi=pi2, pe=pe2, E=E2, nu=nu2$
+    
+/* relación de desplazamientos entre anillos y se encuentra la presión p */
+sol : solve(ev(ur1,r=ri1) = Delta + ev(ur2,r=re2), p)$ /* ecuación (*\eqref{eq:disco_dentro_de_otro_desplazamientos}*) */
+
+/* la solución calculada se convierte en un número flotante */
+sol, numer;
+\end{lstlisting}
+% re2 : 0.0100$
+% ri1 : 0.0100$
+% P2 : Delta/((((ri1/E1)*((re1^2 + ri1^2)/(re1^2 - ri1^2) + nu1)) + ((re2/E2)*((re2^2 + ri2^2)/(re2^2 - ri2^2) - nu2)))), numer;
+siendo el resultado de la ejecución del código que la presión de contacto $p$ entre ambos anillos es $50.5928$ MPa.
+
+# Con esta presión de contacto $p$ podemos ahora proceder a calcular la variación de los esfuerzos radiales y tangenciales en el interior de cada anillo. Para tal fin, se empleó el siguiente código de MATLAB:
+
+% Geometría del anillo 1:
+ri1 = 0.100;  % [Pa] radio interior
+re1 = 0.150;  % [Pa] radio exterior
+r1  = linspace(ri1, re1, 100);
+
+% Geometría del anillo 2
+ri2 = 0.050;  % [Pa] radio interior
+re2 = 0.1002; % [Pa] radio exterior
+r2  = linspace(ri2, re2, 100);
+
+% Presión de contacto entre anillos
+p = 50.5928e6; % [Pa]
+
+% Presiones aplicadas al anillo 1
+pe1 = 8e6;     % [Pa]
+pi1 = p;       % [Pa] p = presión de contacto
+
+% Presiones aplicadas al anillo 2
+pe2 = p;       % [Pa] p = presión de contacto
+pi2 = 20e6;    % [Pa]
+
+% se crean las funciones para calcular los esfuerzos radiales y tangenciales
+sr = @(r, ri, pi, re, pe) (pi*ri^2 - pe*re^2)/(re^2 - ri^2) ...
+                + ri^2*re^2*(pe - pi)./(r.^2*(re^2 - ri^2));    % ec. (*\eqref{eq:esf_anillo_no_omega_sr}*)
+st = @(r, ri, pi, re, pe) (pi*ri^2 - pe*re^2)/(re^2 - ri^2) ...
+                - ri^2*re^2*(pe - pi)./(r.^2*(re^2 - ri^2));    % ec. (*\eqref{eq:esf_anillo_no_omega_st}*)
+
+% se calculan los esfuerzos radiales y tangenciales para cada anillo
+sr1 = sr(r1, ri1, pi1, re1, pe1);
+st1 = st(r1, ri1, pi1, re1, pe1);
+sr2 = sr(r2, ri2, pi2, re2, pe2);
+st2 = st(r2, ri2, pi2, re2, pe2);
+
+% se grafican los esfuerzos
+figure
+subplot(2,1,1); dibujar_esf('\sigma_r(r)',      r2, sr2, r1, sr1);
+subplot(2,1,2); dibujar_esf('\sigma_\theta(r)', r2, st2, r1, st1);
+
+% función para graficar los esfuerzos 
+% los radios deben estar dados en metros y los esfuerzos en pascales
+function dibujar_esf(titulo, r2_m, esf2_Pa, r1_m, esf1_Pa)
+    plot(1000*r2_m, esf2_Pa/1e6, '-', 1000*r1_m, esf1_Pa/1e6, '--');
+    xlabel('r [mm]')
+    ylabel([titulo, ' MPa'])
+    legend('Anillo 1', 'Anillo 2', 'Location','Best')
+    grid on
+end
