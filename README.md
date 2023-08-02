@@ -1,13 +1,17 @@
 # Universidad Nacional de Colombia - Sede Manizales
-# C4100611 - G1 - Mecánica de Sólidos 1
-# C4100611 - G2 - Mecánica de Sólidos 1
-# C4200712 - G1 - Mecánica de Sólidos 2
+# 4201079 - G1 - Mecánica de Sólidos 1
+# 4201079 - G2 - Mecánica de Sólidos 1
+# 4200712 - G1 - Mecánica de Sólidos 2
+
+<!---
+C4100611 -> código viejo sólidos
+--->
 
 <p float="left">
   <img src="varios/Galileo_vs_FEM.png" height="485" />
 </p>
 
-- Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/alvarezCV_internet.pdf) (daalvarez@unal.edu.co)
+- Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/) (daalvarez@unal.edu.co)
 - Semanas: 16
 - Créditos: 3
 
@@ -15,13 +19,16 @@
 
 - Mecánica de sólidos 1, Grupo 1:
   - Martes 10:00-12:00, Aula C412
-  - Jueves 10:00-12:00, Aula C401
+  - Jueves 10:00-12:00, Aula J101
 - Mecánica de sólidos 1, Grupo 2:
-  - Lunes 16:00-18:00, Aula C306
-  - Miércoles 16:00-18:00, Aula C306
+  - Miércoles 16:00-18:00, Aula C401
+  - Viernes 8:00-10:00, Aula C401
+  
+<!---
 - Mecánica de sólidos 2:
   - Jueves 16:00-18:00, Aula C206
   - Viernes 14:00-16:00, Aula C201
+--->
 
 - Tiempo de actividad autónoma por semana: 8 horas
 

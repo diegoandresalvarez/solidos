@@ -7,15 +7,15 @@
 El curso se evaluará mediante exámenes y un taller final opcional.
 
 ### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
-* **Examen  1:** 34%
-* **Examen  2:** 33%
-* **Examen  3:** 33%
+* **Examen  1:** 33.33% (jueves, septiembre 7, 2023)
+* **Examen  2:** 33.33% (jueves, octubre 19, 2023)
+* **Examen  3:** 33.33% (jueves, noviembre 30, 2023)
 * **Trabajo:** es opcional y reemplaza la nota más mala de las tres notas anteriores
 
 ### Mecánica de Sólidos 1, Grupo 2 (Lunes y Miércoles):
-* **Examen  1:** 34%
-* **Examen  2:** 33%
-* **Examen  3:** 33%
+* **Examen  1:** 33.33% (viernes, septiembre 8, 2023)
+* **Examen  2:** 33.33% (viernes, octubre 20, 2023)
+* **Examen  3:** 33.33% (viernes, diciembre 1, 2023)
 * **Trabajo:** es opcional y reemplaza la nota más mala de las tres notas anteriores
 
 ## Descripción de la asignatura mecánica de sólidos 1
