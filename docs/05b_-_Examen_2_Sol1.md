@@ -1,3 +1,5 @@
+<!---
+
 # Exámenes Corte 2 de Mecánica de Sólidos 1:
 
 ## Temas para los exámenes
@@ -37,3 +39,5 @@ Se permite para los exámenes que el profesor diga una hoja tamaño oficio en la
   
 * Y desde el punto de vista anterior, que haría usted si fuera el ingeniero residente encargado de la obra en:
   * <http://www.eltiempo.com/mundo/latinoamerica/destruyen-templo-maya-por-construir-una-carretera_12800782-4>
+
+--->

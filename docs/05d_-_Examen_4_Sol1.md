@@ -1,4 +1,5 @@
 <!---
+
 # Exámenes Corte 4 de Mecánica de Sólidos 1:
 
 ## Temas para los exámenes
@@ -16,4 +17,5 @@ El decimocuarto presidente de los Estados Unidos, Franklin Pierce (1853-1857 hiz
 Si ustedes hubieran sido el presidente Pierce, ¿cómo hubieran respondido dicha carta, desde su visión como ingenieros civiles? Espero que esta sea una verdadera reflexión sobre su misión como profesionales en la sociedad.
 
 [Historia de la carta](http://www.jmarcano.com/varios/seattle/index.html)
+
 --->

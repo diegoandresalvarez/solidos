@@ -1,3 +1,5 @@
+<!---
+
 # Exámenes Corte 1 de Mecánica de Sólidos 1:
 
 Se permite para este examen traer una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
@@ -50,3 +52,5 @@ Un extracto de la conferencia:
 > Que si no reaccionamos (ustedes jóvenes) y asumen el control de su propio país con los elementos que les da la constitución (por ejemplo el voto), si no hacen uso de eso para bien, cerremos, vámonos y dejemos que el país siga mirando para un lado y nosotros para otro.
 
 > Yo tuve una experiencia con los indígenas que fue traducir la constitución a lenguas indígenas con la comunidad Wayu de la alta Guajira. El artículo 11 de la constitución dice para vergüenza nuestra: "Nadie podrá ser sometido a pena cruel, trato inhumano o desaparición forzada" (imagínense esa vaina, lo malo que esto habla de entrada de nosotros). [...] Saben lo que tradujeron los indígenas? Pedazo 10-2: "Nadie podrá llevar por encima de su corazón a nadie, ni hacerle mal en su persona aunque piense y diga diferente" ... apréndanse ese artículo, que con ese artículo podemos ayudar a salvar este país. Por lo menos sus hijos van a tener un país mínimamente más agradable."
+
+--->
