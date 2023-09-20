@@ -1,6 +1,6 @@
 # Fe de erratas
 
-A continuación presento la fé de erratas del libro
+A continuación presento la *fe de erratas* del libro
 
 > Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 

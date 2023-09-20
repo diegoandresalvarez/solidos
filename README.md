@@ -52,3 +52,10 @@ C4100611 -> código viejo sólidos
   * http://mecanicadesolidos.shoutwiki.com/
   * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
   * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
+
+### Fe de erratas
+
+Se presenta la [fe de erratas](docs/fe_de_erratas_vol1.md) del libro:
+
+> Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
+
