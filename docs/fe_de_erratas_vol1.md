@@ -2,7 +2,7 @@
 
 A continuación presento la *fe de erratas* del libro
 
-> Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
+> Álvarez-Marín, D. A. (2023). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 
 
 ## Página 208
@@ -14,6 +14,8 @@ Considere una condición ... y $\gamma_{xy} = 2xy$, donde $a$ ...
 **Debe decir:**
 
 Considere una condición ... y $\gamma_{xy} = 4xy$, donde $a$ ...
+
+
 
 ## Página 227
 
@@ -32,6 +34,7 @@ df_dy : expand(terminos_en_y + terminos_constantes) + w0;
 dg_dx : expand(terminos_en_x) - w0;
 ```
 
+
 ## Página 242
 
 **En vez de:**
@@ -49,6 +52,7 @@ df_dy : expand(terminos_en_y + terminos_constantes) + w0;
 dg_dx : expand(terminos_en_x) - w0;
 ```
 
+
 ## Página 243
 
 **En vez de:**
@@ -56,3 +60,34 @@ $$v(x,y) = \frac{q x}{80 c^3E} \left(-48 c^2 x-30 c^2 \nu x+5 x^3+30 \nu x y^2+1
 
 **Debe decir:**
 $$v(x,y) = \frac{q x}{80 c^3E} \left(-48 c^2 x-30 c^2 \nu x+5 x^3+30 \nu x y^2+60 c^2 L+60 c^2 \nu L \right. \ldots$$
+
+## Página 271
+
+**En vez de:**
+
+Caso 1: ... se tiene que $b_z = 0$ y que $\sigma_z$ es constante y no necesariamente igual a cero, pues de lo contrario existiría una variación de $\sigma_z$ con $z$ ...
+
+**Debe decir:**
+
+Caso 1: ... se tiene que $b_z = 0$, pues de lo contrario existiría una variación de $\sigma_z$ con $z$ ...
+
+---
+
+**En vez de:**
+
+Caso 2: ... De lo anterior se deduce que $b_\theta = 0$ y que $\sigma_\theta$ es constante, pues de lo contrario existiría una variación de $\sigma_\theta$ con $\theta$ ...
+
+**Debe decir:**
+
+Caso 2: ... De lo anterior se deduce que $b_\theta = 0$, pues de lo contrario existiría una variación de $\sigma_\theta$ con $\theta$ ...
+
+## Página 272
+
+**En vez de:**
+
+Caso 3: ... En consecuencia, se tendrá que tanto $\sigma_z$ como $\sigma_\theta$ son constantes y que $b_z=b_\theta=0$ y ...
+
+**Debe decir:**
+
+Caso 3: ... En consecuencia, se tendrá que $b_z=b_\theta=0$ y ...
+
