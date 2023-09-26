@@ -27,12 +27,12 @@ def_cil : matrix(
 /* Se convierte dicha matriz de deformaciones a coordenadas rectangulares */
 def: T.def_cil.transpose(T)$ /* ecuación (*\eqref{eq:defTdefprimaTT_cil}*) */
 
-/* Se extraen los términos de la matriz de deformaciones en coordenadas */ 
+/* Se extraen los términos de la matriz de deformaciones en coordenadas */
 /* rectangulares */
 ex  : def[1][1]$      ey  : def[2][2]$      ez  : def[3][3]$
 gxy : 2*def[1][2]$    gxz : 2*def[1][3]$    gyz : 2*def[2][3]$
 
-/* Vector de desplazamientos con respecto a la base {rP,tP,zP} */
+/* Vector de desplazamientos con respecto a la base {r,t,z} */
 des_cil : matrix([ ur ], [ vt ], [ w ])$
 
 /* Se expresa el vector de desplazamientos con respecto a la base {i,j,k} */
