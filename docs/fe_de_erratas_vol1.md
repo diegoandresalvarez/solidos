@@ -91,3 +91,20 @@ Caso 3: ... En consecuencia, se tendrá que tanto $\sigma_z$ como $\sigma_\theta
 
 Caso 3: ... En consecuencia, se tendrá que $b_z=b_\theta=0$ y ...
 
+## Página 294
+
+**En vez de:**
+
+Caso 1: Recuerde que, en este caso, $\sigma_z = \text{constante}$ y $\tau_{rz} = \tau_{\theta z} = 0$.
+
+**Debe decir:**
+
+Caso 1: Recuerde que, en este caso, $\tau_{rz} = \tau_{\theta z} = 0$.
+
+**En vez de:**
+
+Caso 2: Recuerde que, en este caso, $\sigma_\theta = \text{constante}$ y $\tau_{r\theta} = \tau_{\theta z} = 0$.
+
+**Debe decir:**
+
+Caso 2: Recuerde que, en este caso, $\tau_{r\theta} = \tau_{\theta z} = 0$.
