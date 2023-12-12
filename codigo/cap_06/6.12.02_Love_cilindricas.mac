@@ -1,0 +1,84 @@
+/* Coeficiente de Poisson y constante de Lamé */
+nu     : E/(2*G) - 1$
+lambda : (nu*E)/((1 + nu)*(1 - 2*nu))$
+
+/* Vector de fuerzas másicas */
+b = [0, 0, 0]$
+
+/* Definimos ahora los operadores básicos del cálculo vectorial en coordenadas cilíndricas: */
+/* Laplaciano de un campo escalar en coordenadas cilíndricas*/
+lapl(f) := (1/r)*diff(r*diff(f, r), r) + (1/(r^2))*diff(f, t,2) + diff(f, z,2)$
+
+/* Laplaciano vectorial en coordenadas cilíndricas */
+lapl_vec(v) := [ lapl(v[1]) - v[1]/(r^2) - (2/(r^2))*diff(v[2],t),
+                 lapl(v[2]) - v[2]/(r^2) + (2/(r^2))*diff(v[1],t),
+                 lapl(v[3]) ]$
+
+/* Gradiente de un campo escalar en coordenads cilíndricas */
+grad(f) := [ diff(f,r), (1/r)*diff(f,t), diff(f,z) ]$
+
+/* Divergencia de un campo vectorial en coordenadas cilíndricas */
+div(v) := (1/r)*diff(r*v[1],r) + (1/r)*diff(v[2],t) + diff(v[3],z)$
+
+/* Se define el vector de Galerkin en coordenadas cilíndricas */
+depends(phi, [r, t, z])$
+p : [ 0, 0, phi ]$
+
+/* Se define el campo vectorial de desplazamientos a partir del vector de Galerkin */
+vec_u : (2*(1 - nu)*lapl_vec(p) - grad(div(p)))/(2*G)$
+[ur, vt, w] : vec_u$
+
+/* Los desplazamientos deben ser igual a: */
+ur2 : -diff(phi, r, 1, z, 1)/(2*G)$
+vt2 : -diff(phi, t, 1, z, 1)/(2*G*r)$
+w2  : (2*(1 - nu)*lapl(phi) - diff(phi, z, 2))/(2*G)$
+
+/* Se verifica la equivalencia de las expresiones, debe imprimir [0, 0, 0] */
+[ur-ur2, vt-vt2, w-w2];
+
+/* Se calculan las deformaciones: */
+er  : diff(ur, r)$
+et  : ur/r + (1/r)*diff(vt, t)$
+ez  : diff(w, z)$
+grt : (1/r)*diff(ur, t) + diff(vt, r) - vt/r$
+gtz : diff(vt, z) + (1/r)*diff(w, t)$
+grz : diff(w, r) + diff(ur, z)$
+
+/* Las deformaciones deben ser igual a: */
+er2  : -diff(phi, r,2, z,1)/(2*G)$
+et2  : -diff(phi, r,1, z,1)/(2*G*r) - diff(phi, t,2, z,1)/(2*G*r^2)$
+ez2  : ((1 - nu)/G)*diff(lapl(phi),z) - (1/(2*G))*diff(phi, z,3)$
+grt2 : -diff(diff(phi,r) - phi/r, t,1, z,1)/(G*r)$
+grz2 : (1/(2*G))*diff(2*(1 - nu)*lapl(phi), r) - (1/G)*diff(phi, r,1, z,2)$
+gtz2 : (1/(2*G*r))*diff(2*(1 - nu)*lapl(phi) - diff(phi, z,2), t) - (1/(2*G*r))*diff(phi, t,1, z,2)$
+
+/* Se verifica la equivalencia de las expresiones, debe imprimir [0, 0, 0, 0, 0, 0] */
+factor([ er-er2, et-et2, ez-ez2, grt-grt2, grz-grz2, gtz-gtz2 ]);
+
+/* Se calcula la dilatación cúbica */
+e : er + et + ez$
+
+/* La dilatación cúbica debe ser igual a: */
+e2 : (1/(2*G))*diff((1 - 2*nu)*lapl(phi),z)$
+
+/* Se verifica la equivalencia de las expresiones, debe imprimir 0 */
+factor(e - e2);
+
+/* Se calculan los esfuerzos con las ecuaciones de Lamé */
+sr  : lambda*e + 2*G*er$
+st  : lambda*e + 2*G*et$
+sz  : lambda*e + 2*G*ez$
+trt : G*grt$
+ttz : G*gtz$
+trz : G*grz$
+
+/* Los esfuerzos deben ser igual a: */
+sr2  : diff(nu*lapl(phi) - diff(phi, r,2), z)$
+st2  : diff(nu*lapl(phi) - (1/r)*diff(phi,r) - (1/r^2)*diff(phi, t,2), z)$
+sz2  : diff((2 - nu)*lapl(phi) - diff(phi, z,2), z)$
+trt2 : -diff(phi/r, r,1, t,1, z,1)$
+ttz2 : (1/r)*diff((1 - nu)*lapl(phi) - diff(phi, z,2), t)$
+trz2 : diff((1 - nu)*lapl(phi) - diff(phi, z,2), r)$
+
+/* Se verifica la equivalencia de las expresiones, debe imprimir [0, 0, 0, 0, 0, 0] */
+factor([ sr-sr2, st-st2, sz-sz2, trt-trt2, trz-trz2, ttz-ttz2 ]);
