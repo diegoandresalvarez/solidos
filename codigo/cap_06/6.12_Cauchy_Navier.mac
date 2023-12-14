@@ -1,0 +1,31 @@
+/* Se definen los campos vectoriales de desplazamientos u y fuerzas másicas b */
+depends([ur, vt, w, br, bt, bz], [r, t, z])$
+u : [ ur, vt, w  ]$
+b : [ br, bt, bz ]$
+
+/* Definimos los operadores básicos del cálculo vectorial: */
+/* Laplaciano de un campo escalar en coordenadas cilíndricas, ec. (*\eqref{eq:laplacianocilin}*) */
+lapl(f) := (1/r)*diff(r*diff(f,r),r) + (1/(r^2))*diff(f,t,2) + diff(f,z,2)$
+
+/* Laplaciano vectorial en coordenadas cilíndricas, ecuación (*\eqref{eq:lapl_vec_cil}*) */
+lapl_vec(v) := [ lapl(v[1]) - v[1]/(r^2) - (2/(r^2))*diff(v[2],t),
+                 lapl(v[2]) - v[2]/(r^2) + (2/(r^2))*diff(v[1],t),
+                 lapl(v[3]) ]$
+
+/* Gradiente de un campo escalar en coordenadas cilíndricas, ec. (*\eqref{eq:gradientcilin}*) */
+grad(f) := [ diff(f,r), (1/r)*diff(f,t), diff(f,z) ]$
+
+/* Divergencia de un campo vectorial en coordenadas cilíndricas, ec. (*\eqref{eq:divcilin}*) */
+div(v) := (1/r)*diff(r*v[1],r) + (1/r)*diff(v[2],t) + diff(v[3],z)$
+
+/* Ecuación de Cauchy-Navier intrínseca */
+eqCN : (lambda + G)*grad(div(u)) + G*lapl_vec(u) + b$
+
+/* Las ecuaciones de Cauchy-Navier en coordenadas cilíndricas son las ecuaciones (*\eqref{***}*) */
+e : div(u)$
+eqCN1 : (lambda + G)*diff(e,r)   + G*(lapl(ur) - ur/r^2 - (2/r^2)*diff(vt,t)) + br$
+eqCN2 : (lambda + G)*diff(e,t)/r + G*(lapl(vt) - vt/r^2 + (2/r^2)*diff(ur,t)) + bt$
+eqCN3 : (lambda + G)*diff(e,z)   + G*lapl(w)                                  + bz$
+
+/* Se verifica la equivalencia de las expresiones; imprime [0,0,0] */
+factor([ eqCN[1] - eqCN1, eqCN[2] - eqCN2, eqCN[3] - eqCN3 ]);
