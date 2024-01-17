@@ -1,3 +1,4 @@
+<!---
 # Protocolo para la presentación del examen oral
 
 Dado que la Universidad Nacional de Colombia no tiene un protocolo propio para la presentación de exámenes orales en línea, se utilizará el siguiente, el cual está basado en algunos utilizados en otras universidades durante esta eventualidad del COVID-19, tal y como figura en los siguientes enlaces:
@@ -111,3 +112,4 @@ Mostrando la hoja del examen
 * In case the exam cannot be completed due to other factors than those, that you are responsible of, a new exam will be offered as soon as possible in order to repair the situation. In that case, the interrupted attempt to do the exam will not count as one of your three exam attempts.
 
 * Si en ninguno de los tres intentos se pudo completar el examen, la nota obtenida en el examen será 0.0.
+--->

@@ -3,7 +3,6 @@
 ## Citas para preguntas
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
-
 ## Exámenes y talleres
 * Examen 1: 20%
 * Examen 2: 20%
@@ -12,7 +11,7 @@
 * Taller 2 - losas: 20%
 
 ## Descripción de la asignatura mecánica de sólidos 2
-En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas, métodos energéticos y la teoría de torsión de barras, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
+En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas y los métodos elasto-energéticos, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
 
 ## Contenido programático de mecánica de sólidos 2
 
@@ -54,7 +53,7 @@ En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas grues
 
 
 ## Bibliografía básica
-* Alvarez Diego A. (2022) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Alvarez Diego A. (2024) - *Notas de clase del curso mecánica de sólidos*. En preparación.
 * Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.
 * Saad, M. (2005) - *Elasticity: theory, applications and numerics*. Elsevier.
 * Solecki, R. and Conant, R. (2003) - *Advanced mechanics of materials*. Oxford University Press.
