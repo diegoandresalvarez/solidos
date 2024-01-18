@@ -7,18 +7,13 @@
 El curso se evaluará mediante exámenes y un taller final opcional.
 
 ### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
-* **Examen  1:** 25% (jueves, septiembre 7, 2023)
+* **Examen  1:** 30% (jueves, septiembre 7, 2023)
 * **Examen  2:** 25% (jueves, octubre 5, 2023)
 * **Examen  3:** 25% (jueves, noviembre 2, 2023)
-* **Examen  4:** 25% (jueves, noviembre 30, 2023)
+* **Examen  4:** 20% (jueves, noviembre 30, 2023)
+<!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
-
-### Mecánica de Sólidos 1, Grupo 2 (Lunes y Miércoles):
-* **Examen  1:** 25% (viernes, septiembre 8, 2023)
-* **Examen  2:** 25% (viernes, octubre 6, 2023)
-* **Examen  3:** 25% (jueves, noviembre 3, 2023)
-* **Examen  4:** 25% (viernes, diciembre 1, 2023)
-* **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
+--->
 
 ## Descripción de la asignatura mecánica de sólidos 1
 En este curso se profundizará en la teoría de la elasticidad. Esta es una teoría básica, imprescindible para poder entender entender, con suficiencia, el método de los elementos finitos, y con el tener bases apropiadas para poder manejar con conciencia los diferentes programas de análisis estructural que existen en el mercado, que son empleados no solo en ingeniería estructural, sino en ingeniería geotécnica y de pavimentos.
@@ -28,6 +23,7 @@ Partiendo de los conocimientos previos sobre tensiones y deformaciones, adquirid
 Se espera que al final del curso, el estudiante esté en capacidad de:
 * Analizar y explicar como varían las tensiones y las deformaciones al interior de un sólido elásticos.
 * Entender las diferentes suposiciones y limitaciones presentes en la teoría de la elasticidad.
+* Interpretar los gráficos que arroja un programa de elementos finitos para el análisis estructural.
 * Interpretar los diferentes criterios de falla presentes en los sólidos elásticos.
 * Entender la deducción y rango de aplicación de ciertas formulaciones que se aplicarán más tarde en las líneas de mecánica de suelos y pavimentos.
 * Entender la torsión de barras de sección no circular.
@@ -81,7 +77,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Materiales frágiles y materiales dúctiles: comportamiento elastoplástico, curva esfuerzo deformación.
 * La ley de Hooke para materiales isótropos, anisótropos y ortótropos:
   * Los módulos de Young y Poisson.
-  * Deformación de un sólido sometido a esfuerzos normales en las direcciones x, y y z.
+  * Deformación de un sólido sometido a esfuerzos normales en las direcciones $x$, $y$ y $z$.
   * Deformación de un sólido sometido a esfuerzos tangenciales.
 * Relación entre las direcciones principales asociadas a los esfuerzos y a las deformaciones para materiales isótropos
 * Cambios de volumen y dilatación cúbica
@@ -146,7 +142,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
   * Torsión de secciones de pared delgada
 
 ## Bibliografía básica
-* Alvarez Diego A. (2022) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Alvarez Diego A. (2024) - *Notas de clase del curso mecánica de sólidos*. En preparación.
 * Alvarez, Diego A. Video tutoriales en YouTube sobre teoría de la elasticidad https://www.youtube.com/channel/UCV0FtSuauv5WbcY-lLRMZ4g
 * Ameen, M. (2005) - *Computational elasticity*. Alpha Science.
 * Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.

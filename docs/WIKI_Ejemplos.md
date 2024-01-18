@@ -1,3 +1,4 @@
+<!---
 # Ejemplos de contribuciones a la WIKI
 
 A continuación se ilustran algunas correcciones en una pagina ficticia del `main.pdf`.
@@ -129,4 +130,4 @@ Se sugiere el siguiente ejercicio:
 
 **Nota:** aquí utilicé el servicio https://imgur.com/upload
 
----
+--->
