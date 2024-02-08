@@ -48,10 +48,8 @@ C4100611 -> código viejo sólidos
 
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://mecanicadesolidos.shoutwiki.com/
-<!---  
-  * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
-  * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
---->
+  * [Reglas de la WIKI](http://mecanicadesolidos.shoutwiki.com/wiki/Reglas_de_la_WIKI)
+  * [Ejemplos de contribuciones a la WIKI](http://mecanicadesolidos.shoutwiki.com/wiki/Ejemplos_de_contribuciones_a_la_WIKI)
 
 ### Fe de erratas
 
