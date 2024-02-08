@@ -2,6 +2,9 @@
  
 Durante el curso haremos uso de los siguientes paquetes:
 
+## PYTHON
+En particular haremos uso de los JUPYTER NOTEBOOKS y de las librerías numpy, scipy, sympy y matplotlib.
+
 ## MAXIMA
 **MAXIMA** es un software libre para la manipulación de expresiones simbólicas y numéricas, incluyendo diferenciación, integración, expansión en series de Taylor, ecuaciones diferenciales ordinarias, sistemas de ecuaciones lineales, y vectores, matrices y tensores. **MAXIMA** produce resultados con alta precisión usando fracciones exactas y representaciones con aritmética de coma flotante arbitraria. Adicionalmente puede graficar funciones y datos en dos y tres dimensiones. Estas propiedades lo hacen útil para resolver ciertos problemas en mecánica de sólidos. A continuación se recomiendan algunas páginas donde el estudiante puede aprender por cuenta propia dicho lenguaje:
 
@@ -20,7 +23,7 @@ Durante el curso haremos uso de los siguientes paquetes:
 
 ## MATLAB
 A continuación se recomiendan algunas páginas donde el estudiante puede aprender por cuenta propia dicho lenguaje:
-* [The Mathworks (2021). Get Started with MATLAB](https://www.mathworks.com/help/matlab/getting-started-with-matlab.html)
+* [The Mathworks (2022). Get Started with MATLAB](https://www.mathworks.com/help/matlab/getting-started-with-matlab.html)
 * [Video tutoriales de MATLAB en español](http://matlablatino.blogspot.com/)
 * [Video tutoriales de MATLAB realizados por Andrés Felipe Ramírez](https://www.youtube.com/playlist?list=PLj3KYX7UqPG8uZWqtQ7ZBG1DSou1fLDMS)
 

@@ -77,7 +77,7 @@ Estos se penalizarán así:
 
 * Nota cero en el trabajo/examen en cuestión.
 * Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
-* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre.
+* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre y los puntos de la WIKI.
 
 ### "Minuciosamente" en los exámenes
 En todos los exámenes se debe relacionar con palabras las fórmulas y motivar físicamente el por qué de un procedimiento o fórmula (es decir, se debe escribir la explicación suponiendo que usted está escribiendo un libro). Si no se hace esto, se le rebajará en ese punto en particular el 50% de la nota.

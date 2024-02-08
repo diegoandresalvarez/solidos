@@ -1,6 +1,6 @@
 # Recursos varios
 
-## Video tutoriales de mecánica de sólidos en YouTube:
+## Video tutoriales en YouTube:
 * [Diego Andrés Alvarez Marín](https://www.youtube.com/channel/UCV0FtSuauv5WbcY-lLRMZ4g)
 * [Carlos Santiuste](https://www.youtube.com/user/karlossantiuste)
 * [Lectures by Prof. S. K. Maiti Department of Mechanical Engineering IIT Bombay](https://www.youtube.com/playlist?list=PL35EBF66D99E7A0EC)

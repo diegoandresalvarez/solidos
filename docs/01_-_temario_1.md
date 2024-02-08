@@ -36,6 +36,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 ## Contenido programático de mecánica de sólidos 1
 
 ### 0a. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
+Cada estudiante debe repasar por cuenta propia los siguientes temas:
 #### Repaso de álgebra lineal (teoría y ejercicios de aplicación)
 * Cosenos directores
 * Proyección de vectores
@@ -49,14 +50,14 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Bases
 * Planos y líneas rectas
 
-#### Repaso de cálculo vectorial:
+#### Repaso de cálculo vectorial (teoría y ejercicios de aplicación)
 * Gradiente
 * Matriz jacobiana y jacobiano
 * Divergencia
 * Rotacional
 * Diferenciales (se estudió en cálculo vectorial)
 * Expansión en series de Taylor (univariada y multivariada)
-* Regla de la cadena (se estudió en cálculo univariado y en cálculoo vectorial)
+* Regla de la cadena (se estudió en cálculo univariado y en cálculo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
 
 ### 0b. Repaso breve de esfuerzos y deformaciones infinitesimales (estos temas se aprendieron en el curso *Mecánica Tensorial*)
