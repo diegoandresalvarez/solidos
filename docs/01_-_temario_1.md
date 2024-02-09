@@ -10,10 +10,10 @@ El curso se evaluará mediante exámenes.
 --->
 
 ### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
-* **Examen  1:** 30% (viernes, febrero 23, 2023, semana 3)
+* **Examen  1:** 25% (viernes, marzo 1, 2023, semana 4)
 * **Examen  2:** 25% (miércoles, abril 3, 2023, semana 8)
 * **Examen  3:** 25% (viernes, mayo 3, 2023, semana 12)
-* **Examen  4:** 20% (miércoles, mayo 29, 2023, semana 16)
+* **Examen  4:** 25% (miércoles, mayo 29, 2023, semana 16)
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
 --->
