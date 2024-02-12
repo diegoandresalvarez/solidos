@@ -87,5 +87,5 @@ sp.plot(t, x_xmin_xmax, xlabel='x', ylabel='t(x)')
 sp.plot(v, x_xmin_xmax, xlabel='x', ylabel='v(x)')
 
 # %% Se calculan las reacciones en la viga 
-print(f"Fy(x=0) = {float(+V.subs(sol).subs(x, 0))}") # Ry en x=0 
-print(f"Fy(x=6) = {float(-V.subs(sol).subs(x, 6))}") # Ry en x=6 
+print(f"Fy(x=0) = {float(+V.subs(x, 0))} kN") # Ry en x=0
+print(f"Fy(x=6) = {float(-V.subs(x, 6))} kN") # Ry en x=6
