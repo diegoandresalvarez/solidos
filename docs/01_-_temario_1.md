@@ -4,21 +4,24 @@
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
 ## Exámenes, talleres y fechas
-El curso se evaluará mediante exámenes y un taller final opcional.
+El curso se evaluará mediante exámenes.
+<!---
+ y un taller final opcional.
+--->
 
 ### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
-* **Examen  1:** 30% (jueves, septiembre 7, 2023)
-* **Examen  2:** 25% (jueves, octubre 5, 2023)
-* **Examen  3:** 25% (jueves, noviembre 2, 2023)
-* **Examen  4:** 20% (jueves, noviembre 30, 2023)
+* **Examen  1:** 25% (viernes, marzo 1, 2023, semana 4)
+* **Examen  2:** 25% (miércoles, abril 3, 2023, semana 8)
+* **Examen  3:** 25% (viernes, mayo 3, 2023, semana 12)
+* **Examen  4:** 25% (miércoles, mayo 29, 2023, semana 16)
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
 --->
 
 ## Descripción de la asignatura mecánica de sólidos 1
-En este curso se profundizará en la teoría de la elasticidad. Esta es una teoría básica, imprescindible para poder entender entender, con suficiencia, el método de los elementos finitos, y con el tener bases apropiadas para poder manejar con conciencia los diferentes programas de análisis estructural que existen en el mercado, que son empleados no solo en ingeniería estructural, sino en ingeniería geotécnica y de pavimentos.
+En este curso, profundizaremos en la teoría de la elasticidad. Esta teoría es fundamental para comprender con suficiencia el método de los elementos finitos y para establecer bases sólidas en el manejo de los diversos programas de análisis estructural disponibles en el mercado. Estos programas no solo se aplican en ingeniería estructural, sino también en ingeniería geotécnica y de pavimentos.
 
-Partiendo de los conocimientos previos sobre tensiones y deformaciones, adquiridos en el curso de mecánica tensorial, el curso se desarrolla estudiando en profundidad las relaciones entre esfuerzos y deformaciones para materiales elásticos lineales, las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles, la formulación elástica en coordenadas cilíndricas y finaliza con la torsión de barras de sección transversal no circular, lo cual es de especial importancia no solo en la mecánica estructural sino en la de suelos.
+Partiendo de los conocimientos previos sobre tensiones y deformaciones adquiridos en el curso de mecánica del medio continuo (mecánica tensorial), exploraremos en detalle las relaciones entre esfuerzos y deformaciones en materiales elásticos lineales. Además, abordaremos las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles y culmina con el estudio de la torsión en barras de sección transversal no circular. El curso también incluye la formulación elástica en coordenadas cilíndricas. Esto último es especialmente relevante no solo en la mecánica estructural, sino también en la mecánica de suelos.
 
 Se espera que al final del curso, el estudiante esté en capacidad de:
 * Analizar y explicar como varían las tensiones y las deformaciones al interior de un sólido elásticos.
@@ -33,6 +36,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 ## Contenido programático de mecánica de sólidos 1
 
 ### 0a. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
+Cada estudiante debe repasar por cuenta propia los siguientes temas:
 #### Repaso de álgebra lineal (teoría y ejercicios de aplicación)
 * Cosenos directores
 * Proyección de vectores
@@ -46,14 +50,14 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 * Bases
 * Planos y líneas rectas
 
-#### Repaso de cálculo vectorial:
+#### Repaso de cálculo vectorial (teoría y ejercicios de aplicación)
 * Gradiente
 * Matriz jacobiana y jacobiano
 * Divergencia
 * Rotacional
 * Diferenciales (se estudió en cálculo vectorial)
 * Expansión en series de Taylor (univariada y multivariada)
-* Regla de la cadena (se estudió en cálculo univariado y en cálculoo vectorial)
+* Regla de la cadena (se estudió en cálculo univariado y en cálculo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
 
 ### 0b. Repaso breve de esfuerzos y deformaciones infinitesimales (estos temas se aprendieron en el curso *Mecánica Tensorial*)
@@ -143,6 +147,7 @@ La materia se desarrollará mediante clases magistrales y prácticas mediante el
 
 ## Bibliografía básica
 * Alvarez Diego A. (2024) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 * Alvarez, Diego A. Video tutoriales en YouTube sobre teoría de la elasticidad https://www.youtube.com/channel/UCV0FtSuauv5WbcY-lLRMZ4g
 * Ameen, M. (2005) - *Computational elasticity*. Alpha Science.
 * Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.

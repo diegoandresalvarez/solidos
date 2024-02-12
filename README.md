@@ -1,6 +1,6 @@
 # Universidad Nacional de Colombia - Sede Manizales
-# 4201079 - G1 - Mecánica de Sólidos 1
-# 4200712 - G1 - Mecánica de Sólidos 2
+# 4201079 - Mecánica de Sólidos 1
+# 4200712 - Mecánica de Sólidos 2
 
 <!---
 C4100611 -> código viejo sólidos
@@ -16,13 +16,13 @@ C4100611 -> código viejo sólidos
 
 - Intensidad horaria semanal presencial: 4 horas
 
-- Mecánica de sólidos 1, Grupo 1:
-  - Martes 10:00-12:00, Aula C412
-  - Jueves 10:00-12:00, Aula J101
+- Mecánica de sólidos 1, Grupo 2:
+  - Miércoles 10:00-12:00, Aula C401
+  - Viernes 8:00-10:00, Aula C401
   
-- Mecánica de sólidos 2:
-  - Jueves 16:00-18:00, Aula C206
-  - Viernes 14:00-16:00, Aula C201
+- Mecánica de sólidos 2, Grupo 1:
+  - Martes 7:00-9:00, Aula I406
+  - Miércoles 7:00-9:00, Aula C412
 
 - Tiempo de actividad autónoma por semana: 8 horas
 
@@ -33,27 +33,26 @@ C4100611 -> código viejo sólidos
 - [Software](docs/03_-_software.md)
 - [Sobre el main.pdf](docs/04_-_main_pdf.md)
 
+<!---
 ### Exámenes y taller de Mecánica de sólidos 1:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol1.md)
-  <!---
   * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2022a.md)
-  --->
+--->
 
 ### Exámenes y talleres de Mecánica de sólidos 2:
+<!---
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
+--->
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
 
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://mecanicadesolidos.shoutwiki.com/
-<!---  
-  * [Reglas de la WIKI](docs/WIKI_Condiciones.md)
-  * [Ejemplos de contribuciones a la WIKI](docs/WIKI_Ejemplos.md)  
---->
+  * [Reglas de la WIKI](http://mecanicadesolidos.shoutwiki.com/wiki/Reglas_de_la_WIKI)
+  * [Ejemplos de contribuciones a la WIKI](http://mecanicadesolidos.shoutwiki.com/wiki/Ejemplos_de_contribuciones_a_la_WIKI)
 
 ### Fe de erratas
 
 Se presenta la [fe de erratas](docs/fe_de_erratas_vol1.md) del libro:
 
 > Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
-

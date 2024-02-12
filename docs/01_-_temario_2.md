@@ -4,9 +4,9 @@
 Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
 
 ## Exámenes y talleres
-* Examen 1: 20%
-* Examen 2: 20%
-* Examen 3: 20%
+* Examen 1: 20%. Miércoles, Marzo 6, Semana 5.
+* Examen 2: 20%. Miércoles, Abril 24, Semana 11.
+* Examen 3: 20%. Miércoles, Mayo 29, Semana 16.
 * Taller 1 - vigas: 20%
 * Taller 2 - losas: 20%
 
@@ -54,6 +54,7 @@ En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas grues
 
 ## Bibliografía básica
 * Alvarez Diego A. (2024) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 * Ortiz-Berrocal, L. (1998) - *Elasticidad*. McGraw Hill, 3rd edition.
 * Saad, M. (2005) - *Elasticity: theory, applications and numerics*. Elsevier.
 * Solecki, R. and Conant, R. (2003) - *Advanced mechanics of materials*. Oxford University Press.
@@ -76,7 +77,7 @@ Estos se penalizarán así:
 
 * Nota cero en el trabajo/examen en cuestión.
 * Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
-* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre.
+* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre y los puntos de la WIKI.
 
 ### "Minuciosamente" en los exámenes
 En todos los exámenes se debe relacionar con palabras las fórmulas y motivar físicamente el por qué de un procedimiento o fórmula (es decir, se debe escribir la explicación suponiendo que usted está escribiendo un libro). Si no se hace esto, se le rebajará en ese punto en particular el 50% de la nota.
