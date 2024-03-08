@@ -1,0 +1,99 @@
+kill(all)$
+lapl(g) := diff(g,x,2) + diff(g,y,2) + diff(g,z,2)$
+
+grad(g) := [ diff(g,x),
+             diff(g,y),
+             diff(g,z) ]$
+
+div(v) := diff(v[1],x) + diff(v[2],y) + diff(v[3],z)$
+
+
+rot(v) := [ diff(v[3],y) - diff(v[2],z),
+            diff(v[1],z) - diff(v[3],x),
+            diff(v[2],x) - diff(v[1],y)  ]$
+
+/* laplaciano vectorial en coordenadas rectangulares */
+lapl_vec(v) := [ lapl(v[1]),
+                 lapl(v[2]),
+                 lapl(v[3]) ]$
+
+depends([fx, fy, fz], [x, y, z])$
+f : [fx, fy, fz]$
+
+eq1 : lapl_vec(f)$
+eq2 : grad(div(f)) - rot(rot(f))$
+expand(eq1 - eq2);
+
+
+kill(all)$
+
+/* Se especifica el laplaciano en coordenadas cilíndricas, ecuación (*\eqref{eq:laplacianocilin}*) */
+lapl(g) := (1/r)*diff(r*diff(g,r),r) + (1/(r^2))*diff(g,t,2) + diff(g,z,2)$
+
+/* Se especifica el gradiente en coordenadas cilíndricas, ecuación (*\eqref{eq:gradientcilin}*) */
+grad(g) := [       diff(g,r),
+             (1/r)*diff(g,t),
+                   diff(g,z)  ]$
+
+/* Se especifica la divergencia en coordenadas cilíndricas, ecuación (*\eqref{eq:divcilin}*) */
+div(v) := (1/r)*diff(r*v[1],r) + (1/r)*diff(v[2],t) + diff(v[3],z)$
+
+/* Se especifica el rotacional en coordenadas cilíndricas, ecuación (*\eqref{eq:rotacionalcil2}*) */
+rot(v) := [  (1/r)*diff(v[3],t)   - diff(v[2],z),
+                   diff(v[1],z)   - diff(v[3],r),
+            (1/r)*(diff(r*v[2],r) - diff(v[1],t)) ]$
+
+/* laplaciano vectorial en coordenadas cilíndricas */
+lapl_vec(v) := [ lapl(v[1]) - v[1]/(r^2) - (2/(r^2))*diff(v[2],t),
+                 lapl(v[2]) - v[2]/(r^2) + (2/(r^2))*diff(v[1],t),
+                 lapl(v[3]) ]$
+
+depends([fr, ft, fz], [r, t, z])$
+f : [fr, ft, fz]$
+
+eq1 : lapl_vec(f)$
+eq2 : grad(div(f)) - rot(rot(f))$
+expand(eq1 - eq2);
+
+
+kill(all)$
+
+/* Se especifica el laplaciano en coordenadas cilíndricas, ecuación (*\eqref{eq:laplacianocilin}*) */
+laplc(g) := (1/r)*diff(r*diff(g,r),r) + (1/(r^2))*diff(g,t,2) + diff(g,z,2)$
+
+/* laplaciano vectorial en coordenadas cilíndricas */
+lapl_vecc(v) := [ laplc(v[1]) - v[1]/(r^2) - (2/(r^2))*diff(v[2],t),
+                  laplc(v[2]) - v[2]/(r^2) + (2/(r^2))*diff(v[1],t),
+                  laplc(v[3]) ]$
+
+/* Se especifica que r y t son funciones de x y de y; adicionalmente, que */
+/* phi es función de r y de t */
+depends([r, t], [x, y])$
+
+/* Se especifican "manualmente" las derivadas dr_dx, dr_dy, dt_dx, dt_dy */
+gradef(r,x,  cos(t))$    gradef(r,y, sin(t))$    /* ecuaciones (*\eqref{eq:derrthetaxya}*) */
+gradef(t,x, -sin(t)/r)$  gradef(t,y, cos(t)/r)$  /* ecuaciones (*\eqref{eq:derrthetaxyb}*) */
+
+laplr(g) := diff(g,x,2) + diff(g,y,2) + diff(g,z,2)$
+
+lapl_vecr(v) := [ laplr(v[1]),
+                  laplr(v[2]),
+                  laplr(v[3]) ]$
+
+depends([fr, ft, fz], [r, t, z])$
+fc : [fr, ft, fz]$
+
+/* Se define la matriz de transformación T, ecuación (*\eqref{eq:matTcilindricas}*) */
+T : matrix(
+[ cos(t), -sin(t), 0 ],
+[ sin(t),  cos(t), 0 ],
+[      0,       0, 1 ]
+)$
+
+fr : T . fc$
+
+vlr : trigreduce(lapl_vecr(fr))$
+vlc : trigreduce(lapl_vecc(fc))$
+
+expand(vlr - T.vlc);
+
