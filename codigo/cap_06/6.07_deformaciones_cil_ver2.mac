@@ -14,42 +14,54 @@ T : matrix(
 [      0,       0, 1 ]
 )$
 
-/* Vector de desplazamientos con respecto a la base {r,t,z} */
-vec_u_cil : matrix([ ur ], [ vt ], [ w ])$
-
-/* Se expresa el vector de desplazamientos con respecto a la base {i,j,k} */
-vec_u : T.vec_u_cil$
-
-/* Se hace la asignación respectiva de los desplazamientos */
-u : vec_u[1][1]$
-v : vec_u[2][1]$
-
-/* se definen las deformaciones en coordenadas rectangulares */
-ex  : diff(u,x)$
-ey  : diff(v,y)$
-ez  : diff(w,z)$
-gxy : diff(u,y) + diff(v,x)$
-gxz : diff(u,z) + diff(w,x)$
-gyz : diff(v,z) + diff(w,y)$
-
 /* Deformaciones matemáticas en términos de deformaciones ingenieriles */
-exy : gxy/2$          exz : gxz/2$          eyz : gyz/2$
+ert : grt/2$          erz : grz/2$          etz : gtz/2$
 
-/* Se define el tensor de deformaciones con respecto a la base {i,j,k} */
-eps : matrix(
-[ ex,  exy, exz ],
-[ exy, ey,  eyz ],
-[ exz, eyz, ez  ]
+/* Se define la matriz de deformaciones en coord. cilíndricas, ec. (*\eqref{eq:matdefcil}*) */
+def_cil : matrix(
+[ er,  ert, erz ],
+[ ert, et,  etz ],
+[ erz, etz, ez  ]
 )$
 
-/* Se convierte dicho tensor de deformaciones a la base {r,t,z} */
-eps_cil: expand(trigsimp(transpose(T).eps.T))$ /* ecuación (*\eqref{eq:defTdefprimaTT_cil}*) */
+/* Se convierte dicha matriz de deformaciones a coordenadas rectangulares */
+def: T.def_cil.transpose(T)$ /* ecuación (*\eqref{eq:defTdefprimaTT_cil}*) */
 
 /* Se extraen los términos de la matriz de deformaciones en coordenadas */
 /* rectangulares */
-er  : eps_cil[1][1];
-et  : eps_cil[2][2];
-ez  : eps_cil[3][3];
-grt : 2*eps_cil[1][2], expand;
-grz : 2*eps_cil[1][3], expand;
-gtz : 2*eps_cil[2][3], expand;
+ex  : def[1][1]$      ey  : def[2][2]$      ez  : def[3][3]$
+gxy : 2*def[1][2]$    gxz : 2*def[1][3]$    gyz : 2*def[2][3]$
+
+/* Vector de desplazamientos con respecto a la base {r,t,z} */
+des_cil : matrix([ ur ], [ vt ], [ w ])$
+
+/* Se expresa el vector de desplazamientos con respecto a la base {i,j,k} */
+des: T.des_cil$
+
+/* Se hace la asignación respectiva de los desplazamientos */
+u : des[1][1]$
+v : des[2][1]$
+
+/* 
+con las siguientes factorizaciones se observa que existen unas expresiones entre
+paréntesis que deben igualarse a cero
+*/
+/*
+facsum(ex  - diff(u, x) = 0,              sin(t), cos(t));
+facsum(ey  - diff(v, y) = 0,              sin(t), cos(t));
+facsum(ez  - diff(w, z) = 0,              sin(t), cos(t));
+facsum(gxy - diff(u, y) + diff(v, x) = 0, sin(t), cos(t));
+facsum(gyz - diff(v, z) + diff(w, y) = 0, sin(t), cos(t));
+facsum(gxz - diff(u, z) + diff(w, x) = 0, sin(t), cos(t));
+*/
+
+/* Deformaciones en coordenadas rectangulares, ecuaciones (*\eqref{eq:deformaciones}*) y (*\eqref{eq:deformangul}*) */
+eq1 : ex  = diff(u, x)$
+eq2 : ey  = diff(v, y)$
+eq3 : ez  = diff(w, z)$
+eq4 : gxy = diff(u, y) + diff(v, x)$
+eq5 : gyz = diff(v, z) + diff(w, y)$
+eq6 : gxz = diff(u, z) + diff(w, x)$
+
+/* Se hace sin(t)=0 y cos(t)=1 e imprimimos las deformaciones */
+ev([eq1, eq2, eq3, eq4, eq5, eq6], sin(t)=0, cos(t)=1);
