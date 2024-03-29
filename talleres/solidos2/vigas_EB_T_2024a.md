@@ -91,7 +91,7 @@ Se sugiere aprender a manejar un programa de edición de videos. Esto les facili
 * VIDEO 2: reseña crítica de las capacidades teóricas y las hipótesis fundamentales que hace el programa en cuanto al análisis de vigas (40% = 2.4)
   * 0.8 Hace un recuento de las teorías que soporta el programa, haciendo recortes del manual de referencia. Explica las capacidades de cálculo y las teorías que utiliza el software. 
   * 0.8 Explica las hipótesis fundamentales y consejos en el modelado según se detalla en el manual del programa; hace una reseña crítica de las capacidades teóricas, las limitaciones y las hipótesis fundamentales que hace el programa en cuanto al análisis de viga.
-  * 0.8 Hace una reseña crítica de las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis de vigas y pórticos
+  * 0.8 Hace una reseña crítica de las ventajas/capacidades y limitaciones/suposiciones que hace el programa en cuanto al análisis de vigas y pórticos.
 
 * Por mala calidad en el sonido se rebajarán 0.5 unidades. Por favor use un micrófono auxiliar (por ejemplo, un manos libres) y evite usar el micrófono del portátil para hacer el video.
 
