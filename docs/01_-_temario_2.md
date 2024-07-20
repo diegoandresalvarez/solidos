@@ -5,8 +5,8 @@
 
 ## Exámenes y talleres
 * Examen 1: 20%. Miércoles, Marzo 6, Semana 5.
-* Examen 2: 20%. Miércoles, Abril 24, Semana 11.
-* Examen 3: 20%. Miércoles, Mayo 29, Semana 16.
+* Examen 2: 20%. Miércoles, ~~Abril 24~~ Agosto 28, Semana 11.
+* Examen 3: 20%. Miércoles, ~~Mayo 29~~ Octubre 2, Semana 16.
 * Taller 1 - vigas: 20%
 * Taller 2 - losas: 20%
 
