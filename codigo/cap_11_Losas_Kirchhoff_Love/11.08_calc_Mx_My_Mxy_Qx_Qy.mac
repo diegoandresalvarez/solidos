@@ -1,0 +1,38 @@
+/* Se dice que el desplazamiento vertical es función únicamente de x y de y*/
+depends(w,[x, y])$
+
+/* Se define el campo de desplazamientos: ecuaciones (*\eqref{eq:losas_uvw}*) */
+print("u = ")$ u : -z*diff(w,x);
+print("v = ")$ v : -z*diff(w,y);
+
+/* Se define el campo de deformaciones: ecuaciones (*\eqref{eq:losas_deflong}*) y (*\eqref{eq:losas_defang}*) */
+print("ex = ")$ ex: diff(u,x);   print("gxy = ")$ gxy: diff(u,y) + diff(v,x);
+print("ey = ")$ ey: diff(v,y);   print("gxz = ")$ gxz: diff(w,x) + diff(u,z);
+print("ez = ")$ ez: diff(w,z);   print("gyz = ")$ gyz: diff(w,y) + diff(v,z);
+
+G : E/(2*(1+nu))$ /* módulo de rigidez de la placa */
+
+/* Se calcula el campo de esfuerzos a partir de la ley de Hooke para */
+/* tensión plana: ecuaciones (*\eqref{eq:esfuerzosplaca}*) */
+print("sx = ")$  sx  : (E/(1-nu^2))*(ex + nu*ey);
+print("sy = ")$  sy  : (E/(1-nu^2))*(ey + nu*ex);
+print("txy = ")$ txy : G*gxy;
+
+/* Calculo los esfuerzos txz, tyz, sz: ecuaciones (*\eqref{eq:losas_txz}*), (*\eqref{eq:losas_tyz}*) y (*\eqref{eq:sz_losa}*) */
+dtxz_dz : ratsimp(-(diff(sx,x) + diff(txy,y)))$
+print("txz = ")$ txz : integrate(dtxz_dz, z, -t/2, z);
+
+dtyz_dz : ratsimp(-(diff(txy,x) + diff(sy,y)))$
+print("tyz = ")$ tyz : integrate(dtyz_dz, z, -t/2, z);
+
+dsz_dz  : ratsimp(-(diff(txz,x) + diff(tyz,y)))$
+print("sz = ")$ sz : factor(integrate(dsz_dz, z, -t/2, z));
+
+/* Calculo los momentos de flexión y de torsión: ecuaciones (*\eqref{eq:mom_losas}*) */
+print("Mx = ")$  Mx  : integrate(z*sx,  z, -t/2, t/2);
+print("My = ")$  My  : integrate(z*sy,  z, -t/2, t/2);
+print("Mxy = ")$ Mxy : integrate(z*txy, z, -t/2, t/2);
+
+/* Se calculan las fuerzas cortantes: ecuaciones (*\eqref{eq:cort_losas}*) */
+print("Qx = ")$  Qx : integrate(txz, z, -t/2, t/2);
+print("Qy = ")$  Qy : integrate(tyz, z, -t/2, t/2);
