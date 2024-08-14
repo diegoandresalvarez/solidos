@@ -13,8 +13,12 @@ El curso se evaluará mediante exámenes.
 * **Examen  1:** 25% (viernes, marzo 1, 2024, semana 4) Se evaluará desde el inicio del libro hasta la sección 4.4 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
 * **Examen  2:** 25% 
     * Parte 1 (50%): (viernes, marzo 22, 2024, semana 6). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.5 hasta la sección 6.3 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen del capítulo 5 las secciones 5.6, 5.7, 5.8 y 5.13.
-    * Parte 2 (50%): (miércoles, ~~abril 10~~ agosto 14, 2024, semana 9). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta el final del capítulo 6 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se incluyen del capítulo 5 las secciones 5.6, 5.7, 5.8 y 5.13.
-* **Examen  3:** 25% (viernes, ~~mayo 3~~ septiembre 6, 2024, semana 12). Se evaluará el capítulo 7 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
+    * Parte 2 (50%): (miércoles, ~~abril 10~~ agosto 14, 2024, semana 9). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta ~~el final del capítulo 6~~ la sección 6.13 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. ~~Se incluyen del capítulo 5 las secciones 5.6, 5.7, 5.8 y 5.13.~~
+* **Examen  3:** 25% (viernes, ~~mayo 3~~ septiembre 6, 2024, semana 12). Se evaluará:
+    * Capítulo 5: secciones 5.6, 5.7, 5.8 y 5.13.
+    * Capítulo 6: desde la sección 6.14 hasta el final del capítulo.
+    * Capítulo 7: Todo.
+    * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
 * **Examen  4:** 25% (miércoles, ~~mayo 29~~ octubre 2, 2024, semana 16). Se evaluará el capítulo 16 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
