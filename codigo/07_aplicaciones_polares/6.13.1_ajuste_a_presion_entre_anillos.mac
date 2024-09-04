@@ -17,8 +17,8 @@ ur : 1/((re^2 - ri^2)*E)*((1-nu)*(pi*ri^2 - pe*re^2)*r
                                          + (1/r)*(1+nu)*(pi - pe)*ri^2*re^2)$
                                          
 /* se particulariza el desplazamiento radial ur para cada anillo */    
-ur1 : ur, r=ri1, ri=ri1, re=re1, pi=pi1, pe=pe1, E=E1, nu=nu1$
-ur2 : ur, r=re2, ri=ri2, re=re2, pi=pi2, pe=pe2, E=E2, nu=nu2$
+ur1 : ur, ri=ri1, re=re1, pi=pi1, pe=pe1, E=E1, nu=nu1$
+ur2 : ur, ri=ri2, re=re2, pi=pi2, pe=pe2, E=E2, nu=nu2$
     
 /* relación de desplazamientos entre anillos y se encuentra la presión p */
 sol : solve(ev(ur1,r=ri1) = Delta + ev(ur2,r=re2), p)$ /* ecuación (*\eqref{eq:disco_dentro_de_otro_desplazamientos}*) */
