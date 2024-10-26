@@ -20,9 +20,11 @@ C4100611 -> código viejo sólidos
   - Miércoles 10:00-12:00, Aula C401
   - Viernes 8:00-10:00, Aula C401
   
+<!---
 - Mecánica de sólidos 2, Grupo 1:
   - Martes 7:00-9:00, Aula I406
   - Miércoles 7:00-9:00, Aula C412
+--->
 
 - Tiempo de actividad autónoma por semana: 8 horas
 
@@ -39,12 +41,12 @@ C4100611 -> código viejo sólidos
   * [Análisis de gráficos](talleres/solidos1/interpretacion_graficos_2022a.md)
 --->
 
-### Exámenes y talleres de Mecánica de sólidos 2:
 <!---
+### Exámenes y talleres de Mecánica de sólidos 2:
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
---->
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
+--->  
 
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://mecanicadesolidos.shoutwiki.com/
