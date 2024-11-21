@@ -10,7 +10,11 @@ El curso se evaluará mediante exámenes.
 --->
 
 ### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
-* **Examen  1:** 25% (viernes, noviembre 22, 2024, semana 4) Se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
+* **Examen  1:** 25% (viernes, noviembre 22, 2024, semana 4) Se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se exceptúan las secciones 2.3.2 (deducción de la ecuación de Cauchy 3D, pero si se puede preguntar sobre los conceptos y suposiciones), 2.4 (notación indicial), 2.8.3 (método de Newton-Raphson) y 2.8.4 (ortogonalidad de las direcciones principales), 3.3 (galgas extensiométricas), 3.5 (rotación), 4.3.4 (ley de Hooke anisótropos), 4.3.5 (ley de Hooke ortótropos) y 4.6 (teorema de la divergencia). El examen tendrá cuatro preguntas, que tratarán sobre:
+  * Capítulos 1 y 2
+  * Capítulo 3
+  * Capítulo 4
+  * Pregunta de programacíón de computadores  
 * **Examen  2:** 25% 
     * Parte 1 (50%): (viernes, diciembre 6, 2024, semana 6). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 6.4 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen del capítulo 5 las secciones 5.6, 5.7, 5.8 y 5.13.
     * Parte 2 (50%): (miércoles, diciembre 18, 2024, semana 8). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.13 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
