@@ -16,7 +16,7 @@ El curso se evaluará mediante exámenes.
   * Capítulo 4
   * Pregunta de programacíón de computadores  
 * **Examen  2:** 25% 
-    * Parte 1 (50%): (viernes, diciembre 6, 2024, semana 6). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 6.4 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen del capítulo 5 las secciones 5.6, 5.7, 5.8 y 5.13.
+    * Parte 1 (50%): (viernes, diciembre 6, 2024, semana 6). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 6.4 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
     * Parte 2 (50%): (miércoles, diciembre 18, 2024, semana 8). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.13 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
 * **Examen  3:** 25% (viernes, febrero 7, 2025, semana 12). Se evaluará:
     * Capítulo 4: sección 4.11.
