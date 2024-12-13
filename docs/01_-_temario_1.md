@@ -17,17 +17,19 @@ El curso se evaluará mediante exámenes.
   * Pregunta de programacíón de computadores  
 * **Examen  2:** 25% 
     * Parte 1 (50%): (viernes, diciembre 6, 2024, semana 6). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 6.4 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
-    * Parte 2 (50%): (miércoles, diciembre 18, 2024, semana 8). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.13 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
+    * Parte 2 (50%): (miércoles, diciembre 18, 2024, semana 8). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.11 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluye la sección 6.8.1.
 * **Examen  3:** 25% (viernes, febrero 7, 2025, semana 12). Se evaluará:
     * Capítulo 4: sección 4.11.
     * Capítulo 5: secciones 5.6, 5.7, 5.8 y ejercicio propuesto 10 (sección 5.15).
-    * Capítulo 6: sección 6.14.1
+    * Capítulo 6: sección 6.11, 6.12, 6.13, 6.14.1
     * Capítulo 7: secciones 7.1 (excepto 7.1.2), 7.3, 7.4 y 7.5.
     * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
 * **Examen  4:** 25% (viernes, marzo 7, 2025, semana 16). Se evaluará el capítulo 16 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
 --->
+
+En los exámenes siempre se preguntará: teoría, demostraciones, ejercicios numéricos y ejercicios de programación. Se permite para los exámenes traer una hoja tamaño carta en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas y comandos de MATLAB/MAXIMA/PYTHON que deseen. En la hoja no se pueden ni escribir programas, ni textos explicativos, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones).
 
 ## Descripción de la asignatura mecánica de sólidos 1
 En este curso, profundizaremos en la teoría de la elasticidad. Esta teoría es fundamental para comprender con suficiencia el método de los elementos finitos y para establecer bases sólidas en el manejo de los diversos programas de análisis estructural disponibles en el mercado. Estos programas no solo se aplican en ingeniería estructural, sino también en ingeniería geotécnica y de pavimentos.
