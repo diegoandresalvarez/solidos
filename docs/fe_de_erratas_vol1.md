@@ -4,6 +4,17 @@ A continuación presento la *fe de erratas* del libro
 
 > Álvarez-Marín, D. A. (2023). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 
+## Página 72
+
+**En vez de:**
+
+en Gere y Timoshenko (1986, sección 79) ...
+
+**Debe decir:**
+
+en Timoshenko y Goodier (1970, sección 79) ...
+
+
 
 ## Página 208
 
