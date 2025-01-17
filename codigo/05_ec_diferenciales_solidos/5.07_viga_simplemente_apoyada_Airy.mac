@@ -62,13 +62,16 @@ ex  : (1/E)*(sx - nu*sy)$
 ey  : (1/E)*(sy - nu*sx)$
 gxy : (1/G)*txy$
 
-/* se calcula la ecuación ((*\ref{eq:dfdy_dgdx}*)) */
+/* Se calcula la ecuación ((*\ref{eq:dfdy_dgdx}*)) */
 df_dy_dg_dx : gxy - diff(integrate(ex, x), y) - diff(integrate(ey, y), x);
 
 /* y se separan sus términos df_dy y dg_dx teniendo en cuenta el término */
 /* constante w0 */
-df_dy : expand(ev(df_dy_dg_dx, x=0)) + w0;
-dg_dx : expand(ev(df_dy_dg_dx, y=0)) - w0;
+terminos_constantes : ev(df_dy_dg_dx, x=0, y=0);
+terminos_en_y       : ev(df_dy_dg_dx, x=0) - terminos_constantes;
+terminos_en_x       : ev(df_dy_dg_dx, y=0) - terminos_constantes;
+df_dy : expand(terminos_en_y + terminos_constantes) + w0;
+dg_dx : expand(terminos_en_x) - w0;
 
 /* se integran las funciones df_dy y dg_dx teniendo en cuenta las */
 /* constantes de integración u0 y v0 */
