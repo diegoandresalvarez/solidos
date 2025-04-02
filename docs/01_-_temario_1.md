@@ -36,11 +36,13 @@ El curso se evaluará mediante exámenes.
         * Capítulo 5: secciones 5.6, 5.7, 5.8 y ejercicio propuesto 10 (sección 5.15).
         * Capítulo 6: sección 6.11, 6.12, 6.13, 6.14.1
         * Capítulo 7: secciones 7.1 (excepto 7.1.2), 7.3, 7.4 y 7.5.
+        * Páginas del libro de Wight que envié a sus correos (sobre el ensayo brasilero).
         * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
 ---->
 * **Examen  4:** 25%
   * Fecha: viernes, julio 25, 2025, semana 16.
   * Tema: Se evaluará el capítulo 16 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
+
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
 --->
