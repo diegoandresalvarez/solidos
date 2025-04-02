@@ -9,7 +9,7 @@ El curso se evaluará mediante exámenes.
  y un taller final opcional.
 --->
 
-### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
+### Mecánica de Sólidos 1, Grupo 1:
 * **Examen  1:** 25%
   * Fecha: viernes, mayo 2, 2025, semana 4.
   * Tema: se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se exceptúan las secciones 2.3.2 (deducción de la ecuación de Cauchy 3D, pero si se puede preguntar sobre los conceptos y suposiciones), 2.4 (notación indicial), 2.8.3 (método de Newton-Raphson) y 2.8.4 (ortogonalidad de las direcciones principales), 3.3 (galgas extensiométricas), 3.5 (rotación), 4.3.4 (ley de Hooke anisótropos), 4.3.5 (ley de Hooke ortótropos) y 4.6 (teorema de la divergencia). El examen tendrá cuatro preguntas, que tratarán sobre:
@@ -26,7 +26,7 @@ El curso se evaluará mediante exámenes.
       * Tema: por definir.
 <!---      
       Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.11 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluye la sección 6.8.1.
---->      
+--->
 * **Examen  3:** 25%
     * Fecha: viernes, junio 27, 2025, semana 12.
     * Tema: por definir.

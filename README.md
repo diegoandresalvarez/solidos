@@ -16,8 +16,8 @@ C4100611 -> código viejo sólidos
 
 - Intensidad horaria semanal presencial: 4 horas
 
-- Mecánica de sólidos 1, Grupo 2:
-  - Miércoles 10:00-12:00, Aula C401
+- Mecánica de sólidos 1, Grupo 1:
+  - Miércoles 10:00-12:00, Aula C412
   - Viernes 8:00-10:00, Aula C401
   
 <!---
