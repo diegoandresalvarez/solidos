@@ -10,26 +10,44 @@ El curso se evaluará mediante exámenes.
 --->
 
 ### Mecánica de Sólidos 1, Grupo 1 (Martes y Jueves):
-* **Examen  1:** 25% (viernes, noviembre 22, 2024, semana 4) Se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se exceptúan las secciones 2.3.2 (deducción de la ecuación de Cauchy 3D, pero si se puede preguntar sobre los conceptos y suposiciones), 2.4 (notación indicial), 2.8.3 (método de Newton-Raphson) y 2.8.4 (ortogonalidad de las direcciones principales), 3.3 (galgas extensiométricas), 3.5 (rotación), 4.3.4 (ley de Hooke anisótropos), 4.3.5 (ley de Hooke ortótropos) y 4.6 (teorema de la divergencia). El examen tendrá cuatro preguntas, que tratarán sobre:
-  * Capítulos 1 y 2
-  * Capítulo 3
-  * Capítulo 4
-  * Pregunta de programacíón de computadores  
-* **Examen  2:** 25% 
-    * Parte 1 (50%): (viernes, diciembre 6, 2024, semana 6). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 6.4 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
-    * Parte 2 (50%): (miércoles, diciembre 18, 2024, semana 8). Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.11 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluye la sección 6.8.1.
-* **Examen  3:** 25% (viernes, febrero 7, 2025, semana 12). Se evaluará:
-    * Capítulo 4: sección 4.11.
-    * Capítulo 5: secciones 5.6, 5.7, 5.8 y ejercicio propuesto 10 (sección 5.15).
-    * Capítulo 6: sección 6.11, 6.12, 6.13, 6.14.1
-    * Capítulo 7: secciones 7.1 (excepto 7.1.2), 7.3, 7.4 y 7.5.
-    * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
-* **Examen  4:** 25% (viernes, marzo 7, 2025, semana 16). Se evaluará el capítulo 16 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
+* **Examen  1:** 25%
+  * Fecha: viernes, mayo 2, 2025, semana 4.
+  * Tema: se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se exceptúan las secciones 2.3.2 (deducción de la ecuación de Cauchy 3D, pero si se puede preguntar sobre los conceptos y suposiciones), 2.4 (notación indicial), 2.8.3 (método de Newton-Raphson) y 2.8.4 (ortogonalidad de las direcciones principales), 3.3 (galgas extensiométricas), 3.5 (rotación), 4.3.4 (ley de Hooke anisótropos), 4.3.5 (ley de Hooke ortótropos) y 4.6 (teorema de la divergencia). El examen tendrá cuatro preguntas, que tratarán sobre:
+    * Capítulos 1 y 2
+    * Capítulo 3
+    * Capítulo 4
+    * Pregunta de programacíón de computadores
+* **Examen  2:** 25%
+    * Parte 1 (50%):
+      * Fecha: viernes, mayo 16, 2025, semana 6. Una hora de duración.
+      * Tema: Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 6.4 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
+    * Parte 2 (50%):
+      * Fecha: miércoles, mayo 30, 2025, semana 8.
+      * Tema: por definir.
+<!---      
+      Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.11 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluye la sección 6.8.1.
+--->      
+* **Examen  3:** 25%
+    * Fecha: viernes, junio 27, 2025, semana 12.
+    * Tema: por definir.
+<!---
+      * Tema: se evaluará:
+        * Capítulo 4: sección 4.11.
+        * Capítulo 5: secciones 5.6, 5.7, 5.8 y ejercicio propuesto 10 (sección 5.15).
+        * Capítulo 6: sección 6.11, 6.12, 6.13, 6.14.1
+        * Capítulo 7: secciones 7.1 (excepto 7.1.2), 7.3, 7.4 y 7.5.
+        * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
+---->
+* **Examen  4:** 25%
+  * Fecha: viernes, julio 25, 2025, semana 16.
+  * Tema: Se evaluará el capítulo 16 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
 --->
 
+<!---
 En los exámenes siempre se preguntará: teoría, demostraciones, ejercicios numéricos y ejercicios de programación. Se permite para los exámenes traer una hoja tamaño carta en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas y comandos de MATLAB/MAXIMA/PYTHON que deseen. En la hoja no se pueden ni escribir programas, ni textos explicativos, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones).
+--->
 
 ## Descripción de la asignatura mecánica de sólidos 1
 En este curso, profundizaremos en la teoría de la elasticidad. Esta teoría es fundamental para comprender con suficiencia el método de los elementos finitos y para establecer bases sólidas en el manejo de los diversos programas de análisis estructural disponibles en el mercado. Estos programas no solo se aplican en ingeniería estructural, sino también en ingeniería geotécnica y de pavimentos.
@@ -68,7 +86,10 @@ Cada estudiante debe repasar por cuenta propia los siguientes temas:
 * Matriz jacobiana y jacobiano
 * Divergencia
 * Rotacional
+* Curvas paramétricas
 * Diferenciales (se estudió en cálculo vectorial)
+* Optimización de funciones multivariadas sin restricciones
+* Optimización de funciones multivariadas con restricciones de igualdad (multiplicadores de Lagrange)
 * Expansión en series de Taylor (univariada y multivariada)
 * Regla de la cadena (se estudió en cálculo univariado y en cálculo vectorial)
 * Campo vectorial (definición y ejemplos sencillos)
@@ -170,18 +191,15 @@ Cada estudiante debe repasar por cuenta propia los siguientes temas:
 * Wang, C.-T. (1953) - *Applied Elasticity*. McGraw Hill.
 
 ## Otras observaciones que se quieren dejar por escrito:
-### Asistencia al curso
-La puerta se cerrará 10 minutos después de haber iniciado la clase (de acuerdo con el reloj del computador del salón).
 
 ### Falta a los exámenes
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
-
 * Nota cero en el trabajo/examen en cuestión.
-* Carta a la Dirección del Departamento de Ingeniería Civil reportando el suceso.
-* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre y los puntos de la WIKI.
+* Carta al Consejo de Facultad reportando el suceso.
+* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre, los puntos de la WIKI y cualquier bonificación adicional de notas que el profesor decida otorgar al grupo.
 
 ### "Minuciosamente" en los exámenes
 En todos los exámenes se debe relacionar con palabras las fórmulas y motivar físicamente el por qué de un procedimiento o fórmula (es decir, se debe escribir la explicación suponiendo que usted está escribiendo un libro). Si no se hace esto, se le rebajará en ese punto en particular el 50% de la nota.
