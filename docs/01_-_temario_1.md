@@ -23,7 +23,12 @@ El curso se evaluará mediante exámenes.
       * Tema: Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 5.14 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
     * Parte 2 (50%):
       * Fecha: miércoles, mayo 30, 2025, semana 8.
-      * Tema: por definir.
+      * Tema: 
+        * Se harán dos preguntas, una sobre cada capítulo.
+        * Capítulo 5: excepto las secciones 5.6, 5.7, 5.8 y 5.13. No se preguntarán las demostraciones matemáticas de este capítulo.
+        * Capítulo 9: desde el inicio hasta la sección 9.4.2 (incluida).
+        * No se preguntará sobre los códigos de programación.
+        * Duración del examen: 1 hora.
 <!---      
       Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.11 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluye la sección 6.8.1.
 --->
