@@ -34,7 +34,10 @@ El curso se evaluará mediante exámenes.
 --->
 * **Examen  3:** 25%
     * Fecha: viernes, junio 27, 2025, semana 12.
-    * Tema: por definir.
+    * Temas: 
+      * Capítulo 5: diferencias finitas, secciones 8.1 a 8.6 (incluidas) + apéndices matemáticos
+      * Capítulo 9: torsión + apéndices matemáticos 
+      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
 <!---
       * Tema: se evaluará:
         * Capítulo 4: sección 4.11.
