@@ -35,9 +35,35 @@ El curso se evaluará mediante exámenes.
 * **Examen  3:** 25%
     * Fecha: viernes, junio 27, 2025, semana 12.
     * Temas: 
-      * Capítulo 5: diferencias finitas, secciones 8.1 a 8.6 (incluidas) + apéndices matemáticos
-      * Capítulo 9: torsión + apéndices matemáticos 
-      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
+      * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
+      * Capítulo 9: torsión (excepto la seccíon 9.7)
+      * Apéndices matemáticos del `main_solidos.pdf`:
+        - A.3.4 Función biyectiva
+        - A.4 Campo vectorial
+        - A.6 Regla de la cadena
+        - A.7 Expansión en series de Taylor
+        - A.8 Optimización de una función sujeta a una restricción de igualdad .1001
+        - A.9 Regla de los trapecios para integración de funciones bidimensionales sobre rectángulos
+        - A.12 La O grande de Landau
+        - A.13 La derivada direccional
+        - A.14 Gradiente
+        - A.15 Divergencia
+        - A.16 El teorema de la divergencia
+        - A.17 Teorema de Green
+        - A.20 Regla de la mano derecha
+        - A.21 Rotacional
+        - A.23 Algunos conceptos de álgebra lineal
+        - A.23.1 Valores y vectores propios
+        - A.23.2 Polinomio característico
+        - A.23.3 Cosenos directores
+        - A.23.4 Proyección de un vector sobre otro
+        - A.24 Matriz definida positiva
+      * Apéndices matemáticos del `main_tensorial.pdf`:
+        - A.1 Injective, surjective and bijective function
+        - A.2 Image through a function
+        - A.3 Inverse function
+      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos asociados a los capítulos 3 y 4, incluso, los no explicados en clase.
+
 <!---
       * Tema: se evaluará:
         * Capítulo 4: sección 4.11.
