@@ -46,7 +46,7 @@ El curso se evaluará mediante exámenes.
         - A.14 Gradiente
         - A.17 Teorema de Green
         - A.20 Regla de la mano derecha
-      * Códigos de MATLAB/MAXIMA/PYTHON asociados.
+      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
 
 <!---
       * Tema: se evaluará:
