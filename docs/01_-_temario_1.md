@@ -36,7 +36,7 @@ El curso se evaluará mediante exámenes.
     * Fecha: viernes, junio 27, 2025, semana 12.
     * Temas: 
       * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
-      * Capítulo 9: torsión (excepto la seccíon 9.7)
+      * Capítulo 9: torsión (excepto las seccíones 9.4.5, 9.5, 9.6, 9.7, 9.10)
       * Apéndices matemáticos del `main_solidos.pdf`:
         - A.6 Regla de la cadena
         - A.7 Expansión en series de Taylor
