@@ -11,6 +11,7 @@ A continuación presento la *fe de erratas* del libro
 Luego, el ángulo $2\theta_1$ está dado por $\arctan(-6/-3) + \pi$, es decir, $4.2487$ radianes o alternativamente $4.2487 - 2\pi = -2.0344$ radianes; así, $\theta_1 = 2.1244$ radianes $\equiv$ $-1.0172$ radianes (o sea, $121.72^\circ$ o $-58.28^\circ$).
 
 **Debe decir:**
+
 Luego, el ángulo $2\theta_1$ está dado por $\arctan(-6/-3) - \pi$, es decir, $-2.0344$ radianes; así, $\theta_1 = -1.0172 \text{ radianes } \equiv -58.28^\circ$.
 
 
