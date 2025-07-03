@@ -4,6 +4,16 @@ A continuación presento la *fe de erratas* del libro
 
 > Álvarez-Marín, D. A. (2023). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 
+## Página 63
+
+**En vez de:**
+
+Luego, el ángulo $2\theta_1$ está dado por $\arctan(-6/-3) + \pi$, es decir, $4.2487$ radianes o alternativamente $4.2487 - 2\pi = -2.0344$ radianes; así, $\theta_1 = 2.1244$ radianes $\equiv$ $-1.0172$ radianes (o sea, $121.72^\circ$ o $-58.28^\circ$).
+
+**Debe decir:**
+Luego, el ángulo $2\theta_1$ está dado por $\arctan(-6/-3) - \pi$, es decir, $-2.0344$ radianes; así, $\theta_1 = -1.0172 \text{ radianes } \equiv -58.28^\circ$.
+
+
 ## Página 72
 
 **En vez de:**
