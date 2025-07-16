@@ -59,8 +59,18 @@ El curso se evaluará mediante exámenes.
 ---->
 * **Examen  4:** 25%
   * Fecha: viernes, julio 25, 2025, semana 16.
-  * Tema: Se evaluará el capítulo 16 y todos los códigos de MATLAB/MAXIMA/PYTHON asociados.
-
+    * Temas: 
+      * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
+      * Capítulo 9: torsión
+      * Apéndices matemáticos del `main_solidos.pdf`:
+        - A.6 Regla de la cadena
+        - A.7 Expansión en series de Taylor
+        - A.12 La O grande de Landau
+        - A.13 La derivada direccional
+        - A.14 Gradiente
+        - A.17 Teorema de Green
+        - A.20 Regla de la mano derecha
+      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
 <!---
 * **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
 --->
