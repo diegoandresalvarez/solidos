@@ -1,3 +1,4 @@
+clear, clc, close all
 %% Se grafican las funciones f(x)=tan(x) y g(x)=x.
 % En la intersección de estas funciones se encuentran las raíces de la 
 % ecuación tan(x) = x
@@ -8,18 +9,21 @@ f = tan(x);
 f(abs(f) >  100) = NaN; % Evitar valores muy grandes o pequeños
 g = x;
 
-figure
+% Colores
+colors = {'#000000', '#009100', '#005c94', '#ff4141'};
+
+fig = figure('units','inch','position',[0,0,4,4]);
 hold on;
-plot(x, f, 'b-',  'DisplayName', 'f(x) = tan(x)');
-plot(x, g, 'r--', 'DisplayName', 'g(x) = x');
+plot(x, f, '-',  'DisplayName', 'f(x) = tan(x)', 'Color', colors{3}, 'LineWidth', 1);
+plot(x, g, '--', 'DisplayName', 'g(x) = x', 'Color', colors{4}, 'LineWidth', 1);
 
 % Calcular y dibujar las primeras 5 asíntotas de tan(x): x = (2n-1)*pi/2
 n = 1:5;
 asintotas = (2*n - 1)*pi/2;
 
 % Solo a la primera asíntota se le coloca un "legend"
-xline(asintotas(1),   'g:', 'DisplayName', 'Asíntotas de f(x) = tan(x)');
-xline(asintotas(2:5), 'g:', 'HandleVisibility', 'off');
+xline(asintotas(1),   ':', 'DisplayName', 'Asintotas de f(x) = tan(x)xxx', 'Color', colors{2}, 'LineWidth', 1);
+xline(asintotas(2:5), ':', 'HandleVisibility', 'off', 'Color', colors{2}, 'LineWidth', 1);
 
 xlabel('x');
 ylabel('f(x) = tan(x) y g(x) = x');
@@ -66,3 +70,5 @@ for i = 1:n_raices
     err_abs = abs(tan_x - x);
     fprintf('%4d | %13.10f | %13.10f | %13.7e\n', i, tan_x, x, err_abs);
 end
+
+exportgraphics(gcf,'raices_tan_x_x.eps','BackgroundColor','none','ContentType','vector')

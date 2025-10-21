@@ -72,18 +72,18 @@ v_lam = sp.lambdify([x, P, q], v_sym.subs(vals), 'numpy')
 
 # Calcular la carga crítica de pandeo de Euler
 P_cr = (np.pi**2 * E*I)/(L**2)
-print(f"Carga crítica de pandeo (P_cr): {P_cr/1000:.2f} kN")
+print(f"Carga crítica de pandeo (P_cr): {P_cr/1000:.5f} kN")
 
 # Crear el rango completo para P; excluyendo 0 para evitar división por cero 
 # en las funciones dependientes de P
-P = np.linspace(0.05, 0.9999*P_cr, 200)
+P = np.linspace(0.0001*P_cr, 0.9999*P_cr, 200)
 
 # Hacer los gráficos
 fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(18, 6))
 fig.suptitle('Comportamiento de la viga-columna vs. Carga axial P', fontsize=16)
 
 # Valores de la carga uniformemente distribuida q a evaluar
-q_valores = [1, 10, 100, 1000, 10000] # [N/m] 
+q_valores = [1, 10, 100, 1000] # [N/m] 
 
 for q in q_valores:
     # Calcular M, t, v en los puntos de interés

@@ -14,13 +14,17 @@ fprintf('Carga crítica de pandeo (P_cr): %.5f kN\n', P_cr/1000);
 
 %% Crear el rango completo para P; excluyendo 0 para evitar división por cero 
 % en las funciones dependientes de P
-P = linspace(0.05, 0.9999*P_cr, 200);
+P = linspace(0.0001*P_cr, 0.9999*P_cr, 200);
 
 %% Valores de la carga uniformemente distribuida q a evaluar
 q_valores = [1, 10, 100, 1000]; % [N/m]
 
 %% Crear figura con tres subgráficos
-sgtitle('Comportamiento de la viga-columna vs. Carga axial P', 'FontSize', 16);
+%sgtitle('Comportamiento de la viga-columna vs. Carga axial P', 'FontSize', 16);
+
+% Define the colors and line styles for each case
+colors = {'#000000', '#009100', '#005c94', '#ff4141', '#ff4141'};
+lineStyles = {':', '-.', '--', '-', '--'};
 
 for i = 1:length(q_valores)
     q = q_valores(i);
@@ -31,37 +35,42 @@ for i = 1:length(q_valores)
     v_centro_luz = v_func(L/2, P, q);
     
     % Etiqueta para la leyenda
-    label = sprintf('q = %d N/m', q);
+    label = sprintf('qq = %d N/m', q);
     
     % Gráfico 1: Deflexión máxima (en el centro de la luz)
     subplot(3, 1, 1);
-    plot(P/1000, 1000*v_centro_luz, 'DisplayName', label);
+    plot(P/1000, 1000*v_centro_luz, 'DisplayName', label, ...
+        'Color', colors{i}, 'LineStyle', lineStyles{i}, 'LineWidth', 1);
     hold on;
     
     % Gráfico 2: Momento flector máximo (en el centro de la luz)
     subplot(3, 1, 2);
-    plot(P/1000, M_centro_luz/1000, 'DisplayName', label);
+    plot(P/1000, M_centro_luz/1000, 'DisplayName', label, ...
+        'Color', colors{i}, 'LineStyle', lineStyles{i}, 'LineWidth', 1);
     hold on;
     
     % Gráfico 3: Pendiente máxima (en el apoyo)
     subplot(3, 1, 3);
-    plot(P/1000, t_apoyo_izq, 'DisplayName', label);
+    plot(P/1000, t_apoyo_izq, 'DisplayName', label, ...
+        'Color', colors{i}, 'LineStyle', lineStyles{i}, 'LineWidth', 1);
     hold on;
 end
 
 %% Configurar Gráfico 1: Deflexión máxima
 subplot(3, 1, 1);
-xline(P_cr/1000, 'r--', 'DisplayName', 'P = P_{cr}');
+xline(P_cr/1000, 'r:', 'DisplayName', 'P = Pcr', ...
+    'Color', colors{end}, 'LineStyle', lineStyles{end}, 'LineWidth', 2);
 %xlabel('Carga Axial P (kN)');
-ylabel('Deflexión v(L/2) (mm)');
-title('Deflexión en el centro de la luz vs. P');
+ylabel('Deflexion v(L/2) (mm)');
+title('Deflexion en el centro de la luz vs. P');
 ylim([0 1000]);
 legend('Location', 'best');
 grid on;
 
 %% Configurar Gráfico 2: Momento flector máximo
 subplot(3, 1, 2);
-xline(P_cr/1000, 'r--', 'DisplayName', 'P = P_{cr}');
+xline(P_cr/1000, 'r:', 'DisplayName', 'P = Pcr', ...
+    'Color', colors{end}, 'LineStyle', lineStyles{end}, 'LineWidth', 2);
 %xlabel('Carga Axial P (kN)');
 ylabel('Momento flector M(L/2) (kN m)');
 title('Momento flector en el centro de la luz vs. P');
@@ -71,13 +80,17 @@ grid on;
 
 %% Configurar Gráfico 3: Pendiente máxima
 subplot(3, 1, 3);
-xline(P_cr/1000, 'r--', 'DisplayName', 'P = P_{cr}');
-xlabel('Carga Axial P (kN)');
+xline(P_cr/1000, 'r:', 'DisplayName', 'P = Pcr', ...
+    'Color', colors{end}, 'LineStyle', lineStyles{end}, 'LineWidth', 2);
+xlabel('Carga axial P (kN)');
 ylabel('Pendiente t(0) (radianes)');
 title('Pendiente en el apoyo vs. P');
 ylim([0 3]);
 legend('Location', 'best');
 grid on;
+
+%% Se graban las imágenes para el libro
+exportgraphics(gcf,'viga_columna_q_variable.eps','BackgroundColor','none','ContentType','vector')
 
 %% Solución general de la ecuación diferencial de la viga-columna
 function M = M_func(x, P, q)
