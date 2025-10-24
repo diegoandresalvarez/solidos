@@ -8,6 +8,7 @@ phi = [np.nan, 4.4934094579, 7.7252518369, 10.9041216594, 14.0661939128]
 # Raíces de 2 - kL*sin(kL) - 2cos(kL) = 0 para el caso empotrado-empotrado
 knL_ee = [np.nan, 2*np.pi, 2*phi[1], 4*np.pi, 2*phi[2]]
 
+# %% Cálculo de carga crítica analítica
 def P_cr_analitico(cond_apoyo, n, L=1.0, E=1.0, I=1.0):
     match cond_apoyo:
         case 'articulado-articulado':
@@ -22,6 +23,7 @@ def P_cr_analitico(cond_apoyo, n, L=1.0, E=1.0, I=1.0):
             raise ValueError("Tipo de condición de apoyo desconocida")
     return P_cr
 
+# %% Modo de pandeo analítico
 def modo_pandeo_analitico(cond_apoyo, x, n, L=1.0):
     match cond_apoyo:
         case 'articulado-articulado':
@@ -34,7 +36,8 @@ def modo_pandeo_analitico(cond_apoyo, x, n, L=1.0):
                 vx = np.cos(kn*x) - 1
             else:         # n = 2, 4, 6, 8, ...
                 # Forma modal general
-                vx = np.cos(kn*x) - 1 - ((np.sin(kn*x) - kn*x)/(np.sin(knL) - knL))*(np.cos(knL) - 1)
+                vx = np.cos(kn*x) - 1 - \
+                    ((np.sin(kn*x) - kn*x)/(np.sin(knL) - knL))*(np.cos(knL) - 1)
         case 'empotrado-libre':
             vx = np.cos((2*n - 1)*np.pi*x/(2*L)) - 1
         case 'empotrado-articulado':
@@ -44,6 +47,7 @@ def modo_pandeo_analitico(cond_apoyo, x, n, L=1.0):
             raise ValueError("Tipo de condición de apoyo desconocida")
     return vx
 
+# %% Resolver el problema de pandeo
 def resolver_pandeo(cond_apoyo, N, L=1.0, E=1.0, I=1.0):
     """
     Resuelve el problema de pandeo de columna para los primeros cuatro modos
@@ -54,7 +58,7 @@ def resolver_pandeo(cond_apoyo, N, L=1.0, E=1.0, I=1.0):
     # Definición del paso de la malla
     h = L/(N + 1)
 
-    # Se extraen las condiciones de apoyo izquierda y derecha
+    # Extraer condiciones de apoyo izquierda y derecha
     apoyo_izq, apoyo_der = cond_apoyo.split('-')
 
     # Construcción de las matrices de rigidez elástica y geométrica Ke y Kg
@@ -78,7 +82,8 @@ def resolver_pandeo(cond_apoyo, N, L=1.0, E=1.0, I=1.0):
         case _:
             raise ValueError("Condición de apoyo izquierda desconocida")
 
-    # Discretización de la ecuación diferencial (diferencias finitas centradas)
+    # Discretización de la ecuación diferencial con diferencias finitas
+    # para el nodo interior "i"
     if apoyo_der == 'libre':
         for i in range(2, N-1):
             Ke[i, i-2:i+3] = [1, -4, 6, -4, 1]
@@ -107,38 +112,35 @@ def resolver_pandeo(cond_apoyo, N, L=1.0, E=1.0, I=1.0):
         case _:
             raise ValueError("Condición de apoyo derecha desconocida")
 
-    # Se imprimen las matrices de rigidez Ke y Kg antes de escalar
-    #print("Matriz Ke:\n", Ke)
-    #print("\nMatriz Kg:\n", Kg)
-
+    # Escalar las matrices de rigidez
     Ke *= E*I/h**4
     Kg *= 1/h**2
 
+    # Resolver problema de eigenvalores generalizado
     # Con eigh() los valores propios ya son reales y están ordenados
     valp, vecp = eigh(Ke, Kg)
 
-    # Seleccionar los primeros 'num_modos' modos de pandeo
-    num_modos = 4
-    idx_valp_positivos = valp > 1e-6
-    P_cr         = valp[   idx_valp_positivos][   :num_modos]
-    modos_pandeo = vecp[:, idx_valp_positivos][:, :num_modos]
+    # Seleccionar los primeros 4 modos de pandeo
+    P_cr         = valp[  :4]
+    modos_pandeo = vecp[:,:4]
 
-    # Normalizar los modos de pandeo y asegurar una orientación consistente
-    for i in range(num_modos):
+    # Normalizar los modos de pandeo
+    for i in range(4):
         modos_pandeo[:, i] /= np.max(np.abs(modos_pandeo[:, i]))
-        if np.sum(modos_pandeo[:, i]) < 0:
-            modos_pandeo[:, i] *= -1
 
     return P_cr, modos_pandeo
 
 # Se definen los parámetros del problema
-N = 100         # Número de nodos internos en la discretización por diferencias finitas
+N = 50          # Número de nodos internos en la discretización
 E = 200e9       # [Pa]  Módulo de Young para el acero (200 GPa)
-I = 0.01**4/12  # [m^4] Momento de inercia para una sección cuadrada de 1cm x 1cm
-L = 1.0         # [m]   Longitud de la viga (m)
+I = 0.01**4/12  # [m^4] Momento de inercia (sección cuadrada 1cm x 1cm)
+L = 1.0         # [m]   Longitud de la viga
 
-# Resolver y graficar para cada caso de condiciones de apoyo
-casos = ['articulado-articulado', 'empotrado-empotrado', 'empotrado-libre', 'empotrado-articulado']
+# Casos de condiciones de apoyo
+casos = [ 'articulado-articulado', 'empotrado-empotrado', 
+          'empotrado-libre', 'empotrado-articulado'      ]
+
+# %% Resolver y graficar para cada caso de condiciones de apoyo
 for caso in casos:
     print(f"\n--- CASO {caso.upper()} ---")
 
@@ -151,11 +153,13 @@ for caso in casos:
         P_cr_analitica[i] = P_cr_analitico(caso, n=i+1, L=L, E=E, I=I)
 
     # Tabla comparativa entre Pcr numérica y analítica
-    print(f"{'Modo':>4} | {'P_cr Numérica (kN)':>20} | {'P_cr Analítica (kN)':>20} | {'Error (%)':>10}")
+    print(f"{'Modo':>4} | {'P_cr Numérica (kN)':>20} | "
+          f"{'P_cr Analítica (kN)':>20} | {'Error (%)':>10}")
     print("-" * 65)
     error = 100*abs(P_cr_numerica - P_cr_analitica)/P_cr_analitica
     for i in range(4):
-        print(f"{i+1:>4} | {P_cr_numerica[i]/1000:>20.5f} | {P_cr_analitica[i]/1000:>20.5f} | {error[i]:>10.5f}")
+        print(f"{i+1:>4} | {P_cr_numerica[i]/1000:>20.5f} | "
+              f"{P_cr_analitica[i]/1000:>20.5f} | {error[i]:>10.5f}")
 
     # Se grafica la comparación analítica vs numérica de los modos de pandeo
     fig, axs = plt.subplots(2, 2, figsize=(12, 8), sharex=True)
@@ -163,32 +167,30 @@ for caso in casos:
 
     for i in range(4):
         ax = axs.flat[i]
-        modo_pandeo = modos_pandeo[:, i]
 
-        # Solución numérica (línea azul con puntos)
-        x_num = np.linspace(0, L, N+2)
-        if caso == 'empotrado-libre':
-            y_num = np.hstack([0, modo_pandeo])
-        else:
-            y_num = np.hstack([0, modo_pandeo, 0])
-        ax.plot(x_num, y_num, '-', markersize=3, color='blue', label='Numérica (MDF)')
-
-        # Solución analítica (línea roja punteada)
-        x_an = np.linspace(0, L, 200)
-        y_an = modo_pandeo_analitico(caso, x_an, n=i+1, L=L)
+        # Solución analítica (línea azul)
+        x = np.linspace(0, L, N+2)
+        y_an = modo_pandeo_analitico(caso, x, n=i+1, L=L)
 
         # Normalizar y graficar la forma analítica
         y_an_normalizada = y_an/np.max(np.abs(y_an))
+        ax.plot(x, y_an_normalizada, 'b-', label='Solución analítica')
 
-        # Voltear si es necesario para coincidir con la orientación del modo numérico
-        # Si y_an_normalizada y y_num tienen la misma orientación >> productos positivos
-        # Si tienen orientaciones opuestas >>> productos negativos
-        if np.sum(y_an_normalizada * np.interp(x_an, x_num, y_num)) < 0:
-            y_an_normalizada *= -1
+        # Solución numérica (puntos rojos)
+        if caso == 'empotrado-libre':
+            y_num = np.hstack([0, modos_pandeo[:, i]])
+        else:
+            y_num = np.hstack([0, modos_pandeo[:, i], 0])
 
-        ax.plot(x_an, y_an_normalizada, '--', color='red', label='Analítica')
+        # Voltear si es necesario para coincidir con la orientación del modo
+        # numérico. Si y_an y y_num tienen la misma orientación, los
+        # productos son positivos; si tienen orientaciones opuestas, los
+        # productos son negativos
+        if np.sum(y_an * y_num) < 0:
+            y_num *= -1
+        ax.plot(x, y_num, 'r.', markersize=4, label='Diferencias finitas')
 
-        ax.set_title(f'Modo {i+1}')
+        ax.set_title(f'Modo de pandeo {i+1}')
         ax.grid(True)
         ax.set_ylabel("Deflexión Normalizada")
 

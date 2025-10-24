@@ -1,5 +1,8 @@
 clear all; close all; clc;
 
+% Colores
+colors = {'#000000', '#009100', '#005c94', '#ff4141'};
+
 % Raíces precalculadas de tan(x)=x para el caso empotrado-articulado
 phi = [ 4.4934094579, 7.7252518369, 10.9041216594, 14.0661939128 ];
 
@@ -42,8 +45,8 @@ for c = 1:length(casos)
     end
 
     % Se grafica la comparación analítica vs numérica de los modos de pandeo
-    figure;
-    sgtitle(sprintf('Primeros cuatro modos de pandeo: %s', caso));
+    figure('units','inch','position',[0,0,6,4]);
+    %sgtitle(sprintf('Primeros cuatro modos de pandeo: %s', caso));
     for n = 1:4
         subplot(2, 2, n);
         hold on; grid on;
@@ -54,7 +57,7 @@ for c = 1:length(casos)
 
         % Normalizar y graficar la forma analítica
         y_an_normalizada = y_an/max(abs(y_an));
-        plot(x, y_an_normalizada, 'b-', 'DisplayName', 'Solución analítica');
+        plot(x, y_an_normalizada, '-', 'Color', colors{3}, 'LineWidth', 1.5, 'DisplayName', 'Solucion analitica');
 
         % Solución numérica (puntos rojos)
         if strcmp(caso, 'empotrado-libre')
@@ -70,14 +73,22 @@ for c = 1:length(casos)
         if sum(y_an .* y_num) < 0
             y_num = -y_num;
         end
-        plot(x, y_num, 'r.', 'MarkerSize', 3, 'DisplayName', 'Diferencias finitas');
+        plot(x, y_num, '.', 'Color', colors{4}, 'MarkerSize', 3, 'LineWidth', 1.5, 'DisplayName', 'Diferencias finitas');
 
         title(sprintf('Modo de pandeo %d', n));
         grid on;
-        xlabel('Posición a lo largo de la columna (m)');
-        ylabel('Deflexión Normalizada');
-        legend('Location', 'best');
+        if n == 3 || n == 4
+            xlabel('Posicion a lo largo de la columna (m)');
+        end
+        if n == 1 || n == 3
+            ylabel('Deflexion normalizada');
+        end
+        if n == 1
+            legend('Location', 'best');
+        end
     end
+    exportgraphics(gcf,[caso '.eps'],'BackgroundColor','none','ContentType','vector')
+
 end
 
 %% Cálculo de carga crítica analítica
