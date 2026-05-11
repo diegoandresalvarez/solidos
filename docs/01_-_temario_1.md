@@ -80,19 +80,20 @@ En los exámenes siempre se preguntará: teoría, demostraciones, ejercicios num
 --->
 
 ## Descripción de la asignatura mecánica de sólidos 1
-En este curso, profundizaremos en la teoría de la elasticidad. Esta teoría es fundamental para comprender con suficiencia el método de los elementos finitos y para establecer bases sólidas en el manejo de los diversos programas de análisis estructural disponibles en el mercado. Estos programas no solo se aplican en ingeniería estructural, sino también en ingeniería geotécnica y de pavimentos.
+Este curso de pregrado aborda la teoría de la elasticidad, que es fundamental para comprender con suficiencia el método de los elementos finitos y para establecer criterios para el manejo responsable de los diversos programas de análisis estructural, para ingeniería estructural, ingeniería geotécnica y de pavimentos, evitando que se usen como una "caja negra". Más allá de lo técnico, fortalece rigor analítico, pensamiento crítico frente a resultados numéricos.
 
-Partiendo de los conocimientos previos sobre tensiones y deformaciones adquiridos en el curso de mecánica del medio continuo (mecánica tensorial), exploraremos en detalle las relaciones entre esfuerzos y deformaciones en materiales elásticos lineales. Además, abordaremos las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles y culmina con el estudio de la torsión en barras de sección transversal no circular. El curso también incluye la formulación elástica en coordenadas cilíndricas. Esto último es especialmente relevante no solo en la mecánica estructural, sino también en la mecánica de suelos.
+Partiendo de los conocimientos previos sobre tensiones y deformaciones adquiridos en el curso de mecánica del medio continuo (mecánica tensorial), exploraremos en detalle las relaciones entre esfuerzos y deformaciones en materiales elásticos lineales. Además, abordaremos las ecuaciones fundamentales de la teoría de la elasticidad, las teorías de falla de materiales dúctiles y frágiles y culmina con el estudio de la torsión en barras de sección transversal no circular. El curso también incluye la formulación elástica en coordenadas cilíndricas.
 
 Se espera que al final del curso, el estudiante esté en capacidad de:
-* Analizar y explicar como varían las tensiones y las deformaciones al interior de un sólido elásticos.
+* Relacionar esfuerzos y deformaciones en 2D y 3D, incluyendo efectos térmicos en materiales isótropos y ortótropos.
 * Entender las diferentes suposiciones y limitaciones presentes en la teoría de la elasticidad.
 * Interpretar los gráficos que arroja un programa de elementos finitos para el análisis estructural.
-* Interpretar los diferentes criterios de falla presentes en los sólidos elásticos.
+* Interpretar criterios de falla para dúctiles (von Mises, Tresca) y frágiles (Rankine, Mohr-Coulomb, Matsuoka-Nakai).
 * Entender la deducción y rango de aplicación de ciertas formulaciones que se aplicarán más tarde en las líneas de mecánica de suelos y pavimentos.
-* Entender la torsión de barras de sección no circular.
+* Formular problemas en coordenadas polares y cilíndricas, base de soluciones clásicas en cimentaciones (Boussinesq, Flamant, Kelvin, Mindlin).
+* Resolver torsión en barras de sección no circular y de pared delgada, entendiendo alabeo y rigidez torsional.
 
-La materia se desarrollará mediante clases magistrales y prácticas mediante el uso de programas de elementos finitos.
+La materia se desarrollará mediante clases magistrales y simulaciones con el computador.
 
 ## Contenido programático de mecánica de sólidos 1
 
