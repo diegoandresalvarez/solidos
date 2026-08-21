@@ -1,36 +1,67 @@
+# Exámenes
+
+![YOU THINK THIS IS FUNNY?](https://imgs.xkcd.com/comics/substitute.png "YOU THINK THIS IS FUNNY?")
+
+Fuente: <https://xkcd.com/135/>
+
+## Examen 1
+Se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se exceptúan las secciones 2.3.2 (deducción de la ecuación de Cauchy 3D, pero si se puede preguntar sobre los conceptos y suposiciones), 2.4 (notación indicial), 2.8.3 (método de Newton-Raphson) y 2.8.4 (ortogonalidad de las direcciones principales), 3.3 (galgas extensiométricas), 3.5 (rotación), 4.3.4 (ley de Hooke anisótropos), 4.3.5 (ley de Hooke ortótropos) y 4.6 (teorema de la divergencia). El examen tendrá cuatro preguntas, que tratarán sobre:
+* Capítulos 1 y 2
+* Capítulo 3
+* Capítulo 4
+* Pregunta de programacíón de computadores
+
+## Examen 2
+### Parte 1
+Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 5.14 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
+* Duración del examen: 1 hora.
+
+### Parte 2
+* Se harán dos preguntas, una sobre cada capítulo.
+* Capítulo 5: excepto las secciones 5.6, 5.7, 5.8 y 5.13. No se preguntarán las demostraciones matemáticas de este capítulo.
+* Capítulo 9: desde el inicio hasta la sección 9.4.2 (incluida).
+* No se preguntará sobre los códigos de programación.
+* Duración del examen: 1 hora.
+
+## Examen 3
+* Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
+* Capítulo 9: torsión (excepto las seccíones 9.4.5, 9.5, 9.6, 9.7, 9.10)
+* Apéndices matemáticos del `main_solidos.pdf`:
+  - A.6 Regla de la cadena
+  - A.7 Expansión en series de Taylor
+  - A.9 Regla de los trapecios para integración de funciones bidimensionales sobre rectángulos
+  - A.12 La O grande de Landau
+  - A.13 La derivada direccional
+  - A.14 Gradiente
+  - A.17 Teorema de Green
+  - A.20 Regla de la mano derecha
+* Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
+
 <!---
+      * Tema: se evaluará:
+        * Capítulo 4: sección 4.11.
+        * Capítulo 5: secciones 5.6, 5.7, 5.8 y ejercicio propuesto 10 (sección 5.15).
+        * Capítulo 6: sección 6.11, 6.12, 6.13, 6.14.1
+        * Capítulo 7: secciones 7.1 (excepto 7.1.2), 7.3, 7.4 y 7.5.
+        * Páginas del libro de Wight que envié a sus correos (sobre el ensayo brasilero).
+        * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
+---->
+## Examen 4
+* Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
+* Capítulo 9: torsión
+* Apéndices matemáticos del `main_solidos.pdf`:
+  - A.6 Regla de la cadena
+  - A.7 Expansión en series de Taylor
+  - A.12 La O grande de Landau
+  - A.13 La derivada direccional
+  - A.14 Gradiente
+  - A.17 Teorema de Green
+  - A.20 Regla de la mano derecha
+* Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
 
-# Exámenes Corte 1 de Mecánica de Sólidos 1:
 
-Se permite para este examen traer una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
 
-## Temas para los examenes
-NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard y Texas Instrument.
-
-* Desde el inicio hasta la sección 3.4 (incluída) del ```main.pdf```
-* Ecuaciones paramétricas (definición y ejemplos sencillos)
-* Repaso de álgebra lineal (teoría y ejercicios de aplicación)
-* Cosenos directores
-* Proyección de vectores
-* Producto punto, producto cruz (con todas las propiedades que aparecen en el apéndice de las notas)
-* Norma de un vector
-* Matrices
-* Determinantes
-* Sistemas de ecuaciones lineales dependientes e independientes
-* Valores y vectores propios
-* Espacios vectoriales
-* Vectores linealmente dependientes/independientes
-* Bases
-* Planos y líneas rectas
-* Bases y matrices ortogonales
-
-* Todos los comandos de MAXIMA que hay en los capítulos 1 y 2.
-* Videos:
-  * https://www.youtube.com/watch?v=X77gymd1yzY
-  * https://www.youtube.com/watch?v=KnmsqkmQjR8
-  * <http://www.youtube.com/watch?v=x0TjHwRJT7I>
-  * <http://www.youtube.com/watch?v=GTTaUAPitNc>
-
+<!---
 **NOTA 1:** Los siguientes libros:
 
 * Sánchez, Rubén (2005). Fundamentos de álgebra lineal. *Identificación biblioteca: 512.5 S211f 21*
@@ -48,37 +79,4 @@ que se encuentran en la biblioteca, son excelentes para repasar álgebra lineal,
 * [Gráficos del tetraedro con los esfuerzos en 3D](../archivos/Examen_1_estudio_tensiones/tetraedro_infinitesimal.pdf) (solo abre en Acrobat Reader)
 
 NOTA: estos gráficos fueron elaborados por: Edwin Alejandro Romero Reina
-
-
-
-
-
-# Exámenes Corte 2 de Mecánica de Sólidos 1:
-
-Se permite para este examen traer una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
-
-## Temas para los exámenes
-* Secciones 3.5 y 3.6, Capítulos 4 y 5, excepto secciones (5.7-Desplazamientos y 5.8-Airy)
-* Gradiente
-* Matriz jacobiana y jacobiano
-* Divergencia
-* Rotacional
-* Expansión en series de Taylor (univariada y multivariada)
-* Campo vectorial (definición y ejemplos sencillos)
-* Teorema de la divergencia
-* Multiplicadores de Lagrange y optimización multivariada con restricciones de igualdad
-* Todos los comandos de MAXIMA que hay en los capítulos 1 al 5.
-
-
-
-
-# Exámenes Corte 3 de Mecánica de Sólidos 1:
-
-Se permite para este examen traer una hoja tamaño oficio en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas, gráficos y comandos de MAXIMA que deseen. En la hoja no se pueden ni escribir programas, ni texto explicativo, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones). Antes del examen les daré un horario en el cual se revisará dicha hoja y se le dará el visto bueno sobre ella.
-
-## Temas para los exámenes
-* Regla de la cadena (la vista en matemáticas I y III)
-* Diferenciales (la vista en matemáticas III)
-* Capítulo 6: Formulación en coordenadas polares y cilíndricas
-
 --->

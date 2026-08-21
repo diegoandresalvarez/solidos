@@ -1,82 +1,23 @@
 # Observaciones generales y temario del curso
 
 ## Citas para preguntas
-Únicamente solicitándolas previamente, ya sea por correo electrónico o antes/después de la clase.
+Únicamente solicitándolas previamente, ya sea por correo electrónico o inmediatamente después de la clase.
 
-## Exámenes, talleres y fechas
-El curso se evaluará mediante exámenes.
-<!---
- y un taller final opcional.
---->
+## Exámenes
+Ver tema de los exámenes [aquí](05a_-_Examen_1_Sol1.md). Los exámenes se realizarán en las fechas que se indican a continuación:
+* **Examen 1:** Porcentaje: 25%. Miércoles 9 de septiembre de 2026 (semana 3).
+* **Examen 2:** Porcentaje: 25%
+  * **Parte 1:** Miércoles 30 de septiembre de 2026 (semana 6).
+  * **Parte 2:** Miércoles 14 de octubre de 2026 (semana 8).
+* **Examen 3:** Porcentaje: 25%. Miércoles 11 de noviembre de 2026 (semana 12).
+* **Examen 4:** Porcentaje: 25%. Viernes 11 de diciembre de 2026 (semana 16).
 
-### Mecánica de Sólidos 1, Grupo 1:
-* **Examen  1:** 25%
-  * Fecha: viernes, mayo 2, 2025, semana 4.
-  * Tema: se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (incluída) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se exceptúan las secciones 2.3.2 (deducción de la ecuación de Cauchy 3D, pero si se puede preguntar sobre los conceptos y suposiciones), 2.4 (notación indicial), 2.8.3 (método de Newton-Raphson) y 2.8.4 (ortogonalidad de las direcciones principales), 3.3 (galgas extensiométricas), 3.5 (rotación), 4.3.4 (ley de Hooke anisótropos), 4.3.5 (ley de Hooke ortótropos) y 4.6 (teorema de la divergencia). El examen tendrá cuatro preguntas, que tratarán sobre:
-    * Capítulos 1 y 2
-    * Capítulo 3
-    * Capítulo 4
-    * Pregunta de programacíón de computadores
-* **Examen  2:** 25%
-    * Parte 1 (50%):
-      * Fecha: viernes, mayo 16, 2025, semana 6. Una hora de duración.
-      * Tema: Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 5.14 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
-    * Parte 2 (50%):
-      * Fecha: miércoles, mayo 30, 2025, semana 8.
-      * Tema: 
-        * Se harán dos preguntas, una sobre cada capítulo.
-        * Capítulo 5: excepto las secciones 5.6, 5.7, 5.8 y 5.13. No se preguntarán las demostraciones matemáticas de este capítulo.
-        * Capítulo 9: desde el inicio hasta la sección 9.4.2 (incluida).
-        * No se preguntará sobre los códigos de programación.
-        * Duración del examen: 1 hora.
-<!---      
-      Una hora de duración. Se harán dos preguntas. El tema a evaluar comprende desde la sección 6.4 (incluida) hasta la sección 6.11 (incluida) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluye la sección 6.8.1.
---->
-* **Examen  3:** 25%
-    * Fecha: viernes, junio 27, 2025, semana 12.
-    * Temas: 
-      * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
-      * Capítulo 9: torsión (excepto las seccíones 9.4.5, 9.5, 9.6, 9.7, 9.10)
-      * Apéndices matemáticos del `main_solidos.pdf`:
-        - A.6 Regla de la cadena
-        - A.7 Expansión en series de Taylor
-        - A.9 Regla de los trapecios para integración de funciones bidimensionales sobre rectángulos
-        - A.12 La O grande de Landau
-        - A.13 La derivada direccional
-        - A.14 Gradiente
-        - A.17 Teorema de Green
-        - A.20 Regla de la mano derecha
-      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
+En los exámenes siempre se preguntará: teoría, demostraciones, ejercicios numéricos y ejercicios de programación.
+
+NOTA: se prohíbe en estos exámenes el uso de calculadoras Hewlett-Packard, Texas Instrument y calculadoras programables Casio.
 
 <!---
-      * Tema: se evaluará:
-        * Capítulo 4: sección 4.11.
-        * Capítulo 5: secciones 5.6, 5.7, 5.8 y ejercicio propuesto 10 (sección 5.15).
-        * Capítulo 6: sección 6.11, 6.12, 6.13, 6.14.1
-        * Capítulo 7: secciones 7.1 (excepto 7.1.2), 7.3, 7.4 y 7.5.
-        * Páginas del libro de Wight que envié a sus correos (sobre el ensayo brasilero).
-        * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
----->
-* **Examen  4:** 25%
-  * Fecha: viernes, julio 25, 2025, semana 16.
-    * Temas: 
-      * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
-      * Capítulo 9: torsión
-      * Apéndices matemáticos del `main_solidos.pdf`:
-        - A.6 Regla de la cadena
-        - A.7 Expansión en series de Taylor
-        - A.12 La O grande de Landau
-        - A.13 La derivada direccional
-        - A.14 Gradiente
-        - A.17 Teorema de Green
-        - A.20 Regla de la mano derecha
-      * Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
-<!---
-* **Trabajo:** es opcional y reemplaza la nota más mala de los parciales.
---->
-
-<!---
-En los exámenes siempre se preguntará: teoría, demostraciones, ejercicios numéricos y ejercicios de programación. Se permite para los exámenes traer una hoja tamaño carta en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas y comandos de MATLAB/MAXIMA/PYTHON que deseen. En la hoja no se pueden ni escribir programas, ni textos explicativos, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones).
+<code style="color: #ff0000;">Se permite para los exámenes, que el profesor indique, traer una hoja tamaño carta en la cual ustedes pueden escribir (POR UN SOLO LADO) todas las fórmulas y comandos de MATLAB/MAXIMA/PYTHON que deseen. En la hoja no se pueden ni escribir programas, ni textos explicativos, ni se pueden escribir demostraciones. Dicha hoja debe ser de elaboración personal (no se pueden traer las hojas hechas por compañeros de este o semestres pasados) y debe hacerse a mano (se prohíbe explícitamente traer fotocopias/impresiones/reducciones).</code>
 --->
 
 ## Descripción de la asignatura mecánica de sólidos 1
@@ -93,12 +34,16 @@ Se espera que al final del curso, el estudiante esté en capacidad de:
 * Formular problemas en coordenadas polares y cilíndricas, base de soluciones clásicas en cimentaciones (Boussinesq, Flamant, Kelvin, Mindlin).
 * Resolver torsión en barras de sección no circular y de pared delgada, entendiendo alabeo y rigidez torsional.
 
+Para su desarrollo, es indispensable dominar álgebra lineal, cálculo vectorial, física mecánica y estática.
+
 La materia se desarrollará mediante clases magistrales y simulaciones con el computador.
 
 ## Contenido programático de mecánica de sólidos 1
 
-### 0a. Repaso de diferentes temas de álgebra lineal y cálculo vectorial.
+### 0a. Repaso de diferentes temas de álgebra lineal y cálculo vectorial
+
 Cada estudiante debe repasar por cuenta propia los siguientes temas:
+
 #### Repaso de álgebra lineal (teoría y ejercicios de aplicación)
 * Cosenos directores
 * Proyección de vectores
@@ -211,7 +156,7 @@ Cada estudiante debe repasar por cuenta propia los siguientes temas:
   * Torsión de secciones de pared delgada
 
 ## Bibliografía básica
-* Alvarez Diego A. (2024) - *Notas de clase del curso mecánica de sólidos*. En preparación.
+* Alvarez-Marín, Diego A. (2026). *Notas de clase del curso mecánica de sólidos*. En preparación.
 * Álvarez-Marín, D. A. (2023a). Teoría de la Elasticidad usando Matlab y Maxima (volumen 1: fundamentos). Departamento de Ingeniería Civil, Facultad de Ingeniería y Arquitectura, Universidad Nacional de Colombia - Sede Manizales. ISBN 978-958-505-376-2. https://repositorio.unal.edu.co/handle/unal/84682
 * Alvarez, Diego A. Video tutoriales en YouTube sobre teoría de la elasticidad https://www.youtube.com/channel/UCV0FtSuauv5WbcY-lLRMZ4g
 * Ameen, M. (2005) - *Computational elasticity*. Alpha Science.
@@ -226,11 +171,16 @@ Cada estudiante debe repasar por cuenta propia los siguientes temas:
 ### Falta a los exámenes
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
 
+### Dispositivos electrónicos durante los exámenes
+Durante los exámenes, los celulares, teléfonos, gafas inteligentes, y en general cualquier dispositivo electrónico debe permanecer apagado y guardado en el morral. Si el estudiante porta alguno de estos dispositivos electrónicos en sus manos, bolsillos o en cualquier lugar diferente del morral, independientemente de si está apagado o encendido, esto resultará en la anulación del examen. Esta medida se aplica como parte de las normas contra el fraude académico, ante la proliferación del fraude con la tecnología.
+
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
 * Nota cero en el trabajo/examen en cuestión.
 * Carta al Consejo de Facultad reportando el suceso.
-* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre, los puntos de la WIKI y cualquier bonificación adicional de notas que el profesor decida otorgar al grupo.
+<!---
+* Se pierden adicionalmente todos los privilegios que se tienen de una calificación con notas mayores a 5.0 en todas las notas obtenidas en el semestre y cualquier bonificación adicional de notas que el profesor decida otorgar al grupo.
+--->
 
 ### "Minuciosamente" en los exámenes
 En todos los exámenes se debe relacionar con palabras las fórmulas y motivar físicamente el por qué de un procedimiento o fórmula (es decir, se debe escribir la explicación suponiendo que usted está escribiendo un libro). Si no se hace esto, se le rebajará en ese punto en particular el 50% de la nota.

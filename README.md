@@ -13,11 +13,11 @@ C4100611 -> código viejo sólidos
 - Profesor: [Diego Andrés Alvarez Marín](https://sites.google.com/site/diegoandresalvarezmarin/) (daalvarez@unal.edu.co)
 - Semanas: 16
 - Créditos: 3
-
 - Intensidad horaria semanal presencial: 4 horas
+- Tiempo de actividad autónoma por semana: 6 horas (esto quiere decir que cada día, de lunes a mi, usted debe estudiar como mínimo 90 minutos diarios para este curso).
 
-- Mecánica de sólidos 1, Grupo 1:
-  - Miércoles 10:00-12:00, Aula C412
+- Horario de clases para el Grupo 1:
+  - Miércoles 8:00-10:00, Aula C306
   - Viernes 8:00-10:00, Aula C401
   
 <!---
@@ -25,8 +25,6 @@ C4100611 -> código viejo sólidos
   - Martes 7:00-9:00, Aula I406
   - Miércoles 7:00-9:00, Aula C412
 --->
-
-- Tiempo de actividad autónoma por semana: 8 horas
 
 ## Tabla de contenido:
 - [Temario y observaciones generales de mecánica de sólidos 1](docs/01_-_temario_1.md)

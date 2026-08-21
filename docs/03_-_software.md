@@ -3,17 +3,14 @@
 Durante el curso haremos uso de los siguientes paquetes:
 
 ## PYTHON
-En particular haremos uso de los JUPYTER NOTEBOOKS y de las librerías numpy, scipy, sympy y matplotlib.
-
-## SYMPY
-* Python + [sympy](https://www.sympy.org/)
+En particular haremos uso de los JUPYTER NOTEBOOKS y de las librerías `numpy`, `scipy`, `sympy` y `matplotlib`.
 
 ## MAXIMA
-**MAXIMA** es un software libre para la manipulación de expresiones simbólicas y numéricas, incluyendo diferenciación, integración, expansión en series de Taylor, ecuaciones diferenciales ordinarias, sistemas de ecuaciones lineales, y vectores, matrices y tensores. **MAXIMA** produce resultados con alta precisión usando fracciones exactas y representaciones con aritmética de coma flotante arbitraria. Adicionalmente puede graficar funciones y datos en dos y tres dimensiones. Estas propiedades lo hacen útil para resolver ciertos problemas en mecánica de sólidos. A continuación se recomiendan algunas páginas donde el estudiante puede aprender por cuenta propia dicho lenguaje:
+**MAXIMA** es un software libre para la manipulación de expresiones simbólicas y numéricas, incluyendo diferenciación, integración, expansión en series de Taylor, ecuaciones diferenciales ordinarias, sistemas de ecuaciones lineales, y vectores, matrices y tensores. **MAXIMA** produce resultados con alta precisión usando fracciones exactas y representaciones con aritmética de coma flotante arbitraria. Adicionalmente puede graficar funciones y datos en dos y tres dimensiones. Estas propiedades lo hacen útil para resolver problemas analíticos en ingeniería. A continuación se recomiendan algunas páginas donde el estudiante puede aprender por cuenta propia dicho lenguaje:
 
 * [Página oficial de MAXIMA](http://maxima.sourceforge.net/)
 * [Documentación de MAXIMA](http://maxima.sourceforge.net/documentation.html)
-* [Video tutoriales elaborados por Javier Arántegui](http://vimeo.com/maximajaj)
+* [Video tutoriales elaborados por Javier Arántegui](https://vimeo.com/haakin)
 * [Video tutoriales por Daniel Alejandro Suárez](https://www.youtube.com/playlist?list=PLFk7DOCMKbw_QrywlNmPtCmaNH_wSu28g)
 
 <!---

@@ -11,7 +11,13 @@
 * Taller 2 - losas: 20%
 
 ## Descripción de la asignatura mecánica de sólidos 2
-En el curso se estudiarán las teorías de vigas gruesas y delgadas, losas gruesas y delgadas y los métodos elasto-energéticos, los cuales son conceptos necesarios para entender los programas de cálculo estructural modernos. Los conceptos anteriores se analizarán desde el punto de vista de la teoría de la elasticidad.
+Esta asignatura de pregrado profundiza en el comportamiento estructural de vigas y losas gruesas y delgadas desde la teoría de la elasticidad, dotando al estudiante de las herramientas teóricas necesarias para comprender, evaluar y utilizar con criterio los programas de cálculo estructural modernos. En particular, se estudian las teorías clásicas de vigas (Euler-Bernoulli y Timoshenko-Ehrenfest) y de losas (Kirchhoff-Love y Mindlin), complementadas con métodos elasto-energéticos. 
+
+El curso responde a una necesidad central en la formación del ingeniero civil: cerrar la brecha entre la teoría estructural clásica y los métodos computacionales contemporáneos. Mientras que en cursos previos el estudiante aprende modelos simplificados, aquí se revelan las hipótesis, alcances y limitaciones subyacentes a los software de elementos finitos que dominará en su ejercicio profesional. La asignatura responde a la pregunta: ¿qué supone el computador cuando calcula una losa o una viga? Comprender esto transforma al usuario pasivo en un profesional capaz de validar resultados, detectar errores de modelación y tomar decisiones informadas. Así mismo, el curso fortalece el pensamiento abstracto, el rigor matemático y la autonomía. 
+
+La materia se desarrollará mediante clases magistrales y simulaciones con el computador.
+
+Es indispensable haber aprobado Mecánica Tensorial. Mecánica de Sólidos 1 no es necesaria para cursar esta materia, pero se recomienda haberla cursado o tomarla en paralelo para tener una base sólida en conceptos fundamentales.
 
 ## Contenido programático de mecánica de sólidos 2
 
@@ -71,6 +77,9 @@ La puerta se cerrará 10 minutos después de haber iniciado la clase (de acuerdo
 
 ### Falta a los exámenes
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
+
+### Dispositivos electrónicos durante los exámenes
+Durante los exámenes, los celulares, teléfonos, gafas inteligentes, y en general cualquier dispositivo electrónico debe permanecer apagado y guardado en el morral. Si el estudiante porta alguno de estos dispositivos electrónicos en sus manos, bolsillos o en cualquier lugar diferente del morral, independientemente de si está apagado o encendido, esto resultará en la anulación del examen. Esta medida se aplica como parte de las normas contra el fraude académico, ante la proliferación del fraude con la tecnología.
 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
