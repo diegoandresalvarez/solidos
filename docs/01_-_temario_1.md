@@ -4,7 +4,7 @@
 Únicamente solicitándolas previamente, ya sea por correo electrónico o inmediatamente después de la clase.
 
 ## Exámenes
-Ver tema de los exámenes [aquí](05a_-_Examen_1_Sol1.md). Los exámenes se realizarán en las fechas que se indican a continuación:
+Ver tema de los exámenes [aquí](05e_-_Examenes_Sol1.md). Los exámenes se realizarán en las fechas que se indican a continuación:
 * **Examen 1:** Porcentaje: 25%. Miércoles 9 de septiembre de 2026 (semana 3).
 * **Examen 2:** Porcentaje: 25%
   * **Parte 1:** Miércoles 30 de septiembre de 2026 (semana 6).
@@ -172,7 +172,7 @@ Cada estudiante debe repasar por cuenta propia los siguientes temas:
 Siempre que usted falte a un examen, debe haber algún documento que lo exonere de dicha inasistencia. Cuando usted por algún motivo de fuerza mayor no pueda asistir al examen, usted debe avisarle al profesor con anterioridad ya sea personalmente o por correo. En esos casos en lo posible, debe demostrarlo. Por ejemplo: si le tocó viajar a su pueblo esa semana porque algo sucedió un evento familiar de trascendencia, entonces una forma de certificar que usted viajó son los tiquetes de ida y vuelta a su pueblo. Sin una excusa o una notificación previa no se repetirán los exámenes y usted tendrá como nota un cero.
 
 ### Dispositivos electrónicos durante los exámenes
-Durante los exámenes, los celulares, teléfonos, gafas inteligentes, y en general cualquier dispositivo electrónico debe permanecer apagado y guardado en el morral. Si el estudiante porta alguno de estos dispositivos electrónicos en sus manos, bolsillos o en cualquier lugar diferente del morral, independientemente de si está apagado o encendido, esto resultará en la anulación del examen. Esta medida se aplica como parte de las normas contra el fraude académico, ante la proliferación del fraude con la tecnología.
+Durante los exámenes, los celulares, relojes inteligentes, gafas inteligentes, y en general cualquier dispositivo electrónico debe permanecer apagado y guardado en el morral. Si el estudiante porta alguno de estos dispositivos electrónicos en sus manos, bolsillos o en cualquier lugar diferente del morral, independientemente de si está apagado o encendido, esto resultará en la anulación del examen. Esta medida se aplica como parte de las normas contra el fraude académico, ante la proliferación del fraude con la tecnología.
 
 ### Fraude en los exámenes o trabajos
 Estos se penalizarán así:
