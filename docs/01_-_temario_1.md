@@ -5,7 +5,7 @@
 
 ## Exámenes
 Ver tema de los exámenes [aquí](05e_-_Examenes_Sol1.md). Los exámenes se realizarán en las fechas que se indican a continuación:
-* **Examen 1:** Porcentaje: 25%. Miércoles 9 de septiembre de 2026 (semana 3).
+* **Examen 1:** Porcentaje: 25%. Viernes 11 de septiembre de 2026 (semana 3).
 * **Examen 2:** Porcentaje: 25%
   * **Parte 1:** Miércoles 30 de septiembre de 2026 (semana 6).
   * **Parte 2:** Miércoles 14 de octubre de 2026 (semana 8).
