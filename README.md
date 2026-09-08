@@ -44,12 +44,14 @@ C4100611 -> código viejo sólidos
   * [Tema de los exámenes](docs/05e_-_Examenes_Sol2.md)
   * [Taller 1 - Vigas](talleres/solidos2/vigas_EB_T.md)
   * [Taller 2 - Losas](talleres/solidos2/losas_KL_M.md)
---->  
+--->
 
+<!---
 ### WIKI para la corrección de los errores en el `main.pdf`: 
   * http://mecanicadesolidos.shoutwiki.com/
   * [Reglas de la WIKI](http://mecanicadesolidos.shoutwiki.com/wiki/Reglas_de_la_WIKI)
   * [Ejemplos de contribuciones a la WIKI](http://mecanicadesolidos.shoutwiki.com/wiki/Ejemplos_de_contribuciones_a_la_WIKI)
+--->
 
 ### Fe de erratas
 
