@@ -13,10 +13,20 @@ Se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (inclu
 
 ## Examen 2
 ### Parte 1
-Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta la sección 5.14 (ambas incluídas) y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Se excluyen las secciones 4.11, 4.12, 5.6, 5.7, 5.8 y 5.13.
+Se harán dos preguntas. El tema a evaluar comprende:
+* Capítulo 4: desde la sección 4.9 hasta el final del capítulo, excepto las secciones 4.11 y 4.12.
+* Capítulo 5: todo el capítulo excepto las secciones 5.6, 5.7, 5.8, y 5.13.
+* Todos los códigos de MATLAB/MAXIMA/PYTHON asociados:
+    * [Viga simplemente apoyada 1](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/04_ley_de_Hooke/4.09_graficos_colores_viga_simplemente_apoyada.ipynb)
+    * [Viga simplemente apoyada 2](https://github.com/michaelherediaperez/medio-continuo/blob/main/codigos/cap_04/4_10_analisis_viga_simp_apoyada.ipynb)
+    * [Viga en voladizo 1](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/05_ec_diferenciales_solidos/5.15_ejer_10_graficos_colores_viga_en_voladizo.ipynb)
+    * [Viga en voladizo 2](https://github.com/michaelherediaperez/medio-continuo/blob/main/codigos/cap_04/4_10_analisis_viga_voladizo.ipynb)
 * Duración del examen: 1 hora.
 
 ### Parte 2
+Por definir.
+
+<!---
 * Se harán dos preguntas, una sobre cada capítulo.
 * Capítulo 5: excepto las secciones 5.6, 5.7, 5.8 y 5.13. No se preguntarán las demostraciones matemáticas de este capítulo.
 * Capítulo 9: desde el inicio hasta la sección 9.4.2 (incluida).
@@ -36,6 +46,7 @@ Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta
   - A.17 Teorema de Green
   - A.20 Regla de la mano derecha
 * Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
+---->
 
 <!---
       * Tema: se evaluará:
@@ -46,6 +57,8 @@ Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta
         * Páginas del libro de Wight que envié a sus correos (sobre el ensayo brasilero).
         * Y todos los códigos de MATLAB/MAXIMA/PYTHON asociados. Aquí se evaluarán todos los códigos, incluso, los no explicados en clase.
 ---->
+
+<!---
 ## Examen 4
 * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
 * Capítulo 9: torsión
@@ -58,7 +71,7 @@ Se harán dos preguntas. El tema a evaluar comprende desde la sección 4.9 hasta
   - A.17 Teorema de Green
   - A.20 Regla de la mano derecha
 * Códigos de MATLAB/MAXIMA/PYTHON asociados. Hojas de cálculo asociadas.
-
+--->
 
 
 <!---
