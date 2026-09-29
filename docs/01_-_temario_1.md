@@ -7,9 +7,9 @@
 Ver tema de los exámenes [aquí](05e_-_Examenes_Sol1.md). Los exámenes se realizarán en las fechas que se indican a continuación:
 * **Examen 1:** Porcentaje: 25%. Viernes 11 de septiembre de 2026 (semana 3).
 * **Examen 2:** Porcentaje: 25%
-  * **Parte 1:** Miércoles 30 de septiembre de 2026 (semana 6).
+  * **Parte 1:** Viernes 2 de octubre de 2026 (semana 6).
   * **Parte 2:** Miércoles 14 de octubre de 2026 (semana 8).
-* **Examen 3:** Porcentaje: 25%. Miércoles 11 de noviembre de 2026 (semana 12).
+* **Examen 3:** Porcentaje: 25%. Viernes 13 de noviembre de 2026 (semana 12).
 * **Examen 4:** Porcentaje: 25%. Viernes 11 de diciembre de 2026 (semana 16).
 
 En los exámenes siempre se preguntará: teoría, demostraciones, ejercicios numéricos y ejercicios de programación.
