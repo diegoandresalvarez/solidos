@@ -13,7 +13,7 @@ Se evaluará desde el inicio del `main_solidos.pdf` hasta la sección 4.8 (inclu
 
 ## Examen 2
 ### Parte 1
-Se harán dos preguntas. El tema a evaluar comprende:
+Se harán dos preguntas (incluso de los temas no explicados en clase). El tema a evaluar comprende:
 * Capítulo 4: desde la sección 4.9 hasta el final del capítulo, excepto las secciones 4.11 y 4.12.
 * Capítulo 5: todo el capítulo excepto las secciones 5.6, 5.7, 5.8, y 5.13.
 * Todos los códigos de MATLAB/MAXIMA/PYTHON asociados:
@@ -24,15 +24,20 @@ Se harán dos preguntas. El tema a evaluar comprende:
 * Duración del examen: 1 hora.
 
 ### Parte 2
+* Se harán dos preguntas, una sobre cada capítulo (incluso de los temas no explicados en clase). El tema a evaluar comprende:
+    * Capítulo 5: todo el capítulo excepto las secciones 5.6, 5.7, 5.8, y 5.13. No se preguntarán las demostraciones matemáticas de las ecuaciones de compatibilidad.
+    * Capítulo 16: desde el inicio hasta la sección 16.4 (incluida).
+* Todos los códigos de MATLAB/MAXIMA/PYTHON asociados:
+    * [Cálculo de los invariantes de los tensores de esfuerzos medios (hidrostáticos) y desviadores](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/16_teorias_falla/16.01_invariantes.ipynb)
+    * [Simetría del espacio de esfuerzos principales](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/16_teorias_falla/16.03.2_simetrias_plano_pi.ipynb)
+    * [Cálculo de los vectores $\hat{\boldsymbol{n}}_D$, $\hat{\boldsymbol{n}}_E$ y $\hat{\boldsymbol{n}}_F$
+](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/16_teorias_falla/16.03_s1s2s3_y_sDsEsF.ipynb)
+* Duración del examen: 1 hora.
+
+## Examen 3
 Por definir.
 
 <!---
-* Se harán dos preguntas, una sobre cada capítulo.
-* Capítulo 5: excepto las secciones 5.6, 5.7, 5.8 y 5.13. No se preguntarán las demostraciones matemáticas de este capítulo.
-* Capítulo 9: desde el inicio hasta la sección 9.4.2 (incluida).
-* No se preguntará sobre los códigos de programación.
-* Duración del examen: 1 hora.
-
 ## Examen 3
 * Capítulo 8: diferencias finitas, secciones 8.1 a 8.6 (incluidas)
 * Capítulo 9: torsión (excepto las seccíones 9.4.5, 9.5, 9.6, 9.7, 9.10)
