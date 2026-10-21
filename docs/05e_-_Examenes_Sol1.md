@@ -26,7 +26,7 @@ Se harán dos preguntas (incluso de los temas no explicados en clase). El tema a
 ### Parte 2
 * Se harán dos preguntas, una sobre cada capítulo (incluso de los temas no explicados en clase). El tema a evaluar comprende:
     * Capítulo 5: todo el capítulo excepto las secciones 5.6, 5.7, 5.8, y 5.13. No se preguntarán las demostraciones matemáticas de las ecuaciones de compatibilidad.
-    * Capítulo 16: desde el inicio hasta la sección 16.4 (incluida), excepto la sección 16.2. Esfuerzos octaédricos.
+    * Capítulo 16: desde el inicio hasta la página 945 (sección 16.3.1 excluida) , excepto la sección 16.2. Esfuerzos octaédricos.
 * Todos los códigos de MATLAB/MAXIMA/PYTHON asociados:
     * [Cálculo de los invariantes de los tensores de esfuerzos medios (hidrostáticos) y desviadores](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/16_teorias_falla/16.01_invariantes.ipynb)
     * [Simetría del espacio de esfuerzos principales](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/16_teorias_falla/16.03.2_simetrias_plano_pi.ipynb)
