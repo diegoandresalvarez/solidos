@@ -25,7 +25,25 @@ en Gere y Timoshenko (1986, sección 79) ...
 
 en Timoshenko y Goodier (1970, sección 79) ...
 
+## Página 95
 
+**En vez de:**
+
+... como las deformaciones longitudinales del sólido son mucho más pequeñas que 1, o sea, $\frac{\partial u(x,y)}{\partial x} \ll 1$ y $\frac{\partial v(x,y)}{\partial y} \ll 1$, ...
+
+**Debe decir:**
+
+... como las deformaciones longitudinales del sólido son mucho más pequeñas que 1, o sea, $\left|\frac{\partial u(x,y)}{\partial x}\right| \ll 1$ y $\left|\frac{\partial v(x,y)}{\partial y}\right| \ll 1$, ...
+
+## Página 113
+
+**En vez de:**
+
+lo cual se escribe en notación indicial como $\varepsilon_{ij} \ll 1$ y $\Omega_{ij} \ll 1$; 
+
+**Debe decir:**
+
+lo cual se escribe en notación indicial como $\left|\varepsilon_{ij}\right| \ll 1$ y $\left|\Omega_{ij}\right| \ll 1$;
 
 ## Página 208
 
