@@ -1,4 +1,4 @@
-# ACTIVIDAD OPCIONAL: Creación de Video Explicativo con Inteligencia Artificial
+# ACTIVIDAD OPCIONAL: Creación de video explicativo con inteligencia artificial
 
 **Objetivo:** Fortalecer la comprensión conceptual de un tema  del curso mediante la explicación a otros, utilizando herramientas de inteligencia artificial generativa para la producción completa del video.
 
@@ -66,7 +66,7 @@ Prompts completos utilizados:
 
 Un simple "lo hice con ChatGPT" no es válido. Quiero ver su ingeniería de prompts.
 
-## 5. Criterios de Evaluación
+## 5. Criterios de evaluación
 Ver rúbrica detallada en Google Classroom. Los pilares son:
 
 *   **Claridad y didáctica:** ¿Cualquier compañero que no vio el tema lo entiende? ¿La explicación es lógica, ordenada y pedagógica?
