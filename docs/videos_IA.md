@@ -27,7 +27,7 @@ Esta actividad es opcional e individual y otorga décimas adicionales sobre la n
 **c) Rigor académico:** No se admiten errores conceptuales ni matemáticos. El video debe contener las demostraciones matemáticas completas del tema, explicando la física detrás de cada paso: ¿por qué se hace?, ¿qué significa físicamente?, ¿de dónde viene?
 
 **d) Normas de presentación:**
-*   No mencione ni muestre los números de ecuaciones del libro de texto (ej: "como vimos en la ecuación 2.53"). Si necesita numerar, use numeración propia: (1), (2), (3)...
+*   No mencione ni muestre los números de ecuaciones del libro de texto (ej: "como vimos en la ecuación 2.53"). Si necesita numerar, use numeración propia: (1), (2), (3)... Solo numere aquellas ecuaciones que vaya a referenciar en el video.
 *   No diga "en la sección xxx del libro se dijo...". El video debe ser autocontenido.
 
 **e) Portada/introducción obligatoria:** En los primeros 4 segundos del video, debe aparecer la portada o introducción que debe incluir:
@@ -93,9 +93,8 @@ No empiece directamente con ecuaciones. Use esta estructura:
 *   Escriba como habla. Frases cortas.
 *   **Regla de oro:** Muestre el video a 2 compañeros que NO dominen el tema. Si ellos no lo entienden a la primera, el video no es claro. Tome sus comentarios en serio.
 
-**C. Matemáticas que se ven, no que se leen:**
-Es muy aburrido escuchar a una IA leer: "sigma prima ij igual a Q ip por Q jq por sigma pq". En lugar de eso:
-*   Muestre la ecuación completa, resáltela con un recuadro de color y diga: "Si reemplazamos la definición de cambio de base que obtuvimos en (2) dentro de la ecuación de equilibrio (1), llegamos a...".
-*   Anime las gráficas. La mejor herramienta para esto es **MANIM** (https://www.manim.community/), la que usa [3Blue1Brown](https://www.youtube.com/c/3blue1brown). Puede pedirle a la IA que le genere el código de Manim. 
+**C. Matemáticas que se ven, no que se leen:** Es muy aburrido escuchar a una IA leer: "sigma prima ij igual a Q ip por Q jq por sigma pq". En lugar de eso muestre la ecuación completa, resáltela con un recuadro de color y diga: "Si reemplazamos la definición de cambio de base que obtuvimos en (2) dentro de la ecuación de equilibrio (1), llegamos a...".
+
+**D. Animación de gráficas:**  La mejor herramienta para esto es **MANIM** (https://www.manim.community/), la que usa [3Blue1Brown](https://www.youtube.com/c/3blue1brown). Puede pedirle a la IA que le genere el código de Manim. 
 
 Un excelente video le servirá a cientos de estudiantes en el futuro. Tómelo como una oportunidad de dejar huella.
