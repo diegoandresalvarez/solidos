@@ -39,7 +39,7 @@ Se harán cuatro preguntas:
 * Tres de ellas serán teóricas.
 * Una de ellas será de programación de computadores. 
 
-Se evaluará todo el Capítulo 16 (Criterios de falla para materiales dúctiles y frágiles) del `main_solidos.pdf` (incluyendo lo que no se enseñó en clase). Adicionalmente, se deben estudiar todos los códigos de programación (o su equivalente en MAXIMA/MATLAB) que se alojan en el repositorio de GitHub del curso, en la carpeta:
+Se evaluará el Capítulo 16 desde el inicio hasta la sección 16.7.2. Criterio de Mohr-Coulomb (incluyendo lo que no se enseñó en clase). Adicionalmente, se deben estudiar todos los códigos de programación (o su equivalente en MAXIMA/MATLAB) que se alojan en el repositorio de GitHub del curso, en la carpeta:
   * [Códigos del capítulo 16](https://github.com/diegoandresalvarez/solidos/blob/master/codigo/16_teorias_falla/)
 
 <!---
